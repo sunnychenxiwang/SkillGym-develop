@@ -1,0 +1,365 @@
+{
+  "skill": "D:\\engineer\\SKILL TO INPUT\\SKILLS\\data-transform\\SKILL.md",
+  "threshold": 0.7,
+  "filtered_results": [
+    {
+      "q": "gene expression matrix CSV file sample cells genes TPM FPKM counts",
+      "file_type": "csv_tsv",
+      "preferred_sites": [
+        "figshare.com",
+        "zenodo.org",
+        "ncbi.nlm.nih.gov/geo",
+        "kaggle.com"
+      ],
+      "results_annotated": [],
+      "results_kept": [],
+      "kept_count": 0,
+      "total_count": 0
+    },
+    {
+      "q": "single cell RNA-seq metadata cell types clusters barcodes observations",
+      "file_type": "csv_tsv",
+      "preferred_sites": [
+        "cellxgene.cziscience.com",
+        "ncbi.nlm.nih.gov/geo",
+        "zenodo.org"
+      ],
+      "results_annotated": [
+        {
+          "title": "repository_info_v3.csv - Zenodo",
+          "url": "https://zenodo.org/records/7643637/files/repository_info_v3.csv?download=1",
+          "snippet": "... types recognized in the U.S. National Vegetation Classification and other vegetation types submitted by users, and all plant taxa recognized by ITIS/USDA as ...",
+          "status_code": 200,
+          "content_type": "text/plain",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "植被分类数据，与单细胞RNA-seq元数据无关，不是该skill的输入"
+        },
+        {
+          "title": "all_results_mod.csv - Zenodo",
+          "url": "https://zenodo.org/records/17089842/files/all_results_mod.csv?download=1",
+          "snippet": "... observation and biodiversity big data for forest habitat types classification and mapping,https://www.mdpi.com/2072-4292/13/7/1231,29,2021 random forest ...",
+          "status_code": 200,
+          "content_type": "text/plain",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "森林栖息地类型分类的遥感数据，与单细胞RNA-seq元数据无关"
+        },
+        {
+          "title": "biorxiv-pubs-2014-2023.csv - Zenodo",
+          "url": "https://zenodo.org/records/13622641/files/biorxiv-pubs-2014-2023.csv?download=1",
+          "snippet": "... cellular automaton model of a generalised stem-cell driven tissue with a simple microenvironment. Using the model we explored the phenotypic traits inherent ...",
+          "status_code": 200,
+          "content_type": "text/plain",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "biorxiv出版物元数据，虽涉及细胞/组织模型但非单细胞测序数据文件"
+        },
+        {
+          "title": "File (216.00 KB)",
+          "url": "https://www.cell.com/cms/10.1016/j.heliyon.2025.e42750/attachment/ea9813c2-0628-4c25-a985-6fda3ad796c1/mmc10.csv",
+          "snippet": "... rna-dependent rna polymerase\",\"20\" \"apoptosis\",\"19\" \"biological networks ... seq\",\"17\" \"targeted therapy\",\"17\" \"3cl<sup>pro</sup>\",\"16\" \"computational ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 7477,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "期刊附件中的基因功能注释文件，非单细胞元数据表格"
+        },
+        {
+          "title": "https://genome.jouy.inra.fr/tmp/metrics/toolscut2.csv",
+          "url": "https://genome.jouy.inra.fr/tmp/metrics/toolscut2.csv",
+          "snippet": "... Sequencing, Mapping, Whole genome sequencing, RNA-seq Subread is a general-purpose read aligner which can be used to map both genomic DNA-seq reads and RNA-seq ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 142940,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "生物信息学工具性能指标文件，非单细胞测序数据"
+        },
+        {
+          "title": "https://data.aclum.org/storage/2025/01/Multi-agenc...",
+          "url": "https://data.aclum.org/storage/2025/01/Multi-agency_raw_githubusercontent_com_ombegov_2024-Federal-AI-Use-Case-Inventory_refs_heads_main_data_2023_consolidated_ai_inventory_raw.csv",
+          "snippet": "... single tether, coupled with advanced weather sensors, analytic capabilities, and powerful winches. The AI/ML model is used to detect the need to launch and ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 450312,
+          "judge_keep": false,
+          "judge_confidence": 0.05,
+          "judge_reason": "政府机构AI用例清单，与单细胞RNA-seq完全无关"
+        },
+        {
+          "title": "Download",
+          "url": "https://data.uni-hannover.de/dataset/c253f670-0e27-4f31-ac32-034ee916e1f2/resource/de851036-57c2-4387-b1f5-70bbaf02e6e3/download/data_set.csv",
+          "snippet": "... data types, etc.) and XML constructs (elements, attributes, element lists, etc.). Two different approaches for the transformation process are exposed. The ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 9232278,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "XML数据转换研究的数据集，非单细胞测序元数据"
+        },
+        {
+          "title": "https://analytics.usa.gov/data/health-human-servic...",
+          "url": "https://analytics.usa.gov/data/health-human-services/all-pages-realtime.csv",
+          "snippet": "... seq Protocol for the Comprehensive Profiling of Coding and Non-coding RNA Biotypes in Cellular, Extracellular Vesicle, and Plasma RNAs - PMC\" 103,Nucleotide ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 1096207,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "政府网站访问分析数据，虽提及RNA-seq但只是网页标题统计"
+        },
+        {
+          "title": "a CSV file",
+          "url": "https://sites.nd.edu/emorgan/files/2022/04/istl.csv",
+          "snippet": "... data visualization, and quality assurance. Graduate students indicated they were least knowledgeable and skilled in data curation and re-use, metadata and data ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "图书馆信息科学技能调查数据，与单细胞RNA-seq无关"
+        }
+      ],
+      "results_kept": [],
+      "kept_count": 0,
+      "total_count": 9
+    },
+    {
+      "q": "differential expression results log2 fold change p-value q-value gene list DEG",
+      "file_type": "csv_tsv",
+      "preferred_sites": [
+        "github.com",
+        "zenodo.org",
+        "figshare.com",
+        "kaggle.com"
+      ],
+      "results_annotated": [
+        {
+          "title": "https://scicrunch.org/php/download-resource-mentio...",
+          "url": "https://scicrunch.org/php/download-resource-mentions.php?rid=SCR_019213",
+          "snippet": "... Gene Ontology (GO) analysis was performed on the individual protein level in ShinyGO v0.8151 available at https://bioinformatics.sdstate.edu/go using the ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "这是资源引用页面，描述GO分析工具的使用，不是DEG结果数据文件"
+        },
+        {
+          "title": "https://huggingface.co/datasets/McGill-NLP/mlquest...",
+          "url": "https://huggingface.co/datasets/McGill-NLP/mlquestions/raw/main/test_passages.csv",
+          "snippet": "... P-value to . If the P-value is less than (or equal to) , reject the null hypothesis in favor of the alternative hypothesis. If the P-value is greater than ...",
+          "status_code": 0,
+          "content_type": "",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "这是NLP问答数据集，虽然包含p-value文本但内容是统计知识解释，不是基因表达差异分析结果"
+        },
+        {
+          "title": "https://data.snf.ch/exportcsv/OutputdataDataSet.csv",
+          "url": "https://data.snf.ch/exportcsv/OutputdataDataSet.csv",
+          "snippet": "... Log2 fold gene expression values and morphological details for Danio males from an acute stress experiment 268DFC75-2FD4-440F-B221-5F66E62D371D;180864;Log2 fold ...",
+          "status_code": 200,
+          "content_type": "application/octet-stream",
+          "content_length": 5963669,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "CSV文件包含Log2 fold基因表达值，是差异表达分析的典型输入数据，符合skill中DEG结果处理场景"
+        },
+        {
+          "title": "Here",
+          "url": "https://svastatichosting.z6.web.core.windows.net/disease-profiles/FilesDownload/Vaccines_refid.csv",
+          "snippet": "... results in a severe inflammation by injection route, therefore, oral ... log2 (p > 0.05), respectively, whereas those in G3B and G4B on the ...",
+          "status_code": 200,
+          "content_type": "application/octet-stream",
+          "content_length": 1415834,
+          "judge_keep": false,
+          "judge_confidence": 0.3,
+          "judge_reason": "疫苗参考ID文件，虽然提到log2但内容是疫苗安全性数据，不是基因差异表达结果"
+        },
+        {
+          "title": "https://datos.unican.es/investigacion/2148/publica...",
+          "url": "https://datos.unican.es/investigacion/2148/publicaciones.csv",
+          "snippet": "... fold greater than that of apo-bovine CCT, whereas equivalent activities were observed at 20&#730;C. Based on these results, we conclude that the catalytic ...",
+          "status_code": 200,
+          "content_type": "text/x-csv",
+          "content_length": 11206774,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "学术出版物列表CSV，fold指的是酶活性倍数，与基因表达差异分析无关"
+        }
+      ],
+      "results_kept": [
+        {
+          "title": "https://data.snf.ch/exportcsv/OutputdataDataSet.csv",
+          "url": "https://data.snf.ch/exportcsv/OutputdataDataSet.csv",
+          "snippet": "... Log2 fold gene expression values and morphological details for Danio males from an acute stress experiment 268DFC75-2FD4-440F-B221-5F66E62D371D;180864;Log2 fold ...",
+          "status_code": 200,
+          "content_type": "application/octet-stream",
+          "content_length": 5963669,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "CSV文件包含Log2 fold基因表达值，是差异表达分析的典型输入数据，符合skill中DEG结果处理场景"
+        }
+      ],
+      "kept_count": 1,
+      "total_count": 5
+    },
+    {
+      "q": "sample information clinical metadata patient data cohort demographics",
+      "file_type": "csv_tsv",
+      "preferred_sites": [
+        "kaggle.com",
+        "zenodo.org",
+        "figshare.com",
+        "data.world"
+      ],
+      "results_annotated": [
+        {
+          "title": "repository_info_v3.csv - Zenodo",
+          "url": "https://zenodo.org/records/7643637/files/repository_info_v3.csv?download=1",
+          "snippet": "... Data Centres and other GAW representatives to improve the management of information about the GAW network of ground-based stations. The application is ...",
+          "status_code": 200,
+          "content_type": "text/plain",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "这是关于GAW地面站网络管理的元数据文件，不是临床患者数据或样本信息"
+        },
+        {
+          "title": "trialstreamer-update-pubmed-2021-08-02.csv - Zenodo",
+          "url": "https://zenodo.org/records/6669532/files/trialstreamer-update-pubmed-2021-08-02.csv?download=1",
+          "snippet": "... Patient'}, {'cui': 'C0003873', 'cui_str': 'Rheumatoid arthritis'}, {'cui ... clinical pharmacology,['10.1111/bcp.14330'] 2,32360128,Efficacy of Cartoon ...",
+          "status_code": 200,
+          "content_type": "text/plain",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.3,
+          "judge_reason": "这是PubMed临床试验文献更新数据，包含医学术语索引，不是原始患者样本数据"
+        },
+        {
+          "title": "all_results_mod.csv - Zenodo",
+          "url": "https://zenodo.org/records/17089842/files/all_results_mod.csv?download=1",
+          "snippet": "... Patient Individualized Contrast Agent Dose Reduction in CT Angiography,https ... clinical phenotypes of cancer using multivariate linear regression ...",
+          "status_code": 200,
+          "content_type": "text/plain",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "这是CT血管造影对比剂剂量研究的文献结果汇总，不是可处理的原始患者数据"
+        },
+        {
+          "title": "Download - Data Discovery at the National Library of Medicine",
+          "url": "https://datadiscovery.nlm.nih.gov/api/views/rysd-8s3y/rows.csv?accessType=DOWNLOAD",
+          "snippet": "... Patient-centered SCAlable National Network for Effectiveness Research ... information for research are often missed because the entities with ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 0,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "这是NLM数据发现平台的下载接口，内容是研究项目元数据目录，不是患者样本数据"
+        },
+        {
+          "title": "HHS AI Use Case Inventory FY25",
+          "url": "https://www.hhs.gov/sites/default/files/hhs-ai-use-case-inventory-fy25.csv",
+          "snippet": "... data asset, provide a link to the entry on the Federal Data Catalog.\",Does this AI use case involve personally identifiable information (PII) that is ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 455,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "这是HHS政府AI用例清单，status_code 403且内容为政策文档，不是患者数据"
+        },
+        {
+          "title": "CSV - Data Discovery at the National Library of Medicine",
+          "url": "https://datadiscovery.nlm.nih.gov/api/views/vp2h-kf33/rows.csv?accessType=DOWNLOAD",
+          "snippet": "... Patient Reported Outcomes || Patient-Reported Outcomes || PROs,,\"The 37 ... Information for DruG Evaluation) is a web-accessible subscription resource ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 0,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "这是NLM药物信息资源目录，属于参考数据库元数据，不是患者样本数据"
+        },
+        {
+          "title": "download - Parkinson's Progression Markers Initiative",
+          "url": "https://www.ppmi-info.org/sites/default/files/tables-data/Data_Dictionary_-__Annotated__23May2025.csv",
+          "snippet": "... Clinical, or a prodromal participant confirmed eligible to proceed to PPMI ... Patient Number\",\"CHAR\",\"8\",\"\",\"\",\"\",\"\",\"\",\"\",\"\" \"Biospecimen_Analysis ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 471864,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "这是PPMI帕金森病进展标志物倡议的数据字典文件，包含患者编号、临床数据、生物样本分析等字段定义，是可直接用于数据转换的临床元数据文件"
+        },
+        {
+          "title": "Metadata - Fingertips",
+          "url": "https://fingertips.phe.org.uk/documents/Metadata_03062020.csv",
+          "snippet": "... Clinical Commissioning Group (CCG),\"Annual Population Survey (APS), Office for National Statistics (ONS) \",N/A,The number of persons aged 18 + who are self ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 145737,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "这是英国公共卫生Fingertips平台的指标元数据，描述统计指标定义，不是患者个体数据"
+        },
+        {
+          "title": "https://analytics.usa.gov/data/health-human-servic...",
+          "url": "https://analytics.usa.gov/data/health-human-services/all-pages-realtime.csv",
+          "snippet": "... Information 577,\"Superior efficacy of St John's wort extract WS® 5570 compared to placebo in patients with major depression: a randomized, double-blind ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 1096207,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "这是analytics.usa.gov的网站访问实时数据，与临床患者数据完全无关"
+        },
+        {
+          "title": "https://digital.ahrq.gov/ahrq-funded-projects/sear...",
+          "url": "https://digital.ahrq.gov/ahrq-funded-projects/search/download?page&_format=csv",
+          "snippet": "... patient-provider interactions.\",\"The adoption of electronic health records (EHRs) has significantly contributed to primary care provider (PCP) burnout, with ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 2779216,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "这是AHRQ资助项目的搜索下载结果，属于研究项目目录，不是患者样本数据"
+        }
+      ],
+      "results_kept": [
+        {
+          "title": "download - Parkinson's Progression Markers Initiative",
+          "url": "https://www.ppmi-info.org/sites/default/files/tables-data/Data_Dictionary_-__Annotated__23May2025.csv",
+          "snippet": "... Clinical, or a prodromal participant confirmed eligible to proceed to PPMI ... Patient Number\",\"CHAR\",\"8\",\"\",\"\",\"\",\"\",\"\",\"\",\"\" \"Biospecimen_Analysis ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 471864,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "这是PPMI帕金森病进展标志物倡议的数据字典文件，包含患者编号、临床数据、生物样本分析等字段定义，是可直接用于数据转换的临床元数据文件"
+        }
+      ],
+      "kept_count": 1,
+      "total_count": 10
+    },
+    {
+      "q": "AnnData h5ad converted to CSV gene expression matrix cell metadata",
+      "file_type": "csv_tsv",
+      "preferred_sites": [
+        "cellxgene.cziscience.com",
+        "ncbi.nlm.nih.gov/geo",
+        "zenodo.org"
+      ],
+      "results_annotated": [],
+      "results_kept": [],
+      "kept_count": 0,
+      "total_count": 0
+    }
+  ]
+}

@@ -1,0 +1,501 @@
+#,跟踪,状态,优先级,主题,指派给,更新于,% 完成
+3889,Bug,WIP,Normal,incorrect initial widget and screen values for combo boxes and selection lists,Adrian Lungu,2019-07-25 15:30,50
+3584,Bug,WIP,Normal,"tooltips do not work in FWD for disabled, TEXT and FILL-IN widgets",Adrian Lungu,2019-08-29 07:29,20
+4492,Bug,WIP,Normal,database trigger defined with abbreviation should create a new buffer,Adrian Lungu,2020-06-20 12:10,20
+8249,Bug,New,Normal,Introduce a fast fill method to optimize Dataset.fill,Alexandru Donica,2024-03-27 11:39,0
+6923,Bug,Pending,Normal,inner transaction block reverts too much,Alexandru Lungu,2025-08-06 05:21,100
+10776,Bug,Pending,High,FFC.touch standing out in profiling,Alexandru Lungu,2026-03-11 08:07,100
+11037,Bug,Review,Normal,Record not being evicted from FFCache,Alexandru Lungu,2026-03-11 08:08,100
+7452,Bug,WIP,Normal,Analyze memory of the value cache from FWD-H2 and eventually increase size ,Alexandru Lungu,2023-06-27 06:40,0
+10830,Bug,WIP,Normal,Search filter field on Guests screen of Hotel GUI does not work.,Alexandru Lungu,2025-11-24 03:43,0
+9030,Bug,WIP,Normal,FIND statements should use an internal buffer cursor,Alexandru Lungu,2024-12-12 09:46,50
+10004,Bug,WIP,High,NativeInvoker fails if an argument is of type integerConstant,Alexandru Lungu,2026-01-13 07:40,80
+8214,Bug,WIP,Normal,Split Persister into SQLPersister and InMemoryPersister,Alexandru Lungu,2024-01-30 11:12,50
+7319,Bug,New,Normal,Fix adaptive query test suite from testcases,Alexandru Lungu,2023-08-22 05:12,0
+9896,Bug,New,Normal,Record reference count should account for dirty records,Alexandru Lungu,2025-04-14 07:36,0
+7788,Bug,New,Normal,NPE when assigning query to browse,Alexandru Lungu,2026-02-26 03:15,0
+3723,Bug,New,Normal,Pressing ESC key twice doesn't allow the web client to log out properly,Alexei Kaigorodov,2019-06-17 09:16,0
+3691,Bug,New,Normal,literal $ character in format appears on the right side of the fill-in,Alexei Kaigorodov,2019-08-08 17:22,0
+4130,Bug,New,Normal,FWD truncates decimal part instead of rounding when displaying,Alexei Kaigorodov,2021-08-02 05:39,0
+7667,Bug,WIP,Normal,Support OUTER-JOIN with PRESELECT at conversion,Andrei Bălteanu,2024-01-11 05:51,30
+9893,Bug,Internal Test,Normal,LegacyErrorException is not rethrown in processForBody/processBody,Andrei Plugaru,2025-05-02 14:29,90
+11157,Bug,Internal Test,Normal,Improve FWD server startup mode in server.sh,Andrei Plugaru,2026-02-05 04:16,100
+9697,Bug,WIP,Normal,Use only indexed fields when performing record snapshot,Andrei Plugaru,2025-02-24 04:30,0
+9060,Bug,Internal Test,Normal,Cache oftenly used values that are immutable,Artur Școlnic,2026-03-11 13:20,90
+8878,Bug,Internal Test,Low,Jumble sort dictates a full preselect,Artur Școlnic,2024-07-01 08:28,100
+8944,Bug,Review,Normal,FINALLY block transaction processing,Artur Școlnic,2025-04-28 07:58,0
+9683,Bug,Review,High,CompoundQuery is doing extra hydration attempts,Artur Școlnic,2025-07-17 07:57,80
+9125,Bug,Review,Normal,Failure to convert decimal variables that exceed 50 decimals.,Artur Școlnic,2024-09-03 07:00,0
+11161,Bug,Review,Normal,fail gracefully when the database connection can not be established,Artur Școlnic,2026-03-09 11:03,50
+9061,Bug,WIP,Normal,Catch inside a catch block does not work.,Artur Școlnic,2024-08-21 04:55,0
+8272,Bug,WIP,Normal,reduce ClassNotFoundException and NoSuchMethodException usage in RuntimeJastInterpreter,Artur Școlnic,2025-02-19 05:54,0
+9091,Bug,WIP,Normal,Unique composite index is ignored when create is used in an external procedure,Artur Școlnic,2024-09-05 05:06,0
+10963,Bug,WIP,Urgent,appserver resiliency and self healing,Artur Școlnic,2026-02-03 03:38,90
+11288,Bug,WIP,Normal,Check if c3p0 is required for in-memory databases,Artur Școlnic,2026-03-27 11:27,0
+10362,Bug,WIP,Normal,FastFindCache.L2Key uses the buffer alias in the FQL ,Artur Școlnic,2025-12-23 06:15,50
+10373,Bug,WIP,Normal,Try to replace the StackUnwindExceptions used for control flow in BlockManager with a return value,Artur Școlnic,2025-08-06 05:26,0
+6389,Bug,WIP,High,LENGTH function with COLUMN option,Artur Școlnic,2025-06-23 13:05,50
+9702,Bug,New,Normal,BaseRecord.getDirtyIndices is slow,Artur Școlnic,2025-02-25 07:04,0
+6919,Bug,Review,High,fix ErrorManager.displayError in TempTableBuilder,Boris Schegolev,2023-03-09 15:03,100
+7438,Bug,Review,Normal,"the label in the UNDO <lbl>, THROW is not validated or used in 4GL",Constantin Asofiei,2023-06-16 07:16,100
+11271,Bug,Review,Normal,server-side streams and files with frames/redirected terminal,Constantin Asofiei,2026-03-27 03:16,100
+6810,Bug,Review,High,NPE in PreselectQuery.assembleFromClause,Constantin Asofiei,2022-10-05 11:08,100
+6642,Bug,Review,Normal,improve parsing memory footprint,Constantin Asofiei,2022-07-29 06:51,100
+11015,Bug,Review,High,"allow cleanup the DMO types, caches, etc for dynamic temp-tables",Constantin Asofiei,2026-02-13 16:50,90
+2809,Bug,WIP,Normal,implement missing behaviour related to HIDDEN attribute,Constantin Asofiei,2016-11-16 12:23,70
+3589,Bug,WIP,Normal,empty title forces a title area in a GUI frame,Constantin Asofiei,2018-05-30 04:57,100
+2204,Bug,WIP,Normal,concurrency issue between  user authentication and security cache refresh by the admin console,Constantin Asofiei,2013-11-26 04:08,70
+7089,Bug,WIP,Normal,sanitize p2j.oo method signature,Constantin Asofiei,2023-02-15 05:21,50
+5558,Bug,WIP,High,Direct Java interface: extra semicolon in converted Java breaks program logic,Constantin Asofiei,2021-07-23 14:20,50
+2075,Bug,WIP,Normal,unknown literals in nested expressions,Constantin Asofiei,2013-03-04 10:53,0
+6766,Bug,WIP,Normal,"before-table options not inherited from the after-table (like NO-UNDO, SHARED, etc)",Constantin Asofiei,2022-09-17 09:04,0
+2713,Bug,WIP,Low,Incorrect labels in case of the overlapping widgets.,Constantin Asofiei,2015-10-20 13:53,0
+3347,Bug,WIP,Normal,HELP string support doesn't work for demo_widgets.p,Constantin Asofiei,2017-10-10 14:54,100
+6392,Bug,WIP,Normal,buffer flush and validation when the external program gets deleted can cause unique index validation error,Constantin Asofiei,2022-05-24 08:50,0
+4421,Bug,WIP,Normal,blob/clob access with H2,Constantin Asofiei,2019-12-02 09:21,0
+10483,Bug,WIP,Normal,memory leak in BufferManager.openBuffers,Constantin Asofiei,2025-10-03 04:40,70
+4160,Bug,WIP,Normal,Arrays assigment issue,Constantin Asofiei,2020-03-03 13:04,80
+6591,Bug,WIP,Normal,DMO collisions with converted program/legacy class name or FWD classes,Constantin Asofiei,2022-07-12 14:38,100
+3093,Bug,WIP,Normal,widget-pool resources need to be pre-ordered when deleted (to enforce parent/child relationshinps for widgets),Constantin Asofiei,2016-09-21 09:45,0
+1442,Bug,WIP,Normal,stream re-opened to the same file flushes previous buffer,Constantin Asofiei,2013-01-11 12:14,0
+6699,Bug,WIP,Normal,TemporaryBuffer$Multiplexer memory leak in global block,Constantin Asofiei,2022-09-15 13:24,90
+8154,Bug,WIP,Normal,refactor scopeable stacks,Constantin Asofiei,2024-04-01 18:41,30
+5046,Bug,New,Normal,ErrorManager - recordOrShowError,Constantin Asofiei,2020-12-18 02:00,0
+4825,Bug,New,Normal,OutputTableHandleCopier dynamically defines destination temp-table,Constantin Asofiei,2020-10-20 13:21,0
+5194,Bug,New,Normal,"Stream handle - type missing, not deletable",Constantin Asofiei,2021-03-12 09:33,0
+2766,Bug,New,Normal,implement a text metrics server process,Constantin Asofiei,2017-12-28 11:13,0
+2728,Bug,New,Normal,MOUSE_RELEASED/CLICKED needs to use the same source as the initial MOUSE_PRESSED event,Constantin Asofiei,2016-11-16 12:23,0
+5150,Bug,New,Normal,killing the web page for the web client should raise the equivalent of a window-close event,Constantin Asofiei,2022-01-13 10:57,0
+10110,Bug,New,Normal,add ClientPrincipal support for FWD OpenClient,Constantin Asofiei,2025-07-29 06:24,30
+2356,Bug,New,Normal,pphints bug - nested includes are missing from the.pphints file,Constantin Asofiei,2017-04-27 12:40,0
+2727,Bug,New,Normal,fill-in text selection is broken,Constantin Asofiei,2016-11-16 12:23,0
+5123,Bug,New,Normal,Remove sessionFree AppServer configuration parameter,Constantin Asofiei,2021-02-02 11:42,0
+6629,Bug,Internal Test,Normal,incremental conversion for OpenClient proxy programs,Dănuț Filimon,2026-03-04 04:22,100
+11156,Bug,Review,Normal,Conversion fails if source folder is a symlink,Dănuț Filimon,2026-01-30 05:44,100
+9078,Bug,Review,Normal,emit FindQuery as (reused) variables,Dănuț Filimon,2025-08-19 09:00,100
+9318,Bug,Review,Normal,Make record nursery visible on removeRecords,Dănuț Filimon,2025-05-13 06:42,90
+9032,Bug,WIP,Normal,Reduce the number of exceptions that are being thrown,Dănuț Filimon,2024-10-01 05:38,50
+7059,Bug,WIP,Normal,FWD shouldn't raise errors for non-numeric extent indexes.,Dănuț Filimon,2023-06-27 08:04,0
+7567,Bug,WIP,Normal,use Session.PK instead of DatabaseManager.PRIMARY_KEY wherever possible,Dănuț Filimon,2023-11-15 08:23,80
+6385,Bug,WIP,Normal,Problem with conversion of REPOSITION TO ROWID with UNKNOWN literal for rowid,Dănuț Filimon,2023-07-05 03:30,0
+8044,Bug,WIP,Normal,"Fix ""Failed direct-access due to Error direct accessing for finding record by unique index"" messages",Dănuț Filimon,2025-04-25 05:42,90
+7421,Bug,WIP,Normal,Check only the indexes that were changed when using Validation.checkMaxIndexSize ,Dănuț Filimon,2023-07-26 03:29,80
+7722,Bug,WIP,Normal,improve performance of equals/not equals when used with character/longchar,Dănuț Filimon,2023-08-24 07:45,80
+9590,Bug,WIP,Normal,Double LOAD for each record in FWD,Dănuț Filimon,2025-02-19 03:30,50
+9852,Bug,WIP,Normal,"Portal ""C_10"" does not exist error",Dănuț Filimon,2025-04-03 06:55,0
+5307,Bug,WIP,Normal,AdaptiveQuery goes into dynamic mode too aggressively,Dănuț Filimon,2022-11-09 07:36,0
+9396,Bug,WIP,Normal,Improve Incompatible data types in expression or assignment. (223) error handling,Dănuț Filimon,2024-12-12 04:29,80
+7647,Bug,New,Normal,Leverage internal H2 _ROWID_ with FWD recid,Dănuț Filimon,2023-08-17 03:20,0
+11294,Bug,Review,Normal,Widget is overlapped by another widget after the parent frame is made visible ,Delia Mitric,2026-03-13 07:53,100
+11314,Bug,Review,Normal,UP/DOWN key pressed after CTRL_LEFT /CTRL_RIGHT in a COMBO-BOX doesn't select the correct  list-item,Delia Mitric,2026-03-25 04:13,100
+11044,Bug,Review,Normal,FILL-IN with Unknown Value: Incorrect Key Input Handling,Delia Mitric,2026-03-05 05:50,100
+10706,Bug,Review,Normal,Date FILL-IN: Unintended VALUE-CHANGED Event Triggered by BACKSPACE,Delia Mitric,2026-01-29 15:38,100
+10875,Bug,Review,Normal,COMBO-BOX: Ctrl-UP and Ctrl-DOWN keys do nothing,Delia Mitric,2026-03-25 06:09,100
+11170,Bug,WIP,Normal,The caret position is initially wrong  for DECIMAL/INTEGER FILL-IN widgets,Delia Mitric,2026-03-24 05:14,90
+6963,Bug,New,Normal,Incorrect conversion of legacy class constructors with an unknown argument of object type,Eduard Marcu,2024-12-03 05:35,0
+7999,Bug,Review,Urgent,FWD does not honor FIELDS/EXCEPT at dynamic queries,Eduard Soltan,2026-02-27 04:23,100
+10611,Bug,Review,Normal,Incorrect abbreviation name resolved at conversion time,Eduard Soltan,2026-01-30 07:09,100
+4602,Bug,Review,Normal,fixes for OO 4GL and structured error handling ,Eduard Soltan,2026-03-18 10:35,100
+7352,Bug,WIP,Normal,Mismatching results when comparing case-insensitive/case-sensitive values between 4GL and FWD,Eduard Soltan,2023-07-11 02:50,0
+5651,Bug,WIP,Normal,conditions raised from a finally block,Eduard Soltan,2026-03-25 13:31,20
+9354,Bug,WIP,Normal,Invalid handle (3135) error is thrown insted of the 10068 error.,Eduard Soltan,2026-02-24 10:10,90
+9819,Bug,WIP,Normal,SESSION:FIRST-ASYNC-REQUEST and SESSION:LAST-ASYNC-REQUEST,Eduard Soltan,2025-05-21 07:15,70
+5761,Bug,New,Normal,replace ErrorManager.displayError with recordOrThrowError and fix recordOrShowError to morph into a recordOrThrowError in certain cases.,Eduard Soltan,2026-03-19 08:13,0
+10961,Bug,New,Normal,Optimize StringBuilder usage in FWD,Eduard Soltan,2025-12-08 03:52,0
+2656,Bug,WIP,Normal,race condition in DynamicTablesHelper,Eric Faulhaber,2016-11-16 12:08,0
+3315,Bug,WIP,Normal,infinite loop in mark_client_branch during annotations because of nest CAN-FINDs with temp and perm tables,Eric Faulhaber,2017-08-24 11:49,0
+2261,Bug,New,Normal,improve server startup performance,Eric Faulhaber,2016-11-16 12:30,50
+4797,Bug,New,Normal,"review Persistence.load, as called by RAQ.executeImpl",Eric Faulhaber,2020-07-20 15:00,0
+6599,Bug,New,Normal,minimal mode conversion problem with DMO name collision,Eric Faulhaber,2022-08-15 13:11,0
+8135,Bug,New,Normal,replace ScopedDictionary for better performance,Eric Faulhaber,2023-12-21 14:42,0
+10693,Bug,Merge Pending,Normal,Incorrect z-order and focus for new Stack trace dialog ,Eugenie Lyzenko,2025-12-03 06:38,100
+6676,Bug,Review,Normal,BACK-TAB jumps by two widgets at once,Eugenie Lyzenko,2022-08-16 10:34,0
+7657,Bug,Review,Normal,8-bit character entry problem in ChUI,Eugenie Lyzenko,2025-04-30 08:23,100
+8139,Bug,New,Normal,"OS-COMMAND fails on windows if not in ""batch mode""",Eugenie Lyzenko,2024-02-02 03:03,0
+8116,Bug,New,Normal,SEARCH vs FILE-INFO,Eugenie Lyzenko,2023-12-14 09:29,0
+10365,Bug,Internal Test,Normal,Mismatched number of parameters passed to routine for external function,Florin Eugen Rotaru,2025-09-15 09:16,100
+9350,Bug,Internal Test,Normal,gap marking for LOG-MANAGER attributes and methods is probably wrong,Galya B,2024-12-10 09:57,100
+8383,Bug,Review,Normal,Some JsonObject methods create a LOG-MANAGER record in silent,Galya B,2024-11-21 07:54,100
+4978,Bug,Review,Normal,Static method call in base class,Greg Shah,2021-07-26 10:22,100
+5561,Bug,Review,High, Direct Java interface: conversion crashes when an expression is passed as argument to Java call,Greg Shah,2021-07-22 15:06,100
+6640,Bug,New,Normal,"parsing bug for initial "",0000""  for decimal variables or fields",Greg Shah,2024-12-09 11:55,0
+7742,Bug,WIP,Normal,NPE on LinuxKeyboardReader when pressing Escape in ChUI Swing application,Hynek Cihlar,2023-08-23 13:54,80
+5375,Bug,New,Normal,Window resizing by mouse dragging problem in WEB client,Hynek Cihlar,2021-05-17 15:06,0
+4043,Bug,New,Normal,Eclipse static code analysis potential issues,Igor Skornyakov,2019-04-19 06:06,0
+2879,Bug,New,Normal,selecting item from the list by mouse in SELECTION-LIST widget is broken,Igor Skornyakov,2016-02-18 09:04,0
+2935,Bug,New,Normal,Active drop-down disables triggers and WAIT ... PAUSE,Igor Skornyakov,2016-01-06 10:34,0
+7364,Bug,New,Normal,Build a full test-suite for fast copy-temp-table ,Ioana-Cristina Prioteasa,2025-04-24 03:38,0
+10266,Bug,WIP,Normal,Incorrect Input Handling in Grouped CHARACTER FILL-INs,Ionut-Mihai Simioniuc,2026-02-09 11:59,80
+9133,Bug,Internal Test,Normal,Array subscript is out of range stops the evaluation of other expressions in the where clause,Lorian Sandu,2025-01-22 04:13,0
+9414,Bug,New,Normal,Re-enable support for nio sockets on Java 17,Lorian Sandu,2025-02-10 06:40,0
+10732,Bug,New,Normal,Fix Stream.assignDatum to handle all possible BDT types ,Lorian Sandu,2025-10-16 07:38,0
+7460,Bug,Merge Pending,High,implement Progress.Lang.Class:getMethods ,Marian Edu,2023-12-04 03:25,80
+6053,Bug,Review,Normal,Widget realisation,Marian Edu,2022-07-21 11:54,100
+10569,Bug,Internal Test,Normal,Semicolon is skipped while preprocessing,Octavian Adrian Gavril,2026-02-25 08:57,100
+10639,Bug,Review,Normal,Incremental conversion - unexpected DMO generation for space-only changes,Octavian Adrian Gavril,2025-11-11 03:03,100
+10482,Bug,WIP,High,[REGRESSION] DMO temp-table SQL name is no longer deterministic,Octavian Adrian Gavril,2025-09-04 04:10,0
+9969,Bug,WIP,Normal,Parsing query string error with \r character.,Octavian Adrian Gavril,2026-02-24 08:35,100
+10028,Bug,WIP,Normal,FWD needs full support for unicode/octal escape sequences,Octavian Adrian Gavril,2025-05-22 09:51,0
+9835,Bug,WIP,Normal,The same rules files are loaded and compiled multiple times,Octavian Adrian Gavril,2025-04-10 09:58,0
+7113,Bug,Review,Normal,Problem with nested CAN-FIND conversion,Ovidiu Maxiniuc,2023-11-29 11:56,0
+6577,Bug,Review,Normal,move RecordBuffer.ooFields at the DMO meta,Ovidiu Maxiniuc,2022-07-20 04:51,100
+1576,Bug,WIP,Normal,Moving ACL items up and down faulty in admin applet,Ovidiu Maxiniuc,2012-10-15 09:50,0
+5289,Bug,WIP,Normal,Misc. problems with triggers,Ovidiu Maxiniuc,2021-06-14 18:15,0
+5322,Bug,WIP,Low,FqlToSqlConverter fails to identify property,Ovidiu Maxiniuc,2021-05-07 14:05,0
+4796,Bug,WIP,Normal,locking regression in RAQ introduced with the FFC ,Ovidiu Maxiniuc,2020-07-21 02:37,0
+1575,Bug,WIP,Normal,Move ACL instance fail,Ovidiu Maxiniuc,2012-10-05 11:54,0
+5625,Bug,WIP,Normal,changing a before-table reserved field does not flush the change in the after-table,Ovidiu Maxiniuc,2021-09-13 10:55,0
+1450,Bug,WIP,Normal,comment conversion fail,Ovidiu Maxiniuc,2012-10-24 10:42,0
+6703,Bug,WIP,Normal,loading schema table DMO interface with no defined fields,Ovidiu Maxiniuc,2022-10-05 14:21,100
+3647,Bug,WIP,Normal,incorrect hql and incorrect sql generated for nested CAN-FIND,Ovidiu Maxiniuc,2018-07-20 09:30,0
+6502,Bug,WIP,High,"DATASET:CREATE-LIKE copies temp-table options (like XML-NODE-NAME), while TEMP-TABLE:CREATE-LIKE does not",Ovidiu Maxiniuc,2022-07-07 12:45,50
+8952,Bug,WIP,Normal,Maximum function call inside a dynamic query is broken,Ovidiu Maxiniuc,2024-07-12 09:23,0
+3243,Bug,New,Low,possible mismatch in runtime sequence definition and retrieval,Ovidiu Maxiniuc,2017-02-07 12:08,0
+4917,Bug,New,Normal,eliminate redundant ORDER BY elements in multi-table queries,Ovidiu Maxiniuc,2020-10-01 13:16,0
+2536,Bug,New,Low,improve dynamic query parser error handling,Ovidiu Maxiniuc,2016-11-16 13:21,80
+1690,Bug,New,Normal,better exception handling when OS libraries are not found by P2J,Ovidiu Maxiniuc,2012-10-23 17:33,0
+10624,Bug,Review,Normal,DO WHILE that contains a FINALLY block can be executed too many times,Paul Bodale,2026-01-21 08:37,100
+4766,Bug,WIP,Normal,fix CHR and ASC,Paul Bodale,2026-02-20 10:29,70
+2990,Bug,New,Normal,inconsequent field names in shared temp-tables,Paul E,2016-02-11 11:18,0
+10620,Bug,Review,Normal,Missing getter when converting frame attributes in MESSAGE statements,Paula Păstrăguș,2025-09-26 07:24,100
+9985,Bug,WIP,Normal,Incorrect text width calculation when metrics are not cached,Paula Păstrăguș,2025-09-18 04:01,10
+7132,Bug,WIP,Normal,Eliminate for-each loops and lambda in FWD-H2 code,Radu Apetrii,2023-02-27 08:45,50
+7211,Bug,WIP,Normal,Several H2 connections for one single session,Radu Apetrii,2023-06-01 08:30,0
+7252,Bug,WIP,Normal,Use direct-access to support for-each queries without WHERE and BY clauses,Radu Apetrii,2024-02-08 09:01,90
+7474,Bug,WIP,Normal,FindQuery provides the wrong result because the record is not updated in the database,Radu Apetrii,2024-03-15 13:30,0
+9194,Bug,WIP,High,FWD selects the wrong index when using CONTAINS?,Radu Apetrii,2024-11-26 09:45,50
+8459,Bug,WIP,Normal,investigate changing H2 to allow NULL to equal NULL (and the impact on the other compare operators),Radu Apetrii,2024-03-25 02:53,90
+11114,Bug,Internal Test,Normal,NPE when redirecting terminal,Razvan-Nicolae Chichirau,2026-03-16 09:32,100
+10938,Bug,Review,Normal,Date FILL-IN: Incorrect SCREEN-VALUE after widget enablement,Razvan-Nicolae Chichirau,2026-03-23 07:50,100
+11211,Bug,Review,Normal,Improve source detection when dispatching mouse wheel events,Razvan-Nicolae Chichirau,2026-02-27 06:24,100
+11191,Bug,WIP,Normal,ChUI: COMBO-BOX raises error 4058 on valid SCREEN-VALUE assignment,Razvan-Nicolae Chichirau,2026-03-24 04:47,0
+9525,Bug,Review,Normal,Testcases: incorrect placeholders in directory.xml.template and other configuration problems,Roger Borrello,2025-09-23 10:56,100
+5587,Bug,WIP,Normal,Decimal format  not handled properly ,Roger Borrello,2021-08-06 15:48,0
+9102,Bug,WIP,Normal,Cleanup implementation of custom color tables,Roger Borrello,2025-02-11 13:00,0
+4618,Bug,New,Normal,Default location of dialog box title is left justified instead of centered,Roger Borrello,2020-04-29 12:01,0
+8919,Bug,WIP,Normal,Cursor issues with LOAD-MOUSE-POINTER and Win32 SetCursor,Șerban Bursuc,2024-07-23 09:38,20
+10530,Bug,WIP,Normal,Move cursor change logic from JS client to the FWD client,Șerban Bursuc,2025-09-08 07:09,0
+9592,Bug,New,Normal,Implement a global cursor in Swing ,Șerban Bursuc,2025-01-30 04:12,0
+9529,Bug,New,Normal,Newly created window is shown in front of DIALOG-BOX,Șerban Bursuc,2025-01-14 06:33,0
+10915,Bug,Internal Test,Normal,ugly dialogs,Sergey Ivanovskiy,2026-03-25 09:11,100
+6267,Bug,Review,High,StackOverflowError in BROWSE widget,Sergey Ivanovskiy,2022-05-02 06:46,100
+9640,Bug,WIP,Normal,port range resiliency issue,Sergey Ivanovskiy,2025-02-11 13:30,0
+5045,Bug,WIP,High, Message area becomes unchanged if its window is resizing,Sergey Ivanovskiy,2020-12-28 13:54,0
+2759,Bug,New,Normal,the key input becomes frozen (no deadlock) if the keys are pressed rapidly,Sergey Ivanovskiy,2016-11-16 12:23,0
+10914,Bug,Review,Urgent,clicking browse hyperlinked cells does not load its content into a browser tab,Stanislav Lomany,2025-11-22 15:54,0
+5245,Bug,Review,Normal,BrowseColumnWidget.getScreenValue(): incorrect handling of an unknown value,Stanislav Lomany,2021-04-24 18:15,0
+2955,Bug,WIP,Normal,Update records participating in a scrolling adaptive query.,Stanislav Lomany,2016-04-25 14:16,0
+5068,Bug,WIP,Normal,error-status:error is invalid,Stanislav Lomany,2021-01-07 07:55,0
+1308,Bug,WIP,Normal,dirty share - related abend,Stanislav Lomany,2012-11-08 17:54,0
+6636,Bug,WIP,Normal,Unwanted selection due to direct manipulation,Stanislav Lomany,2022-07-25 11:44,0
+2896,Bug,New,Normal,Close dynamically defined query when an underlying buffer is closed ,Stanislav Lomany,2016-03-28 15:06,0
+4057,Bug,New,Normal,h2 performance degradation,Stanislav Lomany,2024-01-23 16:31,0
+7907,Bug,New,Normal,Browse row-leave handler not called after apply entry in FWD,Stanislav Lomany,2023-10-16 04:27,0
+9918,Bug,Internal Test,Normal,tilde doesn't duplicate semicolon in alternative codings,Stefan Vieru,2026-02-24 08:34,100
+10099,Bug,Internal Test,Normal,"Tilde consumes the octals/follow-up characters, when in OE this doesn't happen",Stefan Vieru,2026-02-24 08:34,100
+9905,Bug,Internal Test,Normal,EOF file is not matched during preprocessing,Stefan Vieru,2026-02-24 08:35,100
+9886,Bug,Internal Test,Normal,Double slashes should produce a new line during preprocessing,Stefan Vieru,2026-02-24 08:33,100
+9903,Bug,Internal Test,Normal,alternative codings with ' (quote) don't convert to ` (backtick),Stefan Vieru,2026-02-24 08:34,100
+6308,Bug,Internal Test,Normal,post string literal alternative coding quirk in 4GL preprocessor,Stefan Vieru,2026-02-24 08:33,100
+9633,Bug,Review,High,bulk delete for permanent tables,Stefanel Pezamosca,2025-12-04 07:52,80
+10026,Bug,WIP,Normal,A multi-table AdaptiveQuery running off-end is still updating the cursor,Stefanel Pezamosca,2025-07-29 09:32,0
+10772,Bug,Internal Test,Low,NUM-RESULTS on a FOR EACH query fails,Teodor Gorghe,2026-03-13 08:54,100
+10937,Bug,Internal Test,Normal,fwd-h2 'killedMultiplexesCleanup' must not abend if the batch is not empty,Teodor Gorghe,2026-02-16 10:18,90
+10390,Bug,Internal Test,Normal,FIND FIRST buffer field change does not propagate into the next FIRST FIRST statements.,Teodor Gorghe,2026-02-19 01:49,100
+11149,Bug,Review,Normal,"DO i = 1 TO LENGTH(r, ""RAW"") converts to incompatible type expression",Teodor Gorghe,2026-01-28 03:56,100
+9340,Bug,Internal Test,Normal,CHOOSE statement does not display widget help string in ChUI,Tomasz Domin,2026-02-16 12:45,100
+7879,Bug,WIP,Normal,Cursor isn't positioned right when FILL-IN split on multiple lines,Tomasz Domin,2023-10-17 04:41,0
+3056,Bug,New,Normal,Mouse pointer issues for menus,Vadim Gindin,2016-04-21 01:27,0
+2557,Bug,New,Low,Fix MENUBAR layouting in a window,Vadim Gindin,2016-11-16 14:37,0
+2482,Bug,WIP,Normal,conversion of FIND does not honor NO-LOCK when specified early,Vadim Nebogatov,2016-04-19 11:31,0
+7646,Bug,Merge Pending,Normal,FILL-IN: NPE during the PASTE of non-text clipboard contents,Vladimir Tsichevski,2026-02-13 11:35,100
+8309,Bug,Internal Test,Normal,Do the error handling for r-index and extend implementation to INDEX and LONGCHAR,Vladimir Tsichevski,2025-12-24 09:22,100
+8261,Bug,Internal Test,Normal,REGRESSION: delete selection works incorrectly for a left-aligned decimal FILL-IN,Vladimir Tsichevski,2024-02-09 13:17,100
+9657,Bug,Internal Test,Normal,Date FILL-IN with no separator format: incorrect display value for unknown date value,Vladimir Tsichevski,2026-02-11 12:14,100
+9278,Bug,Internal Test,Normal,FILL-IN: VALUE-CHANGED sent twice for user input causing selection clear action,Vladimir Tsichevski,2024-10-25 05:51,100
+8206,Bug,Internal Test,Normal,Logging manager issues,Vladimir Tsichevski,2025-12-24 13:33,100
+10876,Bug,Internal Test,Normal,Date FILL-IN: Incorrect ENTER key handling in GUI mode,Vladimir Tsichevski,2026-02-05 15:04,100
+9400,Bug,Internal Test,Normal,REGRESSION: Extra spaces inserted into date FILL-IN for formats with no date component separators,Vladimir Tsichevski,2025-02-06 02:37,100
+10471,Bug,Internal Test,Normal,Incorrect Integer Formatting as Legacy Time,Vladimir Tsichevski,2026-02-05 11:32,100
+9572,Bug,Internal Test,Normal,ArrayIndexOutOfBoundsException and wrong newline handling in RedirectedTerminal.addChar() ,Vladimir Tsichevski,2026-02-11 15:40,100
+10973,Bug,Review,Normal,REGRESSION: No string literal to LONGCHAR conversion for 4GL class method call parameters,Vladimir Tsichevski,2025-12-13 13:42,100
+6767,Bug,Review,Normal,Possible name clashes in DMO classes,Vladimir Tsichevski,2026-02-05 15:50,100
+9037,Bug,WIP,Normal,Two timers problem: only one fires,Vladimir Tsichevski,2026-02-13 08:32,100
+10075,Bug,WIP,Normal,Number format validation issues,Vladimir Tsichevski,2026-01-30 09:29,0
+11080,Bug,WIP,Normal,DATETIME / DATETIME-TZ Format (Time and Timezone Offset) Validation Issues,Vladimir Tsichevski,2026-01-06 14:13,0
+11129,Bug,WIP,Normal,ChUI: Ctrl-Tab Does Not Cycle Focus Between Multiple Frames,Vladimir Tsichevski,2026-02-12 12:52,70
+10692,Bug,WIP,Normal,Numeric FILL-IN: Problems with formats using debit/credit sign placeholders,Vladimir Tsichevski,2026-02-10 13:51,90
+11053,Bug,WIP,High,DATETIME-TZ FILL-IN crashes in VALUE-CHANGED trigger,Vladimir Tsichevski,2025-12-18 12:52,0
+9913,Bug,WIP,Normal,DATE FILL-IN: Unexpected normalization on Enter and Tab keys,Vladimir Tsichevski,2026-01-05 14:19,50
+9225,Bug,WIP,Normal,EDITOR: incorrect cursor position after Ctrl-Right key press,Vladimir Tsichevski,2024-12-11 14:20,0
+8770,Bug,WIP,Normal,ENTRY event is not sent for a frame when window receives focus,Vladimir Tsichevski,2026-02-13 06:35,80
+7674,Bug,WIP,Normal,FILL-IN for a character variable: cannot delete an unknown value,Vladimir Tsichevski,2025-11-21 17:37,0
+7642,Bug,WIP,Normal,Assigning SESSION:DATE-FORMAT has no effect on existing date instances,Vladimir Tsichevski,2025-10-20 18:56,0
+5989,Bug,WIP,Normal,MESSAGE SET: empty string is treated as undefined,Vladimir Tsichevski,2022-01-20 08:22,50
+5622,Bug,WIP,Normal,TREEVIEW widget issues,Vladimir Tsichevski,2024-12-06 05:34,0
+5118,Bug,WIP,Normal,TREELIST widget issues,Vladimir Tsichevski,2024-12-09 09:20,0
+10654,Bug,New,Normal,TreeList MultiSelect Mode Issues,Vladimir Tsichevski,2025-10-04 17:19,0
+10212,Bug,New,Normal,FILL-IN for DECIMAL Variable: Incorrect DELETE-CHARACTER Handling in ChUI Mode,Vladimir Tsichevski,2025-06-25 14:46,0
+10249,Bug,New,Normal,Numeric FILL-IN in ChUI Mode: Decimal Delimiter Input Discrepancies,Vladimir Tsichevski,2026-01-09 16:13,0
+10433,Bug,New,Normal,FILL-IN (DATE type): Incorrect digit insertion position in freshly opened FILL-IN,Vladimir Tsichevski,2025-08-15 11:46,0
+10627,Bug,New,Normal,Numeric FILL-IN: Format Index Miscalculation,Vladimir Tsichevski,2025-09-26 13:10,0
+6812,Bug,Internal Test,High,fix FastFindCache to use a shared instance per persistent database,"",2023-11-29 10:59,90
+6887,Bug,Review,Normal,improve performance of dataset/table[-handle] parameters,"",2024-01-19 02:43,0
+6627,Bug,Review,Normal,improve conversion memory footprint for AstKey persistent maps,"",2023-02-09 12:38,0
+6275,Bug,Review,Normal,SKIP-DELETED-RECORD implementation,"",2022-08-26 21:41,0
+8807,Bug,Review,Normal,A trigger of ANYWHERE type does not shadow existing trigger for the same event,"",2024-07-12 16:04,100
+6443,Bug,Review,Normal,Widget ROW/COLUMN validation,"",2022-05-27 01:51,100
+5030,Bug,WIP,Normal,xfer dataset test issues,"",2021-01-15 11:59,0
+3367,Bug,WIP,Normal,collision between sequence and table names,"",2017-11-08 15:28,50
+6537,Bug,WIP,High,problems with ADD-INTERVAL,"",2022-06-23 17:23,80
+6837,Bug,WIP,Normal,prevent unnecessary upper/rtrim injection in queries if the data type doesn't require it,"",2023-02-08 04:00,0
+18,Bug,WIP,Normal,issues with ne/equal and true/false conversion in WHERE clauses,"",2014-06-02 12:15,0
+2533,Bug,WIP,Normal,management of dynamic buffer handles,"",2015-03-03 11:55,0
+8183,Bug,WIP,Normal,debugging database module,"",2024-01-11 18:11,0
+4453,Bug,WIP,Normal,Handling of filename with quotation mark broken in control_flow.rules,"",2020-03-03 14:46,0
+3263,Bug,WIP,Normal,com.goldencode.p2j.Version class always loaded from p2jspi.jar,"",2017-03-14 18:14,100
+3357,Bug,WIP,Normal,Code Analytics file filter view not working correctly on Windows,"",2017-10-11 23:23,0
+2295,Bug,WIP,Normal,In Progress output parameters ignore decimal precision,"",2016-07-23 10:48,0
+8353,Bug,WIP,Normal,Fully support stanza INI LOAD/USE/UNLOAD scenarios,"",2025-04-09 11:51,0
+7794,Bug,WIP,Normal,FILL-IN: editing numbers issues,"",2026-02-05 15:11,0
+2499,Bug,WIP,Normal,DST portion of the timezone offset is always included when it should be conditional,"",2015-02-05 18:02,0
+8872,Bug,WIP,Normal,WAIT-FOR with FOCUS explicitly specified: NO-APPLY return from ENTRY trigger must be ignored,"",2024-06-26 14:27,50
+8673,Bug,WIP,Normal,Deduce the logic behind OE focus management and implement in FWD,"",2025-02-06 02:11,30
+7515,Bug,WIP,Normal,FILL-IN: editing dates issues,"",2024-01-30 07:48,0
+6057,Bug,WIP,Normal,Attributes access causing widget to be realized when not need to.,"",2022-02-16 07:03,0
+5809,Bug,WIP,Normal,Setting sizing attributes for WINDOW and FRAME widgets issues,"",2021-11-16 11:10,20
+4636,Bug,WIP,Normal,Make the Theme API independent on concrete implementation classes,"",2020-06-20 11:50,0
+3597,Bug,WIP,Normal,"fix direct manipulation problems related to MOVABLE, SELECTED, SELECTABLE and misc widget types","",2019-11-13 12:07,50
+9595,Bug,WIP,Normal,Records accessed from dynamic buffers remain LOCKed until the user context is destroyed,"",2025-01-30 10:31,0
+9465,Bug,WIP,Normal,Emit the right errors when binding datasets,"",2024-12-18 10:32,0
+1702,Bug,WIP,Normal,message_stmt[3-5].p issues,"",2016-03-23 14:20,0
+10678,Bug,New,Normal,~u#### escape sequences which have no equivalent  in the cpinternal should be not converted,"",2025-10-06 07:30,0
+9058,Bug,New,Normal,NPE in NumberFormat with SMTP example procedure,"",2024-08-16 04:38,0
+11089,Bug,New,Normal,Lexical/Grammatical Errors in TRPL Expressions,"",2026-01-11 06:24,0
+9052,Bug,New,Normal,Identity crisis between upvalues of higher scope variables in do i=1 to N block,"",2024-08-14 10:01,0
+10850,Bug,New,Normal,getAst() usage from TRPL must be read-only,"",2025-11-12 06:17,0
+8910,Bug,New,Normal,'VIEW frame IN WINDOW' converts to invalid Java,"",2024-06-29 06:20,0
+7855,Bug,New,Normal,Integrate fixEmptyContains into mainWalk at FQL preprocessing,"",2023-09-29 06:58,0
+9008,Bug,New,Normal,Trigger fired when iterating a Finalizable collection allows it to be modified,"",2024-07-29 02:44,0
+4513,Bug,New,Normal,Check up cases when the drawing code use ThinClient.isChui() in the redirected mode instead of screen().isChui(),"",2020-01-21 12:08,0
+2224,Bug,New,Normal,StackOverflowError on start server in runtime when logging level is set to FINEST,"",2014-01-09 15:30,0
+8510,Bug,New,Normal,replace all 'new logical' in FWD runtime with logical.of or logical.UNKNOWN,"",2024-04-03 05:26,0
+7821,Bug,New,Normal,Duplication of table records in schema namespace causes dynamic conversion to fail,"",2023-09-20 18:11,0
+8346,Bug,New,Normal,Find and fix any use cases with implicit use of working directory when accessing file-system resource,"",2024-02-26 13:18,0
+9836,Bug,New,Normal,Drop BlockManager API for empty methods,"",2025-03-26 06:05,0
+8008,Bug,New,Normal,"read-json on a 1252 longchar should convert to utf-8 automatically before hydrating temp-tables/datasets, and support other Unicode encodings like UTF-32","",2023-12-05 05:51,0
+1454,Bug,New,Normal,progress lexer fails to parse comments without space before,"",2016-11-15 16:47,0
+7990,Bug,New,Normal,investigate what can be improved after 7494a adds BlockDefinition instance to Scopeable.scopeStart,"",2023-10-31 13:34,0
+7088,Bug,New,Normal,Lazily initialize activeBundle inside RandomAccessQuery,"",2023-02-02 06:40,0
+8274,Bug,New,Normal,use singleton/immutable BDT instances when returned from FWD runtime into the application,"",2024-02-13 14:26,0
+8929,Bug,New,Normal,Constructors with EXTENT parameters fails,"",2024-07-05 04:32,0
+10237,Bug,New,Normal,keepTildes is keeping tilde when preprocessor directive contains tilde and curly brace,"",2026-02-24 08:35,0
+3350,Bug,New,Normal,No suitable method found for isEqual,"",2017-10-11 09:38,0
+1923,Bug,New,Normal,&MESSAGE preprocessor directive expects NL only;  needs to detect EOF as well,"",2012-11-16 14:18,0
+2153,Bug,New,Normal,frame name resolution when multiple functions have internal frames with the same name,"",2013-05-23 07:51,0
+6997,Bug,New,Normal,OUTPUT BY-REFERENCE records are not cleared,"",2024-03-11 14:16,0
+8294,Bug,New,Normal,SESSION attributes access statements produce uncompilable Java code,"",2024-02-20 09:37,0
+7371,Bug,New,Normal,proper handling of exception case in cacheExpired,"",2023-05-22 07:19,0
+7220,Bug,New,Normal,Record not created when property is set to empty string,"",2023-03-27 10:29,0
+7759,Bug,New,Normal,improve CASE statement for integer type,"",2023-08-29 17:01,0
+7413,Bug,New,Normal,DUMP-NAME is not guaranteed to be unique in the .df,"",2023-06-09 10:52,0
+6852,Bug,New,Normal,Problem with datetime-tz literal string conversion.,"",2022-10-18 11:22,0
+6744,Bug,New,Normal,rollback when there are catch/finally blocks opening their own transactions,"",2024-12-03 05:33,0
+6741,Bug,New,Normal,Word index support  for MariaDB.,"",2022-09-09 01:43,0
+7176,Bug,New,Normal,cleanup p2j.oo code considering the #7045 and #7122,"",2023-03-07 08:05,0
+3349,Bug,New,Normal,FOCUS handle is invalid for ./wait-for_restore_focus1.p,"",2017-10-11 09:14,0
+6492,Bug,New,Normal,problems with dynamic queries for meta tables,"",2024-04-25 18:48,0
+7073,Bug,New,Normal,Launching non-interactive program creates JNI core dump in process_linux.c due to ncurses,"",2023-01-25 07:37,0
+7656,Bug,New,Normal,investigate performance of context-local helpers (e.g. TransactionManager.TransactionHelper),"",2023-11-21 07:29,0
+9872,Bug,New,Normal,Runtime import statement relies on the ImportWorker to read lob data.,"",2025-04-05 11:23,0
+6999,Bug,New,Normal,OO methods/properties used in direct Java calls,"",2022-12-16 03:31,0
+3346,Bug,New,Normal,Menu items selection works incorrectly,"",2017-10-10 12:56,0
+6579,Bug,New,Normal,QUERY-PREPARE validation,"",2022-07-07 02:22,0
+6475,Bug,New,Normal,double-check and fix any read/write-xml/json issues at table and dataset,"",2023-05-26 16:38,0
+6974,Bug,New,Normal,NPE at OpenEdge.Core.Class.IsInterface,"",2022-12-01 07:52,0
+7345,Bug,New,Normal,The memptr deallocation attempt after the connection to client is interrupted/suspended,"",2023-05-11 06:08,0
+7200,Bug,New,Normal,fix INIT and LABEL for LIKE defined fields or variables,"",2023-03-15 13:32,0
+9023,Bug,New,Normal,Cannot run reports from a path with spaces,"",2024-08-01 17:35,0
+3177,Bug,New,Normal,The converted redirected_report_25.p doesn't compile.,"",2016-09-02 11:52,0
+1573,Bug,New,Normal,Defect in saving logic of rights editor,"",2012-09-29 06:58,0
+1706,Bug,New,Normal,temp-table buffer scoping,"",2016-04-21 08:51,0
+3327,Bug,New,Normal,Oracle javac has problems to compile specific usages of some FWD API,"",2017-08-15 04:41,0
+4149,Bug,New,Normal,BlockManager and TransactionManager handle TransactionType.NONE incorrectly,"",2022-10-31 10:30,0
+8257,Bug,New,Normal,meta tables leaking to primary database,"",2024-02-07 14:30,0
+6743,Bug,New,Normal,fix GET-SIGNATURE for all parameter modes and types,"",2022-09-09 12:38,70
+6715,Bug,New,Normal,BufferManager.validate throws IllegalStateException if a validation fails via a ValidateException ,"",2022-10-14 15:04,0
+8925,Bug,New,Normal,Datetime/DatetimeTZ literals,"",2024-07-05 04:40,0
+3318,Bug,New,Normal,Incorrect handling of MINUS operator is some cases,"",2017-08-11 09:19,0
+6623,Bug,New,Normal,"validate the memptr bytes in ""copy-lob from memptr to clob/longchar"" statement","",2022-07-21 03:08,0
+6811,Bug,New,Normal,ERROR conditions converted to structured OO exceptions are not logged in OE,"",2022-10-05 12:10,0
+11266,Bug,New,Normal,Filename of extension too long in Windows during import,"",2026-02-27 10:47,0
+6693,Bug,New,Normal,StringFormat fixes - finish up and merge branch 4880a|b|c,"",2022-08-23 01:56,0
+6434,Bug,New,Normal,unknown stream reference errors in post-parse-fixups,"",2022-05-26 20:59,0
+7714,Bug,New,Normal,basepath cannot have trailing backslash (/),"",2023-08-17 08:24,0
+3317,Bug,New,Normal,Multi-line string containg empty line is translated to non-compilable Java code.,"",2017-08-11 09:09,0
+1927,Bug,New,Normal,The Exception raising - org.hibernate.NonUniqueObjectException: a different object with the same identifier value was already associated with the session,"",2012-12-12 14:37,0
+6145,Bug,New,Normal,"""Bad"" characters in the query.","",2022-03-04 07:32,0
+6382,Bug,New,Normal,XML serialization for ATTRIBUTE and TEXT XML-NODE-TYPE fields,"",2022-05-20 07:43,0
+6706,Bug,New,Normal,preserve existing camel-case usage in program names,"",2022-08-25 11:19,0
+5512,Bug,New,Normal,Java todate(text) UDF returns incorect value,"",2021-07-02 15:33,0
+5511,Bug,New,Normal,todate(text) Java UDF throws strange exception,"",2021-07-02 13:53,0
+5476,Bug,New,Normal,"Bug in Java UDF addinterval(date, ...)","",2021-06-18 15:12,0
+1449,Bug,New,Normal,ProtocolViolation error,"",2012-07-25 06:40,0
+10288,Bug,New,Normal,Encrypted connetion to SQL Server,"",2025-07-15 08:09,0
+5673,Bug,New,Normal,Additional support for INDEXED REPOSITION open query attribute,"",2022-07-18 12:28,0
+6533,Bug,New,Normal,dynamic equals operator,"",2022-06-20 13:11,0
+5909,Bug,New,Normal,Problem with conversion of STRING(char. char),"",2021-12-20 14:25,0
+5376,Bug,New,Normal,Reintroduce UDFs for handling special date-related operators,"",2021-05-17 18:14,0
+6268,Bug,New,Normal,Characters encoding issues with UTF-8 for emoji and confusable symbols.,"",2022-04-12 03:04,0
+6644,Bug,New,Normal,OpenClient proxy does not sanitize the names for legacy mode,"",2022-07-29 08:05,0
+1930,Bug,New,Normal,"toString for BaseDataType instances called by loggers causes ""Value ... cannot be displayed using <format>""","",2012-12-21 07:28,0
+2152,Bug,New,Normal,"server-to-sever connection problem (CTRL-C 3-way test fails on devsrv01, when ran from ant)","",2013-05-23 07:10,0
+5224,Bug,New,Normal,ROWID is a variable length binary value (4GL quirk),"",2021-03-31 09:40,0
+5901,Bug,New,Normal,at least some 4GL warnings need to process differently when the current scope has a catch block,"",2021-12-15 16:45,0
+5743,Bug,New,Normal,finally block: finalizable processing,"",2021-10-20 13:19,0
+4891,Bug,New,Normal,Nested method calls ignore 'silent' (no-error) option.,"",2020-09-15 02:59,0
+6612,Bug,New,Normal, Extent input-output arguments of functions are not correctly wrapped,"",2022-07-29 08:02,0
+3045,Bug,New,Normal,Clean up localedef warnings for en_US@p2j_basic locale,"",2016-03-30 12:48,0
+5635,Bug,New,Normal,OpenEdge.Core.Util.ConfigBuilder implementation,"",2021-08-31 09:27,0
+4940,Bug,New,Normal,"Refactor the overlapping DmoMeta, RecordMeta, and PropertyMeta classes into a more rational approach","",2020-10-02 09:22,0
+5691,Bug,New,Normal,deviation in error generation for invalid method/property chaining,"",2021-09-29 09:13,0
+5541,Bug,New,Normal,"string(decimal, string) support in FWD is not fully compatible with 4GL","",2021-07-12 15:57,0
+4742,Bug,New,Normal,heap usage increase on server startup,"",2020-07-06 12:27,0
+5539,Bug,New,Normal,X-DOCUMENT (DOM) allows ISO control characters in OpenEdge for XML version 1.0,"",2021-07-10 04:25,0
+6111,Bug,New,Normal,"changed 'A' conversion mode for 'abend parsing on failure' to allow parsing of all files, and terminate before 'Post-Parse Fixups' starts.","",2022-02-25 09:57,0
+1444,Bug,New,Normal,invalid default UNDO statement behavior,"",2012-05-21 08:20,0
+5613,Bug,New,Normal,4GL built-in functions throw IllegalArgumentException,"",2021-08-20 12:07,0
+5085,Bug,New,Normal,uppercasing and string comparisons are incorrect for some character sets,"",2021-01-15 11:48,0
+5446,Bug,New,Normal,PUT UNFORMATTED performace (stream is flushed on each call),"",2021-10-01 15:40,0
+5439,Bug,New,Normal,com.goldencode.util.Stack problem,"",2021-06-12 16:53,0
+4404,Bug,New,Normal,ConditionException inside full transaction FOR EACH loop,"",2019-11-12 08:28,0
+5608,Bug,New,Normal,raw vs memptr parameters,"",2021-08-18 13:01,0
+5551,Bug,New,Normal,Case sensitivity of default buffer name,"",2021-07-16 10:43,0
+9967,Bug,New,Normal,unix separator in strings gets resolved as unicode separator,"",2025-05-06 12:29,0
+9734,Bug,New,Normal,multiple 'AS type' clauses allowed in DEFINE VAR,"",2025-03-04 12:42,0
+5489,Bug,New,Normal,Cleanup / reimplement merge DMO definitions,"",2022-06-20 10:24,0
+4535,Bug,New,Normal,CONNECT statement with VALUE expression quirks,"",2020-02-11 06:17,0
+3961,Bug,New,Normal,"""Unexpected code path"" failure when using H2 in MVCC mode","",2019-11-22 12:56,0
+4852,Bug,New,Normal,ErrorManager throws 'invalid' ErrorConditionException,"",2020-08-12 07:50,0
+5399,Bug,New,Normal,schema parsing failure when a string literal ends in a tilde,"",2021-06-02 19:17,0
+20,Bug,New,Normal,NO-ERROR does not work for FIND statement on preselected results,"",2011-09-24 12:00,0
+1710,Bug,New,Normal,issues related to ALERT-BOX'es,"",2012-10-29 09:07,0
+1510,Bug,New,Normal,format not preserved for subsequent frame iterations,"",2012-09-09 12:13,0
+3322,Bug,New,Normal,Functions with names that differ only by hypenation and case are translated to non-compilable code,"",2017-08-12 05:50,0
+4426,Bug,New,Normal,Cannot find parent when processing REPEAT PRESELECT,"",2020-03-03 14:42,0
+3329,Bug,New,Normal,FUNCTION with formal parameter of DATETIME type cannot be used with table field of DATE type,"",2017-08-23 13:27,0
+4325,Bug,New,Normal,Not flushing the newly created record to the database,"",2019-09-14 17:39,0
+5281,Bug,New,Normal,BUFFER-COPY does not report changes in some modes,"",2021-04-23 15:15,0
+4537,Bug,New,Normal,CONNECT statement parameters parsing quirks,"",2020-02-11 15:50,0
+5011,Bug,New,Normal,unimplemented OO 4GL quirks and bugs,"",2020-11-20 09:16,0
+4071,Bug,New,Normal,FWD server stops allowing new web client logins after abend,"",2023-05-08 14:30,0
+8025,Bug,New,Normal,Persistence API improvements,"",2023-11-10 09:37,0
+4200,Bug,New,Normal,verify and fix all temp-table options which must result in different DMO implementations classes in FWD,"",2019-11-19 09:42,0
+4520,Bug,New,Normal,Implement proper codepage inheritance from permanent to temp tables,"",2020-01-24 14:01,0
+4564,Bug,New,Normal,unqualified field references can get the wrong buffer name if a FORM or DEF FRAME is present,"",2021-09-09 14:56,0
+3625,Bug,New,Normal,DISCONNECT terminates the remote database connection to early,"",2018-06-19 14:50,0
+5072,Bug,New,Normal,exception loading _user meta table,"",2021-01-08 10:30,0
+3172,Bug,New,Normal,QUERY-PREPARE can be used on static queries (and the sorting can be dynamically changed),"",2020-06-24 08:55,0
+4992,Bug,New,Normal,File lock with JSON Parse/Write File,"",2020-11-04 06:01,0
+2109,Bug,New,Normal,a comment that is the first node in a block doesn't have a new-line after it,"",2021-01-25 17:14,0
+9040,Bug,New,Normal,fixe dataset serialization over appserver calls,"",2024-08-08 08:44,0
+4752,Bug,New,Normal,Possible broken sort clause with word indexes,"",2020-07-10 17:13,0
+3934,Bug,New,Normal,binary logical expressions in a 4GL WHERE clause are executed left to right,"",2019-03-01 15:45,0
+4422,Bug,New,Normal,h2.sortNullsHigh in page-store mode,"",2019-12-02 15:37,0
+4931,Bug,New,Normal,possible ProgressiveResults performance improvement,"",2020-09-29 12:51,0
+5121,Bug,New,Normal,Converted temp table should be using the legacy name instead of the converted name in displayed messages,"",2021-03-11 07:49,0
+3192,Bug,New,Normal,possible optimization when the database server resides on the same box as the P2J server,"",2016-10-07 08:12,0
+5800,Bug,New,Normal,Conversion issue with CAN-FIND,"",2021-11-02 12:11,0
+5201,Bug,New,Normal,fix issues related to the error messages reported for invalid date/datetime/datetime-tz literals,"",2021-03-15 16:45,0
+5802,Bug,New,Normal,a date temp-table field gets assigned to incorrect date,"",2021-11-09 12:14,0
+5239,Bug,New,Normal,CASE WHEN statement:  unreachable break statements are sometimes inserted,"",2021-04-05 04:30,0
+19,Bug,New,Normal,conversion CASE to SWITCH,"",2012-03-26 12:00,0
+3364,Bug,New,Normal,problems with TABLE-HANDLE and TABLE parameters related to BY-REFERENCE,"",2017-11-01 09:38,0
+3173,Bug,New,Normal,use of DYNAMIC-FUNCTION() in the WHERE clause of a dynamic query silently fails to find a record in the 4GL while P2J acts as one would expect,"",2016-08-19 13:03,0
+4157,Bug,New,Normal,Name conversion report problem,"",2019-07-29 14:14,0
+3171,Bug,New,Normal,a natural join combined with the :: operator will cause an unexpected result,"",2016-08-18 12:32,0
+5377,Bug,New,Normal,H2 might block in certain conditions,"",2021-05-17 18:47,0
+5683,Bug,New,Normal,Consider using multiple .df files for a database,"",2021-09-23 16:05,0
+5615,Bug,New,Normal,Project builds should copy out p2jpl.jar from FWD,"",2021-08-20 16:58,0
+6007,Bug,New,Normal,Browse scrolls through deleted records,"",2022-01-24 17:34,0
+5440,Bug,New,Normal,finish DatabaseManager refactoring for implicit/explicit connections,"",2021-12-06 12:31,0
+5104,Bug,New,Normal,Cannot cast integer input parameter to dynamic function character parameter,"",2021-01-28 11:14,0
+3138,Bug,New,Normal,case-sensitivity propagation,"",2016-06-28 15:30,0
+4767,Bug,New,Normal,memptr set-size() issue,"",2020-07-15 14:56,0
+4156,Bug,New,Normal,"Conversion failed with ""Cannot find buffer ...""","",2019-07-29 07:13,0
+13,Bug,New,Normal,ambiguous field name in CAN-FIND() - Progress quirk,"",2011-12-06 12:00,0
+5540,Bug,New,Normal,can't query meta info for meta tables,"",2021-07-10 04:29,0
+5891,Bug,New,Normal,denormalized properties of extent field cause NPE when accessing attributes of buffer fields,"",2021-12-14 14:08,0
+5867,Bug,New,Normal,today and now initial values are not handled correctly in DmoMeta.existingFields map,"",2021-12-02 17:17,0
+1909,Bug,New,Normal,error initializing the MultiClassLoader when a jar in the class path does not exist,"",2012-11-05 05:50,0
+6310,Bug,New,Normal,"for first ""first()"", exclusive-lock, raises FWD exception while 4GL raises at the field assign","",2022-05-03 09:23,0
+3032,Bug,New,Normal,running ETF fails because some postgresql server process gets killed,"",2016-04-01 09:20,0
+6242,Bug,New,Normal,PSQLException when creating identity sequence using PostgreSQL dialect,"",2022-04-06 13:56,0
+5930,Bug,New,Normal,With some Java UDFs ERROR-STATUS can contain duplicate error messages,"",2021-12-28 02:55,0
+5953,Bug,New,Normal,Exceptions raised by UDFs with PRESELECT,"",2022-01-06 10:48,0
+5954,Bug,New,Normal,FOR EACH in FWD behaves differently than in 4GL when UDF raises an error,"",2022-01-07 11:09,0
+5956,Bug,New,Normal,FWD does not reset AVAILABLE flag after UDF error.,"",2022-01-08 04:27,0
+5972,Bug,New,Normal,Finish SQLWarning support for warnings raised by UDFs.,"",2022-01-14 13:51,0
+5978,Bug,New,Normal,handle implicit data type conversion in runtime (dynamic) conversion,"",2022-01-17 14:56,0
+3031,Bug,New,Normal,FOR EACH can access shared transient records in case of broken transaction isolation,"",2016-03-18 16:33,0
+5288,Bug,New,Normal,Some date field character comparisons have runtime incompatibilities during runtime,"",2022-03-22 14:58,0
+3278,Bug,New,Low,connected function converts incorrectly when passed an unquoted string,"",2017-04-20 11:50,0
+6353,Bug,New,Normal,Incompatible data in the _Lock VST,"",2022-05-11 14:55,0
+5278,Bug,New,Normal,IMPORT UNFORMATTED raw with a process stream,"",2021-04-22 15:28,0
+4085,Bug,New,Normal,failure parsing RUN statement filenames with embedded unmatched quotes,"",2019-05-21 08:01,0
+2942,Bug,New,Normal,shared temp-tables can use fields with different extent than the master temp-table,"",2015-12-21 06:41,0
+2946,Bug,New,Normal,SESSION:FIRST-BUFFER buffer order is wrong,"",2016-01-06 13:48,0
+5276,Bug,New,Normal,resolve issues with multi-byte character processing,"",2023-09-13 08:17,0
+4628,Bug,New,Normal,redirection doesn't seem to close an output stream on a block retry,"",2025-02-13 10:40,0
+4082,Bug,New,Normal,strong buffer scope can resolve ambiguous names,"",2019-05-17 13:19,0
+11,Bug,New,Normal,double field reference emitting problem report,"",2011-10-03 12:00,0
+3117,Bug,New,Normal,test and fix VALIDATION() expressions in a DELETE statement,"",2016-05-31 13:49,0
+2718,Bug,New,Normal,implicit conversion of empty string to integer 0,"",2015-09-15 11:26,0
+4563,Bug,New,Normal,assigning a dynamic extent var to a OO method call as rvalue,"",2020-03-03 13:50,0
+3241,Bug,New,Normal,schema conversion only allows _user table in one schema,"",2017-02-06 14:00,0
+2561,Bug,New,Normal,invalid DEFAULT-BUFFER-HANDLE if a secondary buffer is initialized prior to default buffer,"",2015-04-30 02:26,0
+4227,Bug,New,Low,FWD refuses to compile the access to the 'colon' widget attribute,"",2019-08-13 12:49,0
+6835,Bug,New,Normal,deferred work for #6257,"",2022-10-11 08:51,0
+3892,Bug,New,Normal,3750a core coversion performance regression,"",2019-01-21 10:00,0
+10806,Bug,New,Normal,Presort queries can sometimes dynamically find records created after opening the query,"",2025-11-03 05:23,0
+2937,Bug,New,Normal,improved sequence support in H2,"",2016-04-12 09:00,0
+3144,Bug,New,Normal,Provide correct legacy name for a RecordBuffer/TemporaryBuffer,"",2016-07-12 16:01,0
+6503,Bug,New,High,READ-XML automatically populates fields from NESTED relations,"",2022-06-08 04:55,0
+4180,Bug,New,Normal,integer.checkBounds(): the support for progress quirk is obsolete,"",2019-08-08 16:04,0
+3891,Bug,New,Normal,3750a regression in comment attachment,"",2019-01-17 04:29,0
+10,Bug,New,Normal,CAN-FIND conversion issue (if WHERE clause evaluated to TRUE),"",2011-10-03 12:00,0
+1709,Bug,New,Normal,"""can't operate on a closed statement error"" in log","",2012-10-29 08:50,0
+10422,Bug,New,Low,Some documentations links seem broken,"",2025-08-13 11:49,0
+2548,Bug,New,Normal,buffer/tables names are too aggressively matched in preference to other names,"",2015-04-10 05:53,0
+2554,Bug,New,Normal,Temp-tables with different labels / column labels are converted to the same TempRecord class.,"",2015-04-22 13:44,0
+4178,Bug,New,Normal,FWD and Progress report runtime integer overflow differently,"",2019-08-08 13:06,0
+2589,Bug,New,Normal,remote request for next primary key gives wrong result when metadata DB is running,"",2015-06-17 18:39,0
+4148,Bug,New,Normal,Passing HANDLE to method with TABLE-HANDLE or DATASET-HANDLE converts to uncompilable code,"",2019-07-16 10:14,0
+4620,Bug,New,Normal,Direct Java conversion fails for arrays of objects,"",2020-04-17 18:31,0
+2405,Bug,New,Normal,CompoundQuery.previous() invalid behavior after back off-end ,"",2014-10-03 11:26,0
+4114,Bug,New,Normal,MESSAGE throws ArrayIndexOutOfBoundsException with long output,"",2019-06-12 14:11,0
+3065,Bug,New,Normal,runtime conversion datatype checks,"",2016-04-14 04:56,0
+4461,Bug,New,Normal,DST and add-interval,"",2019-12-11 16:50,0
+3742,Bug,New,Normal,IE11 doesn't render the flowchart or callgraph links,"",2018-10-04 14:35,0
+7047,Bug,New,Normal,Problem with AdaptiveQuery and ScrollableResults,"",2023-02-21 11:57,0
+2176,Bug,New,Normal,exceptions to rereadnolock,"",2023-02-01 13:10,0
+9,Bug,New,Normal,invalid sorting for FOR/REPEAT/DO with FIRST/LAST BREAK BY,"",2011-10-03 12:00,0
+2526,Bug,New,Normal,Records preserving its position in the sorting index for adaptive query,"",2016-11-16 12:23,0
+4462,Bug,New,Normal,NOW with comparison operators,"",2019-12-11 16:50,0
+2448,Bug,New,Normal, DynamicQueryHelper.parse accepts predicate with garbage after terminating dot,"",2014-11-21 16:53,0
+2496,Bug,New,Normal,Static conversion of legacy field names does not preserve original case,"",2015-01-22 15:38,0
+4108,Bug,New,Normal,CLIENT-PRINCIPAL:EXPORT-PRINCIPAL method quirk (4GL bug?),"",2019-06-08 06:07,0
+3711,Bug,New,Normal,improve/fix comments conversion problems,"",2026-03-04 12:47,0
+3041,Bug,New,Normal,ambiguous field references are allowed in a CAN-FIND,"",2016-03-25 13:09,0
+2395,Bug,New,Normal,db admin rights requirement for the system table query,"",2014-09-19 10:30,0
+2178,Bug,New,Normal,Asymmetric sequence behavior,"",2013-09-06 12:23,0
+6870,Bug,New,Normal,implement a request queue for remote OpenClient connections,"",2022-10-20 10:36,0
+7836,Bug,New,Normal,explicit buffer scope when defined at external program and used in an internal entry,"",2023-09-22 12:12,0
+8251,Bug,New,Normal,Fine tune CompoundQuery optimization when contains clauses are used,"",2024-02-07 04:46,0
+8589,Bug,New,Normal,Deprecate the shared temporary database completely,"",2024-04-05 18:11,0
+3833,Bug,New,Normal,Conversion broken by multithreading,"",2018-12-15 18:12,0
+8,Bug,New,Normal,misconversion of single-table REPEAT/DO for FIRST/LAST/UNIQUE,"",2011-10-03 12:00,0
+1708,Bug,New,Normal,charva/awt/ScreenBitmap.java cleanup,"",2012-10-29 08:48,0
+8259,Bug,New,Normal,Reduce the work done by PreselectQuery.coreFetch,"",2024-02-09 04:57,0
+2413,Bug,New,Normal,"Invalid multi-table conversion (Compound(Preselect, Adaptive) instead of Preselect)","",2014-10-06 07:25,0
+2420,Bug,New,Low,Fully reproduce QUERY-OFF-END behavior,"",2014-10-15 16:19,0

@@ -1,0 +1,501 @@
+#,Project,Tracker,Status,Priority,Subject,Assignee,Updated
+10574,Runtime Infrastructure,Bug,New,Urgent,contextlocal cross-dependencies,"",10/03/2025 04:43 AM
+10962,Database,Bug,New,High,[Regression] Optimized multi-table compound components are not invalidated,"",12/03/2025 08:29 AM
+6503,Database,Bug,New,High,READ-XML automatically populates fields from NESTED relations,"",06/08/2022 04:55 AM
+8249,Database,Bug,New,Normal,Introduce a fast fill method to optimize Dataset.fill,Alexandru Donica,03/27/2024 11:39 AM
+7788,Database,Bug,New,Normal,NPE when assigning query to browse,Alexandru Lungu,02/26/2026 03:15 AM
+7319,Database,Bug,New,Normal,Fix adaptive query test suite from testcases,Alexandru Lungu,08/22/2023 05:12 AM
+9896,Database,Bug,New,Normal,Record reference count should account for dirty records,Alexandru Lungu,04/14/2025 07:36 AM
+4130,User Interface,Bug,New,Normal,FWD truncates decimal part instead of rounding when displaying,Alexei Kaigorodov,08/02/2021 05:39 AM
+3691,User Interface,Bug,New,Normal,literal $ character in format appears on the right side of the fill-in,Alexei Kaigorodov,08/08/2019 05:22 PM
+3723,User Interface,Bug,New,Normal,Pressing ESC key twice doesn't allow the web client to log out properly,Alexei Kaigorodov,06/17/2019 09:16 AM
+9702,Database,Bug,New,Normal,BaseRecord.getDirtyIndices is slow,Artur ?colnic,02/25/2025 07:04 AM
+4825,Database,Bug,New,Normal,OutputTableHandleCopier dynamically defines destination temp-table,Constantin Asofiei,10/20/2020 01:21 PM
+2727,User Interface,Bug,New,Normal,fill-in text selection is broken,Constantin Asofiei,11/16/2016 12:23 PM
+2356,Conversion Tools,Bug,New,Normal,pphints bug - nested includes are missing from the.pphints file,Constantin Asofiei,04/27/2017 12:40 PM
+5150,User Interface,Bug,New,Normal,killing the web page for the web client should raise the equivalent of a window-close event,Constantin Asofiei,01/13/2022 10:57 AM
+7178,Conversion Tools,Feature,New,Normal,move the buffer scoping calculations to parse time,Constantin Asofiei,03/20/2026 04:57 AM
+2728,User Interface,Bug,New,Normal,MOUSE_RELEASED/CLICKED needs to use the same source as the initial MOUSE_PRESSED event,Constantin Asofiei,11/16/2016 12:23 PM
+6252,Conversion Tools,Feature,New,Normal,cleanup of p2j.cfg.xml,Constantin Asofiei,02/28/2024 09:43 AM
+3558,Base Language,Feature,New,Normal,"SEARCH(""<program_name>.r"") should return a value when there is a converted 4GL program that would match in the original system",Constantin Asofiei,05/25/2018 10:28 AM
+5111,Base Language,Support,New,Normal,TempTableSchema & BufferField,Constantin Asofiei,01/29/2021 08:28 PM
+2766,User Interface,Bug,New,Normal,implement a text metrics server process,Constantin Asofiei,12/28/2017 11:13 AM
+6857,Testing,Support,New,Normal,rework existing testcases to easily convert and execute specific project subsets,Constantin Asofiei,02/27/2025 07:24 AM
+5123,Base Language,Bug,New,Normal,Remove sessionFree AppServer configuration parameter,Constantin Asofiei,02/02/2021 11:42 AM
+10110,Base Language,Bug,New,Normal,add ClientPrincipal support for FWD OpenClient,Constantin Asofiei,07/29/2025 06:24 AM
+6673,Runtime Infrastructure,Feature,New,Normal,rework appserver agent approach to use a shared queue instead of a check-in/check-out registry,Constantin Asofiei,09/29/2022 04:25 PM
+5046,Base Language,Bug,New,Normal,ErrorManager - recordOrShowError,Constantin Asofiei,12/18/2020 02:00 AM
+5194,Base Language,Bug,New,Normal,"Stream handle - type missing, not deletable",Constantin Asofiei,03/12/2021 09:33 AM
+3178,Base Language,Feature,New,Normal,implement STREAM-HANDLE support,Constantin Asofiei,10/10/2019 05:31 PM
+1603,Conversion Tools,Feature,New,Normal,enhance name conversion to support internal procedure names that contain a '.' character,Constantin Asofiei,11/16/2016 01:16 PM
+7647,Database,Bug,New,Normal,Leverage internal H2 _ROWID_ with FWD recid,D?nu? Filimon,08/17/2023 03:20 AM
+7318,Conversion Tools,Feature,New,Normal,prevent abend during conversion in case of failures when processing TRPL rules,D?nu? Filimon,11/27/2025 05:28 AM
+7179,Conversion Tools,Feature,New,Normal,rework the conversion process to ensure that it can finish an entire run even when there are failures after parsing,D?nu? Filimon,11/21/2025 06:09 AM
+6963,Base Language,Bug,New,Normal,Incorrect conversion of legacy class constructors with an unknown argument of object type,Eduard Marcu,12/03/2024 05:35 AM
+9559,Database,Feature,New,Normal,no-op implementations for obsolete record phrase and query options,Eduard Soltan,05/14/2025 04:06 AM
+6494,Database,Feature,New,Normal,add equivalent support for the -nodupttidxerror command line parameter,Eduard Soltan,06/26/2023 04:36 AM
+5761,Base Language,Bug,New,Normal,replace ErrorManager.displayError with recordOrThrowError and fix recordOrShowError to morph into a recordOrThrowError in certain cases.,Eduard Soltan,03/19/2026 08:13 AM
+10961,Base Language,Bug,New,Normal,Optimize StringBuilder usage in FWD,Eduard Soltan,12/08/2025 03:52 AM
+4797,Database,Bug,New,Normal,"review Persistence.load, as called by RAQ.executeImpl",Eric Faulhaber,07/20/2020 03:00 PM
+8135,Runtime Infrastructure,Bug,New,Normal,replace ScopedDictionary for better performance,Eric Faulhaber,12/21/2023 02:42 PM
+6599,Database,Bug,New,Normal,minimal mode conversion problem with DMO name collision,Eric Faulhaber,08/15/2022 01:11 PM
+2261,Database,Bug,New,Normal,improve server startup performance,Eric Faulhaber,11/16/2016 12:30 PM
+6493,Base Language,Feature,New,Normal,add equivalent support for the command line parameters -ucc and -utf8intatchar,Eugenie Lyzenko,02/02/2024 09:37 AM
+8139,Base Language,Bug,New,Normal,"OS-COMMAND fails on windows if not in ""batch mode""",Eugenie Lyzenko,02/02/2024 03:03 AM
+6495,User Interface,Feature,New,Normal,add equivalent support for the undocumented -sbhelp command line option,Eugenie Lyzenko,02/05/2024 08:36 AM
+8116,Base Language,Bug,New,Normal,SEARCH vs FILE-INFO,Eugenie Lyzenko,12/14/2023 09:29 AM
+9481,Runtime Infrastructure,Feature,New,Normal,LOG-MANAGER writing to slf4j-api,Galya B,12/17/2024 06:41 AM
+6819,Base Language,Feature,New,Normal,refactor FWD proxy implementation to use ReflectASM instead of Java Method reflection,Greg Shah,11/13/2025 08:02 AM
+6640,Base Language,Bug,New,Normal,"parsing bug for initial "",0000""  for decimal variables or fields",Greg Shah,12/09/2024 11:55 AM
+5160,Base Language,Feature,New,Normal,About cast() function support,Greg Shah,03/03/2021 12:30 AM
+4029,User Interface,Feature,New,Normal,implement more widget rendering knowledge within the client drivers,Hynek Cihlar,10/14/2020 11:18 AM
+5375,User Interface,Bug,New,Normal,Window resizing by mouse dragging problem in WEB client,Hynek Cihlar,05/17/2021 03:06 PM
+4176,Database,Feature,New,Normal,make certain metadata tables aware of live runtime state,Igor Skornyakov,07/15/2022 12:18 AM
+3789,Runtime Infrastructure,Feature,New,Normal,rewrite writeObject and readObject to rely on NativeTypeSerializer or a similar approach,Igor Skornyakov,07/21/2020 10:27 AM
+2935,User Interface,Bug,New,Normal,Active drop-down disables triggers and WAIT ... PAUSE,Igor Skornyakov,01/06/2016 10:34 AM
+6459,Database,Feature,New,Normal,query features,Igor Skornyakov,11/25/2022 05:40 PM
+4043,Bugs,Bug,New,Normal,Eclipse static code analysis potential issues,Igor Skornyakov,04/19/2019 06:06 AM
+2879,User Interface,Bug,New,Normal,selecting item from the list by mouse in SELECTION-LIST widget is broken,Igor Skornyakov,02/18/2016 09:04 AM
+7364,Database,Bug,New,Normal,Build a full test-suite for fast copy-temp-table ,Ioana-Cristina Prioteasa,04/24/2025 03:38 AM
+10732,Base Language,Bug,New,Normal,Fix Stream.assignDatum to handle all possible BDT types ,Lorian Sandu,10/16/2025 07:38 AM
+9414,Runtime Infrastructure,Bug,New,Normal,Re-enable support for nio sockets on Java 17,Lorian Sandu,02/10/2025 06:40 AM
+7337,Testing,Support,New,Normal,UI - Events,Marian Edu,02/27/2025 07:45 AM
+6856,Testing,Support,New,Normal,user interface tests,Marian Edu,02/27/2025 07:45 AM
+6861,Testing,Support,New,Normal,tests for valid and invalid 4GL syntax (parsing),Marian Edu,02/27/2025 07:53 AM
+2298,User Interface,Feature,New,Normal,temporary account creation,Marius Gligor,11/16/2016 01:08 PM
+2343,User Interface,Feature,New,Normal,implements a native solution to get system load for remote launcher,Marius Gligor,07/22/2014 02:08 PM
+2167,Base Language,Feature,New,Normal,add longchar and codepage support,Ovidiu Maxiniuc,08/19/2013 02:09 PM
+6507,Database,Feature,New,Normal,cross-database joins,Ovidiu Maxiniuc,09/09/2022 12:23 AM
+4917,Database,Bug,New,Normal,eliminate redundant ORDER BY elements in multi-table queries,Ovidiu Maxiniuc,10/01/2020 01:16 PM
+4516,Database,Feature,New,Normal,testing and completion of runtime compatibility for table/table-handle/dataset/dataset-handle parameter options,Ovidiu Maxiniuc,09/13/2023 08:17 AM
+1690,Bugs,Bug,New,Normal,better exception handling when OS libraries are not found by P2J,Ovidiu Maxiniuc,10/23/2012 05:33 PM
+2990,Database,Bug,New,Normal,inconsequent field names in shared temp-tables,Paul E,02/11/2016 11:18 AM
+9708,Deployment,Support,New,Normal,rationalize and optimize the standard FWD images,Roger Borrello,10/16/2025 07:02 AM
+9727,Conversion Tools,Feature,New,Normal,enable -? to provide syntax help in the various driver programs,Roger Borrello,03/06/2025 09:13 AM
+9514,Runtime Infrastructure,Support,New,Normal,"assess, recommend and document monitoring tools plan",Roger Borrello,03/24/2025 11:01 AM
+10719,Deployment,Feature,New,Normal,Base Docker images need version control,Roger Borrello,10/14/2025 06:23 PM
+10727,Deployment,Support,New,Normal,implement a docker image that supports the full range of development processes without being a PITA,Roger Borrello,03/06/2026 09:11 AM
+7342,Testing,Support,New,Normal,"evolve testcases project configuration and scripting to simplify, standardize and automate setup",Roger Borrello,02/27/2025 07:24 AM
+4618,User Interface,Bug,New,Normal,Default location of dialog box title is left justified instead of centered,Roger Borrello,04/29/2020 12:01 PM
+9529,User Interface,Bug,New,Normal,Newly created window is shown in front of DIALOG-BOX,?erban Bursuc,01/14/2025 06:33 AM
+9592,User Interface,Bug,New,Normal,Implement a global cursor in Swing ,?erban Bursuc,01/30/2025 04:12 AM
+9844,Testing,Support,New,Normal,finalize approach/techniques/standards for automating ABLUnit interactive UI tests,?erban Bursuc,07/22/2025 08:31 AM
+2759,User Interface,Bug,New,Normal,the key input becomes frozen (no deadlock) if the keys are pressed rapidly,Sergey Ivanovskiy,11/16/2016 12:23 PM
+1899,Core Development,Support,New,Normal,document the recent changes related to dynamic reloading of jar files,Stanislav Lomany,11/01/2012 06:46 PM
+2896,Database,Bug,New,Normal,Close dynamically defined query when an underlying buffer is closed ,Stanislav Lomany,03/28/2016 03:06 PM
+3082,User Interface,Feature,New,Normal,finish  [NO-]SCROLLBAR-VERTICAL and NUM-ITERATIONS runtime support,Stanislav Lomany,11/16/2016 12:23 PM
+7907,User Interface,Bug,New,Normal,Browse row-leave handler not called after apply entry in FWD,Stanislav Lomany,10/16/2023 04:27 AM
+2630,User Interface,Feature,New,Normal,Add ability to save new rows in browse.,Stanislav Lomany,04/05/2016 11:17 AM
+4057,Database,Bug,New,Normal,h2 performance degradation,Stanislav Lomany,01/23/2024 04:31 PM
+9854,Testing,Support,New,Normal,Discussion on how to leverage Harness to test certain drivers of FWD,Tomasz Domin,05/21/2025 11:15 AM
+2162,User Interface,Feature,New,Normal,add support for CURRENT-ITERATION attribute (for widget objects),Vadim Gindin,10/29/2021 02:47 PM
+3056,User Interface,Bug,New,Normal,Mouse pointer issues for menus,Vadim Gindin,04/21/2016 01:27 AM
+10654,User Interface,Bug,New,Normal,TreeList MultiSelect Mode Issues,Vladimir Tsichevski,10/04/2025 05:19 PM
+10433,User Interface,Bug,New,Normal,FILL-IN (DATE type): Incorrect digit insertion position in freshly opened FILL-IN,Vladimir Tsichevski,08/15/2025 11:46 AM
+10212,User Interface,Bug,New,Normal,FILL-IN for DECIMAL Variable: Incorrect DELETE-CHARACTER Handling in ChUI Mode,Vladimir Tsichevski,06/25/2025 02:46 PM
+10249,User Interface,Bug,New,Normal,Numeric FILL-IN in ChUI Mode: Decimal Delimiter Input Discrepancies,Vladimir Tsichevski,01/09/2026 04:13 PM
+10627,Base Language,Bug,New,Normal,Numeric FILL-IN: Format Index Miscalculation,Vladimir Tsichevski,09/26/2025 01:10 PM
+2830,User Interface,Bug,New,Normal,investigate if the BROWSE scrolling implementation can be made using less duplication of code,"",11/06/2015 09:03 AM
+2672,User Interface,Support,New,Normal,GUI web client performance improvements,"",11/16/2016 12:30 PM
+2907,User Interface,Bug,New,Normal,UPDATE statement in a window which is not ACTIVE-WINDOW must bring the window on top,"",11/16/2016 12:23 PM
+6006,User Interface,Bug,New,Normal,JVM process failures while executing the swing client,"",01/24/2022 02:34 PM
+6904,Base Language,Bug,New,Normal,fix TRANSACTION block issues,"",11/02/2022 08:54 AM
+1664,Database,Feature,New,Normal,data import improvements,"",08/07/2024 09:27 AM
+2114,Conversion Tools,Bug,New,Normal,"analyze if there are any other ""no reference"" use cases which are mis-converted","",04/10/2013 07:29 AM
+2942,Database,Bug,New,Normal,shared temp-tables can use fields with different extent than the master temp-table,"",12/21/2015 06:41 AM
+2139,Base Language,Bug,New,Normal,Frames scoped to a subroutine is reused for subsequent calls,"",04/30/2013 06:27 AM
+2867,User Interface,Bug,New,Normal,investigate PUT SCREEN problems in ChUI on both linux and windows,"",11/20/2015 09:57 AM
+3037,User Interface,Feature,New,Normal,implement FRAME:NEXT-TAB-ITEM runtime support,"",12/18/2025 09:54 AM
+1573,Bugs,Bug,New,Normal,Defect in saving logic of rights editor,"",09/29/2012 06:58 AM
+2723,Runtime Infrastructure,Bug,New,Normal,intermittent failure in reading loop on P2J server startup in Java 8,"",09/17/2015 05:37 PM
+3235,User Interface,Feature,New,Normal,Proper handling of the image loading from file containing several images,"",02/01/2017 07:59 AM
+3070,User Interface,Feature,New,Normal,add a dedicated bootstrap config for the non-decorated window mode,"",04/19/2016 10:58 AM
+3268,Runtime Infrastructure,Feature,New,Normal,Creating a tool to install and manage FWD server as Windows service,"",03/20/2017 03:31 PM
+2675,User Interface,Support,New,Normal,list of differences between the web GUI client and the original 4GL Windows GUI environment,"",11/16/2016 12:23 PM
+3019,User Interface,Feature,New,Normal,Add icons support to menu items,"",11/13/2019 11:52 AM
+1713,Conversion Tools,Feature,New,Normal,remove duplicated code in frame definitions,"",11/16/2016 12:39 PM
+1879,Database,Feature,New,Normal,push lock manager back into database,"",10/24/2019 03:06 PM
+2845,User Interface,Bug,New,Normal,rounded rectangle corner drawing,"",11/16/2016 12:23 PM
+2827,User Interface,Bug,New,Normal,PAUSE (and probably STATUS) don't cause an otherwise not visible window to become visible,"",11/16/2016 12:23 PM
+5,Bugs,Bug,New,Normal,using persistence functions in session hooks,"",05/31/2010 12:00 PM
+1518,Conversion Tools,Feature,New,Normal,report fixes,"",09/22/2017 01:36 PM
+1847,Runtime Infrastructure,Feature,New,Normal,improve server instrumentation,"",01/08/2025 07:57 AM
+1539,Harness,Feature,New,Normal,enhance failure mode support,"",09/18/2012 05:53 PM
+1901,Conversion Tools,Feature,New,Normal,modify the conversion process to properly run on Windows,"",11/16/2016 01:16 PM
+3265,Conversion Tools,Feature,New,Normal,"enhance pphints to have references, expansions and details in and about directives","",03/15/2017 09:58 AM
+2609,Conversion Tools,Bug,New,Normal,Modify conversion processing so that basename can be specified with a trailing /,"",07/16/2015 04:18 PM
+3234,User Interface,Bug,New,Normal,loading image with no extension in filename does not work from file system,"",01/31/2017 03:17 PM
+3238,User Interface,Bug,New,Normal,GUI BROWSE gives an error when its parent top-level window maximized,"",02/02/2017 04:27 PM
+3271,User Interface,Bug,New,Normal,Using NCURSES 6.0 on systems that does not have 5.9 sources with fresh install,"",04/02/2017 06:15 PM
+3688,User Interface,Bug,New,Normal,Window can't be resized to smaller sizes,"",08/15/2018 04:09 PM
+3270,User Interface,Bug,New,Normal,Wrong alignment of currency fields,"",03/31/2017 05:13 PM
+2871,Harness,Feature,New,Normal,browser app driver,"",11/20/2015 09:29 AM
+2327,Database,Bug,New,Normal,Wrong values initialized by field initializer ,"",07/02/2014 06:27 AM
+3150,User Interface,Bug,New,Normal,A Slider widget doesn't respond to mouse dragging.,"",07/15/2016 12:35 AM
+2856,User Interface,Bug,New,Normal,GUI SELECTION-LIST of 1 item doesn't select the item on key down,"",11/17/2015 07:16 PM
+1930,Bugs,Bug,New,Normal,"toString for BaseDataType instances called by loggers causes ""Value ... cannot be displayed using <format>""","",12/21/2012 07:28 AM
+3117,Database,Bug,New,Normal,test and fix VALIDATION() expressions in a DELETE statement,"",05/31/2016 01:49 PM
+3156,User Interface,Bug,New,Normal,Frame is replaced in the target window incorrectly.,"",07/25/2016 01:20 PM
+1902,Conversion Tools,Feature,New,Normal,automatically default global configuration changes based on the platform on which conversion is running,"",11/16/2016 01:16 PM
+3244,User Interface,Feature,New,Normal,implement search-by-key in SELECTION-LIST,"",06/17/2025 06:27 PM
+2864,Harness,Feature,New,Normal,"create window, control and specific rectangle image capture support","",11/20/2015 09:17 AM
+3267,User Interface,Bug,New,Normal,same field referenced twice in a frame,"",03/16/2017 02:49 PM
+2760,User Interface,Bug,New,Normal,SwingEmulatedWindow.moveToTop() in Swing forces focus to shift to the window that has been moved but this doesn't happen in the 4GL,"",10/16/2015 08:27 AM
+1540,Harness,Feature,New,Normal,make default attributes scopeable,"",09/18/2012 05:56 PM
+3114,Conversion Tools,Bug,New,Normal,changing SharedVariableManager to call TransactionManager.register[Global](),"",05/18/2016 10:57 AM
+2801,User Interface,Bug,New,Normal,frame's dimension (from SIZE option) gets altered  after frame attributes are set,"",11/16/2016 12:23 PM
+1852,User Interface,Support,New,Normal,update the UI portions of the Conversion Reference,"",11/16/2016 01:31 PM
+1922,Conversion Tools,Feature,New,Normal,identify if and how we can convert the super procedure chain into an interface hierarchy,"",11/16/2016 12:46 PM
+2215,Base Language,Feature,New,Normal,implement the unwrapped mode of passing parameters to web service requests,"",12/24/2013 06:15 AM
+3258,User Interface,Feature,New,Normal,improve javascript upcalls from the embedded client,"",03/07/2017 12:54 PM
+2158,Runtime Infrastructure,Feature,New,Normal,"create a minimal jar file suitable for making a remote connection to a P2J server, processing our data types and handling appserver calls","",11/16/2016 01:08 PM
+1536,Harness,Feature,New,Normal,add wait-while-screen-buffer directive,"",09/18/2012 03:59 PM
+2597,User Interface,Bug,New,Normal,Rows are quirky committed on insert-row() call.,"",06/26/2015 06:19 AM
+3124,User Interface,Bug,New,Normal,Various ChUI menu issues,"",06/08/2016 10:16 AM
+1984,Base Language,Feature,New,Normal,"make methods to act as ""read-only"" attributes","",04/12/2013 06:02 AM
+2866,Harness,Feature,New,Normal,implement text comparison support,"",11/20/2015 09:28 AM
+2868,Harness,Feature,New,Normal,enhance or extend key input processing to match GUI program input needs,"",11/20/2015 09:27 AM
+3023,User Interface,Bug,New,Normal,error when frame initialization fails,"",03/09/2016 09:17 AM
+3247,Conversion Tools,Feature,New,Normal,need for different configuration values for different parts of a conversion project ,"",02/10/2017 02:07 PM
+2993,Runtime Infrastructure,Support,New,Normal,penetration testing: non-priviledged local user scenario,"",02/11/2016 09:57 AM
+3241,Database,Bug,New,Normal,schema conversion only allows _user table in one schema,"",02/06/2017 02:00 PM
+2693,Runtime Infrastructure,Bug,New,Normal,terminating the server is broken (using ServerDriver -k),"",11/16/2016 12:23 PM
+2735,User Interface,Bug,New,Normal,fix WindowGuiImpl.truncateWindowHeightQuirk(),"",09/23/2015 03:34 PM
+2326,Database,Bug,New,Normal,Reference to the extent value of a field is emitted as a constant ,"",07/02/2014 06:20 AM
+1909,Bugs,Bug,New,Normal,error initializing the MultiClassLoader when a jar in the class path does not exist,"",11/05/2012 05:50 AM
+3233,User Interface,Bug,New,Normal,button accelerators do not work,"",01/31/2017 07:52 PM
+2946,Database,Bug,New,Normal,SESSION:FIRST-BUFFER buffer order is wrong,"",01/06/2016 01:48 PM
+3251,Base Language,Bug,New,Normal,implement safe and secure processing of procedure manager parameters when up-called from javascript,"",02/22/2017 08:03 AM
+2152,Bugs,Bug,New,Normal,"server-to-sever connection problem (CTRL-C 3-way test fails on devsrv01, when ran from ant)","",05/23/2013 07:10 AM
+3252,User Interface,Bug,New,Normal,incorrect cursor position in password fill-ins,"",03/02/2017 11:25 AM
+3259,User Interface,Feature,New,Normal,add useful web components that can be easily integrated into the embedded web client,"",03/07/2017 12:52 PM
+1706,Bugs,Bug,New,Normal,temp-table buffer scoping,"",04/21/2016 08:51 AM
+1865,Core Development,Support,New,Normal,create the training materials for the Developer 2 class,"",11/16/2016 01:31 PM
+2690,User Interface,Bug,New,Normal,ChUI quirk when sub-menu doesn't have any children,"",09/08/2015 04:11 AM
+3245,User Interface,Bug,New,Normal,move-before-tab-item and move-after-tab-item must not affect the z-order,"",02/07/2017 03:15 PM
+2927,User Interface,Feature,New,Normal,add I18N features to the default popup menu for editable widgets,"",12/12/2015 06:42 AM
+2869,Harness,Feature,New,Normal,add mouse input event support,"",11/20/2015 09:27 AM
+1707,Bugs,Bug,New,Normal,FOR retry issues,"",10/29/2012 08:46 AM
+2688,Base Language,Bug,New,Normal,eliminate differences in the http header and xml content of the web services implementation,"",09/04/2015 05:05 PM
+2611,User Interface,Bug,New,Normal,problems in UNDERLINE support for ChUI - stream/redirected mode,"",07/22/2015 03:42 PM
+1708,Bugs,Bug,New,Normal,charva/awt/ScreenBitmap.java cleanup,"",10/29/2012 08:48 AM
+1709,Bugs,Bug,New,Normal,"""can't operate on a closed statement error"" in log","",10/29/2012 08:50 AM
+1724,Conversion Tools,Feature,New,Normal,"replace ""new FieldReference(dmo, propertyName)"" in business logic with less verbose alternative","",11/16/2016 12:46 PM
+2223,Database,Bug,New,Normal,ASSIGN schema triggers without reference to database fields,"",11/16/2016 01:16 PM
+2386,Base Language,Bug,New,Normal,STRING(memptr_var) will render the contents of the memptr as a null terminated string,"",09/08/2014 02:07 PM
+4617,User Interface,Bug,New,Normal,Number of GUI frames in default window differs from 4GL,"",04/17/2020 10:32 AM
+1675,Conversion Tools,Feature,New,Normal,"remove unreferenced streams, frames, buffers, temp-tables","",11/16/2016 12:46 PM
+1676,Conversion Tools,Feature,New,Normal,remove conditional expressions that always evaluate true or false,"",11/16/2016 12:46 PM
+8212,Database,Bug,New,Normal,FILL operations do not work correctly with active dataset relations,"",01/23/2024 02:08 PM
+1677,Conversion Tools,Feature,New,Normal,deeper analysis of IF/CASE and other condition expressions,"",11/16/2016 12:46 PM
+1589,Conversion Tools,Bug,New,Normal,during parsing the .lexer file is sometimes arbitrarily truncated,"",10/12/2012 04:29 PM
+1534,Harness,Feature,New,Normal,expand support for variable references,"",09/18/2012 03:45 PM
+1725,Conversion Tools,Feature,New,Normal,replace unnecessary use of FieldReference in message and messageBox calls,"",11/16/2016 12:46 PM
+2336,Database,Bug,New,Normal,TABLE-HANDLE FOR parameters for internal procedures,"",07/09/2014 05:08 PM
+1535,Harness,Feature,New,Normal,add read-screen-rect directive,"",09/18/2012 03:54 PM
+1894,Runtime Infrastructure,Feature,New,Normal,move the file_sys.xml configuration into name_map.xml,"",11/16/2016 01:08 PM
+2895,User Interface,Bug,New,Normal,Implement separate COLUMN-LABEL annotations for similair temp tables,"",12/01/2015 05:50 PM
+2890,User Interface,Bug,New,Normal,Incompatible ON ENTRY trigger activation,"",12/01/2015 09:28 AM
+1904,Conversion Tools,Feature,New,Normal,update the chemtutor build.xml to handle conversion on Windows,"",11/16/2016 01:16 PM
+5564,User Interface,Bug,New,Normal,Prevent unnecessary triggers to destroyed widgets,"",07/27/2021 01:25 PM
+1727,Conversion Tools,Feature,New,Normal,detect constant variables and rewrite as final statics (non-shared vars only),"",11/16/2016 12:46 PM
+2225,Base Language,Feature,New,Normal,implement ssl and async realted  connection options  for web services,"",01/10/2014 09:00 AM
+1678,Conversion Tools,Feature,New,Normal,rollup/simplify/remove dead code usually caused by preprocessor substitutions,"",11/16/2016 12:47 PM
+1908,Conversion Tools,Support,New,Normal,update documentation for Windows conversion,"",11/16/2016 01:16 PM
+1853,Base Language,Support,New,Normal,update the base language portions of the Conversion Reference,"",11/16/2016 01:31 PM
+1710,Bugs,Bug,New,Normal,issues related to ALERT-BOX'es,"",10/29/2012 09:07 AM
+3045,Bugs,Bug,New,Normal,Clean up localedef warnings for en_US@p2j_basic locale,"",03/30/2016 12:48 PM
+1854,Database,Support,New,Normal,update the DB portions of the Conversion Reference,"",11/16/2016 01:31 PM
+2106,Base Language,Bug,New,Normal,Missing runtime error messages in P2J,"",04/03/2013 06:08 AM
+2241,User Interface,Bug,New,Normal,Uncompilable code is generated when PFCOLOR option is used with DEFINE VARIABLE,"",02/11/2014 01:54 PM
+3000,User Interface,Feature,New,Normal,implement the SLIDER widget in ChUI,"",02/19/2016 11:55 AM
+1519,Conversion Tools,Feature,New,Normal,report improvements,"",11/16/2016 01:34 PM
+1680,Conversion Tools,Feature,New,Normal,"convert ""for each foo: delete foo. end."" into a simpler form","",11/16/2016 12:46 PM
+1728,Conversion Tools,Feature,New,Normal,better analysis of function parameters to avoid emitting unnecessary code in business logic,"",11/16/2016 12:46 PM
+1738,Conversion Tools,Feature,New,Normal,provide configurable control over code formatting,"",11/11/2019 03:32 PM
+1736,Conversion Tools,Feature,New,Normal,explore possibility of super procedures via Java inheritance,"",11/16/2016 12:46 PM
+1737,Conversion Tools,Feature,New,Normal,eliminate/consolidate schema tables where possible,"",11/16/2016 12:46 PM
+1515,Conversion Tools,Feature,New,Normal,implement gap analysis views in all reports,"",01/17/2017 11:23 AM
+1927,Bugs,Bug,New,Normal,The Exception raising - org.hibernate.NonUniqueObjectException: a different object with the same identifier value was already associated with the session,"",12/12/2012 02:37 PM
+1730,Conversion Tools,Feature,New,Normal,implement macro pattern matching,"",11/16/2016 12:47 PM
+1537,Harness,Feature,New,Normal,allow access to named semaphores from inside run-code directives,"",09/18/2012 05:18 PM
+1538,Harness,Feature,New,Normal,allow read-only access to the SessionSettings instance from inside the run-code directive,"",09/18/2012 05:20 PM
+1733,Conversion Tools,Feature,New,Normal,refactor/reuse validation expressions,"",11/16/2016 12:47 PM
+2624,User Interface,Bug,New,Normal,window clear at procedure end,"",11/16/2016 12:23 PM
+1996,Runtime Infrastructure,Feature,New,Normal,use generics to simplify the Resolvable class hierarchy,"",11/16/2016 01:21 PM
+1681,Conversion Tools,Feature,New,Normal,"convert ""for each foo: i = i + 1. end."" to something like RecordBuffer.count(fooDMO)","",11/16/2016 12:46 PM
+1682,Conversion Tools,Feature,New,Normal,IF/ELSE unreachable processing needs to promote THEN/ELSE child nodes into enclosing block,"",11/16/2016 12:46 PM
+9874,User Interface,Bug,New,Normal,Incorrect TAB and BACKTAB handling in FILL-IN with no other tab stops,"",04/04/2025 01:47 PM
+1684,Conversion Tools,Feature,New,Normal,variable definitions made in unreachable code actually still exist and can be used in Progress code,"",11/16/2016 12:46 PM
+1685,Conversion Tools,Feature,New,Normal,log all dead/unreachable code decisions,"",11/16/2016 12:46 PM
+2800,User Interface,Feature,New,Normal,implement GUI support for CHOOSE,"",08/11/2017 12:07 PM
+2111,Conversion Tools,Feature,New,Normal,"improve handling of comments that are related to each other (""sets"" of comments)","",11/16/2016 12:46 PM
+2112,Conversion Tools,Feature,New,Normal,blank lines before and/or after a comment should result in spacers in the converted code,"",11/16/2016 12:46 PM
+2902,User Interface,Bug,New,Normal,demo/demo_widgets.p top frame is made scrollable (height is incorrect?),"",11/16/2016 12:23 PM
+2920,User Interface,Bug,New,Normal,fix fill-in caret color when background is not white,"",11/16/2016 12:23 PM
+9808,User Interface,Bug,New,Normal,Incorrect screen value for datetime / datetime-tz,"",03/19/2025 07:44 AM
+2105,Base Language,Bug,New,Normal,BlockManager does not return some datatypes correctly,"",04/12/2013 06:04 AM
+3689,User Interface,Bug,New,Normal,In Web GUI when a window is maximized the title bar buttons stop accepting mouse input,"",08/15/2018 04:12 PM
+1689,Bugs,Bug,New,Normal,browse drawing with no display column and query clauses,"",03/23/2016 05:23 PM
+7,Bugs,Bug,New,Normal,misconversion of multi-table FOR/REPEAT/DO with UNIQUE component,"",10/03/2011 12:00 PM
+1686,Conversion Tools,Feature,New,Normal,ensure frame definitions properly account for formatting information in otherwise dead code,"",11/16/2016 12:46 PM
+1687,Conversion Tools,Feature,New,Normal,remove frames which are completely scoped to dead code,"",11/16/2016 12:46 PM
+1703,Bugs,Bug,New,Normal,message stmt expression evaluation,"",10/29/2012 08:41 AM
+2789,User Interface,Bug,New,Normal,implement generic ALT+mnemonic accelerator support for arbitrary focus changes in widgets,"",11/16/2016 12:23 PM
+2113,Conversion Tools,Bug,New,Normal,convert/comments.rules should ignore artificial nodes when trying to match comments to code,"",11/16/2016 12:46 PM
+1741,Conversion Tools,Feature,New,Normal,create include analyzer to identify safe code that can be moved to a common location,"",11/16/2016 12:47 PM
+22,Core Development,Feature,New,Normal,implement preprocessor statistics collection,"",12/02/2004 12:00 PM
+1742,Conversion Tools,Feature,New,Normal,create hints documenting where (and how many times) each file is included,"",11/16/2016 12:47 PM
+2599,User Interface,Bug,New,Normal,4GL makes selection invalid after row deletion,"",06/26/2015 07:13 PM
+2799,User Interface,Bug,New,Normal,browse widget doesn't execute validation expressions in P2J (both chui  and gui),"",11/20/2017 10:26 AM
+2253,User Interface,Feature,New,Normal,eliminate listener/event model,"",03/05/2014 04:12 PM
+1900,Runtime Infrastructure,Support,New,Normal,"improve LoadCert JavaDoc and the corresponding documentation in the P2J Runtime Installation, Configuration and Administration Guide","",11/16/2016 01:31 PM
+2886,User Interface,Bug,New,Normal,missing pause when an invalid program name is input in ask-gui.p,"",11/16/2016 12:23 PM
+2154,Base Language,Bug,New,Normal,Date arithmetics and Gregorian gap,"",05/24/2013 02:43 PM
+3003,Runtime Infrastructure,Feature,New,Normal,improve performance of BaseDataType.deepCopy(),"",11/16/2016 12:30 PM
+3047,Database,Feature,New,Normal,JDBC jar deployment,"",11/16/2016 01:06 PM
+1721,Conversion Tools,Feature,New,Normal,name skip/space widgets skipX or spaceY instead of exprX or exprY,"",11/16/2016 12:46 PM
+3118,Runtime Infrastructure,Bug,New,Normal,performance can be improved by reducing the number of places where we instantiate an exception unnecessarily,"",06/01/2016 09:09 AM
+3016,User Interface,Bug,New,Normal,In 4GL window HEIGHT can be less than the actual height,"",03/07/2016 05:30 AM
+2034,Database,Bug,New,Normal,correct conversion of CAN-FIND({FIRST|LAST} ... {SHARE-LOCK|EXCLUSIVE_LOCK} [NO-WAIT]),"",11/16/2016 01:16 PM
+1719,Conversion Tools,Feature,New,Normal,flatten if/else chains in converted code,"",11/16/2016 12:46 PM
+3249,User Interface,Bug,New,Normal,APPLY statement to send characters to an unfocused Fill-In ,"",02/18/2017 02:36 AM
+1674,Conversion Tools,Feature,New,Normal,"remove unreferenced, non-shared variables","",11/16/2016 12:46 PM
+1667,Database,Feature,New,Normal,"improve support for ""FOR EACH FIRST"" and similar cases","",11/16/2016 12:30 PM
+1864,Core Development,Support,New,Normal,update the training materials for the Developer 1 class,"",11/16/2016 01:31 PM
+1659,Database,Feature,New,Normal,add support for field exclusion/inclusion lists in queries,"",11/16/2016 12:30 PM
+2137,Database,Feature,New,Normal,runtime support for FIELDS/EXCEPT record phrase options,"",01/20/2023 09:51 AM
+2335,Runtime Infrastructure,Bug,New,Normal,output wrapping errors,"",11/16/2016 12:23 PM
+1906,Conversion Tools,Feature,New,Normal,"find a way to programmatically force file.encoding=""UTF-8"" for the entire JVM when running on Windows, without needing to specify it on the command line or in some configuration file","",11/16/2016 01:16 PM
+2161,Database,Feature,New,Normal,Changing UNDO attribute of dynamic table,"",10/01/2013 06:27 PM
+2600,User Interface,Bug,New,Normal,Implement proper refresh after deletion if the deleted row is a new row outside of the view,"",06/26/2015 08:12 PM
+2670,User Interface,Feature,New,Normal,browser resize should re-layout the login page,"",08/31/2015 03:36 PM
+2671,User Interface,Feature,New,Normal,provide a facility to customize the JVM args and Java command line used by the spawner,"",03/25/2016 12:38 PM
+2598,User Interface,Bug,New,Normal,Adding new row in REPLACE mode causes quirk ,"",06/26/2015 04:12 PM
+1547,Harness,Feature,New,Normal,Windows OS support,"",09/18/2012 06:07 PM
+2712,Conversion Tools,Bug,New,Normal,Incorrect conversion of the DEFINE RECTANGLE ... LIKE ... statement,"",09/14/2015 04:15 PM
+2977,User Interface,Bug,New,Normal,LOAD-MOUSE-POINTER implementation for the BROWSE widget,"",02/03/2016 10:23 AM
+9613,Conversion Tools,Bug,New,Normal,Name collision between  DMO class name and FWD classes. ,"",02/05/2025 09:19 AM
+2900,User Interface,Bug,New,Normal,the drop-down in movie-ratings-dynamic.p shows an extra line,"",11/16/2016 12:23 PM
+3015,User Interface,Bug,New,Normal,Frame scrolling is broken,"",08/03/2022 11:17 AM
+4598,User Interface,Bug,New,Normal,define shared menu statement is converted using new name to reference the shared menu,"",03/23/2020 10:06 AM
+1845,Runtime Infrastructure,Feature,New,Normal,create a simple tool (and docs) to provide easy creation/import of the configuration for a new server,"",12/28/2020 08:31 PM
+2694,Runtime Infrastructure,Feature,New,Normal,provide configurable control of STDERR logging for spawned clients,"",11/16/2016 01:06 PM
+2757,User Interface,Bug,New,Normal,Non-button widget as CANCEL-BUTTON/DEFAULT-BUTTON option,"",03/21/2016 11:19 AM
+2863,Harness,Feature,New,Normal,implement GUI application test automation features,"",11/20/2015 09:14 AM
+4073,Core Development,Bug,New,Normal,code size limit exceeded,"",05/09/2019 01:36 PM
+3006,User Interface,Bug,New,Normal,paste operation doesn't work properly,"",02/25/2016 05:42 PM
+1913,Database,Bug,New,Normal,default locking in a BROWSE widget,"",11/09/2012 08:48 AM
+1604,Conversion Tools,Feature,New,Normal,enhance name conversion to support malformed frame names and labels,"",03/23/2016 04:56 PM
+10144,User Interface,Bug,New,Normal,Date slashes inconsistent in datetime and datetime-tz  fields,"",06/12/2025 07:19 AM
+1716,Conversion Tools,Feature,New,Normal,remove unnecessary wrapping/unwrapping for expressions where primitive results could be used directly,"",11/16/2016 12:47 PM
+1863,Conversion Tools,Support,New,Normal,create training materials for the Conversion class,"",11/16/2016 01:31 PM
+1740,Conversion Tools,Feature,New,Normal,refactor include code for less verbose/redundant converted business logic,"",11/16/2016 12:47 PM
+1449,Bugs,Bug,New,Normal,ProtocolViolation error,"",07/25/2012 06:40 AM
+1862,Runtime Infrastructure,Support,New,Normal,create training materials for the P2J Administration class,"",11/16/2016 01:31 PM
+1563,Harness,Feature,New,Normal,add database table comparisons (similar to how we compare screens or reports),"",09/18/2012 06:46 PM
+1848,Runtime Infrastructure,Feature,New,Normal,make logging settings controllable dynamically at runtime,"",05/10/2023 08:06 AM
+1861,Runtime Infrastructure,Support,New,Normal,"update the administration portions of the Runtime Installation, Configuraton and Administration Guide","",11/16/2016 01:31 PM
+2372,User Interface,Feature,New,Normal,implement support for PUT SCREEN in GUI,"",08/11/2014 10:09 AM
+2357,Conversion Tools,Bug,New,Normal,callgraph - set schema triggers as entry points,"",08/04/2014 09:10 AM
+1561,Harness,Feature,New,Normal,not run directives should be resolved and output into the detailed report on failures,"",09/18/2012 06:34 PM
+10806,Database,Bug,New,Normal,Presort queries can sometimes dynamically find records created after opening the query,"",11/03/2025 05:23 AM
+2718,Database,Bug,New,Normal,implicit conversion of empty string to integer 0,"",09/15/2015 11:26 AM
+6710,Database,Feature,New,Normal,persist dynamic temp-tables across server restarts,"",01/24/2025 07:45 AM
+1770,Conversion Tools,Feature,New,Normal,multi-threaded conversion driver,"",12/27/2017 12:43 PM
+2303,User Interface,Bug,New,Normal,Incorrect UP statement handling with underlined widgets,"",05/16/2014 01:18 PM
+1562,Harness,Feature,New,Normal,report output for some directives can be improved,"",09/18/2012 06:35 PM
+2314,Database,Feature,New,Normal,make the _meta database conversion and runtime optional,"",06/03/2014 04:32 PM
+2379,User Interface,Feature,New,Normal,implement color support in the Windows native console (ChUI) client,"",08/21/2014 11:16 AM
+1765,Conversion Tools,Feature,New,Normal,create a tool to manage project configuration in the database,"",11/16/2016 12:46 PM
+1766,Conversion Tools,Feature,New,Normal,create tools to manage non-flat file conversion artifacts,"",11/16/2016 12:46 PM
+1767,Conversion Tools,Feature,New,Normal,rework the conversion front-end to be backed by the database,"",11/16/2016 12:46 PM
+1768,Conversion Tools,Feature,New,Normal,eliminate statics/singleton patterns in the conversion driver and all other related classes for the front end,"",11/16/2016 12:46 PM
+1769,Conversion Tools,Feature,New,Normal,implement full locking/synchronization for all shared data in the conversion driver and workers,"",11/16/2016 12:46 PM
+2790,User Interface,Bug,New,Normal,implement generic for button groups,"",10/24/2015 11:46 AM
+2277,Base Language,Bug,New,Normal,Wrong conversion of session handler,"",04/03/2014 11:32 AM
+2925,User Interface,Bug,New,Normal,EDITOR widget is invisible in presence of the BROWSE one.,"",02/22/2016 10:22 AM
+1761,TRPL,Feature,New,Normal,create export tools to output flat files stored in the database,"",11/16/2016 10:00 AM
+1762,TRPL,Feature,New,Normal,"create tools to list, delete and otherwise manage flat files stored in the database","",11/16/2016 10:00 AM
+1763,TRPL,Feature,New,Normal,write an AST persistence plugin for database-backed AST loading/persisting,"",11/16/2016 10:01 AM
+1764,TRPL,Feature,New,Normal,rework the pattern engine/TRPL runtime to operate against the database,"",11/16/2016 10:01 AM
+3504,User Interface,Bug,New,Normal,sizing and centering issues with button image loading,"",03/09/2018 10:49 AM
+2359,Database,Feature,New,Normal,automated maintenance of database support files,"",08/05/2014 01:33 PM
+2168,User Interface,Bug,New,Normal,Combo-box initial shape attribute mismatch,"",09/03/2013 04:32 PM
+2473,User Interface,Bug,New,Normal,ENABLE/DISABLE by themselves don't define frames (but they do add to them if the frames otherwise exist),"",01/02/2015 02:52 PM
+2123,Base Language,Feature,New,Normal,map the converted method/attribute names to their legacy name,"",04/12/2013 06:04 AM
+2136,Base Language,Feature,New,Normal,add hashing and encryption built-in functions to SecurityOps,"",04/25/2013 04:50 PM
+1771,Conversion Tools,Feature,New,Normal,rework all conversion tools to use a database-backed/centralized configuration,"",11/16/2016 12:46 PM
+1772,Conversion Tools,Feature,New,Normal,rework all conversion tools to use database-backed/centralized tracing/logging/error management,"",11/16/2016 12:46 PM
+2605,User Interface,Bug,New,Normal,pushScreenDefinition overrides  dynamic header of the frame,"",07/09/2015 09:58 AM
+1773,Conversion Tools,Feature,New,Normal,rework all conversion tools to implement versioning,"",11/16/2016 12:46 PM
+1903,Conversion Tools,Feature,New,Normal,disambiguate generated filenames that are only differentiated by a difference in case (on Windows filename.txt and filEname.txt refer to the same file),"",11/16/2016 01:16 PM
+2345,User Interface,Bug,New,Normal,already visible frames will sometimes have their screen-buffer updated by changes to the same frame used in streams,"",07/25/2014 09:42 AM
+2377,Database,Bug,New,Normal,default buffer can be incorrectly scoped to an internal procedure,"",08/13/2014 05:52 PM
+3505,Base Language,Feature,New,Normal,implement CONNECT TO support for CREATE OBJECT,"",03/09/2018 11:25 AM
+1720,Conversion Tools,Feature,New,Normal,improve conversion of Progress 4GL if/else do: if/else end.,"",11/16/2016 12:46 PM
+1759,TRPL,Feature,New,Normal,design a database to back all TRPL processing,"",11/16/2016 09:59 AM
+2169,User Interface,Bug,New,Normal,Scrollbars issue in combo-box and selection-list,"",09/03/2013 04:33 PM
+2170,User Interface,Bug,New,Normal,Selection list does not show the vertical scrollbar,"",09/03/2013 04:34 PM
+2171,User Interface,Bug,New,Normal,Focused radio-button attribute mismatch,"",09/03/2013 04:35 PM
+3126,Database,Bug,New,Normal,Incorrect compound query iteration order if a backing buffer is updated.,"",06/09/2016 09:11 AM
+2474,User Interface,Feature,New,Normal,dynamically execute applhelp.p instead of driving it from a static directory entry,"",03/23/2016 04:39 PM
+1784,User Interface,Feature,New,Normal,support the runtime assignment of a browse title (from an expression instead of a literal),"",03/23/2016 04:55 PM
+1718,Conversion Tools,Feature,New,Normal,"move ControlFlowOps.setReturnValue("""") from business logic into runtime (TransactionManager)","",11/16/2016 12:46 PM
+2035,Database,Feature,New,Normal,optimize conversion of CAN-FIND([FIRST|LAST] temp-table-record ... {SHARE-LOCK|EXCLUSIVE-LOCK}),"",11/16/2016 01:16 PM
+1704,Bugs,Bug,New,Normal,legacy DB name mapping,"",10/29/2012 08:43 AM
+4418,Database,Feature,New,Normal,improve/fix temp-table naming approach,"",11/19/2019 09:19 AM
+1817,User Interface,Feature,New,Normal,implement a spin-button widget to replace the CSSpin OCX,"",03/23/2016 12:53 PM
+2172,User Interface,Bug,New,Normal,Editor widget vertical scrollbar issue,"",09/03/2013 04:36 PM
+1705,Bugs,Bug,New,Normal,DMO index cleanup,"",10/29/2012 08:44 AM
+1816,User Interface,Feature,New,Normal,implement a combo-box widget to replace the CSComboBox OCX,"",03/23/2016 12:53 PM
+1819,User Interface,Feature,New,Normal,implement a progress indicator widget to replace the ProgressBar OCX,"",03/23/2016 12:54 PM
+1822,User Interface,Feature,New,Normal,implement a calendar widget to replace the Calendar OCX,"",03/23/2016 12:55 PM
+2568,Database,Bug,New,Normal,Possibly wrong default column label value,"",05/02/2015 12:42 AM
+2576,User Interface,Bug,New,Normal,Cursor position in numeric fields (ChUI),"",05/17/2015 11:34 AM
+2381,User Interface,Feature,New,Normal,implement PUT-KEY-VALUE COLOR (n | ALL),"",03/23/2016 04:42 PM
+2579,User Interface,Bug,New,Normal,Cursor offset is reset after a trigger containing MESSAGE ... UPDATE,"",05/21/2015 04:18 AM
+2682,User Interface,Bug,New,Normal,Swing GUI client does not honor icon in the OS level task bar,"",09/04/2015 10:43 AM
+3040,Database,Bug,New,Normal,CAN-FIND issues,"",03/25/2016 01:09 PM
+1810,Conversion Tools,Feature,New,Normal,expand use of varargs in the runtime,"",11/16/2016 12:46 PM
+2904,User Interface,Bug,New,Normal,./frame-z-order/zw1.p  - incorrect focus owner,"",12/03/2015 10:34 AM
+1722,Conversion Tools,Feature,New,Normal,remove format string constants that are not referenced in the business logic,"",11/16/2016 12:46 PM
+3506,Base Language,Feature,New,Normal,implement array support for COM automation methods and properties,"",03/09/2018 11:28 AM
+2185,User Interface,Feature,New,Normal,ROW attribute error handling is incomplete,"",09/24/2013 02:10 PM
+1723,Conversion Tools,Feature,New,Normal,"remove unnecessary curly braces associated with not being an ""integrated_simple_do"" in control_flow.rules","",11/16/2016 12:46 PM
+2203,Database,Feature,New,Normal,replace or minimize use of dmo_index.xml file,"",11/20/2013 11:03 AM
+2179,User Interface,Bug,New,Normal,Focus issues in combo-box,"",09/09/2013 04:52 PM
+2193,User Interface,Bug,New,Normal,message with view-as alert-box visual errors when using special characters ,"",10/16/2013 11:59 AM
+2384,User Interface,Feature,New,Normal, implement custom color overrides for ChUI,"",09/03/2014 12:07 PM
+1860,Runtime Infrastructure,Support,New,Normal,"update the configuration portions of the Runtime Installation, Configuraton and Administration Guide","",11/16/2016 01:31 PM
+2202,Bugs,Bug,New,Normal,ContextLocal should disallow calls which operate on its data during cleanup(),"",11/12/2013 05:21 PM
+2419,Base Language,Bug,New,Normal,Type mismatch error in the converted code when integer literal passed to decimal parameter ,"",10/12/2014 05:17 PM
+2382,Database,Bug,New,Normal,Improve format string error handling in ADD-NEW-FIELD implementation,"",10/11/2014 03:15 PM
+2417,Database,Bug,New,Normal,DatabaseManager reports severe error when registering a database more than once,"",10/08/2014 02:27 PM
+2432,User Interface,Bug,New,Normal,investigate and fix collisions related to event/key codes reported by KEY-CODE and LAST-EVENT,"",10/31/2014 05:31 AM
+2582,User Interface,Bug,New,Normal,Some key labels are not supported by p2j,"",03/23/2016 05:17 PM
+2188,Base Language,Bug,New,Normal,fix runtime for SCREEN-VALUE attribute,"",11/16/2016 12:23 PM
+1825,Conversion Tools,Feature,New,Normal,"make common format strings into static, final variables in a shared class","",11/16/2016 12:46 PM
+1828,Conversion Tools,Feature,New,Normal,"move header ""widgets"" that represent constants into the frame definition","",11/16/2016 12:47 PM
+2192,User Interface,Bug,New,Normal,built-in functions without parameters are displayed only once,"",11/16/2016 01:21 PM
+2979,User Interface,Bug,New,Normal,The drop-down selection list for the combo-box is not properly aligned in the WebGUI,"",02/04/2016 08:19 AM
+3692,User Interface,Bug,New,Normal,invalid handle in tree view,"",08/21/2018 11:05 AM
+2383,Database,Support,New,Normal,write an SQL script to verify all UDFs for built-in functions work once p2jpl.jar is installed in a database,"",08/30/2014 11:16 PM
+2224,Bugs,Bug,New,Normal,StackOverflowError on start server in runtime when logging level is set to FINEST,"",01/09/2014 03:30 PM
+2194,Base Language,Feature,New,Normal,Creating testcases to check legacy attributes for resources used in CAN-QUERY/CAN-SET statement converion code,"",10/15/2013 09:53 PM
+2387,Database,Bug,New,Normal,improve compatibility of NO-UNDO temp-tables,"",09/12/2014 04:08 PM
+1829,User Interface,Feature,New,Normal,implement conversion support to migrate Windows help files to the proper format for the converted system,"",03/23/2016 12:55 PM
+8511,Conversion Tools,Bug,New,Normal,replace string annotation with numeric annotations,"",03/24/2024 08:47 AM
+2199,Database,Bug,New,Normal,ambiguity warnings too aggressively disabled,"",11/27/2013 11:25 AM
+2418,User Interface,Bug,New,Normal,frame construction issue,"",10/09/2014 11:54 AM
+1726,Conversion Tools,Feature,New,Normal,"reset the counter for ""condition"" and ""editingLabel"" in <init-rules> for annotations rule sets","",11/16/2016 12:46 PM
+2413,Database,Bug,New,Normal,"Invalid multi-table conversion (Compound(Preselect, Adaptive) instead of Preselect)","",10/06/2014 07:25 AM
+2429,Base Language,Bug,New,Normal,fix null character handling,"",10/27/2014 02:17 PM
+2527,Base Language,Bug,New,Normal,after ENDKEY (F4) the server-side screen buffer needs to be updated,"",11/16/2016 12:23 PM
+2178,Database,Bug,New,Normal,Asymmetric sequence behavior,"",09/06/2013 12:23 PM
+2182,Base Language,Bug,New,Normal,"HANDLE attribute doesn't convert properly in ""h:handle:<attr/method>"" cases","",09/17/2013 07:33 AM
+1835,Conversion Tools,Feature,New,Normal,replace common setup code for super-procedures with hand-written Java code,"",11/16/2016 12:46 PM
+2753,User Interface,Bug,New,Normal,window scrollbars unexpectedly appear during window resize,"",11/16/2016 12:23 PM
+2490,User Interface,Feature,New,Normal,fix movement of widgets part of a down frame's body,"",01/15/2015 01:40 PM
+2395,Database,Bug,New,Normal,db admin rights requirement for the system table query,"",09/19/2014 10:30 AM
+3041,Database,Bug,New,Normal,ambiguous field references are allowed in a CAN-FIND,"",03/25/2016 01:09 PM
+2573,User Interface,Feature,New,Normal,"GUI implementation for the ""n COLUMNS"" frame option","",03/23/2016 01:59 PM
+2511,Base Language,Bug,New,Normal,timestamp instance oddity when assigning to a datetime,"",11/16/2016 12:23 PM
+1837,Conversion Tools,Feature,New,Normal,"put common adm, adm2 and appbuilder scaffolding in a base class","",11/16/2016 12:46 PM
+1838,Conversion Tools,Feature,New,Normal,extract symbolic constants from preprocessor expansions where possible,"",11/16/2016 12:46 PM
+1839,Conversion Tools,Feature,New,Normal,add support for the customization of file names (external procedure),"",11/16/2016 12:46 PM
+2453,Conversion Tools,Support,New,Normal,remove unnecessary scope promotion,"",11/16/2016 12:46 PM
+1840,Database,Feature,New,Normal,create a simple tool (and docs) to provide creation/import of databases at client sites,"",11/16/2016 01:08 PM
+2754,User Interface,Bug,New,Normal,dynamic widget attribute assignment breaks when the FRAME attribute is assigned late,"",11/16/2016 12:23 PM
+2525,User Interface,Feature,New,Normal,Runtime support of frame positional attributes,"",03/23/2016 02:52 PM
+1895,Runtime Infrastructure,Feature,New,Normal,improve/automate PLJava registration,"",11/16/2016 01:08 PM
+1916,Runtime Infrastructure,Feature,New,Normal,improve the runtime statistics gathered by P2J,"",04/19/2016 05:42 AM
+2496,Database,Bug,New,Normal,Static conversion of legacy field names does not preserve original case,"",01/22/2015 03:38 PM
+2448,Database,Bug,New,Normal, DynamicQueryHelper.parse accepts predicate with garbage after terminating dot,"",11/21/2014 04:53 PM
+2230,Bugs,Bug,New,Normal,delete event with null entity during rollback processing,"",01/22/2014 12:02 PM
+2526,Database,Bug,New,Normal,Records preserving its position in the sorting index for adaptive query,"",11/16/2016 12:23 PM
+2191,User Interface,Feature,New,Normal,complete support for determining resource type for BROWSE columns,"",10/04/2013 07:14 AM
+2427,User Interface,Bug,New,Normal,do not allow ALT+space to show the popup menu for the OS window,"",03/23/2016 01:58 PM
+2378,User Interface,Feature,New,Normal,implements dos-hex-attribute of COLOR phrase,"",03/23/2016 04:40 PM
+2506,Runtime Infrastructure,Feature,New,Normal,provide support for substitution variables which can be inserted in PROPATH entries in the directory and which will be expanded at load/runtime to system-specific locations,"",11/16/2016 01:08 PM
+2502,Conversion Tools,Feature,New,Normal,using a file list as input for the ConversionDriver fails if there is trailing space,"",11/16/2016 01:16 PM
+2505,Base Language,Feature,New,Normal,SEARCH and loading of static resources from the server-side application jar,"",11/16/2016 01:21 PM
+2703,User Interface,Bug,New,Normal,VIEW of a dynamic widget abends,"",11/16/2016 12:23 PM
+1679,Conversion Tools,Feature,New,Normal,remove concatenation of empty strings,"",11/16/2016 12:46 PM
+3065,Database,Bug,New,Normal,runtime conversion datatype checks,"",04/14/2016 04:56 AM
+9812,User Interface,Support,New,Normal,browser resolution,"",03/20/2025 04:58 AM
+3068,User Interface,Bug,New,Normal,Some widgets draw focused visuals even when window looses focus,"",04/18/2016 12:45 PM
+2519,User Interface,Bug,New,Normal,suspicious  looking scrolling code,"",02/20/2015 01:39 PM
+2518,User Interface,Bug,New,Normal,NPE on exit from testcase with mixed usage of static and dynamic widgets,"",02/20/2015 01:40 PM
+2405,Database,Bug,New,Normal,CompoundQuery.previous() invalid behavior after back off-end ,"",10/03/2014 11:26 AM
+2654,User Interface,Bug,New,Normal,Making a widget VISIBLE displays the parent frame,"",08/19/2015 04:51 PM
+2319,Database,Feature,New,Normal,support for dialect-specific keywords in NameConverter,"",03/30/2016 05:20 AM
+2664,User Interface,Bug,New,Normal,vim doesn't work as an interactive child process in either Swing ChUI or the web ChUI client,"",08/28/2015 02:55 PM
+2396,User Interface,Bug,New,Normal,memory leak when using shared frames,"",11/16/2016 12:30 PM
+2541,Database,Feature,New,Normal,replace the JDBC metadata calls at server startup with DMO annotations,"",11/16/2016 01:16 PM
+1729,Conversion Tools,Feature,New,Normal,implement better default naming rules,"",05/13/2022 10:36 AM
+3143,User Interface,Bug,New,Normal,An infinite loop while closing a dialog,"",07/07/2016 08:45 AM
+2665,User Interface,Bug,New,Normal,vim only partially works as an interactive child process in the NCURSES client,"",08/28/2015 02:57 PM
+2589,Database,Bug,New,Normal,remote request for next primary key gives wrong result when metadata DB is running,"",06/17/2015 06:39 PM
+2627,User Interface,Feature,New,Normal,Implement quirky cases of refresh when REFRESHABLE is turned ON,"",07/30/2015 08:33 AM
+2658,Base Language,Bug,New,Normal,MESSAGE statement expressions that evaluate to a HANDLE are improperly processed,"",08/24/2015 03:39 PM
+2556,User Interface,Feature,New,Normal,add support for COLOR statement in GUI,"",03/23/2016 04:29 PM
+1731,Conversion Tools,Feature,New,Normal,reuse frame elements within business logic,"",11/16/2016 12:47 PM
+1732,Conversion Tools,Feature,New,Normal,refactor common frame element arrays,"",11/16/2016 12:47 PM
+2307,User Interface,Feature,New,Normal,enable skinning of the web client login page,"",08/31/2015 03:08 PM
+2667,User Interface,Feature,New,Normal,login page title improvements,"",08/31/2015 03:24 PM
+2594,Runtime Infrastructure,Feature,New,Normal,Implement a tracing facility for P2J,"",11/16/2016 01:08 PM
+1558,Harness,Feature,New,Normal,fixup the preformatted detailed reports sections to add line breaking for content that is over a certain width,"",09/18/2012 06:27 PM
+2741,User Interface,Bug,New,Normal,SELECTION-LIST sizing issues,"",11/16/2016 12:23 PM
+2666,User Interface,Feature,New,Normal,web client login page improvements,"",03/31/2016 12:47 PM
+2915,User Interface,Bug,New,Normal,A modal window in Swing GUI client should not be on top of all other OS windows,"",04/20/2016 10:16 AM
+2554,Database,Bug,New,Normal,Temp-tables with different labels / column labels are converted to the same TempRecord class.,"",04/22/2015 01:44 PM
+2548,Database,Bug,New,Normal,buffer/tables names are too aggressively matched in preference to other names,"",04/10/2015 05:53 AM
+2637,Base Language,Bug,New,Normal,batch client needs to detect if the client process has output redirected and change error handling,"",02/04/2016 07:50 AM
+3043,User Interface,Bug,New,Normal,Create ChUI dialog for the Progress stack trace,"",03/30/2016 07:42 AM
+1683,Conversion Tools,Feature,New,Normal,"rewrite unreachable processing to run in a loop (and/or using ascent rules) to detect and ""rollup"" dead code","",11/16/2016 12:46 PM
+2640,User Interface,Bug,New,Normal,NPE in registerPersistentTrigger,"",08/17/2015 09:34 AM
+3144,Database,Bug,New,Normal,Provide correct legacy name for a RecordBuffer/TemporaryBuffer,"",07/12/2016 04:01 PM
+2659,Base Language,Bug,New,Normal,memptr in internal procedure address duplication,"",08/24/2015 04:48 PM
+2668,User Interface,Feature,New,Normal,"if there are multiple spawn hosts, allow the user to select the host being logged into","",08/31/2015 03:27 PM
+2669,User Interface,Feature,New,Normal,tabbing flow improvements,"",08/31/2015 03:29 PM
+1434,Core Development,Feature,New,Normal,Conversion reference documentation and training slides,"",08/21/2012 03:49 PM
+2246,Harness,Feature,New,Normal,each failure listed in the summary table should hyperlink directly to the test detail page AND all the way to the failing step in that page so that reviewing failures is quick,"",02/19/2014 12:41 PM
+9876,User Interface,Bug,New,Normal,FILL-IN: date format with long year format component: incorrect INPUT-VALUE,"",04/05/2025 06:42 PM
+2635,User Interface,Feature,New,Normal,multi-window focus management,"",11/16/2016 12:23 PM
+2629,User Interface,Bug,New,Normal,deviations in handle with unknown value error processing and messages,"",07/30/2015 09:52 AM
+2586,User Interface,Bug,New,Normal,FillInWidget.getScreenValue() incorretly returns blank,"",03/23/2016 05:16 PM
+2641,User Interface,Bug,New,Normal,ENABLE ALL should be able to display an empty frame,"",08/17/2015 10:18 AM
+3008,User Interface,Bug,New,Normal,Window in Swing GUI cannot be moved outside of screen bounds,"",02/29/2016 02:42 PM
+3044,Database,Feature,New,Normal,dynamic validation expression support,"",02/07/2019 02:36 PM
+1435,Core Development,Feature,New,Normal,TEXT group option of ENABLE statement conversion/runtime malfunction,"",04/13/2012 08:01 PM
+1436,Bugs,Bug,New,Normal,APPEND option conversion,"",04/15/2012 02:17 PM
+2937,Database,Bug,New,Normal,improved sequence support in H2,"",04/12/2016 09:00 AM
+30,Runtime Infrastructure,Bug,New,Normal,detect denial of service attempt and try to reduce the impact,"",10/31/2012 11:56 AM
+2981,Runtime Infrastructure,Bug,New,Normal,replace SecurityManager.checkCaller() usage with a more performant approach,"",02/04/2016 10:56 AM
+2464,Conversion Tools,Support,New,Normal,"remove business logic var defs, format strings and undoable registrations for vars that only exist to defined @-base field widgets but are otherwise unreferenced as real variables","",12/21/2014 10:19 AM
+2,Harness,Feature,New,Normal,add hyperlink to the exact failed step details for each test failure in the test plan and test set index.html documents,"",04/03/2012 02:57 PM
+3,Bugs,Bug,New,Normal,F4 in 2nd interaction causes cursor to be positioned outside a valid input field,"",04/04/2012 05:06 PM
+4,Bugs,Bug,New,Normal,IdentityPool usage out of session context,"",05/31/2010 12:00 PM
+2747,User Interface,Bug,New,Normal,implement font table editing,"",10/08/2015 03:59 PM
+2602,Database,Bug,New,Normal,A record returned twice because of RELEASE,"",06/30/2015 04:39 PM
+8,Bugs,Bug,New,Normal,misconversion of single-table REPEAT/DO for FIRST/LAST/UNIQUE,"",10/03/2011 12:00 PM
+9,Bugs,Bug,New,Normal,invalid sorting for FOR/REPEAT/DO with FIRST/LAST BREAK BY,"",10/03/2011 12:00 PM
+10,Bugs,Bug,New,Normal,CAN-FIND conversion issue (if WHERE clause evaluated to TRUE),"",10/03/2011 12:00 PM
+11,Bugs,Bug,New,Normal,double field reference emitting problem report,"",10/03/2011 12:00 PM
+1948,Build and Source Control,Support,New,Normal,cleanup package.html contents,"",11/16/2016 01:31 PM
+2661,User Interface,Support,New,Normal,evaluate use of NCURSES 6.0 on Windows which now has a MinGW port,"",11/16/2016 01:08 PM
+2785,User Interface,Bug,New,Normal,./menu/popup_ext.p doesn't display menu for the web client and doesn't open for the swing client,"",10/23/2015 02:22 PM
+1688,Conversion Tools,Feature,New,Normal,move LEAVE/NEXT rewriting from annotations into fixups,"",11/16/2016 12:46 PM
+13,Bugs,Bug,New,Normal,ambiguous field name in CAN-FIND() - Progress quirk,"",12/06/2011 12:00 PM
+19,Bugs,Bug,New,Normal,conversion CASE to SWITCH,"",03/26/2012 12:00 PM
+20,Bugs,Bug,New,Normal,NO-ERROR does not work for FIND statement on preselected results,"",09/24/2011 12:00 PM
+21,Core Development,Feature,New,Normal,add new preprocessor options,"",12/02/2004 12:00 PM
+1557,Harness,Feature,New,Normal,enhance reporting with additional statistics (provide more than just counters),"",09/18/2012 06:26 PM
+23,Core Development,Feature,New,Normal,implement preprocessor activity logging,"",12/02/2004 12:00 PM
+24,Core Development,Feature,New,Normal,implement preprocessor variations generation,"",12/02/2004 12:00 PM
+25,Core Development,Feature,New,Normal,make line and column tracking accurate in preprocessor,"",12/02/2004 12:00 PM
+26,Core Development,Feature,New,Normal,"add support for preprocessor ""features""","",12/02/2004 12:00 PM
+1743,Conversion Tools,Feature,New,Normal,create conversion rules to generate utility classes with common include code,"",11/16/2016 12:47 PM
+1857,Runtime Infrastructure,Support,New,Normal,"update the implementation planning portions of the Runtime Installation, Configuraton and Administration Guide","",11/16/2016 01:31 PM
+1905,Conversion Tools,Feature,New,Normal,why does P2J_HOME have to be explicitly set for running the conversion on Windows and not in Linux? fix this,"",11/16/2016 01:16 PM

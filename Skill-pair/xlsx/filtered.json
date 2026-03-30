@@ -1,0 +1,1027 @@
+{
+  "skill": "D:\\engineer\\SKILL TO INPUT\\SKILLS\\xlsx\\SKILL.md",
+  "threshold": 0.7,
+  "filtered_results": [
+    {
+      "q": "sales data spreadsheet monthly revenue by region",
+      "file_type": "xlsx",
+      "preferred_sites": [
+        "drive.google.com",
+        "dropbox.com",
+        "sharepoint.com"
+      ],
+      "results_annotated": [
+        {
+          "title": "[XLS] selected-monthly-sales-tax-collections-sources.xlsx - Census.gov",
+          "url": "https://www2.census.gov/data/experimental-data-products/selected-monthly-sales-tax-collections/selected-monthly-sales-tax-collections-sources.xlsx",
+          "snippet": "Arkansas Department of Finance and Administration Monthly General Revenue Report, https://www.dfa.arkansas.gov/secretarys-office/monthly-general-revenue-report ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 17302,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "这是政府发布的月度销售税收入数据文件，包含按地区分类的月度收入数据，可直接作为xlsx skill的输入数据进行分析和处理"
+        },
+        {
+          "title": "[XLS] EXAMPLE - Monthly Sales Report - Smartsheet",
+          "url": "https://www.smartsheet.com/sites/default/files/2022-06/IC-End-Of-Month-Sales-Report-11456.xlsx?srsltid=AfmBOooBqzY9fNAPfb5eSGHgn9SNXSHz3iAmsOYMeTydxL3KC4BPMOi7",
+          "snippet": "END-OF-MONTH SALES REPORT TEMPLATE ... REVENUE CLOSED. 29, Jill T. 0.48, 40, 2, 18, 1, 0. 30, Kent B. 0.48, 52, 4, 14, 3, 0. 31, 0. 32, 0. 33, 0. 34, 0. 36, CLICK ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 338131,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "这是月度销售报告模板文件，包含收入数据和销售人员业绩记录，是典型的用户会提交给xlsx skill处理的电子表格输入"
+        },
+        {
+          "title": "[XLS] Sales Data - w3resource",
+          "url": "https://www.w3resource.com/python-exercises/pandas/excel/SaleData.xlsx",
+          "snippet": "Sales Data. A, B, C, D, E, F, G, H. 1, OrderDate, Region, Manager, SalesMan, Item, Units ... Region, Manager, SalesMan, Item, Units, Unit_price, Sale_amt. 2 ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 16865,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是w3resource提供的销售数据示例文件，包含Region、SalesMan、Sale_amt等字段，是标准的销售数据电子表格，可直接作为skill输入"
+        },
+        {
+          "title": "[XLS] Monthly Local Sales Tax Collections by County and Region",
+          "url": "https://www.osc.ny.gov/files/local-government/publications/excel/local-sales-tax-collections-monthly-quarterly-collections-region.xlsx",
+          "snippet": "2026 Monthly. A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U ... data may reflect technical adjustments and other administrative issues ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 874489,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "这是纽约州发布的按县和地区分类的月度地方销售税收入数据文件，是真实的财务数据电子表格，适合作为xlsx skill的输入"
+        },
+        {
+          "title": "[XLS] Online Sales Tracker - ExcelDataPro",
+          "url": "https://d25skit2l41vkl.cloudfront.net/wp-content/uploads/2019/10/Online-Sales-Tracker-Excel-Template.xlsx",
+          "snippet": "Monthly Sales Report. 3, Date, Day, Product, Quantity, Sales channel, Cost Price, Sell Price, Profit, Margin, Net income, Revenue ... Product Sheet. A, B, C, D, E ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "这是在线销售追踪模板，包含月度销售报告、产品数据、收入等字段，是用户会使用的销售数据电子表格输入"
+        },
+        {
+          "title": "[XLS] Data Workflows",
+          "url": "https://svcleanenergy.org/wp-content/uploads/Attachment-C-Supply-Data-Workflows.xlsx",
+          "snippet": "Retail Sales Report, 1, 1, 0, Excel, Ad-Hoc, 4. 22. 23, Number of Unique Inputs, 66 ... RA Month Ahead Template`, CPUC, Box, Excel, PS-25 Report CAISO, RA ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 15811,
+          "judge_keep": false,
+          "judge_confidence": 0.3,
+          "judge_reason": "这是数据工作流程说明文件，内容涉及报告模板和输入管理，但本身是流程文档而非用户会直接提交的销售数据文件"
+        },
+        {
+          "title": "[XLS] Monthly Sales Report Template - VendorNet - Wisconsin.gov",
+          "url": "https://vendornet.wi.gov/Download.aspx?type=bid&Id=d20bf6e9-c2b0-e611-80f8-0050568c7f0f&filename=Appendix+B-+Monthly+Sales+Report+Template.xlsx",
+          "snippet": "→Fill out the Reporting Data (e.g., Full Vendor Name, Reporting Period, etc. on the spreadsheet.) 13, →All State Agency spend including all University of ...",
+          "status_code": 200,
+          "content_type": "application/octet-stream",
+          "content_length": 62183,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "这是威斯康星州政府供应商月度销售报告模板，需要填写报告数据，是典型的用户会提交给xlsx skill处理的业务数据文件"
+        },
+        {
+          "title": "[XLS] Distributor Report Excel Template - Minnesota Department of Revenue",
+          "url": "https://www.revenue.state.mn.us/sites/default/files/2025-07/distributor-report-excel-template-xls-2025-7-17.xlsm",
+          "snippet": "1. Save the original template. When you begin entering shipment data, resave the template according to the month you will be filing (example: ...",
+          "status_code": 200,
+          "content_type": "text/html",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "content_type为text/html且snippet显示这是模板使用说明，指导用户如何保存和填写模板，不是实际的数据输入文件"
+        },
+        {
+          "title": "[XLS] PA-Sales-Tax-Template",
+          "url": "https://www.finance.upenn.edu/wp-content/uploads/PA-Sales-Tax-Template.xlsx",
+          "snippet": "Gross sales and taxable sales must be summarized on a weekly basis, and entered accordingly into the attached “Monthly Sales Tax Calculations Worksheet”. Non- ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 26510,
+          "judge_keep": true,
+          "judge_confidence": 0.8,
+          "judge_reason": "这是宾夕法尼亚大学销售税计算模板，包含周度和月度销售数据汇总工作表，是用户会提交处理的财务数据文件"
+        },
+        {
+          "title": "[XLS] TPT Schedule - Arizona Department of Revenue",
+          "url": "https://azdor.gov/sites/default/files/2023-03/VoluntaryDisclosureProgram_TPTSchedule.xlsx",
+          "snippet": "The schedule must contain the business class and include monthly totals by local jurisdiction (municipality or county) in which the business activity occurs, ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 27527,
+          "judge_keep": true,
+          "judge_confidence": 0.8,
+          "judge_reason": "这是亚利桑那州税务局的TPT计划表，包含按地方管辖区分类的月度业务总额，是真实的税务数据电子表格输入"
+        }
+      ],
+      "results_kept": [
+        {
+          "title": "[XLS] selected-monthly-sales-tax-collections-sources.xlsx - Census.gov",
+          "url": "https://www2.census.gov/data/experimental-data-products/selected-monthly-sales-tax-collections/selected-monthly-sales-tax-collections-sources.xlsx",
+          "snippet": "Arkansas Department of Finance and Administration Monthly General Revenue Report, https://www.dfa.arkansas.gov/secretarys-office/monthly-general-revenue-report ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 17302,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "这是政府发布的月度销售税收入数据文件，包含按地区分类的月度收入数据，可直接作为xlsx skill的输入数据进行分析和处理"
+        },
+        {
+          "title": "[XLS] EXAMPLE - Monthly Sales Report - Smartsheet",
+          "url": "https://www.smartsheet.com/sites/default/files/2022-06/IC-End-Of-Month-Sales-Report-11456.xlsx?srsltid=AfmBOooBqzY9fNAPfb5eSGHgn9SNXSHz3iAmsOYMeTydxL3KC4BPMOi7",
+          "snippet": "END-OF-MONTH SALES REPORT TEMPLATE ... REVENUE CLOSED. 29, Jill T. 0.48, 40, 2, 18, 1, 0. 30, Kent B. 0.48, 52, 4, 14, 3, 0. 31, 0. 32, 0. 33, 0. 34, 0. 36, CLICK ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 338131,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "这是月度销售报告模板文件，包含收入数据和销售人员业绩记录，是典型的用户会提交给xlsx skill处理的电子表格输入"
+        },
+        {
+          "title": "[XLS] Sales Data - w3resource",
+          "url": "https://www.w3resource.com/python-exercises/pandas/excel/SaleData.xlsx",
+          "snippet": "Sales Data. A, B, C, D, E, F, G, H. 1, OrderDate, Region, Manager, SalesMan, Item, Units ... Region, Manager, SalesMan, Item, Units, Unit_price, Sale_amt. 2 ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 16865,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是w3resource提供的销售数据示例文件，包含Region、SalesMan、Sale_amt等字段，是标准的销售数据电子表格，可直接作为skill输入"
+        },
+        {
+          "title": "[XLS] Monthly Local Sales Tax Collections by County and Region",
+          "url": "https://www.osc.ny.gov/files/local-government/publications/excel/local-sales-tax-collections-monthly-quarterly-collections-region.xlsx",
+          "snippet": "2026 Monthly. A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U ... data may reflect technical adjustments and other administrative issues ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 874489,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "这是纽约州发布的按县和地区分类的月度地方销售税收入数据文件，是真实的财务数据电子表格，适合作为xlsx skill的输入"
+        },
+        {
+          "title": "[XLS] Online Sales Tracker - ExcelDataPro",
+          "url": "https://d25skit2l41vkl.cloudfront.net/wp-content/uploads/2019/10/Online-Sales-Tracker-Excel-Template.xlsx",
+          "snippet": "Monthly Sales Report. 3, Date, Day, Product, Quantity, Sales channel, Cost Price, Sell Price, Profit, Margin, Net income, Revenue ... Product Sheet. A, B, C, D, E ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "这是在线销售追踪模板，包含月度销售报告、产品数据、收入等字段，是用户会使用的销售数据电子表格输入"
+        },
+        {
+          "title": "[XLS] Monthly Sales Report Template - VendorNet - Wisconsin.gov",
+          "url": "https://vendornet.wi.gov/Download.aspx?type=bid&Id=d20bf6e9-c2b0-e611-80f8-0050568c7f0f&filename=Appendix+B-+Monthly+Sales+Report+Template.xlsx",
+          "snippet": "→Fill out the Reporting Data (e.g., Full Vendor Name, Reporting Period, etc. on the spreadsheet.) 13, →All State Agency spend including all University of ...",
+          "status_code": 200,
+          "content_type": "application/octet-stream",
+          "content_length": 62183,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "这是威斯康星州政府供应商月度销售报告模板，需要填写报告数据，是典型的用户会提交给xlsx skill处理的业务数据文件"
+        },
+        {
+          "title": "[XLS] PA-Sales-Tax-Template",
+          "url": "https://www.finance.upenn.edu/wp-content/uploads/PA-Sales-Tax-Template.xlsx",
+          "snippet": "Gross sales and taxable sales must be summarized on a weekly basis, and entered accordingly into the attached “Monthly Sales Tax Calculations Worksheet”. Non- ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 26510,
+          "judge_keep": true,
+          "judge_confidence": 0.8,
+          "judge_reason": "这是宾夕法尼亚大学销售税计算模板，包含周度和月度销售数据汇总工作表，是用户会提交处理的财务数据文件"
+        },
+        {
+          "title": "[XLS] TPT Schedule - Arizona Department of Revenue",
+          "url": "https://azdor.gov/sites/default/files/2023-03/VoluntaryDisclosureProgram_TPTSchedule.xlsx",
+          "snippet": "The schedule must contain the business class and include monthly totals by local jurisdiction (municipality or county) in which the business activity occurs, ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 27527,
+          "judge_keep": true,
+          "judge_confidence": 0.8,
+          "judge_reason": "这是亚利桑那州税务局的TPT计划表，包含按地方管辖区分类的月度业务总额，是真实的税务数据电子表格输入"
+        }
+      ],
+      "kept_count": 8,
+      "total_count": 10
+    },
+    {
+      "q": "financial model template DCF valuation assumptions",
+      "file_type": "xlsx",
+      "preferred_sites": [
+        "corporatefinanceinstitute.com",
+        "wallstreetprep.com",
+        "macabacus.com"
+      ],
+      "results_annotated": [
+        {
+          "title": "[XLS] DCF - Macabacus",
+          "url": "https://macabacus.com/assets/2023/02/dcf-analysis.xlsx",
+          "snippet": "This Excel model is for educational purposes only and should not be used for any other reason. All content is Copyright material of CFI Education Inc. 45 ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 36301,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是一个DCF分析Excel模板文件，用户可以直接下载并作为skill的输入进行编辑、分析或学习"
+        },
+        {
+          "title": "[XLS] Model - Macabacus",
+          "url": "https://macabacus.com/assets/2024/09/Audit-a-Financial-Model-with-Macabacus-Template.xlsx",
+          "snippet": "Compact Valuation Model, Strictly Confidential. 13. 14, Table of Contents, Model ... Model Assumptions. 6. 7, All figures in USD thousands unless stated, 0, 0, 0 ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 152371,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是一个财务模型审计模板Excel文件，包含Model Assumptions工作表，是用户会直接提交给skill的输入文件"
+        },
+        {
+          "title": "[XLS] IPO - Macabacus",
+          "url": "https://macabacus.com/assets/2023/02/ipo-model.xlsx",
+          "snippet": "This model represents a hypothetical DCF of a hypothetical company. Any similarity between the financial metrics of this company and actual companies. 24, is ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 69491,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是一个IPO模型Excel文件，包含DCF估值，是用户会直接使用的财务模型输入文件"
+        },
+        {
+          "title": "[XLS] DCF Model",
+          "url": "https://www.babson.edu/media/babson/assets/cutler-center/Bloomberg-Practice-Template.xlsx",
+          "snippet": "Assumptions. 6, Discount Rate. 7, Perpetural Growth Rate, 0.015. 8, Transaction ... Market Value vs Intrinsic Value. 46, Market Value, 0. 47, Estimated share ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 23639,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是一个DCF估值模型Excel模板，包含Assumptions工作表，是用户会直接提交给skill的输入文件"
+        },
+        {
+          "title": "[XLS] DCF Valuation Model - EXAMPLE - Smartsheet",
+          "url": "https://www.smartsheet.com/sites/default/files/2020-07/IC-Discounted-Cash-Flow-Valuation-Model-10840.xlsx?srsltid=AfmBOopvoY7bRLzjWpYajpWbBCeMz63Ksxp1k0bYxQgxpMmnR9JrfysR",
+          "snippet": "DCF VALUATION MODEL TEMPLATE. 3, EXAMPLE. 4, FINANCIAL OVERVIEW. 5. 6, DCF ... FINANCIAL DEBT / EBITDA, 0, 0, 0, 0, 0, 0, 0, 0. 143, DEBT SERVICE COVERAGE, N/A, N ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 347016,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是一个DCF估值模型模板Excel文件，包含完整的财务数据和假设，是用户会直接使用的输入文件"
+        },
+        {
+          "title": "[XLS] Working Capital Calculation",
+          "url": "https://web.stanford.edu/group/blythfund/cgi-bin/wordpress/wp-content/uploads/2014/08/DCF_Template.xlsx",
+          "snippet": "* A rigorous DCF will further break down the conventional GAAP line items to incorporate even more granular assumptions. We strongly suggest that you do so. 7.",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats",
+          "content_length": 30314,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是一个DCF模板Excel文件，来自Stanford，是用户会直接下载并作为skill输入的财务模型文件"
+        },
+        {
+          "title": "[XLS] fcffsimpleginzu.xlsx - NYU Stern",
+          "url": "https://pages.stern.nyu.edu/~adamodar/pc/fcffsimpleginzu.xlsx",
+          "snippet": "I will assume that you have no losses carried forward from prior years ( NOL) coming into the valuation. If you have a money losing company, you may want to ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats",
+          "content_length": 288427,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是NYU Stern教授提供的FCFF估值模型Excel文件，是用户会直接使用的财务模型输入文件"
+        },
+        {
+          "title": "[XLS] https://valuesense.io/ticker/pfsi/excel/dcf-vs.xlsx",
+          "url": "https://valuesense.io/ticker/pfsi/excel/dcf-vs.xlsx",
+          "snippet": "PennyMac Financial Services, Inc. (PFSI) | DCF Model. 7, https://valuesense.io/ticker/pfsi. 8, Date of data download: 46104.04457. 9. 11, Key DCF Assumptions.",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 617625,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是一个特定公司(PFSI)的DCF模型Excel文件，包含Key DCF Assumptions，是用户会直接提交给skill的输入文件"
+        },
+        {
+          "title": "[XLS] LBO Modeling Template - Amazon S3",
+          "url": "https://s3.amazonaws.com/wsp_sample_file/excel-templates/lbo-w-dcf-model-sample.xlsx",
+          "snippet": "Sample Modeling Template: The enclosed models are proprietary to Wall Street Prep and are designed for illustrative and training purposes only. Distributing, ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 106106,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是一个LBO建模模板Excel文件，包含DCF模型，是用户会直接下载并作为skill输入的财务模型文件"
+        }
+      ],
+      "results_kept": [
+        {
+          "title": "[XLS] DCF - Macabacus",
+          "url": "https://macabacus.com/assets/2023/02/dcf-analysis.xlsx",
+          "snippet": "This Excel model is for educational purposes only and should not be used for any other reason. All content is Copyright material of CFI Education Inc. 45 ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 36301,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是一个DCF分析Excel模板文件，用户可以直接下载并作为skill的输入进行编辑、分析或学习"
+        },
+        {
+          "title": "[XLS] Model - Macabacus",
+          "url": "https://macabacus.com/assets/2024/09/Audit-a-Financial-Model-with-Macabacus-Template.xlsx",
+          "snippet": "Compact Valuation Model, Strictly Confidential. 13. 14, Table of Contents, Model ... Model Assumptions. 6. 7, All figures in USD thousands unless stated, 0, 0, 0 ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 152371,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是一个财务模型审计模板Excel文件，包含Model Assumptions工作表，是用户会直接提交给skill的输入文件"
+        },
+        {
+          "title": "[XLS] IPO - Macabacus",
+          "url": "https://macabacus.com/assets/2023/02/ipo-model.xlsx",
+          "snippet": "This model represents a hypothetical DCF of a hypothetical company. Any similarity between the financial metrics of this company and actual companies. 24, is ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 69491,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是一个IPO模型Excel文件，包含DCF估值，是用户会直接使用的财务模型输入文件"
+        },
+        {
+          "title": "[XLS] DCF Model",
+          "url": "https://www.babson.edu/media/babson/assets/cutler-center/Bloomberg-Practice-Template.xlsx",
+          "snippet": "Assumptions. 6, Discount Rate. 7, Perpetural Growth Rate, 0.015. 8, Transaction ... Market Value vs Intrinsic Value. 46, Market Value, 0. 47, Estimated share ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 23639,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是一个DCF估值模型Excel模板，包含Assumptions工作表，是用户会直接提交给skill的输入文件"
+        },
+        {
+          "title": "[XLS] DCF Valuation Model - EXAMPLE - Smartsheet",
+          "url": "https://www.smartsheet.com/sites/default/files/2020-07/IC-Discounted-Cash-Flow-Valuation-Model-10840.xlsx?srsltid=AfmBOopvoY7bRLzjWpYajpWbBCeMz63Ksxp1k0bYxQgxpMmnR9JrfysR",
+          "snippet": "DCF VALUATION MODEL TEMPLATE. 3, EXAMPLE. 4, FINANCIAL OVERVIEW. 5. 6, DCF ... FINANCIAL DEBT / EBITDA, 0, 0, 0, 0, 0, 0, 0, 0. 143, DEBT SERVICE COVERAGE, N/A, N ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 347016,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是一个DCF估值模型模板Excel文件，包含完整的财务数据和假设，是用户会直接使用的输入文件"
+        },
+        {
+          "title": "[XLS] Working Capital Calculation",
+          "url": "https://web.stanford.edu/group/blythfund/cgi-bin/wordpress/wp-content/uploads/2014/08/DCF_Template.xlsx",
+          "snippet": "* A rigorous DCF will further break down the conventional GAAP line items to incorporate even more granular assumptions. We strongly suggest that you do so. 7.",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats",
+          "content_length": 30314,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是一个DCF模板Excel文件，来自Stanford，是用户会直接下载并作为skill输入的财务模型文件"
+        },
+        {
+          "title": "[XLS] fcffsimpleginzu.xlsx - NYU Stern",
+          "url": "https://pages.stern.nyu.edu/~adamodar/pc/fcffsimpleginzu.xlsx",
+          "snippet": "I will assume that you have no losses carried forward from prior years ( NOL) coming into the valuation. If you have a money losing company, you may want to ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats",
+          "content_length": 288427,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是NYU Stern教授提供的FCFF估值模型Excel文件，是用户会直接使用的财务模型输入文件"
+        },
+        {
+          "title": "[XLS] https://valuesense.io/ticker/pfsi/excel/dcf-vs.xlsx",
+          "url": "https://valuesense.io/ticker/pfsi/excel/dcf-vs.xlsx",
+          "snippet": "PennyMac Financial Services, Inc. (PFSI) | DCF Model. 7, https://valuesense.io/ticker/pfsi. 8, Date of data download: 46104.04457. 9. 11, Key DCF Assumptions.",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 617625,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是一个特定公司(PFSI)的DCF模型Excel文件，包含Key DCF Assumptions，是用户会直接提交给skill的输入文件"
+        },
+        {
+          "title": "[XLS] LBO Modeling Template - Amazon S3",
+          "url": "https://s3.amazonaws.com/wsp_sample_file/excel-templates/lbo-w-dcf-model-sample.xlsx",
+          "snippet": "Sample Modeling Template: The enclosed models are proprietary to Wall Street Prep and are designed for illustrative and training purposes only. Distributing, ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 106106,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是一个LBO建模模板Excel文件，包含DCF模型，是用户会直接下载并作为skill输入的财务模型文件"
+        }
+      ],
+      "kept_count": 9,
+      "total_count": 9
+    },
+    {
+      "q": "budget forecast template quarterly projections",
+      "file_type": "xlsx",
+      "preferred_sites": [
+        "microsoft.com",
+        "templates.office.com",
+        "smartsheet.com"
+      ],
+      "results_annotated": [
+        {
+          "title": "[XLS] Download Financial Projections Excel Template - Smartsheet",
+          "url": "https://www.smartsheet.com/sites/default/files/Financial-Projections-Template.xlsx?srsltid=AfmBOorzNAIWSebqNcEo67rgHBjBxkZmiGDJyE2fBCV0cTskaUs3u_6F",
+          "snippet": "Or, Click Here to Create Your Financial Projections in Smartsheet. 3. 4. 5 ... Common Financial Ratios. 27, Debt Ratio (Total Liabilities / Total Assets), 0 ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 213706,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是用户可直接下载使用的财务预测Excel模板，包含季度预测结构，是skill的典型输入文件"
+        },
+        {
+          "title": "[XLS] EXAMPLE Restaurant Fin Forecast - Smartsheet",
+          "url": "https://www.smartsheet.com/sites/default/files/2025-02/IC-Restaurant-Financial-Forecast-Template-Example-12338.xlsx?srsltid=AfmBOopvjoPKWYMA9CP81D3cbaiVLmugpIoJqhHWJVG07oKzA0X6pngq",
+          "snippet": "Restaurant Financial Forecast Template Example. 3, Restaurant Name, Camp Valley ... Forecast Period (Monthly, Quarterly, Yearly), Quarter 1, Quarter 2 ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 318714,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "餐厅财务预测模板示例，包含Quarter 1/2等季度预测数据，是可直接使用的输入文件"
+        },
+        {
+          "title": "[XLS] Download Financial Projections Excel Template - Smartsheet",
+          "url": "https://www.smartsheet.com/sites/default/files/Financial-Projections-Template.xlsx?srsltid=AfmBOooH21mNcMDfCo7XDwjXOtcc4Zg1Jiwwd_Oh6ObB1R6aiVJw1uPX",
+          "snippet": "Or, Click Here to Create Your Financial Projections in Smartsheet. 3. 4. 5 ... Common Financial Ratios. 27, Debt Ratio (Total Liabilities / Total Assets), 0 ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 213706,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "与index 0相同的财务预测Excel模板，是用户可直接使用的输入文件"
+        },
+        {
+          "title": "[XLS] DES OPS - Oregon State University",
+          "url": "https://budget.oregonstate.edu/sites/budget.oregonstate.edu/files/2024-12/desiopsforecasttemplate.xlsx",
+          "snippet": "Initial Budget, Projection, Projection, Projection. 14, Summary, First Quarter, Second Quarter, Third Quarter. 15, Revenue: 16, Enrollment Fees, acct codes ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 13509,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "大学运营预算预测模板，包含First/Second/Third Quarter等季度预测结构，是可直接使用的输入文件"
+        },
+        {
+          "title": "[XLS] Template - | Office of the Washington State Auditor",
+          "url": "https://sao.wa.gov/sites/default/files/2025-09/Fiscal%20Year%202026%20Forecasting%20Report.xlsx",
+          "snippet": "Award Fiscal Quarter, Estimated Contract Term/ Contract Length (Yr), Recurring ... 101 - Caseload Forecast Council, 2036. 15, 102 - Department of Financial ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 28549,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "财政年度预测报告模板，包含季度数据字段，是可直接使用的预算预测输入文件"
+        },
+        {
+          "title": "[XLS] Budget vs. Actual (Excel Sample) - Amazon S3",
+          "url": "https://s3.amazonaws.com/wsp_sample_file/excel-templates/budget-vs-actual-sample.xlsx",
+          "snippet": "Forecast, Mar_Fcst, 2020, 7, 327028.8818. 483, Shoppers, Air, Forecast, Mar_Fcst, 2020, 8, 296047.744. 484, Shoppers, Air, Forecast, Mar_Fcst, 2020, 9 ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 65656,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "预算vs实际分析样本文件，包含Forecast等预测数据，是可直接使用的输入文件"
+        },
+        {
+          "title": "[XLS] PB&F RFP - Anaplan",
+          "url": "https://www.anaplan.com/content/dam/anaplan/wp-content/uploads/2018/05/PlanningBudgetingForecasting_RFP_Template_052018.xlsx",
+          "snippet": "Please describe all available levels of time granularity for planning (e.g., daily, weekly, monthly, quarterly, annually, multi-year, other). 50, 0, Planning, ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 36798,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "这是RFP（招标请求）模板，用于评估软件供应商，不是预算预测数据文件"
+        },
+        {
+          "title": "[XLS] Data Workflows",
+          "url": "https://svcleanenergy.org/wp-content/uploads/Attachment-C-Supply-Data-Workflows.xlsx",
+          "snippet": "RA Load Forecast Template, CPUC, Box, Excel, Excel, PS-23 Report, Resource Adequacy Report. 74, Resource Adequacy Report, Historic Month Hour Peak Load, CAISO ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 15811,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "数据工作流说明文档，描述数据来源和流程，不是预算预测模板文件"
+        },
+        {
+          "title": "[XLS] Matrix - Human Resources - Northwestern University",
+          "url": "https://hr.northwestern.edu/documents/for-managers/finance-acct-audit-budget-job-family.xls",
+          "snippet": "5 Updates budget estimates & provides commitment tracking support for all financial activity. 6 Ensures lead schedules are prepared. 7 Guides units of ...",
+          "status_code": 200,
+          "content_type": "application/x-excel",
+          "content_length": 22167,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "人力资源职位描述矩阵，与预算预测无关，不是skill的输入文件"
+        },
+        {
+          "title": "[XLS] Summary - Oregon State University",
+          "url": "https://budget.oregonstate.edu/sites/budget.oregonstate.edu/files/2024-12/royaltiesforecasttemplate.xlsx",
+          "snippet": "Initial Budget, Projection, Projection, Projection. 14, Summary, First Quarter, Second Quarter, Third Quarter. 15, Revenue: 16, Investment Income, acct codes ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 13379,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "版税收入预测模板，包含季度预测结构，是可直接使用的预算预测输入文件"
+        }
+      ],
+      "results_kept": [
+        {
+          "title": "[XLS] Download Financial Projections Excel Template - Smartsheet",
+          "url": "https://www.smartsheet.com/sites/default/files/Financial-Projections-Template.xlsx?srsltid=AfmBOorzNAIWSebqNcEo67rgHBjBxkZmiGDJyE2fBCV0cTskaUs3u_6F",
+          "snippet": "Or, Click Here to Create Your Financial Projections in Smartsheet. 3. 4. 5 ... Common Financial Ratios. 27, Debt Ratio (Total Liabilities / Total Assets), 0 ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 213706,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是用户可直接下载使用的财务预测Excel模板，包含季度预测结构，是skill的典型输入文件"
+        },
+        {
+          "title": "[XLS] EXAMPLE Restaurant Fin Forecast - Smartsheet",
+          "url": "https://www.smartsheet.com/sites/default/files/2025-02/IC-Restaurant-Financial-Forecast-Template-Example-12338.xlsx?srsltid=AfmBOopvjoPKWYMA9CP81D3cbaiVLmugpIoJqhHWJVG07oKzA0X6pngq",
+          "snippet": "Restaurant Financial Forecast Template Example. 3, Restaurant Name, Camp Valley ... Forecast Period (Monthly, Quarterly, Yearly), Quarter 1, Quarter 2 ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 318714,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "餐厅财务预测模板示例，包含Quarter 1/2等季度预测数据，是可直接使用的输入文件"
+        },
+        {
+          "title": "[XLS] Download Financial Projections Excel Template - Smartsheet",
+          "url": "https://www.smartsheet.com/sites/default/files/Financial-Projections-Template.xlsx?srsltid=AfmBOooH21mNcMDfCo7XDwjXOtcc4Zg1Jiwwd_Oh6ObB1R6aiVJw1uPX",
+          "snippet": "Or, Click Here to Create Your Financial Projections in Smartsheet. 3. 4. 5 ... Common Financial Ratios. 27, Debt Ratio (Total Liabilities / Total Assets), 0 ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 213706,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "与index 0相同的财务预测Excel模板，是用户可直接使用的输入文件"
+        },
+        {
+          "title": "[XLS] DES OPS - Oregon State University",
+          "url": "https://budget.oregonstate.edu/sites/budget.oregonstate.edu/files/2024-12/desiopsforecasttemplate.xlsx",
+          "snippet": "Initial Budget, Projection, Projection, Projection. 14, Summary, First Quarter, Second Quarter, Third Quarter. 15, Revenue: 16, Enrollment Fees, acct codes ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 13509,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "大学运营预算预测模板，包含First/Second/Third Quarter等季度预测结构，是可直接使用的输入文件"
+        },
+        {
+          "title": "[XLS] Template - | Office of the Washington State Auditor",
+          "url": "https://sao.wa.gov/sites/default/files/2025-09/Fiscal%20Year%202026%20Forecasting%20Report.xlsx",
+          "snippet": "Award Fiscal Quarter, Estimated Contract Term/ Contract Length (Yr), Recurring ... 101 - Caseload Forecast Council, 2036. 15, 102 - Department of Financial ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 28549,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "财政年度预测报告模板，包含季度数据字段，是可直接使用的预算预测输入文件"
+        },
+        {
+          "title": "[XLS] Budget vs. Actual (Excel Sample) - Amazon S3",
+          "url": "https://s3.amazonaws.com/wsp_sample_file/excel-templates/budget-vs-actual-sample.xlsx",
+          "snippet": "Forecast, Mar_Fcst, 2020, 7, 327028.8818. 483, Shoppers, Air, Forecast, Mar_Fcst, 2020, 8, 296047.744. 484, Shoppers, Air, Forecast, Mar_Fcst, 2020, 9 ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 65656,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "预算vs实际分析样本文件，包含Forecast等预测数据，是可直接使用的输入文件"
+        },
+        {
+          "title": "[XLS] Summary - Oregon State University",
+          "url": "https://budget.oregonstate.edu/sites/budget.oregonstate.edu/files/2024-12/royaltiesforecasttemplate.xlsx",
+          "snippet": "Initial Budget, Projection, Projection, Projection. 14, Summary, First Quarter, Second Quarter, Third Quarter. 15, Revenue: 16, Investment Income, acct codes ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 13379,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "版税收入预测模板，包含季度预测结构，是可直接使用的预算预测输入文件"
+        }
+      ],
+      "kept_count": 7,
+      "total_count": 10
+    },
+    {
+      "q": "messy data cleaning raw export duplicates missing values",
+      "file_type": "csv_tsv",
+      "preferred_sites": [
+        "kaggle.com",
+        "data.world",
+        "github.com"
+      ],
+      "results_annotated": [
+        {
+          "title": "raw - Hugging Face",
+          "url": "https://huggingface.co/datasets/fka/awesome-chatgpt-prompts/raw/main/prompts.csv",
+          "snippet": "... data is stored and shared, and it will be your job to come up with strategies for protecting this data from malicious actors. This could ...",
+          "status_code": 200,
+          "content_type": "text/plain",
+          "content_length": 4391314,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "这是一个实际的CSV数据文件，包含原始数据，用户可能提交给skill进行数据清洗、去重等操作"
+        },
+        {
+          "title": "Download as CSV - Python tracker",
+          "url": "https://bugs.python.org/issue?@action=export_csv&@columns=title,id,creation,activity,status&@sort=creation&@group=status&@filter=status&@pagesize=50&@startwith=0&status=-1,1,3",
+          "snippet": "... Export more libreadline API functions,1175004,2005-04-01.19:30:23,2022-04-11.14:56:10,1 expanding platform module and making it work as it should,1180267 ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Python bug追踪系统的CSV导出文件，是典型的用户会提交清洗的原始数据文件"
+        },
+        {
+          "title": "https://scicrunch.org/php/download-resource-mentio...",
+          "url": "https://scicrunch.org/php/download-resource-mentions.php?rid=SCR_015880",
+          "snippet": "... Raw ONT reads were also assembled using the ‐‐nano ‐raw and ‐‐nano ‐hq modes of Flye v2.9.3 (Kolmogorov et al. 2019 ), the default parameters of Raven v1 ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "403错误且内容为HTML页面，不是可获取的数据文件"
+        },
+        {
+          "title": "https://bugs.eclipse.org/bugs/buglist.cgi?keywords...",
+          "url": "https://bugs.eclipse.org/bugs/buglist.cgi?keywords=triaged&limit=0&query_format=advanced&ctype=csv&human=1",
+          "snippet": "... Missing \"\"Select in XText editor\"\" context menu action for Sirius diagram\",\"2018-11-20 09:17:23\" 530198,\"Sirius\",\"Diagram\",\"sirius.diagram-inbox ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Eclipse bug列表的CSV导出，包含原始问题数据，是典型的需要清洗的输入文件"
+        },
+        {
+          "title": "https://proj.goldencode.com/issues.csv?per_page=10...",
+          "url": "https://proj.goldencode.com/issues.csv?per_page=100&query_id=21&sort=tracker%2Cassigned_to%2Cstatus%3Adesc",
+          "snippet": "... values for combo boxes and selection lists,Adrian Lungu,07/25/2019 03:30 PM,50 4492,Bug,WIP,Normal,database trigger defined with abbreviation should create ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 56024,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "项目issue追踪系统的CSV导出，包含原始数据记录，适合作为数据清洗的输入"
+        },
+        {
+          "title": "https://www.gao.gov/open-recs2-csv?processed=1&pri...",
+          "url": "https://www.gao.gov/open-recs2-csv?processed=1&priority=1&topic=all&agency=Department%20of%20the%20Treasury%22%20-%22Department%20of%20the%20Treasury%3A%20Internal%20Revenue%20Service&page=1",
+          "snippet": "... data governance plan that resolves conflicts related to the application of NTIA's new data standard and defines roles and responsibilities for making ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 390,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "403错误返回HTML页面，无法获取实际数据文件"
+        },
+        {
+          "title": "https://raw.githubusercontent.com/protontypes/Awes...",
+          "url": "https://raw.githubusercontent.com/protontypes/AwesomeCure/main/csv/projects_with_readmes.csv",
+          "snippet": "... Data-Client,cutmyenergybill/domestic-energy-bill-reduction-app ... raw.githubusercontent.com/SunPower/pvfactors/master/docs/sphinx/_static/pvarray.png ...",
+          "status_code": 200,
+          "content_type": "text/plain",
+          "content_length": 4270592,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "GitHub上的实际CSV数据文件，包含项目原始数据，用户可能提交进行清洗分析"
+        },
+        {
+          "title": "wrlinux-security-bulletin-2023-06-20.csv - Wind River",
+          "url": "https://edelivery.windriver.com/release/ols/cms/1687312272/wrlinux-security-bulletin-2023-06-20.csv",
+          "snippet": "... data: URL that was the result of a redirect, Firefox would load that document in the same process as the site that issued the redirect. This ...",
+          "status_code": 0,
+          "content_type": "",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.7,
+          "judge_reason": "安全公告CSV文件，虽然HEAD失败但URL和标题明确表明是数据文件，可能是用户输入"
+        },
+        {
+          "title": "Comma-Separated Values - O*NET Resource Center",
+          "url": "https://www.onetcenter.org/taxonomy/2000/list/2000_Occupations.csv?fmt=csv",
+          "snippet": "Clean tables, carry dirty dishes, replace soiled table linens; set tables; replenish supply of clean linens, silverware, glassware, and dishes; supply ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "O*NET职业分类CSV数据文件，是标准的结构化原始数据，适合作为skill输入"
+        },
+        {
+          "title": "Download - ePrints Soton - University of Southampton",
+          "url": "https://eprints.soton.ac.uk/457993/3/ht_nodes_2021.csv",
+          "snippet": "... data; copying and pasting components implies that users must shift task focus from search tasks to information management tasks. This forced divided ...",
+          "status_code": 200,
+          "content_type": "text/plain",
+          "content_length": 1995431,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "学术研究数据CSV文件，包含原始节点数据，是典型的用户会提交分析的数据文件"
+        }
+      ],
+      "results_kept": [
+        {
+          "title": "raw - Hugging Face",
+          "url": "https://huggingface.co/datasets/fka/awesome-chatgpt-prompts/raw/main/prompts.csv",
+          "snippet": "... data is stored and shared, and it will be your job to come up with strategies for protecting this data from malicious actors. This could ...",
+          "status_code": 200,
+          "content_type": "text/plain",
+          "content_length": 4391314,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "这是一个实际的CSV数据文件，包含原始数据，用户可能提交给skill进行数据清洗、去重等操作"
+        },
+        {
+          "title": "Download as CSV - Python tracker",
+          "url": "https://bugs.python.org/issue?@action=export_csv&@columns=title,id,creation,activity,status&@sort=creation&@group=status&@filter=status&@pagesize=50&@startwith=0&status=-1,1,3",
+          "snippet": "... Export more libreadline API functions,1175004,2005-04-01.19:30:23,2022-04-11.14:56:10,1 expanding platform module and making it work as it should,1180267 ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Python bug追踪系统的CSV导出文件，是典型的用户会提交清洗的原始数据文件"
+        },
+        {
+          "title": "https://bugs.eclipse.org/bugs/buglist.cgi?keywords...",
+          "url": "https://bugs.eclipse.org/bugs/buglist.cgi?keywords=triaged&limit=0&query_format=advanced&ctype=csv&human=1",
+          "snippet": "... Missing \"\"Select in XText editor\"\" context menu action for Sirius diagram\",\"2018-11-20 09:17:23\" 530198,\"Sirius\",\"Diagram\",\"sirius.diagram-inbox ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Eclipse bug列表的CSV导出，包含原始问题数据，是典型的需要清洗的输入文件"
+        },
+        {
+          "title": "https://proj.goldencode.com/issues.csv?per_page=10...",
+          "url": "https://proj.goldencode.com/issues.csv?per_page=100&query_id=21&sort=tracker%2Cassigned_to%2Cstatus%3Adesc",
+          "snippet": "... values for combo boxes and selection lists,Adrian Lungu,07/25/2019 03:30 PM,50 4492,Bug,WIP,Normal,database trigger defined with abbreviation should create ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 56024,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "项目issue追踪系统的CSV导出，包含原始数据记录，适合作为数据清洗的输入"
+        },
+        {
+          "title": "https://raw.githubusercontent.com/protontypes/Awes...",
+          "url": "https://raw.githubusercontent.com/protontypes/AwesomeCure/main/csv/projects_with_readmes.csv",
+          "snippet": "... Data-Client,cutmyenergybill/domestic-energy-bill-reduction-app ... raw.githubusercontent.com/SunPower/pvfactors/master/docs/sphinx/_static/pvarray.png ...",
+          "status_code": 200,
+          "content_type": "text/plain",
+          "content_length": 4270592,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "GitHub上的实际CSV数据文件，包含项目原始数据，用户可能提交进行清洗分析"
+        },
+        {
+          "title": "wrlinux-security-bulletin-2023-06-20.csv - Wind River",
+          "url": "https://edelivery.windriver.com/release/ols/cms/1687312272/wrlinux-security-bulletin-2023-06-20.csv",
+          "snippet": "... data: URL that was the result of a redirect, Firefox would load that document in the same process as the site that issued the redirect. This ...",
+          "status_code": 0,
+          "content_type": "",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.7,
+          "judge_reason": "安全公告CSV文件，虽然HEAD失败但URL和标题明确表明是数据文件，可能是用户输入"
+        },
+        {
+          "title": "Comma-Separated Values - O*NET Resource Center",
+          "url": "https://www.onetcenter.org/taxonomy/2000/list/2000_Occupations.csv?fmt=csv",
+          "snippet": "Clean tables, carry dirty dishes, replace soiled table linens; set tables; replenish supply of clean linens, silverware, glassware, and dishes; supply ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "O*NET职业分类CSV数据文件，是标准的结构化原始数据，适合作为skill输入"
+        },
+        {
+          "title": "Download - ePrints Soton - University of Southampton",
+          "url": "https://eprints.soton.ac.uk/457993/3/ht_nodes_2021.csv",
+          "snippet": "... data; copying and pasting components implies that users must shift task focus from search tasks to information management tasks. This forced divided ...",
+          "status_code": 200,
+          "content_type": "text/plain",
+          "content_length": 1995431,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "学术研究数据CSV文件，包含原始节点数据，是典型的用户会提交分析的数据文件"
+        }
+      ],
+      "kept_count": 8,
+      "total_count": 10
+    },
+    {
+      "q": "inventory tracking spreadsheet product list stock levels",
+      "file_type": "xlsx",
+      "preferred_sites": [
+        "zapier.com",
+        "hubspot.com",
+        "notion.so"
+      ],
+      "results_annotated": [
+        {
+          "title": "[XLS] Chemical Inventory Template (XLSX)",
+          "url": "https://www.pace.edu/sites/default/files/2021-05/chemical-inventory-template.xlsx",
+          "snippet": "Inventory Supervisor: L. Cimini, Room Number: D110, & D110B. 7, PI: 773-3514. 8, Dept Manager, J HORNE, Date of Inventory: 8/26/2011 - 9/02/2011. 9, Phone #: ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 58186,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是化学库存清单模板文件，包含产品列表和库存数据，是用户会提交给xlsx skill进行编辑或分析的典型输入文件"
+        },
+        {
+          "title": "[XLS] Inventory Control Register - Extranet Systems",
+          "url": "https://extranet.who.int/lqsi/sites/default/files/attachedfiles/Template%20Inventory%20Control%20Register.xlsx",
+          "snippet": "- In column E the critical stock level is calculated automatically. This means that when the current stock count falls below the critical stock level, an ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 38522,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是库存控制登记模板，包含自动计算的关键库存水平，是用户会提交给skill进行库存跟踪管理的输入文件"
+        },
+        {
+          "title": "[XLS] Federal Stock Class List - Tinker Air Force Base",
+          "url": "https://www.tinker.af.mil/Portals/106/Federal%20Stock%20Class%20List.xlsx",
+          "snippet": "Aircraft, Bombing Fire Control Components. 21, 1285, Fire Control Radar Equipment, except Airborne. 22, 1290, Miscellaneous Fire Control Equipment. 23, 1305 ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 446,
+          "judge_keep": false,
+          "judge_confidence": 0.3,
+          "judge_reason": "虽然文件名包含库存分类列表，但403错误且snippet显示的是设备分类代码参考，更像是规范文档而非用户会编辑的库存跟踪表"
+        },
+        {
+          "title": "[XLS] Sample Reporting Template for FLW Standard",
+          "url": "https://flwprotocol.org/wp-content/uploads/2016/07/FLW-Standard-Inventory-Reporting-Template_June-2016_update.xlsm",
+          "snippet": "When finished entering information into Tabs I through VIII, go to the Summary tab to display the high-level inventory results. At the bottom of the Summary tab ...",
+          "status_code": 200,
+          "content_type": "application/vnd.ms-excel.sheet.macroEnabled.12",
+          "content_length": 206811,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "这是库存报告模板文件，包含多个数据录入标签页和汇总标签页，是用户会提交给skill进行数据录入和报告生成的输入文件"
+        },
+        {
+          "title": "[XLS] Chemical inventory template form - Health & Safety",
+          "url": "https://safety.unimelb.edu.au/__data/assets/excel_doc/0009/4585788/Chemical-Chemical-inventory-template-form.xlsx",
+          "snippet": "6. Clearly specify in your ServiceNow form whether you would like to ARCHIVE AND REPLACE your existing inventory or create a NEW LOCATION UPLOAD in Chemwatch.",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 7462,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "这是化学库存清单模板表单，尽管403错误，但title和snippet明确表明这是用户需要填写和提交的库存模板文件"
+        },
+        {
+          "title": "[XLS] Sample format for Preventive Maintenance Schedule Excel - Mass.gov",
+          "url": "https://www.mass.gov/doc/sample-format-for-preventive-maintenance-schedule-excel-from-rcats-attachment-c-to-phn-2020-06/download",
+          "snippet": "LHA must customize the following tasks for their particular situation when using this sample template. 2.",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 3365,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "这是预防性维护计划样本模板，与库存跟踪无关，属于设备维护管理文档"
+        },
+        {
+          "title": "[XLS] StockCodes - Excel Skills",
+          "url": "https://www.excel-skills.com/templates2007/inventory_quantity_sample.xlsx",
+          "snippet": "A unique stock code needs to be created on the StockCodes sheet for all inventory items that you want to include in the template. The stock codes created on ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 161235,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是库存数量管理模板，包含StockCodes工作表用于创建库存项目代码，是典型的库存跟踪电子表格输入文件"
+        },
+        {
+          "title": "[XLS] Technical Specifications - VendorNet",
+          "url": "https://vendornet.wi.gov/Download.aspx?type=bid&Id=acdb40af-4a49-ec11-8137-0050568c7f0f&filename=Spec+Sheet-POS+and+Inventory.xlsx",
+          "snippet": "Ability to track cost/retail at the SKU level. 44, 38, Ability to track inventory quantity at the SKU level. 45, 39, Ability to account for negative inventory.",
+          "status_code": 200,
+          "content_type": "application/octet-stream",
+          "content_length": 69081,
+          "judge_keep": false,
+          "judge_confidence": 0.25,
+          "judge_reason": "这是POS和库存系统的技术规格说明书，snippet显示的是功能需求列表，属于采购/招标文档而非用户会编辑的库存数据文件"
+        },
+        {
+          "title": "[XLS] Risk Assessment Spreadsheet (EXCEL)",
+          "url": "https://risk.oregonstate.edu/sites/risk.oregonstate.edu/files/Risk-Assessment-Spreadsheet.xlsm",
+          "snippet": "Who should be involved in the discussion and decision making? Do you need to do anything else, more or less, to reduce or control the risk? Responsible Person/ ...",
+          "status_code": 200,
+          "content_type": "application/vnd.ms-excel.sheet.macroEnabled.12",
+          "content_length": 579003,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "这是风险评估电子表格，与库存跟踪完全无关，属于风险管理工具"
+        },
+        {
+          "title": "[XLS] Food Manufacturing Checklist Edition 9",
+          "url": "https://www.sqfi.com/docs/sqfilibraries/code-documents/edition-9/checklists/food-manufacturing-checklist-edition-9.xlsx?sfvrsn=4b4f907f_9",
+          "snippet": "For each identified CCP, the food safety team shall identify and document the limits that separate safe from unsafe product (critical limits). The food safety ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 181783,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "这是食品制造检查清单，属于食品安全合规审计工具，与库存跟踪无关"
+        }
+      ],
+      "results_kept": [
+        {
+          "title": "[XLS] Chemical Inventory Template (XLSX)",
+          "url": "https://www.pace.edu/sites/default/files/2021-05/chemical-inventory-template.xlsx",
+          "snippet": "Inventory Supervisor: L. Cimini, Room Number: D110, & D110B. 7, PI: 773-3514. 8, Dept Manager, J HORNE, Date of Inventory: 8/26/2011 - 9/02/2011. 9, Phone #: ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 58186,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是化学库存清单模板文件，包含产品列表和库存数据，是用户会提交给xlsx skill进行编辑或分析的典型输入文件"
+        },
+        {
+          "title": "[XLS] Inventory Control Register - Extranet Systems",
+          "url": "https://extranet.who.int/lqsi/sites/default/files/attachedfiles/Template%20Inventory%20Control%20Register.xlsx",
+          "snippet": "- In column E the critical stock level is calculated automatically. This means that when the current stock count falls below the critical stock level, an ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 38522,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是库存控制登记模板，包含自动计算的关键库存水平，是用户会提交给skill进行库存跟踪管理的输入文件"
+        },
+        {
+          "title": "[XLS] Sample Reporting Template for FLW Standard",
+          "url": "https://flwprotocol.org/wp-content/uploads/2016/07/FLW-Standard-Inventory-Reporting-Template_June-2016_update.xlsm",
+          "snippet": "When finished entering information into Tabs I through VIII, go to the Summary tab to display the high-level inventory results. At the bottom of the Summary tab ...",
+          "status_code": 200,
+          "content_type": "application/vnd.ms-excel.sheet.macroEnabled.12",
+          "content_length": 206811,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "这是库存报告模板文件，包含多个数据录入标签页和汇总标签页，是用户会提交给skill进行数据录入和报告生成的输入文件"
+        },
+        {
+          "title": "[XLS] Chemical inventory template form - Health & Safety",
+          "url": "https://safety.unimelb.edu.au/__data/assets/excel_doc/0009/4585788/Chemical-Chemical-inventory-template-form.xlsx",
+          "snippet": "6. Clearly specify in your ServiceNow form whether you would like to ARCHIVE AND REPLACE your existing inventory or create a NEW LOCATION UPLOAD in Chemwatch.",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 7462,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "这是化学库存清单模板表单，尽管403错误，但title和snippet明确表明这是用户需要填写和提交的库存模板文件"
+        },
+        {
+          "title": "[XLS] StockCodes - Excel Skills",
+          "url": "https://www.excel-skills.com/templates2007/inventory_quantity_sample.xlsx",
+          "snippet": "A unique stock code needs to be created on the StockCodes sheet for all inventory items that you want to include in the template. The stock codes created on ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 161235,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是库存数量管理模板，包含StockCodes工作表用于创建库存项目代码，是典型的库存跟踪电子表格输入文件"
+        }
+      ],
+      "kept_count": 5,
+      "total_count": 10
+    }
+  ]
+}

@@ -1,0 +1,1027 @@
+{
+  "skill": "D:\\engineer\\SKILL TO INPUT\\SKILLS\\Excel Analysis\\SKILL.md",
+  "threshold": 0.7,
+  "filtered_results": [
+    {
+      "q": "sales data quarterly report xlsx",
+      "file_type": "xlsx",
+      "preferred_sites": [
+        "github.com",
+        "kaggle.com",
+        "data.world"
+      ],
+      "results_annotated": [
+        {
+          "title": "[XLS] Quarterly Sales by Price and Financing - Census Bureau",
+          "url": "https://www.census.gov/construction/nrs/xls/quarterly_sales_cust.xlsx",
+          "snippet": "QUARTERLY DATA: 18. 19, 2022: 1st quarter, 413500, 587700, 388400, 368400, 560100. 20, 2nd quarter, 437700, 609500, 398800, 387600, 580000. 21, 3rd quarter ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "真实的季度销售数据Excel文件，包含具体销售数字，是用户会提交给skill分析的典型输入"
+        },
+        {
+          "title": "[XLS] Sales Data - w3resource",
+          "url": "https://www.w3resource.com/python-exercises/pandas/excel/SaleData.xlsx",
+          "snippet": "Sales Data. A, B, C, D, E, F, G, H. 1, OrderDate, Region, Manager, SalesMan, Item, Units, Unit_price, Sale_amt. 5, 43157, Central, Timothy, David, Cell Phone ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 16865,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "明确的销售数据样本文件，包含订单日期、区域、销售额等字段，是pandas练习用的标准输入数据"
+        },
+        {
+          "title": "[XLS] EXAMPLE Restaurant Month Sales - Smartsheet",
+          "url": "https://www.smartsheet.com/sites/default/files/2022-06/IC-Restaurant-Monthly-Sales-Report-11456.xlsx?srsltid=AfmBOoqeiREELpzvrfAoIj-He65UkaaDVa1TOld-WDd-kU-KY2IP2K9K",
+          "snippet": "RESTAURANT MONTHLY SALES REPORT TEMPLATE. 3, RESTAURANT NAME, DATES OF REPORT. 4 ... RESTAURANT MONTHLY SALES REPORT TEMPLATE. 2, RESTAURANT NAME, DATES OF ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 388034,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "餐厅月度销售报告模板，包含实际数据结构和示例内容，用户可直接填入数据后作为分析输入"
+        },
+        {
+          "title": "[XLS] s&p 500 earnings and estimate report",
+          "url": "https://www.spglobal.com/spdji/en/documents/additional-material/sp-500-eps-est.xlsx",
+          "snippet": "S&P 500 QUARTERLY DATA. 3. 4, OPERATING, AS REPORTED, CASH, SALES, BOOK VAL ... QUARTERLY SALES PER SHARE, % CHG Q4/Q3, % CHG Q4/Q4, 46022, 45930, 45838, 45747 ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 2011,
+          "judge_keep": true,
+          "judge_confidence": 0.8,
+          "judge_reason": "S&P 500季度财务数据Excel，包含每股收益和销售数据，status_code 403但title/snippet明确显示是数据文件，可作为输入"
+        },
+        {
+          "title": "[XLS] Roche group financial data",
+          "url": "https://assets.roche.com/f/176343/x/bb0cb9f7bc/roche-group-financial-data.xlsx",
+          "snippet": "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0. 5, Sales 3rd, 30944, 29848, 0.04, 0.07, 30572, 30647, 0, 0.07, 61516, 60495, 0.02, 0.07, 1, 1, 1, 1, 1, 1. 6. 7, Sales to other ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 726310,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "罗氏集团财务数据Excel，包含季度销售数据，是企业财务分析的典型输入文件"
+        },
+        {
+          "title": "[XLS] Financial Data Q1|2025 - Sartorius",
+          "url": "https://www.sartorius.com/download/1682228/q1-2025-download-excel-financial-data-ssb-data.xlsx",
+          "snippet": "Sales revenue, 744.6, 666.9. 5, Cost of sales, -388.3, -358.2. 6, Gross profit on sales, 356.3, 308.7. 7, Selling and distribution costs, -126.8, -120.9. 8 ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 214851,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Sartorius公司Q1 2025财务数据Excel，包含销售收入、成本等具体数据，是标准的财务分析输入"
+        },
+        {
+          "title": "[XLS] Monthly Sales Report Template - VendorNet - Wisconsin.gov",
+          "url": "https://vendornet.wi.gov/Download.aspx?type=bid&Id=d20bf6e9-c2b0-e611-80f8-0050568c7f0f&filename=Appendix+B-+Monthly+Sales+Report+Template.xlsx",
+          "snippet": "→Fill out the Reporting Data (e.g., Full Vendor Name, Reporting Period, etc. on the spreadsheet.) 13, →All State Agency spend including all University of ...",
+          "status_code": 200,
+          "content_type": "application/octet-stream",
+          "content_length": 62183,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "月度销售报告模板，虽为模板但包含可填写的数据结构，用户填写后即为典型分析输入"
+        },
+        {
+          "title": "[XLS] Sales volumes & revenue - Santos",
+          "url": "https://www.santos.com/wp-content/uploads/2023/01/2022_Fourth_Quarter_Report_Data_Tables.xlsx",
+          "snippet": "Fourth Quarter Report Data Tables for period ending 31 December 2022, Historical Data Tables for period between 1 January 2016 and 31 December 2022. 3, Average ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 129898,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Santos公司第四季度报告数据表，包含销售量和收入的历史数据，是能源行业财务分析输入"
+        },
+        {
+          "title": "[XLS] FAS SRP Excel template [XLS] - GSA",
+          "url": "https://srp.fas.gsa.gov/portal/docs/FAS%20SRP%20Excel%20Upload%20Reporting%20Template%20v1.3.9.xlsx",
+          "snippet": "Enter your sales data in Columns B through L provided. Columns that are marked with Asterisk are required fields. See Definition of Data Fields ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 47062,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "GSA销售报告上传模板，虽为模板但明确用于输入销售数据，用户填写后即为skill的标准输入"
+        },
+        {
+          "title": "[XLS] Monthly Local Sales Tax Collections by County and Region",
+          "url": "https://www.osc.ny.gov/files/local-government/publications/excel/local-sales-tax-collections-monthly-quarterly-collections-region.xlsx",
+          "snippet": "Notes: Collections data may reflect technical adjustments and other administrative issues, quarterly reconciliations, and changes in tax rates, all of which ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 874489,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "纽约州地方销售税征收数据Excel，包含按县和区域的月度/季度征收数据，是政府公开数据分析的典型输入"
+        }
+      ],
+      "results_kept": [
+        {
+          "title": "[XLS] Quarterly Sales by Price and Financing - Census Bureau",
+          "url": "https://www.census.gov/construction/nrs/xls/quarterly_sales_cust.xlsx",
+          "snippet": "QUARTERLY DATA: 18. 19, 2022: 1st quarter, 413500, 587700, 388400, 368400, 560100. 20, 2nd quarter, 437700, 609500, 398800, 387600, 580000. 21, 3rd quarter ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "真实的季度销售数据Excel文件，包含具体销售数字，是用户会提交给skill分析的典型输入"
+        },
+        {
+          "title": "[XLS] Sales Data - w3resource",
+          "url": "https://www.w3resource.com/python-exercises/pandas/excel/SaleData.xlsx",
+          "snippet": "Sales Data. A, B, C, D, E, F, G, H. 1, OrderDate, Region, Manager, SalesMan, Item, Units, Unit_price, Sale_amt. 5, 43157, Central, Timothy, David, Cell Phone ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 16865,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "明确的销售数据样本文件，包含订单日期、区域、销售额等字段，是pandas练习用的标准输入数据"
+        },
+        {
+          "title": "[XLS] EXAMPLE Restaurant Month Sales - Smartsheet",
+          "url": "https://www.smartsheet.com/sites/default/files/2022-06/IC-Restaurant-Monthly-Sales-Report-11456.xlsx?srsltid=AfmBOoqeiREELpzvrfAoIj-He65UkaaDVa1TOld-WDd-kU-KY2IP2K9K",
+          "snippet": "RESTAURANT MONTHLY SALES REPORT TEMPLATE. 3, RESTAURANT NAME, DATES OF REPORT. 4 ... RESTAURANT MONTHLY SALES REPORT TEMPLATE. 2, RESTAURANT NAME, DATES OF ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 388034,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "餐厅月度销售报告模板，包含实际数据结构和示例内容，用户可直接填入数据后作为分析输入"
+        },
+        {
+          "title": "[XLS] s&p 500 earnings and estimate report",
+          "url": "https://www.spglobal.com/spdji/en/documents/additional-material/sp-500-eps-est.xlsx",
+          "snippet": "S&P 500 QUARTERLY DATA. 3. 4, OPERATING, AS REPORTED, CASH, SALES, BOOK VAL ... QUARTERLY SALES PER SHARE, % CHG Q4/Q3, % CHG Q4/Q4, 46022, 45930, 45838, 45747 ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 2011,
+          "judge_keep": true,
+          "judge_confidence": 0.8,
+          "judge_reason": "S&P 500季度财务数据Excel，包含每股收益和销售数据，status_code 403但title/snippet明确显示是数据文件，可作为输入"
+        },
+        {
+          "title": "[XLS] Roche group financial data",
+          "url": "https://assets.roche.com/f/176343/x/bb0cb9f7bc/roche-group-financial-data.xlsx",
+          "snippet": "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0. 5, Sales 3rd, 30944, 29848, 0.04, 0.07, 30572, 30647, 0, 0.07, 61516, 60495, 0.02, 0.07, 1, 1, 1, 1, 1, 1. 6. 7, Sales to other ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 726310,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "罗氏集团财务数据Excel，包含季度销售数据，是企业财务分析的典型输入文件"
+        },
+        {
+          "title": "[XLS] Financial Data Q1|2025 - Sartorius",
+          "url": "https://www.sartorius.com/download/1682228/q1-2025-download-excel-financial-data-ssb-data.xlsx",
+          "snippet": "Sales revenue, 744.6, 666.9. 5, Cost of sales, -388.3, -358.2. 6, Gross profit on sales, 356.3, 308.7. 7, Selling and distribution costs, -126.8, -120.9. 8 ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 214851,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Sartorius公司Q1 2025财务数据Excel，包含销售收入、成本等具体数据，是标准的财务分析输入"
+        },
+        {
+          "title": "[XLS] Monthly Sales Report Template - VendorNet - Wisconsin.gov",
+          "url": "https://vendornet.wi.gov/Download.aspx?type=bid&Id=d20bf6e9-c2b0-e611-80f8-0050568c7f0f&filename=Appendix+B-+Monthly+Sales+Report+Template.xlsx",
+          "snippet": "→Fill out the Reporting Data (e.g., Full Vendor Name, Reporting Period, etc. on the spreadsheet.) 13, →All State Agency spend including all University of ...",
+          "status_code": 200,
+          "content_type": "application/octet-stream",
+          "content_length": 62183,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "月度销售报告模板，虽为模板但包含可填写的数据结构，用户填写后即为典型分析输入"
+        },
+        {
+          "title": "[XLS] Sales volumes & revenue - Santos",
+          "url": "https://www.santos.com/wp-content/uploads/2023/01/2022_Fourth_Quarter_Report_Data_Tables.xlsx",
+          "snippet": "Fourth Quarter Report Data Tables for period ending 31 December 2022, Historical Data Tables for period between 1 January 2016 and 31 December 2022. 3, Average ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 129898,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Santos公司第四季度报告数据表，包含销售量和收入的历史数据，是能源行业财务分析输入"
+        },
+        {
+          "title": "[XLS] FAS SRP Excel template [XLS] - GSA",
+          "url": "https://srp.fas.gsa.gov/portal/docs/FAS%20SRP%20Excel%20Upload%20Reporting%20Template%20v1.3.9.xlsx",
+          "snippet": "Enter your sales data in Columns B through L provided. Columns that are marked with Asterisk are required fields. See Definition of Data Fields ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 47062,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "GSA销售报告上传模板，虽为模板但明确用于输入销售数据，用户填写后即为skill的标准输入"
+        },
+        {
+          "title": "[XLS] Monthly Local Sales Tax Collections by County and Region",
+          "url": "https://www.osc.ny.gov/files/local-government/publications/excel/local-sales-tax-collections-monthly-quarterly-collections-region.xlsx",
+          "snippet": "Notes: Collections data may reflect technical adjustments and other administrative issues, quarterly reconciliations, and changes in tax rates, all of which ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 874489,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "纽约州地方销售税征收数据Excel，包含按县和区域的月度/季度征收数据，是政府公开数据分析的典型输入"
+        }
+      ],
+      "kept_count": 10,
+      "total_count": 10
+    },
+    {
+      "q": "financial statements balance sheet income statement excel",
+      "file_type": "xlsx",
+      "preferred_sites": [
+        "sec.gov",
+        "github.com",
+        "kaggle.com"
+      ],
+      "results_annotated": [
+        {
+          "title": "[XLS] Document and Entity Information - SEC.gov",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680119000037/Financial_Report.xlsx",
+          "snippet": "The condensed consolidated financial statements include the accounts of Facebook, Inc. ... statements of income and statements of cash flows. Under Topic 842, we ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 2165,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "SEC EDGAR Financial_Report.xlsx 是真实的财务报表Excel文件，包含资产负债表、利润表等数据，是用户会提交给Excel Analysis skill分析的典型输入"
+        },
+        {
+          "title": "[XLS] Cover - SEC.gov",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/Financial_Report.xlsx",
+          "snippet": "Income taxes are computed using the asset and liability method, under which deferred tax assets and liabilities are determined based on the difference between ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 2163,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "SEC EDGAR Financial_Report.xlsx 是真实的财务报表Excel文件，包含所得税等财务数据，是用户会提交给Excel Analysis skill分析的典型输入"
+        },
+        {
+          "title": "[XLS] document and entity information - SEC.gov",
+          "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/Financial_Report.xlsx",
+          "snippet": "For the year ended December 31, 2024, the Company recorded net interest income of $77 million related to this tax payment in the line item income taxes in our ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 2164,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "SEC EDGAR Financial_Report.xlsx 是真实的财务报表Excel文件，包含利息收入等财务数据，是用户会提交给Excel Analysis skill分析的典型输入"
+        },
+        {
+          "title": "[XLS] free income statement template - Corporate Finance Institute",
+          "url": "https://corporatefinanceinstitute.com/assets/Income-Statement-Template.xlsx",
+          "snippet": "This Excel model is for educational purposes only and should not be used for ... Income Statement (Annual BLANK). A, B, C, D, E, F, G, H, I, J, K. 1, [Company ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 76085,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Income-Statement-Template.xlsx 是可直接下载使用的利润表Excel模板，用户会将其作为输入文件进行数据填充或分析"
+        },
+        {
+          "title": "[XLS] Financial Statements Template (XLS File)",
+          "url": "https://www.mdot.maryland.gov/OPCP/Financial_Statements_Template.XLSX",
+          "snippet": "The Financial Statements Template is an excel file comprised of the following five sheets. 13, 1) Instructions. 14, 2) Income Statement (\"P&L\"). 15, 3) Cashflow ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 33555,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Financial_Statements_Template.XLSX 是官方提供的财务报表模板Excel文件，包含利润表、现金流量表等工作表，是用户会提交的典型输入"
+        },
+        {
+          "title": "[XLS] Financial statements US GAAP Excel - ASML Brand Portal",
+          "url": "https://ourbrand.asml.com/m/5eb3c766d54b0125/original/Financial-statements-US-GAAP-Q2-2024-excel.xlsx",
+          "snippet": "Always refer to the electronic version of the Quarterly Summary US GAAP Financial Statements for Q2 2024 for the full and official financial information. 6. 7 ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 21809,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "ASML Financial-statements-US-GAAP-Q2-2024-excel.xlsx 是真实的季度财务报表Excel文件，是用户会提交给Excel Analysis skill分析的实际财务数据"
+        },
+        {
+          "title": "[XLS] Example Profit & Loss - Business Victoria",
+          "url": "https://business.vic.gov.au/__data/assets/excel_doc/0004/1009516/Financial-statements-template.xlsx",
+          "snippet": "A Balance Sheet brings together the results from the Profit & Loss Statement and the Cash Flow Statement. 7, (Download from the Business Victoria website at ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 303557,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Financial-statements-template.xlsx 是Business Victoria提供的财务报表模板，包含利润表和资产负债表，是用户会使用的输入文件"
+        },
+        {
+          "title": "[XLS] Download Financial Projections Excel Template - Smartsheet",
+          "url": "https://www.smartsheet.com/sites/default/files/Financial-Projections-Template.xlsx?srsltid=AfmBOopGmmIP2QRbcB5PUQEZAzSooy9V6CaJQ74qylPcdWp6dEFoFIg0",
+          "snippet": "Income Statement. A, B, C, D, E, F, G, H. 2. 3, [Company Name], Income Statement. 4 ... BALANCE SHEET. 4, Assets, Year 1, Year 2, Year 3, Liabilities and Owner's ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 213706,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Financial-Projections-Template.xlsx 是财务预测Excel模板，包含利润表和资产负债表工作表，是用户会提交给skill进行分析或填写的输入"
+        },
+        {
+          "title": "[XLS] P2 - Financial summary - Chevron",
+          "url": "https://www.chevron.com/-/media/shared-media/documents/2022-supplement-excel-template.xlsx",
+          "snippet": "P3 - Income statement. A, B, C, D, E, F, G, H. 1, Consolidated statement of income, Year ended December 31. 2, Millions of dollars, 2022, 2021, 2020. 3 ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "Chevron 2022-supplement-excel-template.xlsx 是真实的财务报表Excel文件，包含合并利润表数据，是用户会提交分析的典型输入"
+        },
+        {
+          "title": "[XLS] Sheet1 - FloQast",
+          "url": "https://get.floqast.com/hubfs/Assets/Financial%20Statement%20Effects%20Template.xlsx",
+          "snippet": "Financial Statement Effects Template. 2, Balance Sheet, Income Statement. 3, #, Transaction, Cash Asset, +, Noncash Asset, = Liabilities, +, Contributed Capital ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 12611,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Financial Statement Effects Template.xlsx 是财务报表影响分析模板，包含资产负债表和利润表结构，是用户会使用的输入文件"
+        }
+      ],
+      "results_kept": [
+        {
+          "title": "[XLS] Document and Entity Information - SEC.gov",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680119000037/Financial_Report.xlsx",
+          "snippet": "The condensed consolidated financial statements include the accounts of Facebook, Inc. ... statements of income and statements of cash flows. Under Topic 842, we ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 2165,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "SEC EDGAR Financial_Report.xlsx 是真实的财务报表Excel文件，包含资产负债表、利润表等数据，是用户会提交给Excel Analysis skill分析的典型输入"
+        },
+        {
+          "title": "[XLS] Cover - SEC.gov",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/Financial_Report.xlsx",
+          "snippet": "Income taxes are computed using the asset and liability method, under which deferred tax assets and liabilities are determined based on the difference between ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 2163,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "SEC EDGAR Financial_Report.xlsx 是真实的财务报表Excel文件，包含所得税等财务数据，是用户会提交给Excel Analysis skill分析的典型输入"
+        },
+        {
+          "title": "[XLS] document and entity information - SEC.gov",
+          "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000011/Financial_Report.xlsx",
+          "snippet": "For the year ended December 31, 2024, the Company recorded net interest income of $77 million related to this tax payment in the line item income taxes in our ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 2164,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "SEC EDGAR Financial_Report.xlsx 是真实的财务报表Excel文件，包含利息收入等财务数据，是用户会提交给Excel Analysis skill分析的典型输入"
+        },
+        {
+          "title": "[XLS] free income statement template - Corporate Finance Institute",
+          "url": "https://corporatefinanceinstitute.com/assets/Income-Statement-Template.xlsx",
+          "snippet": "This Excel model is for educational purposes only and should not be used for ... Income Statement (Annual BLANK). A, B, C, D, E, F, G, H, I, J, K. 1, [Company ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 76085,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Income-Statement-Template.xlsx 是可直接下载使用的利润表Excel模板，用户会将其作为输入文件进行数据填充或分析"
+        },
+        {
+          "title": "[XLS] Financial Statements Template (XLS File)",
+          "url": "https://www.mdot.maryland.gov/OPCP/Financial_Statements_Template.XLSX",
+          "snippet": "The Financial Statements Template is an excel file comprised of the following five sheets. 13, 1) Instructions. 14, 2) Income Statement (\"P&L\"). 15, 3) Cashflow ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 33555,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Financial_Statements_Template.XLSX 是官方提供的财务报表模板Excel文件，包含利润表、现金流量表等工作表，是用户会提交的典型输入"
+        },
+        {
+          "title": "[XLS] Financial statements US GAAP Excel - ASML Brand Portal",
+          "url": "https://ourbrand.asml.com/m/5eb3c766d54b0125/original/Financial-statements-US-GAAP-Q2-2024-excel.xlsx",
+          "snippet": "Always refer to the electronic version of the Quarterly Summary US GAAP Financial Statements for Q2 2024 for the full and official financial information. 6. 7 ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 21809,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "ASML Financial-statements-US-GAAP-Q2-2024-excel.xlsx 是真实的季度财务报表Excel文件，是用户会提交给Excel Analysis skill分析的实际财务数据"
+        },
+        {
+          "title": "[XLS] Example Profit & Loss - Business Victoria",
+          "url": "https://business.vic.gov.au/__data/assets/excel_doc/0004/1009516/Financial-statements-template.xlsx",
+          "snippet": "A Balance Sheet brings together the results from the Profit & Loss Statement and the Cash Flow Statement. 7, (Download from the Business Victoria website at ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 303557,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Financial-statements-template.xlsx 是Business Victoria提供的财务报表模板，包含利润表和资产负债表，是用户会使用的输入文件"
+        },
+        {
+          "title": "[XLS] Download Financial Projections Excel Template - Smartsheet",
+          "url": "https://www.smartsheet.com/sites/default/files/Financial-Projections-Template.xlsx?srsltid=AfmBOopGmmIP2QRbcB5PUQEZAzSooy9V6CaJQ74qylPcdWp6dEFoFIg0",
+          "snippet": "Income Statement. A, B, C, D, E, F, G, H. 2. 3, [Company Name], Income Statement. 4 ... BALANCE SHEET. 4, Assets, Year 1, Year 2, Year 3, Liabilities and Owner's ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 213706,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Financial-Projections-Template.xlsx 是财务预测Excel模板，包含利润表和资产负债表工作表，是用户会提交给skill进行分析或填写的输入"
+        },
+        {
+          "title": "[XLS] P2 - Financial summary - Chevron",
+          "url": "https://www.chevron.com/-/media/shared-media/documents/2022-supplement-excel-template.xlsx",
+          "snippet": "P3 - Income statement. A, B, C, D, E, F, G, H. 1, Consolidated statement of income, Year ended December 31. 2, Millions of dollars, 2022, 2021, 2020. 3 ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "Chevron 2022-supplement-excel-template.xlsx 是真实的财务报表Excel文件，包含合并利润表数据，是用户会提交分析的典型输入"
+        },
+        {
+          "title": "[XLS] Sheet1 - FloQast",
+          "url": "https://get.floqast.com/hubfs/Assets/Financial%20Statement%20Effects%20Template.xlsx",
+          "snippet": "Financial Statement Effects Template. 2, Balance Sheet, Income Statement. 3, #, Transaction, Cash Asset, +, Noncash Asset, = Liabilities, +, Contributed Capital ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 12611,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Financial Statement Effects Template.xlsx 是财务报表影响分析模板，包含资产负债表和利润表结构，是用户会使用的输入文件"
+        }
+      ],
+      "kept_count": 10,
+      "total_count": 10
+    },
+    {
+      "q": "customer survey responses dataset spreadsheet",
+      "file_type": "xlsx",
+      "preferred_sites": [
+        "kaggle.com",
+        "data.world",
+        "github.com"
+      ],
+      "results_annotated": [
+        {
+          "title": "[XLS] EXAMPLE Customer Feedback Form - Smartsheet",
+          "url": "https://www.smartsheet.com/sites/default/files/2023-10/IC-Excel-Customer-Feedback-Form-11807.xlsx?srsltid=AfmBOoqHj6yckZTeoGzOIO4TioWFQ7Xaiy2Xjqmna2INxSfevH6VPgiV",
+          "snippet": "How would you are your overall customer experience? How satisfied were you with the product? How satisfied were you with customer support, How satisfied were ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 370312,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是一个直接的 Excel 格式客户反馈表单模板，包含调查问题结构，用户可将其作为输入文件或基于此填入数据后提交给 skill 进行分析。"
+        },
+        {
+          "title": "[XLS] Download Survey Results .xlsx - OCLC",
+          "url": "https://www.oclc.org/content/dam/research/activities/linkeddata/oclc-research-linked-data-implementers-survey-2014.xlsx",
+          "snippet": "What types of data are you publishing as linked data? What is the size of your Linked Data dataset? What license do you apply to your linked data dataset?",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 319568,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "这是实际的调查结果数据集文件（.xlsx），包含具体的响应数据，完全符合用户提交给 skill 进行数据分析的场景。"
+        },
+        {
+          "title": "[XLS] help-survey",
+          "url": "https://docs.surveycto.com/sample-forms/Sample-FieldLists.xlsx",
+          "snippet": "Aside from overall settings and lists of multiple-choice options, everything about your survey form is specified in this worksheet. 4, Learn more about form ...",
+          "status_code": 200,
+          "content_type": "binary/octet-stream",
+          "content_length": 43536,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "这是 SurveyCTO 平台的表单配置示例文件，主要用于定义问卷逻辑而非存储实际响应数据，属于工具文档而非用户分析数据。"
+        },
+        {
+          "title": "[XLS] https://ors.od.nih.gov/OD/OQM/Documents/OQM%20Cust...",
+          "url": "https://ors.od.nih.gov/OD/OQM/Documents/OQM%20Customer%20List.xlsx",
+          "snippet": "Customer Satisfaction Survey of users of space and assignment data to obtain satisfaction and importance ratings on space and assignment data appearing on ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 34438,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "标题和片段表明这是包含客户满意度调查评级数据的 Excel 文件，可作为实际响应数据输入给 skill。"
+        },
+        {
+          "title": "[XLS] Data Dictionary",
+          "url": "https://doc.ukdataservice.ac.uk/doc/8653/mrdoc/excel/data_dictionary_wave_65.xlsx",
+          "snippet": "Estimates from the voluntary fortnightly business survey (BICS) about financial performance, workforce, prices, trade, and business resilience. The survey was ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 42969,
+          "judge_keep": false,
+          "judge_confidence": 0.3,
+          "judge_reason": "这是数据字典文件，用于解释变量含义和元数据，属于辅助文档，不是用户需要分析的原始调查响应数据本身。"
+        },
+        {
+          "title": "[XLS] Labels - MarketSight",
+          "url": "https://application.marketsight.com/app/Help/DatasetLabelingWorkbook.xlsx",
+          "snippet": "To accomplish this, you'll want to fill out the Dataset Labeling Workbook and apply it to the data file. The Workbook is an Excel file that formalizes the input ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 35965,
+          "judge_keep": false,
+          "judge_confidence": 0.25,
+          "judge_reason": "这是用于数据集标记的工作簿模板，属于操作指南或配置工具，而非包含实际调查响应的分析数据。"
+        },
+        {
+          "title": "[XLS] 2018-11_Responses - JNCC Open Data",
+          "url": "https://data.jncc.gov.uk/data/2cb959e1-4a0f-4604-bf5f-37eb93ded6de-JNCC-DATA-MATURITY-MODEL-20181126-public.xlsx",
+          "snippet": "Contact the open data publishers to let them know you are using their datasets. 2. Where you have feedback or improvements to the data, ...",
+          "status_code": 200,
+          "content_type": "binary/octet-stream",
+          "content_length": 35992,
+          "judge_keep": true,
+          "judge_confidence": 0.8,
+          "judge_reason": "文件名包含'Responses'，且片段提及反馈，表明这是包含实际调查响应记录的 Excel 数据集，适合作为输入。"
+        },
+        {
+          "title": "[XLS] dataset",
+          "url": "https://www.ons.gov.uk/file?uri=/economy/economicoutputandproductivity/output/datasets/businessinsightsandimpactontheukeconomy/bicswave123/bicswave1232final.xlsx",
+          "snippet": "The survey was sent to around 39,000 UK businesses, and results presented in this release are based on a limited number of responses, around 25.2% (10,070) of ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "这是来自官方统计机构的商业调查响应数据集（.xlsx），包含大量企业回复数据，是典型的分析输入文件。"
+        },
+        {
+          "title": "[XLS] Sheet1 - U.S. Department of Labor",
+          "url": "https://www.dol.gov/sites/dolgov/files/Data-Governance/dol_edi%20Q4%202024.xlsx",
+          "snippet": "This dataset is the final data from the evaluation and includes administrative data from the six and eighteen month follow-ups and survey data from the six ...",
+          "status_code": 405,
+          "content_type": "text/html",
+          "content_length": 261,
+          "judge_keep": true,
+          "judge_confidence": 0.75,
+          "judge_reason": "尽管状态码异常，但标题和片段明确指出这是包含随访和调查数据的最终评估数据集，本质上是用户需要的输入内容。"
+        },
+        {
+          "title": "[XLS] Service Functions",
+          "url": "https://ussm.gsa.gov/assets/files/downloads/HCM_HCA_2025/Human%20Capital%20Analytics%20&%20Employee%20Records%20Business%20Lifecycle.xlsx",
+          "snippet": "All data elements in this workbook apply to the Human Capital Service Area. ... datasets • Results of research. 7, A9, HCM.A9-2 Employee Research, HCM.A9-2.040 ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 61696,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "这是关于人力资本服务功能和数据元素的定义文档/分类表，属于元数据或规范说明，不是具体的调查响应数据。"
+        }
+      ],
+      "results_kept": [
+        {
+          "title": "[XLS] EXAMPLE Customer Feedback Form - Smartsheet",
+          "url": "https://www.smartsheet.com/sites/default/files/2023-10/IC-Excel-Customer-Feedback-Form-11807.xlsx?srsltid=AfmBOoqHj6yckZTeoGzOIO4TioWFQ7Xaiy2Xjqmna2INxSfevH6VPgiV",
+          "snippet": "How would you are your overall customer experience? How satisfied were you with the product? How satisfied were you with customer support, How satisfied were ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 370312,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是一个直接的 Excel 格式客户反馈表单模板，包含调查问题结构，用户可将其作为输入文件或基于此填入数据后提交给 skill 进行分析。"
+        },
+        {
+          "title": "[XLS] Download Survey Results .xlsx - OCLC",
+          "url": "https://www.oclc.org/content/dam/research/activities/linkeddata/oclc-research-linked-data-implementers-survey-2014.xlsx",
+          "snippet": "What types of data are you publishing as linked data? What is the size of your Linked Data dataset? What license do you apply to your linked data dataset?",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 319568,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "这是实际的调查结果数据集文件（.xlsx），包含具体的响应数据，完全符合用户提交给 skill 进行数据分析的场景。"
+        },
+        {
+          "title": "[XLS] https://ors.od.nih.gov/OD/OQM/Documents/OQM%20Cust...",
+          "url": "https://ors.od.nih.gov/OD/OQM/Documents/OQM%20Customer%20List.xlsx",
+          "snippet": "Customer Satisfaction Survey of users of space and assignment data to obtain satisfaction and importance ratings on space and assignment data appearing on ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 34438,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "标题和片段表明这是包含客户满意度调查评级数据的 Excel 文件，可作为实际响应数据输入给 skill。"
+        },
+        {
+          "title": "[XLS] 2018-11_Responses - JNCC Open Data",
+          "url": "https://data.jncc.gov.uk/data/2cb959e1-4a0f-4604-bf5f-37eb93ded6de-JNCC-DATA-MATURITY-MODEL-20181126-public.xlsx",
+          "snippet": "Contact the open data publishers to let them know you are using their datasets. 2. Where you have feedback or improvements to the data, ...",
+          "status_code": 200,
+          "content_type": "binary/octet-stream",
+          "content_length": 35992,
+          "judge_keep": true,
+          "judge_confidence": 0.8,
+          "judge_reason": "文件名包含'Responses'，且片段提及反馈，表明这是包含实际调查响应记录的 Excel 数据集，适合作为输入。"
+        },
+        {
+          "title": "[XLS] dataset",
+          "url": "https://www.ons.gov.uk/file?uri=/economy/economicoutputandproductivity/output/datasets/businessinsightsandimpactontheukeconomy/bicswave123/bicswave1232final.xlsx",
+          "snippet": "The survey was sent to around 39,000 UK businesses, and results presented in this release are based on a limited number of responses, around 25.2% (10,070) of ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "这是来自官方统计机构的商业调查响应数据集（.xlsx），包含大量企业回复数据，是典型的分析输入文件。"
+        },
+        {
+          "title": "[XLS] Sheet1 - U.S. Department of Labor",
+          "url": "https://www.dol.gov/sites/dolgov/files/Data-Governance/dol_edi%20Q4%202024.xlsx",
+          "snippet": "This dataset is the final data from the evaluation and includes administrative data from the six and eighteen month follow-ups and survey data from the six ...",
+          "status_code": 405,
+          "content_type": "text/html",
+          "content_length": 261,
+          "judge_keep": true,
+          "judge_confidence": 0.75,
+          "judge_reason": "尽管状态码异常，但标题和片段明确指出这是包含随访和调查数据的最终评估数据集，本质上是用户需要的输入内容。"
+        }
+      ],
+      "kept_count": 6,
+      "total_count": 10
+    },
+    {
+      "q": "inventory tracking product catalog excel template",
+      "file_type": "xlsx",
+      "preferred_sites": [
+        "github.com",
+        "template.net",
+        "microsoft.com"
+      ],
+      "results_annotated": [
+        {
+          "title": "[XLS] InformationAssetInventory",
+          "url": "https://images.template.net/wp-content/uploads/2016/03/28055559/Information-Asset-Inventory-Template-Excel-Download.xlsm",
+          "snippet": "Form used to initiate the new starter process and sent to UNIT B via email. Electronic .xls template file, Y, Y, N, Confidential, Medium, Low, UNIT B, 0.5 Years ...",
+          "status_code": 200,
+          "content_type": "application/vnd.ms-excel.sheet.macroEnabled.12",
+          "content_length": 101113,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "这是信息资产清单模板，用于IT资产管理而非产品库存/产品目录，与inventory tracking product catalog主题不符"
+        },
+        {
+          "title": "[XLS] Sheet1",
+          "url": "https://images.template.net/wp-content/uploads/2015/09/08172429/Transition-Action-Project-Plan-Excel-Free-Download.xlsx",
+          "snippet": "Inventory and Stores. 1302, Determine whether inventory and stock control is centralised or decentralised. 1303, Identify and review existing inventory controls ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 90798,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "这是过渡行动计划模板，snippet仅提到inventory作为项目任务之一，本身不是库存跟踪或产品目录文件"
+        },
+        {
+          "title": "[XLS] Administrative Templates - Microsoft Download Center",
+          "url": "https://download.microsoft.com/download/0/2/e/02e99437-94e6-4b2d-9ea6-79cc514db1c4/Windows11andWindowsServer2019PolicySettings--22H2.xlsx",
+          "snippet": "Administrative Template worksheet, click the drop-down arrow next to Supported On, and then click At least Microsoft Windows Server 2012 or Windows 8. 26, Legal ...",
+          "status_code": 0,
+          "content_type": "",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "这是Windows组策略设置文档，与inventory tracking product catalog完全无关"
+        },
+        {
+          "title": "[XLS] Sheet1 - Microsoft Download Center",
+          "url": "https://download.microsoft.com/download/2/6/D/26DA6A05-F0A1-492D-8950-6C842BDC596F/E-Learning-Retirement-List-30June15.xlsx",
+          "snippet": "Microsoft Dynamics AX 2009 Product Builder I : Product Models. 1775, 80147.3 ... Microsoft Dynamics SL 7.0: Inventory - Inventory Maintenance. 1921, 8966.3 ...",
+          "status_code": 0,
+          "content_type": "",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "这是微软电子学习课程退役列表，snippet提到的Inventory是课程名称，不是库存数据文件"
+        },
+        {
+          "title": "[XLS] Cloud candidate template Sheet - Microsoft Download Center",
+          "url": "https://download.microsoft.com/documents/australia/enterprise/Risk_Framework_Template_Tool.xlsm",
+          "snippet": "This document has been prepared by Microsoft to provide an overarching risk-management framework to allow organisations to conduct a risk-based assessment of a ...",
+          "status_code": 0,
+          "content_type": "",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "这是风险管理框架模板，与inventory tracking product catalog无关"
+        },
+        {
+          "title": "[XLS] Inventory Tracking - Smartsheet",
+          "url": "https://www.smartsheet.com/sites/default/files/2025-03/IC-Consignment-Inventory-Spreadsheet-Template-12363.xlsx?srsltid=AfmBOorbwmSNevlZnc9nppkL6yGmAWT_RaY_qVRGSM-yA7Wrce6ac81l",
+          "snippet": "Inventory Tracking. A, B, C, D, E, F, G, H, I, J, K, L, M, N. 2, Consignment Inventory Spreadsheet Template. 3, Product ID, Item Name, Description, Designer ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 282891,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是明确的寄售库存跟踪电子表格模板，包含Product ID、Item Name等字段，是用户会直接提交给Excel Analysis skill的典型输入文件"
+        },
+        {
+          "title": "[XLS] Inventory and Audit",
+          "url": "https://developer.salesforce.com/files/Content%20Audit%20Template.xlsx",
+          "snippet": "The Inventory and Audit tab of this spreadsheet includes a set of criteria to use as a starting point, but you should tailor the columns so that the audit ...",
+          "status_code": 0,
+          "content_type": "",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.25,
+          "judge_reason": "这是Salesforce内容审计模板，用于网站内容审计而非产品库存/目录管理"
+        },
+        {
+          "title": "[XLS] Chemical Inventory Template (XLSX)",
+          "url": "https://www.pace.edu/sites/default/files/2021-05/chemical-inventory-template.xlsx",
+          "snippet": "Inventory Supervisor: L. Cimini, Room Number: D110, & D110B. 7, PI: 773-3514. 8, Dept Manager, J HORNE, Date of Inventory: 8/26/2011 - 9/02/2011. 9, Phone #: ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 58186,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "这是化学品库存模板，用于实验室化学品安全管理，不是通用的产品目录/库存跟踪文件"
+        },
+        {
+          "title": "[XLS] ProMinent SAP Ariba Excel Catalog Template",
+          "url": "https://www.prominent.com/resources/CompanyInfoPolicy/English/25872/ProMinent-SAP-Ariba-Excel-Catalog-Template.xlsx",
+          "snippet": "Commercial, Private Vehicles-Accessories + Comp. 30, custom, 2510, Motor vehicles. 31, custom, 251016, Product and material transport vehicles. 32, custom, 2517 ...",
+          "status_code": 405,
+          "content_type": "",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "这是SAP Ariba产品目录模板，包含产品分类和物料编码，是可直接用于产品目录分析的Excel输入文件"
+        },
+        {
+          "title": "[XLS] APQP Tracking sheet - Tenneco",
+          "url": "https://www.tenneco.com/content/dam/tenneco/doc/excel/supplier-documents/apqp-tracker.xls.coredownload.xls",
+          "snippet": "The APQP Tracker Template should be uploaded into the TITAN C-folder by the Supplier. This APQP Tracking Sheet can be found in the Supplier Quality Manual. 13.",
+          "status_code": 200,
+          "content_type": "application/vnd.ms-excel",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "这是APQP（产品质量先期策划）跟踪表，用于供应商质量管理，不是库存或产品目录文件"
+        }
+      ],
+      "results_kept": [
+        {
+          "title": "[XLS] Inventory Tracking - Smartsheet",
+          "url": "https://www.smartsheet.com/sites/default/files/2025-03/IC-Consignment-Inventory-Spreadsheet-Template-12363.xlsx?srsltid=AfmBOorbwmSNevlZnc9nppkL6yGmAWT_RaY_qVRGSM-yA7Wrce6ac81l",
+          "snippet": "Inventory Tracking. A, B, C, D, E, F, G, H, I, J, K, L, M, N. 2, Consignment Inventory Spreadsheet Template. 3, Product ID, Item Name, Description, Designer ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 282891,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "这是明确的寄售库存跟踪电子表格模板，包含Product ID、Item Name等字段，是用户会直接提交给Excel Analysis skill的典型输入文件"
+        },
+        {
+          "title": "[XLS] ProMinent SAP Ariba Excel Catalog Template",
+          "url": "https://www.prominent.com/resources/CompanyInfoPolicy/English/25872/ProMinent-SAP-Ariba-Excel-Catalog-Template.xlsx",
+          "snippet": "Commercial, Private Vehicles-Accessories + Comp. 30, custom, 2510, Motor vehicles. 31, custom, 251016, Product and material transport vehicles. 32, custom, 2517 ...",
+          "status_code": 405,
+          "content_type": "",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "这是SAP Ariba产品目录模板，包含产品分类和物料编码，是可直接用于产品目录分析的Excel输入文件"
+        }
+      ],
+      "kept_count": 2,
+      "total_count": 10
+    },
+    {
+      "q": "employee timesheet payroll hours worked spreadsheet",
+      "file_type": "xlsx",
+      "preferred_sites": [
+        "github.com",
+        "template.net",
+        "smartsheet.com"
+      ],
+      "results_annotated": [
+        {
+          "title": "[XLS] https://images.template.net/wp-content/uploads/201...",
+          "url": "https://images.template.net/wp-content/uploads/2016/07/22110740/Timesheet-with-Payroll-Calendar.xltx",
+          "snippet": "Timesheet Template. A, B, C, D, E, F, G, H, I, J, K, L, M, N, O ... Question about your time and paycodes, contact payroll at 334-0141 ... These Signatures certify ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.template",
+          "content_length": 32359,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Timesheet with Payroll Calendar模板文件，是用户会提交给Excel Analysis skill进行工时和薪资分析的实际输入文件"
+        },
+        {
+          "title": "[XLS] https://images.template.net/wp-content/uploads/201...",
+          "url": "https://images.template.net/wp-content/uploads/2015/10/12192347/Download-The-Free-Employee-Schedule-Template-in-Excel.xlsm",
+          "snippet": "... staff and their shifts. You'll also want to click \"Enable Content\" so that the macros can calculate the total hours and total pay for your staff. 5, Adding ...",
+          "status_code": 200,
+          "content_type": "application/vnd.ms-excel.sheet.macroenabled.12",
+          "content_length": 41210,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Employee Schedule Template含工时和薪资计算功能，是可作为skill输入的Excel模板文件"
+        },
+        {
+          "title": "[XLS] Sheet1",
+          "url": "https://images.template.net/wp-content/uploads/2015/09/08172429/Transition-Action-Project-Plan-Excel-Free-Download.xlsx",
+          "snippet": "STAGE ONE - example only. Individual LGs to populate in line with business needs. 6, Establish an overarching Transition Project Plan.",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 90798,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "Transition Action Project Plan是项目管理计划模板，与员工工时表/薪资分析无关"
+        },
+        {
+          "title": "[XLS] ‌Download Payroll Register Template - Excel - Smartsheet",
+          "url": "https://www.smartsheet.com/sites/default/files/IC-Payroll-Register-Template_0.xlsx?srsltid=AfmBOorfzB08JVsuBt2xuj456fBtMhLuVv06Dn3-K8LJyeXxG99G2wBR",
+          "snippet": "Employee Number, Regular Hours. 12, Federal Filing Status, Overtime Hours. 13, Pay Begin Date, Holiday Hours. 14, Pay End Date, Vacation Hours. 15, Tax ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 582968,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Payroll Register Template是薪资登记模板，含员工工时、薪资等数据，是skill的典型输入文件"
+        },
+        {
+          "title": "[XLS] Overtime Calculator - Smartsheet",
+          "url": "https://www.smartsheet.com/sites/default/files/2019-10/IC-Overtime-Calculator-and-Analysis-10678.xlsx?srsltid=AfmBOootMHRkCrW5H1EKx81EJuiuVuOMy13KvOx_75dAUo1Wb9E69Ywx",
+          "snippet": "Enter data for Start Time, Regular Hours, Regular Pay, and Overtime Pay. START TIME, REGULAR HOURS*, REGULAR PAY hourly rate, OVERTIME PAY hourly rate. 9 ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 33352,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Overtime Calculator是加班计算分析工具，含工时和薪资数据，适合作为skill输入"
+        },
+        {
+          "title": "[XLS] 2026-27 Biweekly Payroll Sched - Smartsheet",
+          "url": "https://www.smartsheet.com/sites/default/files/2025-10/IC-2026-2027-Biweekly-Payroll-Schedule-Template.xlsx?srsltid=AfmBOoo9mo02aMuW_34mYSy3Q_So-f2ltUWBOSELrxL065i8xXZCpxOg",
+          "snippet": "2026-27 Biweekly Payroll Sched. A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S ... 2026-2027 BIWEEKLY PAYROLL SCHEDULE TEMPLATE. 3, Enter \"$\" on ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 373800,
+          "judge_keep": false,
+          "judge_confidence": 0.3,
+          "judge_reason": "Biweekly Payroll Schedule是发薪日程表模板，主要是日期安排而非员工实际工时数据"
+        },
+        {
+          "title": "Worksheet for Payroll",
+          "url": "https://www.diocal.org/wp-content/uploads/2024/11/2025-Payroll-Worksheet-aka-employer-timesheet.xlsx",
+          "snippet": "2025 \"timesheet\", HOURS For HOURLY employees: #s reported below will result in a paycheck For SALARY employees: #s reported below are \"memos\" on payroll ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 14968,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Payroll Worksheet aka employer timesheet是雇主使用的工时表，含员工工时和薪资数据，是skill的直接输入"
+        },
+        {
+          "title": "Multi Emp. Weekly Timesheet - ExcelDataPro",
+          "url": "https://d25skit2l41vkl.cloudfront.net/wp-content/uploads/2018/05/Multiple-Employees-Weekly-Timesheet.xlsx",
+          "snippet": "Multiple Employees Weekly Timesheet Excel Template. 4, Day, 0, 0, 0, 0, 0, 0, 0, Total Hours ... Total Hours, Hourly Rate, Weekly Pay. 5, Date. 6, Name of ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Multiple Employees Weekly Timesheet是多员工周工时表，含工时、时薪、周薪等数据，是skill的理想输入"
+        },
+        {
+          "title": "Standard Time Sheet for Staff",
+          "url": "https://payroll.unm.edu/resources/standard-timesheet-for-staff-080123.xlsx",
+          "snippet": "I agree with the hours worked and time taken as shown on this Timesheet. ... \"The accuracy of time reporting is the responsibility of each ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 35909,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Standard Time Sheet for Staff是标准员工工时表，记录实际工作时间，是skill的典型输入文件"
+        },
+        {
+          "title": "Excel Timesheet Template",
+          "url": "https://www.gla.ac.uk/media/Media_1019789_smxx.xlsx",
+          "snippet": "... Timesheet Hourly paid Workers & Employees. 4. 5, Step 02. 6 ... In order for payroll to be able to identify the correct approvers against the timesheets ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 56610,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Timesheet Hourly paid Workers & Employees是小时工工时表模板，是skill可直接分析的输入文件"
+        }
+      ],
+      "results_kept": [
+        {
+          "title": "[XLS] https://images.template.net/wp-content/uploads/201...",
+          "url": "https://images.template.net/wp-content/uploads/2016/07/22110740/Timesheet-with-Payroll-Calendar.xltx",
+          "snippet": "Timesheet Template. A, B, C, D, E, F, G, H, I, J, K, L, M, N, O ... Question about your time and paycodes, contact payroll at 334-0141 ... These Signatures certify ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.template",
+          "content_length": 32359,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Timesheet with Payroll Calendar模板文件，是用户会提交给Excel Analysis skill进行工时和薪资分析的实际输入文件"
+        },
+        {
+          "title": "[XLS] https://images.template.net/wp-content/uploads/201...",
+          "url": "https://images.template.net/wp-content/uploads/2015/10/12192347/Download-The-Free-Employee-Schedule-Template-in-Excel.xlsm",
+          "snippet": "... staff and their shifts. You'll also want to click \"Enable Content\" so that the macros can calculate the total hours and total pay for your staff. 5, Adding ...",
+          "status_code": 200,
+          "content_type": "application/vnd.ms-excel.sheet.macroenabled.12",
+          "content_length": 41210,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Employee Schedule Template含工时和薪资计算功能，是可作为skill输入的Excel模板文件"
+        },
+        {
+          "title": "[XLS] ‌Download Payroll Register Template - Excel - Smartsheet",
+          "url": "https://www.smartsheet.com/sites/default/files/IC-Payroll-Register-Template_0.xlsx?srsltid=AfmBOorfzB08JVsuBt2xuj456fBtMhLuVv06Dn3-K8LJyeXxG99G2wBR",
+          "snippet": "Employee Number, Regular Hours. 12, Federal Filing Status, Overtime Hours. 13, Pay Begin Date, Holiday Hours. 14, Pay End Date, Vacation Hours. 15, Tax ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 582968,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Payroll Register Template是薪资登记模板，含员工工时、薪资等数据，是skill的典型输入文件"
+        },
+        {
+          "title": "[XLS] Overtime Calculator - Smartsheet",
+          "url": "https://www.smartsheet.com/sites/default/files/2019-10/IC-Overtime-Calculator-and-Analysis-10678.xlsx?srsltid=AfmBOootMHRkCrW5H1EKx81EJuiuVuOMy13KvOx_75dAUo1Wb9E69Ywx",
+          "snippet": "Enter data for Start Time, Regular Hours, Regular Pay, and Overtime Pay. START TIME, REGULAR HOURS*, REGULAR PAY hourly rate, OVERTIME PAY hourly rate. 9 ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 33352,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Overtime Calculator是加班计算分析工具，含工时和薪资数据，适合作为skill输入"
+        },
+        {
+          "title": "Worksheet for Payroll",
+          "url": "https://www.diocal.org/wp-content/uploads/2024/11/2025-Payroll-Worksheet-aka-employer-timesheet.xlsx",
+          "snippet": "2025 \"timesheet\", HOURS For HOURLY employees: #s reported below will result in a paycheck For SALARY employees: #s reported below are \"memos\" on payroll ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 14968,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Payroll Worksheet aka employer timesheet是雇主使用的工时表，含员工工时和薪资数据，是skill的直接输入"
+        },
+        {
+          "title": "Multi Emp. Weekly Timesheet - ExcelDataPro",
+          "url": "https://d25skit2l41vkl.cloudfront.net/wp-content/uploads/2018/05/Multiple-Employees-Weekly-Timesheet.xlsx",
+          "snippet": "Multiple Employees Weekly Timesheet Excel Template. 4, Day, 0, 0, 0, 0, 0, 0, 0, Total Hours ... Total Hours, Hourly Rate, Weekly Pay. 5, Date. 6, Name of ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Multiple Employees Weekly Timesheet是多员工周工时表，含工时、时薪、周薪等数据，是skill的理想输入"
+        },
+        {
+          "title": "Standard Time Sheet for Staff",
+          "url": "https://payroll.unm.edu/resources/standard-timesheet-for-staff-080123.xlsx",
+          "snippet": "I agree with the hours worked and time taken as shown on this Timesheet. ... \"The accuracy of time reporting is the responsibility of each ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 35909,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Standard Time Sheet for Staff是标准员工工时表，记录实际工作时间，是skill的典型输入文件"
+        },
+        {
+          "title": "Excel Timesheet Template",
+          "url": "https://www.gla.ac.uk/media/Media_1019789_smxx.xlsx",
+          "snippet": "... Timesheet Hourly paid Workers & Employees. 4. 5, Step 02. 6 ... In order for payroll to be able to identify the correct approvers against the timesheets ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 56610,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Timesheet Hourly paid Workers & Employees是小时工工时表模板，是skill可直接分析的输入文件"
+        }
+      ],
+      "kept_count": 8,
+      "total_count": 10
+    }
+  ]
+}

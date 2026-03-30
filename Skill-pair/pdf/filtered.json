@@ -1,0 +1,996 @@
+{
+  "skill": "C:\\Users\\yt\\Desktop\\SKILLS\\pdf\\SKILL.md",
+  "threshold": 0.7,
+  "filtered_results": [
+    {
+      "q": "annual report PDF financial statements tables",
+      "file_type": "pdf",
+      "preferred_sites": [
+        "sec.gov",
+        "ir.company.com",
+        "annualreports.com"
+      ],
+      "results_annotated": [
+        {
+          "title": "[PDF] Investor Bulletin: How to Read a 10-K - SEC.gov",
+          "url": "https://www.sec.gov/files/reada10k.pdf",
+          "snippet": "U.S. companies are required to present their financial statements according to a set of accounting standards, conventions and rules known as Generally Accepted.",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 920,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "SEC investor bulletin about how to read 10-K forms, not an actual annual report with financial tables to process"
+        },
+        {
+          "title": "[PDF] 2025 SUMMARY ANNUAL REPORT - SEC.gov",
+          "url": "https://www.sec.gov/Archives/edgar/data/110621/000119312525185357/d944593dars.pdf",
+          "snippet": "This Annual Report includes forward-looking statements relating to our business. These forward-looking statements, or other statements made ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 2164,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "Actual annual report PDF from SEC EDGAR with financial statements, despite 403 status the title and URL confirm it's a real annual report"
+        },
+        {
+          "title": "[PDF] Form 20-F - SEC.gov",
+          "url": "https://www.sec.gov/files/form20-f.pdf",
+          "snippet": "(1) An Exchange Act registration statement or annual report filed on this Form must contain the financial statements and related information specified in Item ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 920,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "SEC form template/instructions (Form 20-F), not an actual annual report with financial data tables"
+        },
+        {
+          "title": "[PDF] 2023 Annual Financial Report",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/NYSE_IRM_2023.pdf",
+          "snippet": "The following includes supplemental information to the table above for the Global Data Center and ALM reporting units where the estimated ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 6043909,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Actual 2023 annual financial report PDF with tables, correct content-type, substantial size, and snippet mentions supplemental table information"
+        },
+        {
+          "title": "[PDF] annual report 2022 | crc",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/NYSE_CRC_2022.pdf",
+          "snippet": "This report contains forward-looking statements that involve risks and uncertainties that could materially affect our expected results of ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 1596372,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Actual 2022 annual report PDF with financial statements, proper content-type and substantial file size"
+        },
+        {
+          "title": "[PDF] 2023 annual report",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/NYSE_CUZ_2023.pdf",
+          "snippet": "financial statements included in this Annual Report on Form 10-K. ... The information included in the following table entitled summary of ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 5885524,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Actual 2023 annual report PDF explicitly mentioning financial statements and summary tables, correct content-type"
+        },
+        {
+          "title": "[PDF] IMF ANNUAL REPORT 2025 Financial Statements",
+          "url": "https://www.imf.org/external/pubs/ft/ar/2025/pdfs/imf-annual-report-2025-financial-statements.pdf",
+          "snippet": "The audited financial statements that follow form Appendix VI of the International Monetary. Fund's Annual Report 2025 and can be found, ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 490,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "IMF Annual Report 2025 Financial Statements PDF, directly matches search for financial statements despite 403 status"
+        },
+        {
+          "title": "[PDF] Guide to annual financial statements – Illustrative disclosures",
+          "url": "https://assets.kpmg.com/content/dam/kpmgsites/xx/pdf/ifrg/2024/isg-2023-ifs.pdf",
+          "snippet": "This guide has been produced by the KPMG International Standards Group (part of KPMG IFRG. Limited). It is intended to help entities to prepare and present ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 3173359,
+          "judge_keep": true,
+          "judge_confidence": 0.8,
+          "judge_reason": "KPMG guide to annual financial statements with illustrative disclosures, contains example financial statement tables for reference"
+        },
+        {
+          "title": "[PDF] Financial statements | Illustrative Annual Report 2024 - PwC",
+          "url": "https://www.pwc.com/sg/en/publications/assets/page/financial-statements-2024.pdf",
+          "snippet": "Statement of comprehensive income, statement of cash flows and statement of changes in equity of the parent.",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 10475185,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "PwC illustrative annual report 2024 with financial statements including income, cash flows and equity statements, large valid PDF"
+        },
+        {
+          "title": "[PDF] Sample-Financial-Statements-1.pdf",
+          "url": "https://mbpc.tcnj.edu/wp-content/uploads/sites/148/2021/10/Sample-Financial-Statements-1.pdf",
+          "snippet": "Income Statement (Service). For the Year Ended September 30, 2021. Service revenue. $2,750. Operating Expenses: Depreciation expense. 100. Wages expenses. 1,200.",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 158776,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Sample financial statements PDF with actual income statement table data showing service revenue and expenses"
+        }
+      ],
+      "results_kept": [
+        {
+          "title": "[PDF] 2025 SUMMARY ANNUAL REPORT - SEC.gov",
+          "url": "https://www.sec.gov/Archives/edgar/data/110621/000119312525185357/d944593dars.pdf",
+          "snippet": "This Annual Report includes forward-looking statements relating to our business. These forward-looking statements, or other statements made ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 2164,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "Actual annual report PDF from SEC EDGAR with financial statements, despite 403 status the title and URL confirm it's a real annual report"
+        },
+        {
+          "title": "[PDF] 2023 Annual Financial Report",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/i/NYSE_IRM_2023.pdf",
+          "snippet": "The following includes supplemental information to the table above for the Global Data Center and ALM reporting units where the estimated ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 6043909,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Actual 2023 annual financial report PDF with tables, correct content-type, substantial size, and snippet mentions supplemental table information"
+        },
+        {
+          "title": "[PDF] annual report 2022 | crc",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/NYSE_CRC_2022.pdf",
+          "snippet": "This report contains forward-looking statements that involve risks and uncertainties that could materially affect our expected results of ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 1596372,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Actual 2022 annual report PDF with financial statements, proper content-type and substantial file size"
+        },
+        {
+          "title": "[PDF] 2023 annual report",
+          "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/c/NYSE_CUZ_2023.pdf",
+          "snippet": "financial statements included in this Annual Report on Form 10-K. ... The information included in the following table entitled summary of ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 5885524,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Actual 2023 annual report PDF explicitly mentioning financial statements and summary tables, correct content-type"
+        },
+        {
+          "title": "[PDF] IMF ANNUAL REPORT 2025 Financial Statements",
+          "url": "https://www.imf.org/external/pubs/ft/ar/2025/pdfs/imf-annual-report-2025-financial-statements.pdf",
+          "snippet": "The audited financial statements that follow form Appendix VI of the International Monetary. Fund's Annual Report 2025 and can be found, ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 490,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "IMF Annual Report 2025 Financial Statements PDF, directly matches search for financial statements despite 403 status"
+        },
+        {
+          "title": "[PDF] Guide to annual financial statements – Illustrative disclosures",
+          "url": "https://assets.kpmg.com/content/dam/kpmgsites/xx/pdf/ifrg/2024/isg-2023-ifs.pdf",
+          "snippet": "This guide has been produced by the KPMG International Standards Group (part of KPMG IFRG. Limited). It is intended to help entities to prepare and present ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 3173359,
+          "judge_keep": true,
+          "judge_confidence": 0.8,
+          "judge_reason": "KPMG guide to annual financial statements with illustrative disclosures, contains example financial statement tables for reference"
+        },
+        {
+          "title": "[PDF] Financial statements | Illustrative Annual Report 2024 - PwC",
+          "url": "https://www.pwc.com/sg/en/publications/assets/page/financial-statements-2024.pdf",
+          "snippet": "Statement of comprehensive income, statement of cash flows and statement of changes in equity of the parent.",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 10475185,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "PwC illustrative annual report 2024 with financial statements including income, cash flows and equity statements, large valid PDF"
+        },
+        {
+          "title": "[PDF] Sample-Financial-Statements-1.pdf",
+          "url": "https://mbpc.tcnj.edu/wp-content/uploads/sites/148/2021/10/Sample-Financial-Statements-1.pdf",
+          "snippet": "Income Statement (Service). For the Year Ended September 30, 2021. Service revenue. $2,750. Operating Expenses: Depreciation expense. 100. Wages expenses. 1,200.",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 158776,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Sample financial statements PDF with actual income statement table data showing service revenue and expenses"
+        }
+      ],
+      "kept_count": 8,
+      "total_count": 10
+    },
+    {
+      "q": "scanned document PDF OCR text extraction",
+      "file_type": "pdf",
+      "preferred_sites": [
+        "archive.org",
+        "jstor.org",
+        "books.google.com"
+      ],
+      "results_annotated": [
+        {
+          "title": "[PDF] DjVu: Analyzing and Compressing Scanned Documents for Internet ...",
+          "url": "https://scholar.archive.org/work/kznpa2qlzrabjmmq2wll2ppi5y/access/wayback/http://yann.lecun.com/exdb/publis/pdf/haffner-99.pdf",
+          "snippet": "The addition of text layout analysis and optical character recognition (OCR) will make it possible to index and edit text extracted from DjVu-encoded doc-.",
+          "status_code": 405,
+          "content_type": "text/html",
+          "content_length": 8193,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "Academic paper about DjVu compression format, not a scanned PDF needing OCR processing"
+        },
+        {
+          "title": "[PDF] Textual Information Extraction in Document Images Guided by a ...",
+          "url": "https://scholar.archive.org/work/jhsynlg3qnbofa45gouvti6zlm/access/wayback/http://ceur-ws.org/Vol-1624/paper25.pdf",
+          "snippet": "In this paper, the task of text extraction is done with a free OCR engine named. Tesseract OCR (https://github.com/tesseract-ocr). Tesseract OCR was chosen.",
+          "status_code": 405,
+          "content_type": "text/html",
+          "content_length": 8193,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "Research paper about OCR methodology, not an actual scanned document requiring text extraction"
+        },
+        {
+          "title": "[PDF] Content-level Annotation of Large Collection of Printed Document ...",
+          "url": "https://scholar.archive.org/work/remdyv32vfd7rlq2u6ji6rgq7q/access/wayback/http://researchweb.iiit.ac.in/~anandkumar/webpage/pp_icdar.pdf",
+          "snippet": "Line level annotation is done by labeling the lines from the paragraph of the document image with their corresponding extracted text lines. Line images are ...",
+          "status_code": 405,
+          "content_type": "text/html",
+          "content_length": 8193,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "Academic paper on document annotation techniques, not a scanned PDF for OCR processing"
+        },
+        {
+          "title": "Six Ways from Sunday: Approaches to Indexing Digital Text Images",
+          "url": "https://www.jstor.org/stable/30200519",
+          "snippet": "A controlled vocabulary was established to index a portion of the database. The factors of costs, user feedback and available technologies all influenced the ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 5815,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "JSTOR article about indexing digital text images, not an actual PDF file to process"
+        },
+        {
+          "title": "Advancements in ML-Enabled Intelligent Document Processing and ...",
+          "url": "https://www.jstor.org/stable/27284457",
+          "snippet": "To extract the text from image-based PDF documents, OCR can be applied. Subsequently, the text can be classified by using text mining techniques such as term ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 5815,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "JSTOR article discussing OCR technology, not a scanned document needing extraction"
+        },
+        {
+          "title": "PART IV DIGITAL HUMANITIES AND THE DISCIPLINES - jstor",
+          "url": "https://www.jstor.org/stable/pdf/10.5749/j.ctt1cn6thb.28.pdf?acceptTC=true&coverpage=false&addFooter=false",
+          "snippet": "optical character recognition (OCR) software that extracts text from images cur- ... 50 Text mining and topic modeling can offer a different perspec- ... pdf ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 5815,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "Academic book chapter about digital humanities, not a scanned PDF for OCR processing"
+        },
+        {
+          "title": "[PDF] How to Convert Scanned Documents to OCR.pdf - CSUN",
+          "url": "https://www.csun.edu/sites/default/files/How%20to%20Convert%20Scanned%20Documents%20to%20OCR.pdf",
+          "snippet": "Go to your Canvas course, select the Files tab, after the Accessibility column, select 3 dots as shown, then select Alternative formats. If the Alternative ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 373511,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "Actual PDF guide about converting scanned documents to OCR, directly relevant to the skill's OCR use case"
+        },
+        {
+          "title": "[PDF] Digitization of Document and Information Extraction using OCR - arXiv",
+          "url": "https://arxiv.org/pdf/2506.11156",
+          "snippet": "OCR engines, such as Tesseract,. DocTR, and Google Vision, are employed to transform visual data from scanned images into text. Simultaneously, ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 364649,
+          "judge_keep": true,
+          "judge_confidence": 0.8,
+          "judge_reason": "Research paper on OCR document digitization, contains practical examples of scanned documents for text extraction"
+        },
+        {
+          "title": "[PDF] Creating Plain Text from a pdf Scan using OCR",
+          "url": "https://www.aacademica.org/openmedfr/7.pdf",
+          "snippet": "Extracting text from an image of text. Optical character recognition (also ... - a searchable pdf has some OCR done, but if you extract it you will find errors ( ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Direct tutorial PDF on creating plain text from scanned PDFs using OCR, exactly matches skill's OCR functionality"
+        },
+        {
+          "title": "[PDF] What is iText pdfOCR?",
+          "url": "https://itextpdf.com/sites/default/files/2021-07/PDF-OCR.pdf",
+          "snippet": "iText pdfOCR offers Optical Character. Recognition functionality to convert your scanned documents, PDFs and images into fully ISO-compliant PDF or PDF/A-3u ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 1578992,
+          "judge_keep": true,
+          "judge_confidence": 0.75,
+          "judge_reason": "Product documentation PDF about pdfOCR functionality for converting scanned documents, relevant to OCR operations"
+        }
+      ],
+      "results_kept": [
+        {
+          "title": "[PDF] How to Convert Scanned Documents to OCR.pdf - CSUN",
+          "url": "https://www.csun.edu/sites/default/files/How%20to%20Convert%20Scanned%20Documents%20to%20OCR.pdf",
+          "snippet": "Go to your Canvas course, select the Files tab, after the Accessibility column, select 3 dots as shown, then select Alternative formats. If the Alternative ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 373511,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "Actual PDF guide about converting scanned documents to OCR, directly relevant to the skill's OCR use case"
+        },
+        {
+          "title": "[PDF] Digitization of Document and Information Extraction using OCR - arXiv",
+          "url": "https://arxiv.org/pdf/2506.11156",
+          "snippet": "OCR engines, such as Tesseract,. DocTR, and Google Vision, are employed to transform visual data from scanned images into text. Simultaneously, ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 364649,
+          "judge_keep": true,
+          "judge_confidence": 0.8,
+          "judge_reason": "Research paper on OCR document digitization, contains practical examples of scanned documents for text extraction"
+        },
+        {
+          "title": "[PDF] Creating Plain Text from a pdf Scan using OCR",
+          "url": "https://www.aacademica.org/openmedfr/7.pdf",
+          "snippet": "Extracting text from an image of text. Optical character recognition (also ... - a searchable pdf has some OCR done, but if you extract it you will find errors ( ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Direct tutorial PDF on creating plain text from scanned PDFs using OCR, exactly matches skill's OCR functionality"
+        },
+        {
+          "title": "[PDF] What is iText pdfOCR?",
+          "url": "https://itextpdf.com/sites/default/files/2021-07/PDF-OCR.pdf",
+          "snippet": "iText pdfOCR offers Optical Character. Recognition functionality to convert your scanned documents, PDFs and images into fully ISO-compliant PDF or PDF/A-3u ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 1578992,
+          "judge_keep": true,
+          "judge_confidence": 0.75,
+          "judge_reason": "Product documentation PDF about pdfOCR functionality for converting scanned documents, relevant to OCR operations"
+        }
+      ],
+      "kept_count": 4,
+      "total_count": 10
+    },
+    {
+      "q": "fillable PDF form template download",
+      "file_type": "pdf",
+      "preferred_sites": [
+        "irs.gov",
+        "uscis.gov",
+        "pdfescape.com",
+        "jotform.com"
+      ],
+      "results_annotated": [
+        {
+          "title": "[PDF] fw4.pdf - IRS",
+          "url": "https://www.irs.gov/pub/irs-pdf/fw4.pdf",
+          "snippet": "Complete Form W-4 so that your employer can withhold the correct federal income tax from your pay. If too little is withheld, you will generally ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 208845,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Official IRS Form W-4 PDF, a genuine fillable government form that users commonly need to fill out"
+        },
+        {
+          "title": "[PDF] Free File Fillable Forms User's Guide - IRS",
+          "url": "https://www.irs.gov/pub/irs-utl/free_file_fillable_forms_user_guide.pdf",
+          "snippet": "Print This Form — Opens a new browser window and displays the form, currently viewed, as a pdf file. You can print and/or save the form to your computer from ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 1283452,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "User guide documentation about fillable forms, not an actual fillable form template itself"
+        },
+        {
+          "title": "[PDF] fw2.pdf - IRS",
+          "url": "https://www.irs.gov/pub/irs-pdf/fw2.pdf",
+          "snippet": "The official printed version of this IRS form is scannable, but the online version of it, printed from this website, is not. Do not print and ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 1349127,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Official IRS Form W-2 PDF, a standard fillable tax form used for employment reporting"
+        },
+        {
+          "title": "[PDF] Form I-765, Application For Employment Authorization - USCIS",
+          "url": "https://www.uscis.gov/sites/default/files/document/forms/i-765.pdf",
+          "snippet": "Replacement of lost, stolen, or damaged employment authorization document, or correction of my employment authorization document NOT DUE to.",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 467424,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Official USCIS Form I-765, a genuine fillable immigration form for employment authorization"
+        },
+        {
+          "title": "[PDF] Form I-485, Application to Register Permanent Residence or Adjust ...",
+          "url": "https://www.uscis.gov/sites/default/files/document/forms/i-485.pdf",
+          "snippet": "Principal Applicant's Date of Birth. Principal Applicant's A-Number (if any). I am filing this Form I-485 as a (select only one box):. Principal ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 1203646,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Official USCIS Form I-485, a genuine fillable immigration form for permanent residence"
+        },
+        {
+          "title": "[PDF] Form I-9, Employment Eligibility Verification - USCIS",
+          "url": "https://www.uscis.gov/sites/default/files/document/forms/i-9.pdf",
+          "snippet": "START HERE: Employers must ensure the form instructions are available to employees when completing this form. Employers are liable for.",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 524095,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Official USCIS Form I-9, a genuine fillable employment eligibility verification form"
+        },
+        {
+          "title": "[PDF] Employee Write Up Form (PDF) - Jotform",
+          "url": "https://www.jotform.com/pdf-templates/employee-write-up-form/pdf",
+          "snippet": "Turn form submissions into PDFs automatically — ready to download or save for your records. Go to PDF Editor. SMART PDF FORMS. Convert your PDF files into ...",
+          "status_code": 200,
+          "content_type": "text/html",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.3,
+          "judge_reason": "HTML page about PDF conversion service, not an actual downloadable fillable PDF form"
+        },
+        {
+          "title": "[PDF] Letter of Intent to Return to Work (PDF) - Jotform",
+          "url": "https://www.jotform.com/pdf-templates/letter-of-intent-to-return-to-work/pdf",
+          "snippet": "Jotform offers powerful PDF solutions. Check them out below. These templates are suggested forms only. If you're using a form as a contract, or to gather ...",
+          "status_code": 200,
+          "content_type": "text/html",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.3,
+          "judge_reason": "HTML page about PDF conversion service, not an actual downloadable fillable PDF form"
+        },
+        {
+          "title": "[PDF] Free Non-Compete Agreement Template (PDF) - Jotform",
+          "url": "https://www.jotform.com/pdf-templates/free-non-compete-agreement-template/pdf",
+          "snippet": "Jotform offers powerful PDF solutions. Check them out below. These templates are suggested forms only. If you're using a form as a contract, or to gather ...",
+          "status_code": 200,
+          "content_type": "text/html",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.3,
+          "judge_reason": "HTML page about PDF conversion service, not an actual downloadable fillable PDF form"
+        },
+        {
+          "title": "Sample Fillable PDF",
+          "url": "https://themodernfirm.com/wp-content/uploads/2017/12/Sample-Fillable-PDF.pdf",
+          "snippet": "This is an example of a fillable PDF. A client can save it and email it back to you, or print it and bring it along with them to a meeting with you.",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 67411,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Explicitly labeled as 'Sample Fillable PDF' - a direct example/template of a fillable PDF form"
+        }
+      ],
+      "results_kept": [
+        {
+          "title": "[PDF] fw4.pdf - IRS",
+          "url": "https://www.irs.gov/pub/irs-pdf/fw4.pdf",
+          "snippet": "Complete Form W-4 so that your employer can withhold the correct federal income tax from your pay. If too little is withheld, you will generally ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 208845,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Official IRS Form W-4 PDF, a genuine fillable government form that users commonly need to fill out"
+        },
+        {
+          "title": "[PDF] fw2.pdf - IRS",
+          "url": "https://www.irs.gov/pub/irs-pdf/fw2.pdf",
+          "snippet": "The official printed version of this IRS form is scannable, but the online version of it, printed from this website, is not. Do not print and ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 1349127,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Official IRS Form W-2 PDF, a standard fillable tax form used for employment reporting"
+        },
+        {
+          "title": "[PDF] Form I-765, Application For Employment Authorization - USCIS",
+          "url": "https://www.uscis.gov/sites/default/files/document/forms/i-765.pdf",
+          "snippet": "Replacement of lost, stolen, or damaged employment authorization document, or correction of my employment authorization document NOT DUE to.",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 467424,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Official USCIS Form I-765, a genuine fillable immigration form for employment authorization"
+        },
+        {
+          "title": "[PDF] Form I-485, Application to Register Permanent Residence or Adjust ...",
+          "url": "https://www.uscis.gov/sites/default/files/document/forms/i-485.pdf",
+          "snippet": "Principal Applicant's Date of Birth. Principal Applicant's A-Number (if any). I am filing this Form I-485 as a (select only one box):. Principal ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 1203646,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Official USCIS Form I-485, a genuine fillable immigration form for permanent residence"
+        },
+        {
+          "title": "[PDF] Form I-9, Employment Eligibility Verification - USCIS",
+          "url": "https://www.uscis.gov/sites/default/files/document/forms/i-9.pdf",
+          "snippet": "START HERE: Employers must ensure the form instructions are available to employees when completing this form. Employers are liable for.",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 524095,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Official USCIS Form I-9, a genuine fillable employment eligibility verification form"
+        },
+        {
+          "title": "Sample Fillable PDF",
+          "url": "https://themodernfirm.com/wp-content/uploads/2017/12/Sample-Fillable-PDF.pdf",
+          "snippet": "This is an example of a fillable PDF. A client can save it and email it back to you, or print it and bring it along with them to a meeting with you.",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 67411,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Explicitly labeled as 'Sample Fillable PDF' - a direct example/template of a fillable PDF form"
+        }
+      ],
+      "kept_count": 6,
+      "total_count": 10
+    },
+    {
+      "q": "research paper PDF academic journal",
+      "file_type": "pdf",
+      "preferred_sites": [
+        "arxiv.org",
+        "pubmed.ncbi.nlm.nih.gov",
+        "sci-hub.se",
+        "researchgate.net"
+      ],
+      "results_annotated": [
+        {
+          "title": "[PDF] A Comprehensive Overview of Large Language Models - arXiv",
+          "url": "https://arxiv.org/pdf/2307.06435",
+          "snippet": "This article provides an overview of the literature on a broad range of LLM-related concepts. Our self-contained comprehensive overview of LLMs discusses ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 1814502,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Direct arXiv PDF link to academic research paper on LLMs, matches target file type and search intent perfectly"
+        },
+        {
+          "title": "[PDF] Research Integrity and GenAI: A Systematic Analysis of Ethical ...",
+          "url": "https://arxiv.org/pdf/2412.10134",
+          "snippet": "This study addresses two fundamental research questions concerning the ethical implications of GenAI in academic research. First, we examine ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 452540,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Direct arXiv PDF link to academic research paper on research integrity, matches target file type and search intent"
+        },
+        {
+          "title": "[PDF] Practice Makes Better - arXiv",
+          "url": "https://arxiv.org/pdf/2301.02927",
+          "snippet": "In this paper, after modeling GPE as a function of stan- dardized math exam score (concordant ACT and SAT math subscores), we quantify the extent to which ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 631455,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Direct arXiv PDF link to academic research paper, matches target file type and search intent"
+        },
+        {
+          "title": "[PDF] Volume 7, Number 1 Lantern part 1/2 January 2014",
+          "url": "https://2024.sci-hub.se/8332/696032ad44023c7dcf2a7f1bb974ebdb/beck2014.pdf",
+          "snippet": "An extensive search that resulted in 127 peer-reviewed papers chosen, was carried out to locate journal articles in the fields of educational ...",
+          "status_code": 0,
+          "content_type": "",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "PDF from academic journal (Lantern), title indicates peer-reviewed papers content, status_code 0 but URL pattern and snippet strongly suggest valid academic PDF"
+        },
+        {
+          "title": "Introducing the Wiley Transplant Peer Review Network*",
+          "url": "https://2024.sci-hub.se/6109/65abfc73a47376114413d404e09a9d84/10.1111@ajt.13965.pdf",
+          "snippet": "The Journals. American Journal of Transplantation publishes new, high- quality data in organ and tissue transplantation and the related sciences; the journal is ...",
+          "status_code": 0,
+          "content_type": "",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.8,
+          "judge_reason": "PDF from academic journal (American Journal of Transplantation), snippet describes journal content, status_code 0 but URL and content indicate genuine academic PDF"
+        },
+        {
+          "title": "[PDF] The scientific research context of urban transports for Bus Rapid ...",
+          "url": "https://2024.sci-hub.se/7196/97eb74b3b12b9cbe809f6eb52f1e3fac/10.1590@2238-1031.jtl.v10n4a3.pdf",
+          "snippet": "Across history, transportation of people and cargo has been highly relevant for economic and social development, directly reflecting the evolution of how ...",
+          "status_code": 0,
+          "content_type": "",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "PDF from academic journal (JTL - Journal of Transport Literature), research paper on urban transport, status_code 0 but URL pattern and snippet confirm academic PDF"
+        },
+        {
+          "title": "[PDF] How to Write and Publish an Academic Research Paper",
+          "url": "https://www.researchgate.net/profile/Arvind_Singh56/post/How-to-publish-a-research-paper/attachment/5ae4197bb53d2f63c3c8949c/AS%3A620282041597953%401524898171299/download/ResearchPaper.pdf",
+          "snippet": "Read and follow ALL of the guidelines for manuscript preparation listed for an individual journal. Most journals have very specific formatting and style ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "ResearchGate PDF link to 'How to Write and Publish an Academic Research Paper', directly relevant to academic research papers despite 403 status; title and snippet confirm PDF content"
+        },
+        {
+          "title": "[PDF] Make Changes Early! High Stress Levels Predict Lower Academic ...",
+          "url": "https://www.researchgate.net/profile/Amanda-Bernard-4/publication/353411647_Make_Changes_Early_High_Stress_Levels_Predict_Lower_Academic_Performance_in_First-Year_Physical_Therapy_Students_A_Pilot_Study/links/669fcef05919b66c9f680ea1/Make-Changes-Early-High-Stress-Levels-Predict-Lower-Academic-Performance-in-First-Year-Physical-Therapy-Students-A-Pilot-Study.pdf",
+          "snippet": "Research studies with medical students report exercise assists in minimizing stress and improving academic performance, while the role of leisure time has also ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "ResearchGate PDF link to pilot study academic paper, title indicates academic research content, 403 status but URL and snippet confirm genuine academic PDF"
+        },
+        {
+          "title": "[PDF] Improving the Academic Performance and Mental Health of Non ...",
+          "url": "https://www.researchgate.net/publication/369054847_Improving_the_Academic_Performance_and_Mental_Health_of_Non-Traditional_University_Students_Through_a_Shorter_Delivery_Model_Exploring_the_Impact_of_the_Southern_Cross_Model/fulltext/64076eee0cf1030a567f2b3c/Improving-the-Academic-Performance-and-Mental-Health-of-Non-Traditional-University-Students-Through-a-Shorter-Delivery-Model-Exploring-the-Impact-of-the-Southern-Cross-Model.pdf",
+          "snippet": "Research has shown that university students experience rates of psychological distress at comparable or higher rates than the general adult population ( ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "ResearchGate PDF link to academic research paper on university students, title and snippet confirm academic journal content, 403 status but clearly genuine research PDF"
+        },
+        {
+          "title": "[PDF] Research paper - ERIC",
+          "url": "https://files.eric.ed.gov/fulltext/EJ1172284.pdf",
+          "snippet": "Abstract. The paper discusses the results of a study which explored advanced learners of English engagement with their mobile devices to develop learning ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 379313,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Direct ERIC (Education Resources Information Center) PDF link to research paper, government education database, matches target file type and academic research intent perfectly"
+        }
+      ],
+      "results_kept": [
+        {
+          "title": "[PDF] A Comprehensive Overview of Large Language Models - arXiv",
+          "url": "https://arxiv.org/pdf/2307.06435",
+          "snippet": "This article provides an overview of the literature on a broad range of LLM-related concepts. Our self-contained comprehensive overview of LLMs discusses ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 1814502,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Direct arXiv PDF link to academic research paper on LLMs, matches target file type and search intent perfectly"
+        },
+        {
+          "title": "[PDF] Research Integrity and GenAI: A Systematic Analysis of Ethical ...",
+          "url": "https://arxiv.org/pdf/2412.10134",
+          "snippet": "This study addresses two fundamental research questions concerning the ethical implications of GenAI in academic research. First, we examine ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 452540,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Direct arXiv PDF link to academic research paper on research integrity, matches target file type and search intent"
+        },
+        {
+          "title": "[PDF] Practice Makes Better - arXiv",
+          "url": "https://arxiv.org/pdf/2301.02927",
+          "snippet": "In this paper, after modeling GPE as a function of stan- dardized math exam score (concordant ACT and SAT math subscores), we quantify the extent to which ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 631455,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Direct arXiv PDF link to academic research paper, matches target file type and search intent"
+        },
+        {
+          "title": "[PDF] Volume 7, Number 1 Lantern part 1/2 January 2014",
+          "url": "https://2024.sci-hub.se/8332/696032ad44023c7dcf2a7f1bb974ebdb/beck2014.pdf",
+          "snippet": "An extensive search that resulted in 127 peer-reviewed papers chosen, was carried out to locate journal articles in the fields of educational ...",
+          "status_code": 0,
+          "content_type": "",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "PDF from academic journal (Lantern), title indicates peer-reviewed papers content, status_code 0 but URL pattern and snippet strongly suggest valid academic PDF"
+        },
+        {
+          "title": "Introducing the Wiley Transplant Peer Review Network*",
+          "url": "https://2024.sci-hub.se/6109/65abfc73a47376114413d404e09a9d84/10.1111@ajt.13965.pdf",
+          "snippet": "The Journals. American Journal of Transplantation publishes new, high- quality data in organ and tissue transplantation and the related sciences; the journal is ...",
+          "status_code": 0,
+          "content_type": "",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.8,
+          "judge_reason": "PDF from academic journal (American Journal of Transplantation), snippet describes journal content, status_code 0 but URL and content indicate genuine academic PDF"
+        },
+        {
+          "title": "[PDF] The scientific research context of urban transports for Bus Rapid ...",
+          "url": "https://2024.sci-hub.se/7196/97eb74b3b12b9cbe809f6eb52f1e3fac/10.1590@2238-1031.jtl.v10n4a3.pdf",
+          "snippet": "Across history, transportation of people and cargo has been highly relevant for economic and social development, directly reflecting the evolution of how ...",
+          "status_code": 0,
+          "content_type": "",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "PDF from academic journal (JTL - Journal of Transport Literature), research paper on urban transport, status_code 0 but URL pattern and snippet confirm academic PDF"
+        },
+        {
+          "title": "[PDF] How to Write and Publish an Academic Research Paper",
+          "url": "https://www.researchgate.net/profile/Arvind_Singh56/post/How-to-publish-a-research-paper/attachment/5ae4197bb53d2f63c3c8949c/AS%3A620282041597953%401524898171299/download/ResearchPaper.pdf",
+          "snippet": "Read and follow ALL of the guidelines for manuscript preparation listed for an individual journal. Most journals have very specific formatting and style ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "ResearchGate PDF link to 'How to Write and Publish an Academic Research Paper', directly relevant to academic research papers despite 403 status; title and snippet confirm PDF content"
+        },
+        {
+          "title": "[PDF] Make Changes Early! High Stress Levels Predict Lower Academic ...",
+          "url": "https://www.researchgate.net/profile/Amanda-Bernard-4/publication/353411647_Make_Changes_Early_High_Stress_Levels_Predict_Lower_Academic_Performance_in_First-Year_Physical_Therapy_Students_A_Pilot_Study/links/669fcef05919b66c9f680ea1/Make-Changes-Early-High-Stress-Levels-Predict-Lower-Academic-Performance-in-First-Year-Physical-Therapy-Students-A-Pilot-Study.pdf",
+          "snippet": "Research studies with medical students report exercise assists in minimizing stress and improving academic performance, while the role of leisure time has also ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "ResearchGate PDF link to pilot study academic paper, title indicates academic research content, 403 status but URL and snippet confirm genuine academic PDF"
+        },
+        {
+          "title": "[PDF] Improving the Academic Performance and Mental Health of Non ...",
+          "url": "https://www.researchgate.net/publication/369054847_Improving_the_Academic_Performance_and_Mental_Health_of_Non-Traditional_University_Students_Through_a_Shorter_Delivery_Model_Exploring_the_Impact_of_the_Southern_Cross_Model/fulltext/64076eee0cf1030a567f2b3c/Improving-the-Academic-Performance-and-Mental-Health-of-Non-Traditional-University-Students-Through-a-Shorter-Delivery-Model-Exploring-the-Impact-of-the-Southern-Cross-Model.pdf",
+          "snippet": "Research has shown that university students experience rates of psychological distress at comparable or higher rates than the general adult population ( ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "ResearchGate PDF link to academic research paper on university students, title and snippet confirm academic journal content, 403 status but clearly genuine research PDF"
+        },
+        {
+          "title": "[PDF] Research paper - ERIC",
+          "url": "https://files.eric.ed.gov/fulltext/EJ1172284.pdf",
+          "snippet": "Abstract. The paper discusses the results of a study which explored advanced learners of English engagement with their mobile devices to develop learning ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 379313,
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Direct ERIC (Education Resources Information Center) PDF link to research paper, government education database, matches target file type and academic research intent perfectly"
+        }
+      ],
+      "kept_count": 10,
+      "total_count": 10
+    },
+    {
+      "q": "invoice receipt PDF batch processing",
+      "file_type": "pdf",
+      "preferred_sites": [
+        "templates.office.com",
+        "canva.com",
+        "smartsheet.com"
+      ],
+      "results_annotated": [
+        {
+          "title": "[PDF] Billing Run and Customer Receipt Processing Guide Processing ...",
+          "url": "https://success-templa.teamsoftware.com/PDFs/TemplaCMS/Core/TemplaCMS-CMS-Processing-Guide-Billing.pdf",
+          "snippet": "Create the Invoice batch (Contracted Invoicing). This can be done from the Billing | Invoice Batches menu via clicking on 'New'. The billing ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 1377959,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "PDF guide specifically about invoice batch processing and receipt handling, directly relevant to PDF processing workflows"
+        },
+        {
+          "title": "[PDF] BATCH ACTIONS - Basware",
+          "url": "https://www2.basware.com/hubfs/2999407/Customer%20Marketing%20Content/AP%20Pro%20for%20Pros/Sections/Invoice%20Handling/files/New%20Files/17_BATCH%20ACTIONS.pdf",
+          "snippet": "With batch actions you can manage a large set of invoices at once. By selecting multiple invoices, the resolution of an issue can be resolved in one single.",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 133229,
+          "judge_keep": true,
+          "judge_confidence": 0.8,
+          "judge_reason": "PDF documentation about batch invoice actions, relevant for understanding PDF-based invoice processing patterns"
+        },
+        {
+          "title": "[PDF] Automatic ACH Receipt Batch Creation Process - Jade Global",
+          "url": "https://www.jadeglobal.com/themes/custom/jade_subtheme/pdf/automatic-ach-receipt-batch-creation-process-whitepaper.pdf",
+          "snippet": "This document describes 'How to use Automatic ACH Receipt Batch Creation Process' functionality as provided in Oracle Cloud application.",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 8201272,
+          "judge_keep": false,
+          "judge_confidence": 0.3,
+          "judge_reason": "Whitepaper about ACH receipt batch creation in Oracle Cloud, not about PDF file processing itself"
+        },
+        {
+          "title": "[PDF] Automated invoice processing - Ignite Technology",
+          "url": "https://ignite-tec.com/wp-content/uploads/2023/06/Doxis-Automated-Invoice-Processing.pdf",
+          "snippet": "The solution comprises three modules – invoice receipt, invoice reading and invoice verification – which can be implemented separately or in ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 2929860,
+          "judge_keep": true,
+          "judge_confidence": 0.75,
+          "judge_reason": "PDF about automated invoice processing including invoice receipt, relevant to PDF document processing workflows"
+        },
+        {
+          "title": "[PDF] Batch Process for Misc. Pay",
+          "url": "https://pieetraining.eb.mil/wbt/wawf/ECP0741_Overview.pdf",
+          "snippet": "Start by selecting Invoicing, Receipt, and Property Transfer link. A new menu link will be added for Acceptor Role to perform Miscellaneous Pay Batch Acceptance ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 884709,
+          "judge_keep": false,
+          "judge_confidence": 0.25,
+          "judge_reason": "Military training PDF about miscellaneous pay batch acceptance process, not about PDF file manipulation"
+        },
+        {
+          "title": "[PDF] Invoice Processing Brochure - Newgen",
+          "url": "https://landing.newgensoft.com/hubfs/_2020%20Website%20files/Brochures/Invoice%20Processing%20Brochure%20v5%2003Apr25.pdf",
+          "snippet": "The AI-powered solution empowers finance teams to enhance cash and working capital management, streamline invoice lifecycle, and improve.",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 3431118,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "Marketing brochure about AI-powered invoice processing solution, not a technical PDF processing resource"
+        },
+        {
+          "title": "[PDF] Document Flow-Invoices - hh2 User Guide",
+          "url": "https://www.hh2.com/hubfs/User%20Guides/User%20Guide%20Document%20Flow-Invoices%20for%20the%20Manager%20Role%20V2.pdf",
+          "snippet": "Batch: Processing more than one piece of data at a time. This term typically refers to large numbers of invoices, receipts, or other financial instruments ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 7483020,
+          "judge_keep": true,
+          "judge_confidence": 0.7,
+          "judge_reason": "User guide PDF explaining document flow for invoices with batch processing terminology, moderately relevant"
+        },
+        {
+          "title": "[PDF] Invoice Processing Platform (IPP) - Fiscal.Treasury.gov",
+          "url": "https://wwwkc.fiscal.treasury.gov/files/pia/IPP-pclia.pdf",
+          "snippet": "Invoice Processing Platform (IPP) is a centralized invoicing and payment information service provided by the U.S. Department of the Treasury's Bureau of the ...",
+          "status_code": 400,
+          "content_type": "text/html",
+          "content_length": 382,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "Privacy impact assessment HTML error page (status 400), not an accessible PDF about PDF processing"
+        },
+        {
+          "title": "[PDF] Billing Process Guide - AWS",
+          "url": "https://hhaxsupport.s3.amazonaws.com/SupportDocs/ENTF/Process+Guides/ENTF+Process+Guide+-+Billing.pdf",
+          "snippet": "To invoice, click on the Invoice Batch button. • Save: Saves all the selected visits without invoicing them. From here, navigate to the next page of search ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 2121793,
+          "judge_keep": true,
+          "judge_confidence": 0.75,
+          "judge_reason": "Process guide PDF specifically about billing and invoice batch operations, relevant to PDF-based workflows"
+        },
+        {
+          "title": "[PDF] ARE YOU STILL PROCESSING PAPER INVOICES? - IPP.gov",
+          "url": "https://www.ipp.gov/-/media/files/ipp/downloads/ipp-brochure.pdf",
+          "snippet": "With more efficient invoice processing, federal agencies can avoid Prompt Payment penalties while automating invoice receipt, validation and approval workflows.",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 2209822,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "Marketing brochure about paperless invoice processing, not a technical resource for PDF file manipulation"
+        }
+      ],
+      "results_kept": [
+        {
+          "title": "[PDF] Billing Run and Customer Receipt Processing Guide Processing ...",
+          "url": "https://success-templa.teamsoftware.com/PDFs/TemplaCMS/Core/TemplaCMS-CMS-Processing-Guide-Billing.pdf",
+          "snippet": "Create the Invoice batch (Contracted Invoicing). This can be done from the Billing | Invoice Batches menu via clicking on 'New'. The billing ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 1377959,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "PDF guide specifically about invoice batch processing and receipt handling, directly relevant to PDF processing workflows"
+        },
+        {
+          "title": "[PDF] BATCH ACTIONS - Basware",
+          "url": "https://www2.basware.com/hubfs/2999407/Customer%20Marketing%20Content/AP%20Pro%20for%20Pros/Sections/Invoice%20Handling/files/New%20Files/17_BATCH%20ACTIONS.pdf",
+          "snippet": "With batch actions you can manage a large set of invoices at once. By selecting multiple invoices, the resolution of an issue can be resolved in one single.",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 133229,
+          "judge_keep": true,
+          "judge_confidence": 0.8,
+          "judge_reason": "PDF documentation about batch invoice actions, relevant for understanding PDF-based invoice processing patterns"
+        },
+        {
+          "title": "[PDF] Automated invoice processing - Ignite Technology",
+          "url": "https://ignite-tec.com/wp-content/uploads/2023/06/Doxis-Automated-Invoice-Processing.pdf",
+          "snippet": "The solution comprises three modules – invoice receipt, invoice reading and invoice verification – which can be implemented separately or in ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 2929860,
+          "judge_keep": true,
+          "judge_confidence": 0.75,
+          "judge_reason": "PDF about automated invoice processing including invoice receipt, relevant to PDF document processing workflows"
+        },
+        {
+          "title": "[PDF] Document Flow-Invoices - hh2 User Guide",
+          "url": "https://www.hh2.com/hubfs/User%20Guides/User%20Guide%20Document%20Flow-Invoices%20for%20the%20Manager%20Role%20V2.pdf",
+          "snippet": "Batch: Processing more than one piece of data at a time. This term typically refers to large numbers of invoices, receipts, or other financial instruments ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 7483020,
+          "judge_keep": true,
+          "judge_confidence": 0.7,
+          "judge_reason": "User guide PDF explaining document flow for invoices with batch processing terminology, moderately relevant"
+        },
+        {
+          "title": "[PDF] Billing Process Guide - AWS",
+          "url": "https://hhaxsupport.s3.amazonaws.com/SupportDocs/ENTF/Process+Guides/ENTF+Process+Guide+-+Billing.pdf",
+          "snippet": "To invoice, click on the Invoice Batch button. • Save: Saves all the selected visits without invoicing them. From here, navigate to the next page of search ...",
+          "status_code": 200,
+          "content_type": "application/pdf",
+          "content_length": 2121793,
+          "judge_keep": true,
+          "judge_confidence": 0.75,
+          "judge_reason": "Process guide PDF specifically about billing and invoice batch operations, relevant to PDF-based workflows"
+        }
+      ],
+      "kept_count": 5,
+      "total_count": 10
+    }
+  ]
+}

@@ -1,0 +1,582 @@
+{
+  "skill": "D:\\engineer\\SKILL TO INPUT\\SKILLS\\Data Analysis\\SKILL.md",
+  "threshold": 0.7,
+  "filtered_results": [
+    {
+      "q": "SQL database export CSV sales transactions 2024 raw data",
+      "file_type": "csv_tsv",
+      "preferred_sites": [
+        "kaggle.com",
+        "data.world",
+        "github.com"
+      ],
+      "results_annotated": [
+        {
+          "title": "Raw data - CSV - UserCentriCities",
+          "url": "https://www.usercentricities.eu/ucdashboard-export/raw-data-csv",
+          "snippet": "... transactions carried out online?\",\"If yes, provide evidence of the percentage of transactions carried out online\",\"Does the local authority publish data on ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "政府公共服务调查数据，非销售交易数据，与用户查询的sales transactions无关"
+        },
+        {
+          "title": "Download All (CSV) - Data.govt.nz",
+          "url": "https://www.data.govt.nz/requests/csv?AgencySearch=&StatusSearch=Agency+notified&ResponseSearch=0&sortby=Votes&agency=true&status=1&response=1&o=1&start=0",
+          "snippet": "... raw data that address how the risks of health defects or adverse effects from COVID-19-related measures compare to the risks posed by COVID-19 infection ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 368418,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "政府信息公开请求数据，内容为COVID-19健康风险相关，非销售交易数据"
+        },
+        {
+          "title": "HHS AI Use Case Inventory FY25",
+          "url": "https://www.hhs.gov/sites/default/files/hhs-ai-use-case-inventory-fy25.csv",
+          "snippet": "... data used to train, fine-tune, and/or evaluate performance of the model(s) ... 2024, when a minor is separated from their parent or legal guardian, the ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 455,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "HHS AI用例清单，403禁止访问，且内容为AI系统清单而非销售交易数据"
+        },
+        {
+          "title": "https://hub.arcgis.com/api/download/v1/items/55711...",
+          "url": "https://hub.arcgis.com/api/download/v1/items/55711c9fba974a5cbd6ba0fab7a1b433/csv?redirect=true&layers=31",
+          "snippet": "... database provided by the Department of Small and Local Business Development identified the sites. DSLBD's commercial Clean Team Program services include ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 283852,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "商业清洁团队项目地点数据库，非销售交易数据"
+        },
+        {
+          "title": "csv - Chicago Data Portal",
+          "url": "https://data.cityofchicago.org/api/views/7zkx-3pp7/rows.csv?accessType=DOWNLOAD",
+          "snippet": "... database for 2009 & 2010; overtime or other monies paid in addition to ... raw scores, passing score and standard deviations used to determine passing ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 0,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "芝加哥政府薪资/考试分数数据库，非销售交易数据"
+        },
+        {
+          "title": "https://data.oregon.gov/resource/yp9j-pm7w.csv",
+          "url": "https://data.oregon.gov/resource/yp9j-pm7w.csv",
+          "snippet": "... Data submitted by applicants in order to receive/qualify for a license. Data may include demographic profile, education and work history, license ID, and ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 0,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "俄勒冈州职业执照申请数据，含人口统计和教育背景，非销售交易数据"
+        },
+        {
+          "title": "Open Textbook Library .csv file - Center for Open Education",
+          "url": "https://open.umn.edu/opentextbooks/download.csv",
+          "snippet": "... sales speech. These performances not only serve to reinforce real-world applications but also may serve as course assessments. This text has been used in ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "开放教科书图书馆目录，内容为教科书元数据，snippet中sales指销售演讲课程而非交易数据"
+        },
+        {
+          "title": "https://data.vermont.gov/api/views/476u-uxxa/rows....",
+          "url": "https://data.vermont.gov/api/views/476u-uxxa/rows.csv?accessType=DOWNLOAD&bom=true&format=true",
+          "snippet": "... Data Team? Thank you, Sean\",Email Request,Closed,Fulfilled in whole,,,01/27 ... database above.\",Email Request,Closed,Fulfilled in whole,,,02/03/2021 ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 0,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "佛蒙特州数据请求服务记录，内容为政府数据请求的工单记录，非销售交易数据"
+        },
+        {
+          "title": "http://training.theodi.org/resources/dataset2.csv",
+          "url": "http://training.theodi.org/resources/dataset2.csv",
+          "snippet": "... data over to the agencys virtual servers and shut down their current server ... Sales Manager (CGSM) #107,1650,,APLUS Operations and Maintenance ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 333665,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "ODI培训数据集，snippet显示为机构服务器迁移和人员职位数据，非销售交易数据"
+        },
+        {
+          "title": "https://raw.githubusercontent.com/suswong/Project-...",
+          "url": "https://raw.githubusercontent.com/suswong/Project-3-raw-dataset/main/LinkedIn_data%20engineer.csv",
+          "snippet": "... Data Engineer,United States,Data Engineer,https://www.linkedin.com/jobs/view ... SQL, and PowerShell Understanding of Bash Salary Range: $59,000.00 to ...",
+          "status_code": 200,
+          "content_type": "text/plain",
+          "content_length": 671526,
+          "judge_keep": false,
+          "judge_confidence": 0.25,
+          "judge_reason": "LinkedIn数据工程师职位数据集，虽含SQL关键词但内容为招聘信息而非销售交易数据"
+        }
+      ],
+      "results_kept": [],
+      "kept_count": 0,
+      "total_count": 10
+    },
+    {
+      "q": "A/B test experiment results control variant conversion rates dataset",
+      "file_type": "csv_tsv",
+      "preferred_sites": [
+        "kaggle.com",
+        "towardsdatascience.com",
+        "github.com"
+      ],
+      "results_annotated": [
+        {
+          "title": "Export as CSV - NIA - NIH",
+          "url": "https://www.nia.nih.gov/export/milestones/csv/4145?page&_format=csv",
+          "snippet": "... test for measuring the ratio of two forms of amyloid beta in the blood — a key component of the PrecivityAD blood test developed by the NIH-funded biotech ...",
+          "status_code": 405,
+          "content_type": "text/html",
+          "content_length": 2503,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "这是NIH网站的导出功能页面，内容是关于医学检测的里程碑数据，不是A/B测试实验结果数据集"
+        },
+        {
+          "title": "Database CSV - JPND",
+          "url": "https://neurodegenerationresearch.eu/search-our-database/database-csv/",
+          "snippet": "... controlled trial to compare the clinical and cost effectiveness of Lee Silverman Voice Treatment versus standard NHS speech and language therapy versus control ...",
+          "status_code": 200,
+          "content_type": "text/html",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "这是关于医学临床试验的数据库页面，属于研究项目登记信息，不是用户可提交的A/B测试实验结果CSV"
+        },
+        {
+          "title": "Download a CSV file - DDI Alliance",
+          "url": "https://ddialliance.org/hubfs/sites/default/files/DDI_publications_20241217.csv",
+          "snippet": "... B, Orten H. 2023. The Data Documentation Initiative (DDI) Metadata Standards in Context. DDI usage in practice – an example from the European Social Survey ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 503936,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "这是DDI联盟的出版物列表CSV，内容是学术文献元数据，与A/B测试实验结果无关"
+        },
+        {
+          "title": "USDA AI Use Case Inventory",
+          "url": "https://www.usda.gov/sites/default/files/documents/usda-ai-use-case-inventory.csv",
+          "snippet": "... test the performance of the final model.\",, No,,None of the above,Yes ... control processing.,, No,,None of the above,Yes,,,,,,,,,, USDA-004,Predictive ...",
+          "status_code": 0,
+          "content_type": "",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "这是USDA的AI用例清单，包含测试和控制的描述，但属于政府机构的AI项目登记，不是实验结果数据集"
+        },
+        {
+          "title": "HHS AI Use Case Inventory FY25",
+          "url": "https://www.hhs.gov/sites/default/files/hhs-ai-use-case-inventory-fy25.csv",
+          "snippet": "... b) Pilot – The use case has been deployed in a limited test or pilot ... dataset of applicable laws, standards, policies, and procedures applicable to ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 455,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "这是HHS的AI用例清单，包含试点测试的描述，但属于政府项目登记数据，不是A/B测试实验结果"
+        },
+        {
+          "title": "https://federallabs.org/FLC_KenticoXperience_Core/...",
+          "url": "https://federallabs.org/FLC_KenticoXperience_Core/media/Files/Data.Gov%20Uploads/opportunity_1764955984.csv",
+          "snippet": "... control protocol,,https://flc.flintbox.com/#technologies/dffc6a7c-dac0 ... and B cells,,https://flc.flintbox.com/#technologies/00ad6112-2a5c-4592-a4c3 ...",
+          "status_code": 200,
+          "content_type": "application/octet-stream",
+          "content_length": 9122683,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "这是联邦实验室的技术机会列表，包含A/B细胞等技术术语，但与A/B测试实验无关"
+        },
+        {
+          "title": "https://datacatalogfiles.worldbank.org/ddh-publish...",
+          "url": "https://datacatalogfiles.worldbank.org/ddh-published/0065200/1/DR0092801/results_completed_updated_20231003.csv",
+          "snippet": "... Results: Proprioceptive drift and ownership were found in the healthy ... a B-score of 0.334, compared to 0.645 for those with a fall history (p<0.001) ...",
+          "status_code": 200,
+          "content_type": "application/octet-stream",
+          "content_length": 2091296931,
+          "judge_keep": false,
+          "judge_confidence": 0.25,
+          "judge_reason": "这是世界银行的健康研究结果数据，包含B-score等统计结果，但属于医学研究数据，不是典型的A/B测试实验数据集"
+        },
+        {
+          "title": "https://abcdstudy.org/publications?csv=true&search...",
+          "url": "https://abcdstudy.org/publications?csv=true&search=&search_year=",
+          "snippet": "... and (b) generalizes to adolescence. We used two independent, longitudinal datasets including children from the Adolescent Brain Cognitive Development (ABCD) ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "这是ABCD研究的出版物列表导出，虽然文件名包含ABCD，但这是文献目录而非A/B测试实验数据"
+        },
+        {
+          "title": "download - Parkinson's Progression Markers Initiative",
+          "url": "https://www.ppmi-info.org/sites/default/files/tables-data/Data_Dictionary_-__Annotated__23May2025.csv",
+          "snippet": "... results interpretation\",\"NUMBER\",\"1\",\"0\",\"False\",\"False\",\"\",\"\",\"\",\"\" \"AVEKG ... and B\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\",\"\" \"TMT\",\"AGE_ASSESS_TMT\",\"TMT\",\"Age at ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 471864,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "这是帕金森病研究的数据字典文件，包含测试结果字段定义，但属于医学研究元数据，不是A/B测试实验结果"
+        },
+        {
+          "title": "https://tsar.jrc.ec.europa.eu/xls?search=&search_a...",
+          "url": "https://tsar.jrc.ec.europa.eu/xls?search=&search_api_fulltext_tm_number=&field_topic=All&field_responsible_organization=All&field_step_stage_radio=current&field_step_stage_current=All&field_tm_submission_received_on_from=&filter_year_received_from=&field_tm_submission_received_on_to=&filter_year_received_to=&field_process_status=All&status=1&items_per_page=5&sort_by=field_ts_last_major_update_on&field_step_stage_historical=All&page&_format=csv",
+          "snippet": "... and b) the activation of the ARE/EpRE signaling pathways in human keratinocytes, both of which are considered to be relevant steps in the inductions phase ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "这是欧盟化学品评估的TSAR系统导出，包含a)和b)步骤描述，但与A/B测试实验无关"
+        }
+      ],
+      "results_kept": [],
+      "kept_count": 0,
+      "total_count": 10
+    },
+    {
+      "q": "user cohort retention daily active users event log analytics",
+      "file_type": "json",
+      "preferred_sites": [
+        "segment.com/docs",
+        "amplitude.com",
+        "mixpanel.com"
+      ],
+      "results_annotated": [],
+      "results_kept": [],
+      "kept_count": 0,
+      "total_count": 0
+    },
+    {
+      "q": "spreadsheet KPI dashboard metrics raw numbers Excel export",
+      "file_type": "xlsx",
+      "preferred_sites": [
+        "microsoft.com",
+        "google.com/sheets",
+        "github.com"
+      ],
+      "results_annotated": [
+        {
+          "title": "[XLS] Illustrative KPI registry - ICMA",
+          "url": "https://www.icmagroup.org/assets/documents/Sustainable-finance/2023-updates/Illustrative-KPIs-Registry-June-2023-220623.xlsx",
+          "snippet": "Proposed potential sovereign KPIs illustrate a curated list of ~50 indicators selected by the members of the sovereign SLB sub-working group and inspired by ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 611186,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "KPI registry Excel文件，包含约50个指标的实际数据，是用户会提交给数据分析skill的典型输入文件"
+        },
+        {
+          "title": "[XLS] https://processmind.com/data-templates/en/ProcessM...",
+          "url": "https://processmind.com/data-templates/en/ProcessMind%20Data%20Template%20-%20Incident%20Management%20-%20Freshservice.xlsx",
+          "snippet": "... data and the time window covered by the dashboards and KPIs. It gives users confidence in the recency of the insights and helps manage expectations about ...",
+          "status_code": 200,
+          "content_type": "application/octet-stream",
+          "content_length": 31738,
+          "judge_keep": true,
+          "judge_confidence": 0.75,
+          "judge_reason": "事件管理数据模板，包含dashboard和KPI的时间窗口数据，是可直接用于分析的业务数据文件"
+        },
+        {
+          "title": "[XLS] Technical Requirements",
+          "url": "https://www.dhhs.nh.gov/sites/g/files/ehbemt476/files/inline-documents/sonh/attachment-1-requirement-matrix-workbook-addendum-4.xlsx",
+          "snippet": "The Vendor's reporting solution must display standard report header and footer information (e.g., report number, report title, page number, date) on all reports ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": 541,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "技术需求文档，描述报告解决方案的要求，不是用户会提交的分析输入数据"
+        },
+        {
+          "title": "[XLS] SBTN Step 1 Toolbox",
+          "url": "https://sciencebasedtargetsnetwork.org/wp-content/uploads/2023/05/SBTN-Step-1-Toolbox-v1-2023.xlsx",
+          "snippet": "Please note that the datasets and tools listed in this workbook are not meant to be comprehensive. Companies may use other datasets aligned to the SBTN tool and ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 1194269,
+          "judge_keep": true,
+          "judge_confidence": 0.7,
+          "judge_reason": "工具箱Excel文件，包含数据集和工具列表，可作为分析任务的原始数据输入"
+        },
+        {
+          "title": "[XLS] XBRL ESRS Set 1 Taxonomy illustrated (Excel - EFRAG",
+          "url": "https://xbrl.efrag.org/downloads/Annex-1-Draft-ESRS-Set1-XBRL-Taxonomy-illustrated-in-Excel.xlsx",
+          "snippet": "The presentation and definition linkbase of the Draft ESRS Set 1 XBRL Taxonomy are provided in Excel format in order to visualise the taxonomy without an XBRL ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 726604,
+          "judge_keep": false,
+          "judge_confidence": 0.3,
+          "judge_reason": "XBRL分类法可视化文件，用于展示taxonomy结构，是技术规范文档而非分析输入数据"
+        },
+        {
+          "title": "[XLS] The CPA EMC Model - ThisWayToCPA",
+          "url": "https://www.thiswaytocpa.com/collectedmedia/files/cpa-evolution-model-curriculum-excel-supplement.xlsx",
+          "snippet": "Design and interpret the results of a Key Performance Indicators (KPI) dashboard; apply what-if analysis to assumptions. ... Extract data from a raw data file.",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 249776,
+          "judge_keep": false,
+          "judge_confidence": 0.25,
+          "judge_reason": "CPA课程补充材料，包含KPI dashboard的教学内容，是教程/课程资料而非实际分析数据"
+        },
+        {
+          "title": "[XLS] Admin Data Stores - IT@Cornell",
+          "url": "https://it.cornell.edu/sites/default/files/Data%20Architecture%20and%20Analytics/Data-set-inventory-Rev-M_0.xlsx",
+          "snippet": "Project Metrics: project list, business value, estimate, status, workers/roles, effort, worker slot plans, project asset links, etc. RAIS IT Staff, Research ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 43814,
+          "judge_keep": true,
+          "judge_confidence": 0.8,
+          "judge_reason": "数据集清单文件，包含项目指标、业务价值、工作量等实际数据，是可直接分析的业务数据"
+        },
+        {
+          "title": "[XLS] Introduction - SBFN Data Portal",
+          "url": "https://data.sbfnetwork.org/sites/default/files/survey-attachments/2025-05/Climate%20Related%20Risk%20Reporting%20Templates.xlsx",
+          "snippet": "This Climate Related Financial Risk Reporting Template is developed to take stock of existing capabilities and ambition levels vis-a-vis climate risk assessment ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 749772,
+          "judge_keep": true,
+          "judge_confidence": 0.75,
+          "judge_reason": "气候相关金融风险报告模板，包含实际的风险评估数据，是用户会提交的分析输入文件"
+        },
+        {
+          "title": "[XLS] ESG Fact Sheet - European Leveraged Finance Association",
+          "url": "https://elfainvestors.com/wp-content/uploads/2024/07/ESG-Fact-Sheet-2024-Transport.xlsx",
+          "snippet": "Sector-specific ESG considerations are highlighted in bold. Additional ESG KPIs are also added in the Excel table.",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 413764,
+          "judge_keep": true,
+          "judge_confidence": 0.8,
+          "judge_reason": "ESG事实清单文件，包含行业特定的ESG指标数据，是典型的可分析业务数据文件"
+        },
+        {
+          "title": "[XLS] questionnaire - European data",
+          "url": "https://data.europa.eu/sites/default/files/2025-12/2025_odm_questionnaire_data.xlsx",
+          "snippet": "Is there a national open data policy in your country and, if your country is an EU Member State, does this include a national legislation for the transposition ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 1533544,
+          "judge_keep": true,
+          "judge_confidence": 0.7,
+          "judge_reason": "开放数据问卷调查结果，包含各国开放数据政策的实际数据，可作为分析任务的输入数据"
+        }
+      ],
+      "results_kept": [
+        {
+          "title": "[XLS] Illustrative KPI registry - ICMA",
+          "url": "https://www.icmagroup.org/assets/documents/Sustainable-finance/2023-updates/Illustrative-KPIs-Registry-June-2023-220623.xlsx",
+          "snippet": "Proposed potential sovereign KPIs illustrate a curated list of ~50 indicators selected by the members of the sovereign SLB sub-working group and inspired by ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 611186,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "KPI registry Excel文件，包含约50个指标的实际数据，是用户会提交给数据分析skill的典型输入文件"
+        },
+        {
+          "title": "[XLS] https://processmind.com/data-templates/en/ProcessM...",
+          "url": "https://processmind.com/data-templates/en/ProcessMind%20Data%20Template%20-%20Incident%20Management%20-%20Freshservice.xlsx",
+          "snippet": "... data and the time window covered by the dashboards and KPIs. It gives users confidence in the recency of the insights and helps manage expectations about ...",
+          "status_code": 200,
+          "content_type": "application/octet-stream",
+          "content_length": 31738,
+          "judge_keep": true,
+          "judge_confidence": 0.75,
+          "judge_reason": "事件管理数据模板，包含dashboard和KPI的时间窗口数据，是可直接用于分析的业务数据文件"
+        },
+        {
+          "title": "[XLS] SBTN Step 1 Toolbox",
+          "url": "https://sciencebasedtargetsnetwork.org/wp-content/uploads/2023/05/SBTN-Step-1-Toolbox-v1-2023.xlsx",
+          "snippet": "Please note that the datasets and tools listed in this workbook are not meant to be comprehensive. Companies may use other datasets aligned to the SBTN tool and ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 1194269,
+          "judge_keep": true,
+          "judge_confidence": 0.7,
+          "judge_reason": "工具箱Excel文件，包含数据集和工具列表，可作为分析任务的原始数据输入"
+        },
+        {
+          "title": "[XLS] Admin Data Stores - IT@Cornell",
+          "url": "https://it.cornell.edu/sites/default/files/Data%20Architecture%20and%20Analytics/Data-set-inventory-Rev-M_0.xlsx",
+          "snippet": "Project Metrics: project list, business value, estimate, status, workers/roles, effort, worker slot plans, project asset links, etc. RAIS IT Staff, Research ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 43814,
+          "judge_keep": true,
+          "judge_confidence": 0.8,
+          "judge_reason": "数据集清单文件，包含项目指标、业务价值、工作量等实际数据，是可直接分析的业务数据"
+        },
+        {
+          "title": "[XLS] Introduction - SBFN Data Portal",
+          "url": "https://data.sbfnetwork.org/sites/default/files/survey-attachments/2025-05/Climate%20Related%20Risk%20Reporting%20Templates.xlsx",
+          "snippet": "This Climate Related Financial Risk Reporting Template is developed to take stock of existing capabilities and ambition levels vis-a-vis climate risk assessment ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 749772,
+          "judge_keep": true,
+          "judge_confidence": 0.75,
+          "judge_reason": "气候相关金融风险报告模板，包含实际的风险评估数据，是用户会提交的分析输入文件"
+        },
+        {
+          "title": "[XLS] ESG Fact Sheet - European Leveraged Finance Association",
+          "url": "https://elfainvestors.com/wp-content/uploads/2024/07/ESG-Fact-Sheet-2024-Transport.xlsx",
+          "snippet": "Sector-specific ESG considerations are highlighted in bold. Additional ESG KPIs are also added in the Excel table.",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 413764,
+          "judge_keep": true,
+          "judge_confidence": 0.8,
+          "judge_reason": "ESG事实清单文件，包含行业特定的ESG指标数据，是典型的可分析业务数据文件"
+        },
+        {
+          "title": "[XLS] questionnaire - European data",
+          "url": "https://data.europa.eu/sites/default/files/2025-12/2025_odm_questionnaire_data.xlsx",
+          "snippet": "Is there a national open data policy in your country and, if your country is an EU Member State, does this include a national legislation for the transposition ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 1533544,
+          "judge_keep": true,
+          "judge_confidence": 0.7,
+          "judge_reason": "开放数据问卷调查结果，包含各国开放数据政策的实际数据，可作为分析任务的输入数据"
+        }
+      ],
+      "kept_count": 7,
+      "total_count": 10
+    },
+    {
+      "q": "customer churn analysis dataset subscription cancellations features",
+      "file_type": "csv_tsv",
+      "preferred_sites": [
+        "kaggle.com",
+        "huggingface.co/datasets",
+        "github.com"
+      ],
+      "results_annotated": [
+        {
+          "title": "https://huggingface.co/datasets/soufyane/qa_ds_6K/...",
+          "url": "https://huggingface.co/datasets/soufyane/qa_ds_6K/raw/main/test.csv",
+          "snippet": "... features in a dataset while preserving the most significant information. - Anomaly Detection: Identifying data points that deviate significantly from the ...",
+          "status_code": 0,
+          "content_type": "",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "Hugging Face 上的通用数据科学问答数据集，snippet 显示是关于降维和异常检测的通用 ML 内容，非客户流失分析数据"
+        },
+        {
+          "title": "raw - Hugging Face",
+          "url": "https://huggingface.co/datasets/fka/awesome-chatgpt-prompts/raw/main/prompts.csv",
+          "snippet": "... features that can enhance user experience while also meeting the company's business goals. You should use your knowledge of UX/UI design ...",
+          "status_code": 0,
+          "content_type": "",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "ChatGPT prompts 数据集，与数据分析 skill 的用户输入完全无关"
+        },
+        {
+          "title": "https://huggingface.co/datasets/fdaudens/ai-jobs-n...",
+          "url": "https://huggingface.co/datasets/fdaudens/ai-jobs-news-articles/resolve/8d55969b3f648daadc4fc496166ff556eee92717/25.06%20News%20articles%20AI%20and%20Jobs%20-%20ai_jobs_news_20250617_140957.csv?download=true",
+          "snippet": "... customer service, data entry and document analysis are among those already being hit hard. AI may also replace coders, as Nvidia CEO Jensen ...",
+          "status_code": 0,
+          "content_type": "",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "AI 就业新闻文章数据集，snippet 虽提及 customer service 但主题是 AI 对就业的影响，非订阅取消或流失分析数据"
+        },
+        {
+          "title": "Export",
+          "url": "https://mehi.masstech.org/api/company/export/96",
+          "snippet": "... churn, align plan-product enrollment) and manage medical costs (identify rising sources of risk, introduce social determinants into the medical management ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 400097,
+          "judge_keep": false,
+          "judge_confidence": 0.3,
+          "judge_reason": "医疗成本管理相关的公司数据导出，snippet 中的 churn 指医疗计划流失，但无法确认是用户会提交的通用分析输入，且 URL 指向特定机构 API"
+        },
+        {
+          "title": "https://media.geeksforgeeks.org/wp-content/uploads...",
+          "url": "https://media.geeksforgeeks.org/wp-content/uploads/20250127144046966510/spam_ham_dataset.csv",
+          "snippet": "... customer appreciation spring savings certificate at foot locker , lady foot locker , kids foot locker and at our online stores ! welcome to ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "垃圾邮件分类数据集 (spam_ham)，snippet 显示是营销邮件内容，与客户流失分析无关"
+        },
+        {
+          "title": "https://data.oregon.gov/api/views/pcze-ihn9/rows.c...",
+          "url": "https://data.oregon.gov/api/views/pcze-ihn9/rows.csv?accessType=DOWNLOAD",
+          "snippet": "... analysis; follow up on equity discussions from 12/17 RSC meeting; and do ... Customer Service Efficiency,Study the efficiency of customer services ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 0,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "俄勒冈州政府公开数据，snippet 显示是会议记录和客户服务效率研究，非订阅取消特征数据"
+        },
+        {
+          "title": "Comma-Separated Values",
+          "url": "https://www.onetcenter.org/taxonomy/2000/list/2000_Occupations.csv?fmt=csv",
+          "snippet": "Analyze sales statistics gathered by staff to determine sales potential and inventory requirements and monitor the preferences of customers.\" 11-2031.00,Public ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "职业分类数据 (O*NET)，snippet 显示是销售统计和库存分析的职业描述，非客户流失数据集"
+        },
+        {
+          "title": "Export Results to Excel",
+          "url": "https://www.fishwildlife.org/mscgp/grant_search/csv/Any",
+          "snippet": "... analysis alongside findings from the National Surveys. The 30,000 interviews from the Interim Survey will allow for detailed analysis of ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "野生动物保护资助搜索结果的 Excel 导出，snippet 显示是国家调查访谈数据，与客户流失完全无关"
+        },
+        {
+          "title": "https://raw.githubusercontent.com/jglendrange/DATA...",
+          "url": "https://raw.githubusercontent.com/jglendrange/DATA607/main/fulltimeNY.csv",
+          "snippet": "... analysis, strategic solution design and closing of new customers. We look to you to interact with all levels of the target organization and align the ...",
+          "status_code": 200,
+          "content_type": "text/plain",
+          "content_length": 1300830,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "纽约全职工作相关数据，snippet 显示是销售和客户获取职位描述，非订阅取消或流失特征数据"
+        }
+      ],
+      "results_kept": [],
+      "kept_count": 0,
+      "total_count": 9
+    }
+  ]
+}

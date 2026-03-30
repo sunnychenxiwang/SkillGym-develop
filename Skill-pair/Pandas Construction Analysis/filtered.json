@@ -1,0 +1,640 @@
+{
+  "skill": "D:\\engineer\\SKILL TO INPUT\\SKILLS\\Pandas Construction Analysis\\SKILL.md",
+  "threshold": 0.7,
+  "filtered_results": [
+    {
+      "q": "BIM export Excel file with construction elements volume area category material",
+      "file_type": "xlsx",
+      "preferred_sites": [
+        "github.com",
+        "kaggle.com",
+        "data.world"
+      ],
+      "results_annotated": [
+        {
+          "title": "[XLS] QS BIM - Detail",
+          "url": "https://info.corenet.gov.sg/docs/default-source/bim-guides/essential/qs_bim_attribute_requirements.xlsx?sfvrsn=a61679dc_2",
+          "snippet": "BIM element is modelled with complete fabrication and assembly details over and above the Detailed Design stage where applicable or useful for construction ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 976143,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "这是BIM属性要求的Excel模板文件，包含BIM元素的详细属性定义，可直接作为skill的输入数据或参考模板"
+        },
+        {
+          "title": "[XLS] CCTC",
+          "url": "https://careertech.org/wp-content/uploads/sites/default/files/CCTC-PerformanceElements.xlsx",
+          "snippet": "... construction materials, components, and assemblies for project design. 1. Select building materials and assemblies upon evaluation that meet project ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 363066,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "这是职业教育能力标准文件，关于建筑材料和组件评估，不是BIM导出的施工数据"
+        },
+        {
+          "title": "[XLS] SubmissionChecklist - NYC.gov",
+          "url": "https://www.nyc.gov/assets/ddc/downloads/public-building-resources/Section3.2AttachmentConstructionCostEstimateTemplateRev17.xlsx",
+          "snippet": "Special construction work not described any of above category. SF, LF, EA, Acre, etc. 47, Grand Total, 0. 49, Note: 50, Shaded cell is where data must be ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 350941,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "这是施工成本估算模板，属于政府文档/表格工具，不是用户会提交的BIM元素数据"
+        },
+        {
+          "title": "[XLS] Sheet1 - Iowa State University Digital Press",
+          "url": "https://iastate.pressbooks.pub/app/uploads/sites/53/2021/07/140-Software-tools-architecture-firms-need-in-2020-Modified-by-Cho.xlsx",
+          "snippet": "A high level tool designed to help architects and designers once it comes to work with steel constructions. This Building Information Modeling (BIM) software.",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 45865,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "这是软件工具清单，关于建筑设计公司需要的软件，不是施工数据文件"
+        },
+        {
+          "title": "[XLS] Title Sheet",
+          "url": "https://fdotwww.blob.core.windows.net/sitefinity/docs/default-source/designsupport/scope/concurrentpdande/2022/combinedpd-edesignsheguidelines-v-2022-02.xlsm?sfvrsn=7e01c1a_2",
+          "snippet": "Includes all word & term abbreviations and material symbols used in construction documents. 46, 31.39, Foundation Plans (Small Scale), Sheet, 22 to 36, Building ...",
+          "status_code": 200,
+          "content_type": "application/vnd.ms-excel.sheet.macroEnabled.12",
+          "content_length": 1168541,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "这是FDOT设计指南文档，属于官方规范/标准，不是BIM导出的元素数据"
+        },
+        {
+          "title": "[XLS] Introduction - Documents & Reports - World Bank",
+          "url": "https://documents1.worldbank.org/curated/en/099820009162590928/IDU-294ec3c0-f641-4e55-8ae0-4674dfdff202.xlsx",
+          "snippet": "Outline your Building Information Modelling (BIM) capabilities and your proposed approach to incorporate BIM into the planning, construction and operations & ...",
+          "status_code": 200,
+          "content_type": "text/html,application/xhtml+xml,application/xml",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "这是世界银行BIM能力说明文档，属于提案/报告类文件，不是结构化施工数据"
+        },
+        {
+          "title": "[XLS] Asset Management - VTA",
+          "url": "https://www.vta.org/system/files?file=2020-03/Form%204-Technical%20Proposal%20Revision%202.xlsx",
+          "snippet": "Provide ability to import or export data to Excel and MS Project. E. 693, 1.10.3.15, Allow user to show capital program projects at either the detail or ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 158726,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "这是VTA技术提案文件，关于项目管理软件功能要求，不是BIM元素数据"
+        },
+        {
+          "title": "[XLS] Embodied Carbon Design Report v1.1 Excel file (188 KB)",
+          "url": "https://vancouver.ca/files/cov/embodied-carbon-design-report-v1.1.xlsx",
+          "snippet": "The design development phase involves finalizing the building design and specifying items such as materials, window and door locations and general structural ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.75,
+          "judge_reason": "这是隐含碳设计报告Excel文件，包含建筑材料、结构设计数据，可作为施工数据分析的输入"
+        },
+        {
+          "title": "[XLS] Spreadsheet: Terrestrial Metrics For Consultation - Nature Positive",
+          "url": "https://www.naturepositive.org/app/uploads/2024/10/Spreadsheet_Terrestrial-Metrics_For-Consultation_08Oct2024.xlsx",
+          "snippet": "A known area or region where the material was produced or extracted, but that the specific production unit of origin is not known. Sourcing area ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "这是自然保护指标咨询表格，与建筑材料来源追溯相关，但不是BIM施工数据"
+        },
+        {
+          "title": "[XLS] Sheet1 - IDCEC",
+          "url": "https://www.idcec.org/images/content/download/CEU_LIST_FINAL.xlsx",
+          "snippet": "Construction & Materials, Health, Safety, Welfare, Distance learning, This one-hour course is your introduction to using natural stone as a building material.",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 137206,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "这是室内设计继续教育课程列表，与施工数据分析无关"
+        }
+      ],
+      "results_kept": [
+        {
+          "title": "[XLS] QS BIM - Detail",
+          "url": "https://info.corenet.gov.sg/docs/default-source/bim-guides/essential/qs_bim_attribute_requirements.xlsx?sfvrsn=a61679dc_2",
+          "snippet": "BIM element is modelled with complete fabrication and assembly details over and above the Detailed Design stage where applicable or useful for construction ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 976143,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "这是BIM属性要求的Excel模板文件，包含BIM元素的详细属性定义，可直接作为skill的输入数据或参考模板"
+        },
+        {
+          "title": "[XLS] Embodied Carbon Design Report v1.1 Excel file (188 KB)",
+          "url": "https://vancouver.ca/files/cov/embodied-carbon-design-report-v1.1.xlsx",
+          "snippet": "The design development phase involves finalizing the building design and specifying items such as materials, window and door locations and general structural ...",
+          "status_code": 403,
+          "content_type": "text/html",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.75,
+          "judge_reason": "这是隐含碳设计报告Excel文件，包含建筑材料、结构设计数据，可作为施工数据分析的输入"
+        }
+      ],
+      "kept_count": 2,
+      "total_count": 10
+    },
+    {
+      "q": "construction project CSV data element ID category level volume quantities",
+      "file_type": "csv_tsv",
+      "preferred_sites": [
+        "data.gov",
+        "opendata.arcgis.com",
+        "github.com"
+      ],
+      "results_annotated": [
+        {
+          "title": "Download as CSV - Federal Data Strategy",
+          "url": "https://strategy.data.gov/data/use-cases.csv",
+          "snippet": "Business data collected by the U.S. Census Bureau from various sectors of the economy, such as manufacturing, construction, retail trade, and health care, along ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 380415,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "这是政府数据策略用例的CSV，包含的是商业统计数据而非具体建筑项目的BIM元素数据，不是该skill的用户输入"
+        },
+        {
+          "title": "download record errors as .csv - Organization List",
+          "url": "https://harvest.data.gov/harvest_job/5c80cae0-14d1-44cd-82e2-fa3d2e62d7fb/errors/record",
+          "snippet": "... id/dataset/USGS_686fe4e0d4be025ce526c440,INHABIT species potential distribution for the globe: rasters (A-H),06c1f99c-89fd-49df-825f ...",
+          "status_code": 0,
+          "content_type": "",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "这是数据抓取错误记录页面，内容是元数据和错误信息，不是建筑项目数据"
+        },
+        {
+          "title": "Download - Data.gov",
+          "url": "https://inventory.data.gov/dataset/e5ba009c-3e40-4f5a-b010-e294a8369ba4/resource/7385188a-84f1-4e1a-8e78-05e694b65bdf/download/datagovdatasetsviewmetrics.csv",
+          "snippet": "... Level Spatial Light Modulator Project,National Aeronautics and Space ... Category 4a,State of Arkansas,2,09/2017 68cdc9f0-bb32-4825-94d2-620b5f25e3bd ...",
+          "status_code": 403,
+          "content_type": "application/xml",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "这是Data.gov网站的数据集查看指标统计，包含的是访问统计而非建筑元素数据"
+        },
+        {
+          "title": "CSV CSV - CDFW Open Data Portal",
+          "url": "https://data-cdfw.opendata.arcgis.com/api/download/v1/items/0501530a003c4cbca059687fc446b887/csv?layers=0",
+          "snippet": "... construction/riparian restoration), ,Lake Red Bluff Riparian Area Restoration and Education Support Project ... ID submitted to GCAP Servi\",Turlock ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 106781,
+          "judge_keep": false,
+          "judge_confidence": 0.25,
+          "judge_reason": "这是加州鱼类野生动物局的河流恢复项目数据，虽涉及construction但内容是生态恢复项目列表，非BIM元素/构件级数据"
+        },
+        {
+          "title": "https://data-cdfw.opendata.arcgis.com/api/download...",
+          "url": "https://data-cdfw.opendata.arcgis.com/api/download/v1/items/03cbdb1f521c4d9380f69ac2672bb64c/csv?layers=0",
+          "snippet": "... project design to 65% that most effectively improves Eel River habitat, and (6) planning and permitting for that design. Building on the network of ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 140047,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "这是Eel River栖息地恢复项目规划数据，属于环境工程项目信息，非建筑构件级别的结构化数据"
+        },
+        {
+          "title": "Download - CDFW Open Data Portal",
+          "url": "https://data-cdfw.opendata.arcgis.com/api/download/v1/items/de922575bf314b4995b85d315ed28d28/csv?layers=0",
+          "snippet": "... Project,Awarded,HI,Instream Habitat Restoration,\"This project is the construction of 32 LW features containing a total of 97 pieces of LW. Logs for the project ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 768734,
+          "judge_keep": false,
+          "judge_confidence": 0.25,
+          "judge_reason": "这是栖息地恢复工程项目列表，虽含construction关键词但内容是项目级管理信息，非ElementId/Category/Volume等构件属性数据"
+        },
+        {
+          "title": "https://raw.github.com/Miletus-Excavation/Miletus_...",
+          "url": "https://raw.github.com/Miletus-Excavation/Miletus_Bibliography/main/data/Milet_Bibliography_CSV.csv",
+          "snippet": "... Volume\",\"Number Of Volumes\",\"Journal Abbreviation\",\"Short Title ... level changes, and tectonic activities, the delta progradation was ...",
+          "status_code": 200,
+          "content_type": "text/plain",
+          "content_length": 237085,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "这是考古文献书目CSV，Volume指书籍卷数而非建筑体积，完全无关"
+        },
+        {
+          "title": "Download CSV - FEMA",
+          "url": "https://www.fema.gov/emergency-managers/risk-management/building-science/publications.csv?page&_format=csv",
+          "snippet": "... Volume II: Part 3 Resource Papers\",\"The 2015 NEHRP Provisions marks the ... Project Planning Template\",\"This document equips property owners with a ...",
+          "status_code": 0,
+          "content_type": "",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "这是FEMA建筑科学出版物目录，内容是文档元数据而非建筑项目数据"
+        },
+        {
+          "title": "CSV - Data.Transportation.gov",
+          "url": "https://data.transportation.gov/api/views/nhvr-exvq/rows.csv?accessType=DOWNLOAD",
+          "snippet": "Data Element Name,Preferred Physical Name,Subject Category Code,Description Text,Data Type Code,Maximum Length,Precision Number,Pattern Text,Unit of Measure ...",
+          "status_code": 404,
+          "content_type": "text/csv",
+          "content_length": 0,
+          "judge_keep": false,
+          "judge_confidence": 0.3,
+          "judge_reason": "这是交通数据标准的数据元素定义表，描述的是数据字典/schema规范，不是用户会提交给skill分析的实际建筑项目数据"
+        },
+        {
+          "title": "CSV - NYC Open Data -",
+          "url": "https://data.cityofnewyork.us/api/views/nurq-xj9w/rows.csv?accessType=DOWNLOAD",
+          "snippet": "... level of care, length of time in placement\",1,Not on Open Data Plan,,This is not a public data set but information obtained solely for the foil request ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 0,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "这是纽约市儿童福利数据，level指护理级别而非建筑楼层，与建筑数据分析无关"
+        }
+      ],
+      "results_kept": [],
+      "kept_count": 0,
+      "total_count": 10
+    },
+    {
+      "q": "building information modeling dataset structural elements walls floors columns beams",
+      "file_type": "xlsx",
+      "preferred_sites": [
+        "kaggle.com",
+        "huggingface.co/datasets",
+        "zenodo.org"
+      ],
+      "results_annotated": [
+        {
+          "title": "[XLS] Sheet1 - Hugging Face",
+          "url": "https://huggingface.co/datasets/shahadalkhalifa/Crypto_Whitepaper_Labeled/resolve/main/Clean_crypto_text.xlsx",
+          "snippet": "de input qutput iohk building cardano building cardano subjective approach charles hoskinson charles hoskinson ca e b df cc bca b ff introduction motivation ...",
+          "status_code": 0,
+          "content_type": "",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.05,
+          "judge_reason": "加密货币白皮书数据集，与建筑结构元素完全无关"
+        },
+        {
+          "title": "[XLS] Screening Process.xlsx - Zenodo",
+          "url": "https://zenodo.org/records/15587030/files/Screening%20Process.xlsx?download=1",
+          "snippet": "Architectural simulation of the integration of Building Information Modelling (BIM) & Business Process Modelling (BPM), Scopus. 2305, Behaviour-driven ...",
+          "status_code": 200,
+          "content_type": "application/octet-stream",
+          "content_length": 379455,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "BIM与BPM集成的文献筛选流程文档，是研究方法论记录而非建筑数据输入"
+        },
+        {
+          "title": "[XLS] scopus (4) - Zenodo",
+          "url": "https://zenodo.org/records/14561906/files/PRISMA%20scopus.xlsx?download=1",
+          "snippet": "This study was aimed at developing a building information modeling (BIM) process logger that can capture modeling process information as an event log file. BIM ...",
+          "status_code": 200,
+          "content_type": "application/octet-stream",
+          "content_length": 373278,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "BIM过程日志研究的文献筛选数据，是学术研究元数据而非建筑结构元素数据"
+        },
+        {
+          "title": "[XLS] combined_csv_issuecomments - Zenodo",
+          "url": "https://zenodo.org/records/6982529/files/IssueComments-Categories.xlsx?download=1",
+          "snippet": "It has some interesting information regarding icon and interactive UI element mirroring. ... Did you try searching the walls of that room on the second floor for ...",
+          "status_code": 200,
+          "content_type": "application/octet-stream",
+          "content_length": 468431,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "GitHub issue评论分类数据，snippet中提到的walls/floors是游戏场景描述，非建筑BIM数据"
+        },
+        {
+          "title": "[XLS] OmniClass Table 21 - Autodesk Interoperability Tools",
+          "url": "https://interoperability.autodesk.com/classificationmanager/hosteddbs/OmniClass.xlsx",
+          "snippet": "The mapping columns on some worksheets shows the equivalent values between different classification systems and is used by the Autodesk Revit Classification ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 785723,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "OmniClass分类标准表，是分类体系参考文档而非用户会分析的具体项目数据"
+        },
+        {
+          "title": "[XLS] Model Exchange Table",
+          "url": "https://www.panynj.gov/content/dam/port-authority/pdfs/-available-engineering-documents/PA-DEL-REQ-DAT-SP-0003-InformationDeliveryPlan.xlsx",
+          "snippet": "FLOOR CONSTRUCTION, B1010.10, Floor structural frame, 0. 31, B, SHELL, B10, SUPERSTRUCTURE, B1010, FLOOR CONSTRUCTION, B1010.20, Floor decks, slabs and toppings ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.75,
+          "judge_reason": "信息交付计划中的模型交换表，包含FLOOR CONSTRUCTION、structural frame等具体结构元素分类数据，可作为skill分析的标准化输入模板"
+        },
+        {
+          "title": "[XLS] Contents - NRM 3 L&L Table - RICS",
+          "url": "https://www.rics.org/content/dam/ricsglobal/documents/standards/nrm_3_logic_and_levels_table.xlsx",
+          "snippet": "Walls – Building maintenance units, 13 – Specialist. 165, 2, 5, 6, 1, 4, Other ... Prefabricated buildings and building units - Maintenance included in elements 1 ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.25,
+          "judge_reason": "RICS NRM 3标准表格，是成本测量规范文档，虽提及walls等元素但属于标准参考而非项目数据"
+        },
+        {
+          "title": "[XLS] standardized labor categories - GSA",
+          "url": "https://www.gsa.gov/system/files/General_Supplies__Services/Standardized_Labor_Categories_and_definitions.xlsx",
+          "snippet": "Raise, place, and unite iron or steel girders, columns, and other structural members to form completed structures or structural frameworks. May erect metal ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 188050,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "GSA标准化劳动力类别定义，是人力资源分类标准，非建筑结构元素数据集"
+        },
+        {
+          "title": "[XLS] RMS Wind Construction Codes - The State Office of Risk Management",
+          "url": "https://www.sorm.state.tx.us/wp-content/uploads/2017/06/SORM_SOV_for_New_Agencies_10.22.14.xlsx",
+          "snippet": "Buildings constructed of reinforced concrete shear walls and floor and roof slabs. A pure shear wall building does not require columns or beams for stability.",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 79531,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "风险管理建筑结构类型代码表，是保险风险评估用的建筑类型分类，非具体BIM元素数据"
+        },
+        {
+          "title": "[XLS] Title Sheet",
+          "url": "https://fdotwww.blob.core.windows.net/sitefinity/docs/default-source/designsupport/scope/designsheguidelines-v-2025-01-1.xlsm?sfvrsn=bf18369_1",
+          "snippet": "Development of structural design of floors, walls, frames, roof ... Building Information Modeling (BIM), Project, No Additional Cost, Using AutoCad ...",
+          "status_code": 200,
+          "content_type": "application/vnd.ms-excel.sheet.macroEnabled.12",
+          "content_length": 789424,
+          "judge_keep": false,
+          "judge_confidence": 0.3,
+          "judge_reason": "FDOT设计指南模板文件，虽提及BIM和结构元素设计，但是指南文档而非可分析的项目数据集"
+        }
+      ],
+      "results_kept": [
+        {
+          "title": "[XLS] Model Exchange Table",
+          "url": "https://www.panynj.gov/content/dam/port-authority/pdfs/-available-engineering-documents/PA-DEL-REQ-DAT-SP-0003-InformationDeliveryPlan.xlsx",
+          "snippet": "FLOOR CONSTRUCTION, B1010.10, Floor structural frame, 0. 31, B, SHELL, B10, SUPERSTRUCTURE, B1010, FLOOR CONSTRUCTION, B1010.20, Floor decks, slabs and toppings ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": -1,
+          "judge_keep": true,
+          "judge_confidence": 0.75,
+          "judge_reason": "信息交付计划中的模型交换表，包含FLOOR CONSTRUCTION、structural frame等具体结构元素分类数据，可作为skill分析的标准化输入模板"
+        }
+      ],
+      "kept_count": 1,
+      "total_count": 10
+    },
+    {
+      "q": "quantity takeoff sample data construction cost estimation materials",
+      "file_type": "xlsx",
+      "preferred_sites": [
+        "construction-software-vendor sites",
+        "engineering forums",
+        "academic repositories"
+      ],
+      "results_annotated": [
+        {
+          "title": "[XLS] SubmissionChecklist - NYC.gov",
+          "url": "https://www.nyc.gov/assets/ddc/downloads/public-building-resources/Section3.2AttachmentConstructionCostEstimateTemplateRev18.xlsx",
+          "snippet": "Hard Cost Detail Level 2: This template provides a detailed takeoff for cost estimate in CSI Master Format. ... Construction contingency estimate budgets for ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 360259,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "这是建筑成本估算模板XLSX文件，包含详细的工程量清单和成本数据，可直接作为skill的输入数据进行过滤、分组、聚合分析"
+        },
+        {
+          "title": "[XLS] Cost Summary - CHFA",
+          "url": "https://www.chfainfo.com/getattachment/707a5b78-178b-44ca-8d85-5551430d9770/CHFA-Cost-Summary-Template.xlsx",
+          "snippet": "Provide the type of materials assumed for each line item, and quantity takeoff where possible. 3. Do not use lump sums or general per-square-foot allocation of ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 77262,
+          "judge_keep": true,
+          "judge_confidence": 0.8,
+          "judge_reason": "成本汇总模板XLSX，包含材料类型和工程量数据，符合skill处理结构化建筑数据的需求"
+        },
+        {
+          "title": "[XLS] Project cost estimate template - Transport for NSW",
+          "url": "https://www.transport.nsw.gov.au/system/files/media/documents/2024/Get-NSW-Active-2025-26-Cost-Estimate-standard-template.xlsx",
+          "snippet": "All items must be extended to show total amounts. Rates for individual pay items must exclude GST. Refer to guidance note for information on how to populate. 4 ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 79028,
+          "judge_keep": true,
+          "judge_confidence": 0.75,
+          "judge_reason": "项目成本估算标准模板XLSX，包含支付项目和金额数据，可作为skill的输入进行数据处理"
+        },
+        {
+          "title": "[XLS] BOQ - NIQS",
+          "url": "https://niqs.org.ng/wp-content/uploads/2021/10/CJ-Michael-Presentation-and-Discussion-of-Case-Studies-and-Real-life-examples-of-Project-cost-estimating-for-Building-and-Civil-Engineering.xlsx",
+          "snippet": "COST OF MATERIAL/M3, 0, COST/ M3, 2600, COST/ m3. 34, 0, +VAT. 35, C=A+B, COST OF LATERITE SUPPLIED (+10% SWELL), 1.1, 0, COST/ M3, 0, COST/ M3. 36. 37. 38 ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 141381,
+          "judge_keep": true,
+          "judge_confidence": 0.8,
+          "judge_reason": "工程量清单(BOQ)XLSX文件，包含材料成本、体积等具体数据，是典型的skill输入文件"
+        },
+        {
+          "title": "[XLS] Master List - FIU Office of the Controller",
+          "url": "https://controller.fiu.edu/wp-content/uploads/2022/09/FIU_FSSS_PO_CATEGORY_LIST_asof_8.30.2022.xlsx",
+          "snippet": "Magnesia: Blocks\\ Sheets\\ etc. Active, 773211, 77300, Building & Construction ... Ties: Bar\\ Form\\ etc. Active, 773906, 77300, Other Materials and Supplies ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 701564,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "这是采购分类主列表，属于参考性分类编码表，不是用户会提交分析的具体项目数据"
+        },
+        {
+          "title": "[XLS] Conference Series #01 Volume 1 - AACE",
+          "url": "https://web.aacei.org/docs/default-source/toc/toc_CS01-V1.xlsx",
+          "snippet": "Validating the quantity takeoff (QTO) is an important step in any cost estimating process however it may be even more important when the QTO was generated ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 15020,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "这是会议论文目录(TOC)，内容是文献索引而非实际工程量数据，不适合作为skill输入"
+        },
+        {
+          "title": "[XLS] Carpentry & Construction Competencies.xlsx",
+          "url": "https://dese.mo.gov/sites/dese/files/media/file/2024/11/Carpentry%20%20%26%20Construction%20Competencies.xlsx",
+          "snippet": "Convert fractions to decimals and decimals to fractions for cost analysis and estimation ... Demonstrate or describe how to perform a quantity takeoff for ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 103529,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "这是木工与建筑能力标准文件，属于教学能力框架，不是实际的项目数据文件"
+        },
+        {
+          "title": "[XLS] BIM Use Case List - buildingSMART International",
+          "url": "https://www.buildingsmart.org/wp-content/uploads/2018/03/Use-Case-Documentation-V3-0.xlsx",
+          "snippet": "Quantity take-off's (QTO) are a detailed measurement of materials and labor needed to complete a construction project. ... Cost analysis / Estimation (CA), A ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "BIM用例列表文档，描述的是方法论和流程说明，不是具体的工程量数据文件"
+        },
+        {
+          "title": "[XLS] qandasearchletting_results - Wisconsin Department of Transportation",
+          "url": "https://wisconsindot.gov/hccidocs/bid-let/2023/20230912/qa/qandasearchletting_results.xlsx",
+          "snippet": "The material used will be determined by the contractors means and methods during construction. The material could vary depending on the location, depth, length ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 35446,
+          "judge_keep": false,
+          "judge_confidence": 0.25,
+          "judge_reason": "招标问答结果文件，内容是问答记录，不是结构化的工程量或成本数据"
+        },
+        {
+          "title": "[XLS] standardized labor categories - GSA",
+          "url": "https://www.gsa.gov/system/files/General_Supplies__Services/Standardized_Labor_Categories_and_definitions.xlsx",
+          "snippet": "Cost Estimators, Prepare cost estimates for product manufacturing, construction projects, or services to aid management in bidding on or determining price of ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 188050,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "标准化劳动力类别定义文件，属于分类参考标准，不是具体项目的输入数据"
+        }
+      ],
+      "results_kept": [
+        {
+          "title": "[XLS] SubmissionChecklist - NYC.gov",
+          "url": "https://www.nyc.gov/assets/ddc/downloads/public-building-resources/Section3.2AttachmentConstructionCostEstimateTemplateRev18.xlsx",
+          "snippet": "Hard Cost Detail Level 2: This template provides a detailed takeoff for cost estimate in CSI Master Format. ... Construction contingency estimate budgets for ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 360259,
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "这是建筑成本估算模板XLSX文件，包含详细的工程量清单和成本数据，可直接作为skill的输入数据进行过滤、分组、聚合分析"
+        },
+        {
+          "title": "[XLS] Cost Summary - CHFA",
+          "url": "https://www.chfainfo.com/getattachment/707a5b78-178b-44ca-8d85-5551430d9770/CHFA-Cost-Summary-Template.xlsx",
+          "snippet": "Provide the type of materials assumed for each line item, and quantity takeoff where possible. 3. Do not use lump sums or general per-square-foot allocation of ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 77262,
+          "judge_keep": true,
+          "judge_confidence": 0.8,
+          "judge_reason": "成本汇总模板XLSX，包含材料类型和工程量数据，符合skill处理结构化建筑数据的需求"
+        },
+        {
+          "title": "[XLS] Project cost estimate template - Transport for NSW",
+          "url": "https://www.transport.nsw.gov.au/system/files/media/documents/2024/Get-NSW-Active-2025-26-Cost-Estimate-standard-template.xlsx",
+          "snippet": "All items must be extended to show total amounts. Rates for individual pay items must exclude GST. Refer to guidance note for information on how to populate. 4 ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 79028,
+          "judge_keep": true,
+          "judge_confidence": 0.75,
+          "judge_reason": "项目成本估算标准模板XLSX，包含支付项目和金额数据，可作为skill的输入进行数据处理"
+        },
+        {
+          "title": "[XLS] BOQ - NIQS",
+          "url": "https://niqs.org.ng/wp-content/uploads/2021/10/CJ-Michael-Presentation-and-Discussion-of-Case-Studies-and-Real-life-examples-of-Project-cost-estimating-for-Building-and-Civil-Engineering.xlsx",
+          "snippet": "COST OF MATERIAL/M3, 0, COST/ M3, 2600, COST/ m3. 34, 0, +VAT. 35, C=A+B, COST OF LATERITE SUPPLIED (+10% SWELL), 1.1, 0, COST/ M3, 0, COST/ M3. 36. 37. 38 ...",
+          "status_code": 200,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "content_length": 141381,
+          "judge_keep": true,
+          "judge_confidence": 0.8,
+          "judge_reason": "工程量清单(BOQ)XLSX文件，包含材料成本、体积等具体数据，是典型的skill输入文件"
+        }
+      ],
+      "kept_count": 4,
+      "total_count": 10
+    },
+    {
+      "q": "Revit or IFC exported tabular data building elements properties",
+      "file_type": "csv_tsv",
+      "preferred_sites": [
+        "buildingSMART.org",
+        "openBIM sample files",
+        "NIBS.org"
+      ],
+      "results_annotated": [
+        {
+          "title": "CSV Export - FreeCAD Tracker",
+          "url": "https://tracker.freecad.org/csv_export.php",
+          "snippet": "... build files 4. Start FC: The python test modul will be envoked with an error when searching the workbench icon under the users app data\",new,open,,,0,2 ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "FreeCAD Tracker的CSV导出页面，是bug追踪系统的导出功能，不是建筑元素数据"
+        },
+        {
+          "title": "https://prod-dcd-datasets-public-files-eu-west-1.s...",
+          "url": "https://prod-dcd-datasets-public-files-eu-west-1.s3.eu-west-1.amazonaws.com/993c7a56-d39c-40dd-8e0d-107bcd6be9d2",
+          "snippet": "... data,4,2502,0.30% health,6,2300,0.27% results,7,2278,0.27% adaptation,10,2200,0.26% policy,6,2192,0.26% species,7,2094,0.25% emissions,9,2081,0.25% analysis ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 676555,
+          "judge_keep": false,
+          "judge_confidence": 0.15,
+          "judge_reason": "内容显示为健康、政策、物种等数据，与建筑元素属性无关"
+        },
+        {
+          "title": "https://archives.howelllibrary.org/items/browse?ta...",
+          "url": "https://archives.howelllibrary.org/items/browse?tags=newspaper&sort_field=Dublin+Core%2CTitle&page=3&sort_dir=d&output=csv",
+          "snippet": "... Building and Grounds committee, but according to Munzel his requests had been ignored. Munzel asked the Chairman of the Board of Supervisors, Allan Campbell ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": -1,
+          "judge_keep": false,
+          "judge_confidence": 0.1,
+          "judge_reason": "图书馆档案的报纸标签CSV导出，是馆藏元数据，非建筑BIM/IFC数据"
+        },
+        {
+          "title": "https://ndltd.ncl.edu.tw/opendata/107ndltd.csv",
+          "url": "https://ndltd.ncl.edu.tw/opendata/107ndltd.csv",
+          "snippet": "... Revit應用之研究,A study for BIM building model technology-Revit Application for Example,萬能科技大學,營建工程科技研究所,107,碩士,林仲奇,蔡仁卓,https://hdl ...",
+          "status_code": 200,
+          "content_type": "text/csv",
+          "content_length": 16048874,
+          "judge_keep": false,
+          "judge_confidence": 0.2,
+          "judge_reason": "台湾博硕士论文系统CSV，虽含Revit关键词但只是论文目录元数据，非实际建筑元素数据文件"
+        }
+      ],
+      "results_kept": [],
+      "kept_count": 0,
+      "total_count": 4
+    }
+  ]
+}
