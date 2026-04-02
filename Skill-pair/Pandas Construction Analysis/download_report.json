@@ -1,5 +1,5 @@
 {
-  "skill": "D:\\engineer\\SKILL TO INPUT\\SKILLS\\Pandas Construction Analysis\\SKILL.md",
+  "skill": "D:\\engineer\\SkillGym-develop\\Skill-pair\\Pandas Construction Analysis\\Pandas Construction Analysis\\SKILL.md",
   "records": [
     {
       "category": "xlsx file",
@@ -47,6 +47,86 @@
       "snippet": "COST OF MATERIAL/M3, 0, COST/ M3, 2600, COST/ m3. 34, 0, +VAT. 35, C=A+B, COST OF LATERITE SUPPLIED (+10% SWELL), 1.1, 0, COST/ M3, 0, COST/ M3. 36. 37. 38 ...",
       "metadata": {
         "url": "https://niqs.org.ng/wp-content/uploads/2021/10/CJ-Michael-Presentation-and-Discussion-of-Case-Studies-and-Real-life-examples-of-Project-cost-estimating-for-Building-and-Civil-Engineering.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "industry-mapping-4-dec-2025.xlsx",
+      "snippet": "Consolidated URA Area Verging requirements into separate file: \"URA Excel\". 80, 44812, Added, Object Type, Added IfcSpace Object types for indication of road ...",
+      "metadata": {
+        "url": "https://info.corenet.gov.sg/docs/default-source/requirements/industry-mapping-4-dec-2025.xlsx?sfvrsn=2e45a35c_2"
+      }
+    },
+    {
+      "category": "mixed file",
+      "value": "construction-project-data-analysis.html",
+      "snippet": "Explore and run machine learning code with Kaggle Notebooks | Using data from Construction/Project Management Report Examples.",
+      "metadata": {
+        "url": "https://www.kaggle.com/code/kscoder77/construction-project-data-analysis"
+      }
+    },
+    {
+      "category": "mixed file",
+      "value": "san-francisco-building-sector-1980-2019.html",
+      "snippet": "This data set pertains to all types of structural permits. Data includes details on application/permit numbers, job addresses, supervisorial districts, and the ...",
+      "metadata": {
+        "url": "https://www.kaggle.com/code/artemboiko/san-francisco-building-sector-1980-2019"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "Section3.2AttachmentConstructionCostEstimateTemplateRev17.xlsx",
+      "snippet": "Hard Cost Detail Level 2: This template provides a detailed takeoff for cost estimate in CSI Master Format. ... The total cost from this spreadsheet is ...",
+      "metadata": {
+        "url": "https://www.nyc.gov/assets/ddc/downloads/public-building-resources/Section3.2AttachmentConstructionCostEstimateTemplateRev17.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "designsheguidelines-v-2023-01-3.xlsm",
+      "snippet": "Quantity and Cost Estimates, EA ALT. 8 to 40, Establish unit prices, develop quantities and cost estimates. Additional staffhours for EDC cost estimating will ...",
+      "metadata": {
+        "url": "https://fdotwww.blob.core.windows.net/sitefinity/docs/default-source/designsupport/scope/2023/2023/designsheguidelines-v-2023-01-3.xlsm?sfvrsn=2e854ac_1"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "sdge-2025-per-unit-cost-guide-final.xlsx",
+      "snippet": "Material and construction costs are the unit costs but exclude exemplary costs for engineering, project management, construction management, contracted ...",
+      "metadata": {
+        "url": "https://www.caiso.com/documents/sdge-2025-per-unit-cost-guide-final.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "Construction-Cost-Codes-List.xlsx",
+      "snippet": "Costs for placing concrete on-site, including labor and materials for mixing, pouring, and setting. 33, 03, Concrete, 400, Precast Concrete, Costs for off-site ...",
+      "metadata": {
+        "url": "https://constructioncoverage.com/wp-content/uploads/2024/11/Construction-Cost-Codes-List.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "EZ_ECellCalculator_08_1_2025_Web.xlsm",
+      "snippet": "1) Labor, Equipment and Material Prices are based on 2025 SRCE Cost Data. Cost Basis is Northern Nevada, Mine Plan of Operations, Public/Public ...",
+      "metadata": {
+        "url": "https://ndep.nv.gov/uploads/land-mining-recl-rce-docs/EZ_ECellCalculator_08_1_2025_Web.xlsm"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "Archived_2013_Cost_Estimate_Tool_031213_140210.xlsm",
+      "snippet": "... data on wildlife supplier's price list. 222, Wildlife Habitat, Bat Boxes, with post ... Ea. 0, 500, 0, RS Means Construction Cost Data. 343, Pipe, Corrugated ...",
+      "metadata": {
+        "url": "https://efotg.sc.egov.usda.gov/references/Delete/2014-2-15/Archived_2013_Cost_Estimate_Tool_031213_140210.xlsm"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "pge2022finalperunitcostguide.xlsx",
+      "snippet": "Unit cost per mile shown is based on flat land/rural setting, engineering and construction costs only. Environmental, Permitting, and Right of way Acquisition ...",
+      "metadata": {
+        "url": "https://www.caiso.com/documents/pge2022finalperunitcostguide.xlsx"
       }
     }
   ]

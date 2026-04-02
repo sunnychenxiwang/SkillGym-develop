@@ -1,0 +1,29 @@
+{
+  "skill": "D:\\engineer\\SkillGym-develop\\Skill-pair\\astropy\\astropy\\SKILL.md",
+  "records": [
+    {
+      "category": "fits file",
+      "value": "chandra_events.fits",
+      "snippet": "",
+      "metadata": {
+        "url": "https://astropy.stsci.edu/data/tutorials/FITS-tables/chandra_events.fits"
+      }
+    },
+    {
+      "category": "fits file",
+      "value": "HorseHead.fits",
+      "snippet": "",
+      "metadata": {
+        "url": "https://astropy.stsci.edu/data/tutorials/FITS-images/HorseHead.fits"
+      }
+    },
+    {
+      "category": "fits file",
+      "value": "M13_blue_0001.fits",
+      "snippet": "",
+      "metadata": {
+        "url": "https://astropy.stsci.edu/data/tutorials/FITS-images/M13_blue_0001.fits"
+      }
+    }
+  ]
+}

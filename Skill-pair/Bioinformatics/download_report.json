@@ -1,0 +1,157 @@
+{
+  "skill": "D:\\engineer\\SkillGym-develop\\Skill-pair\\Bioinformatics\\Bioinformatics\\SKILL.md",
+  "records": [
+    {
+      "category": "fa file",
+      "value": "chr22.fa",
+      "snippet": "",
+      "metadata": {
+        "url": "https://ftp.ensembl.org/pub/release-110/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz"
+      }
+    },
+    {
+      "category": "gtf file",
+      "value": "hg38.ncbiRefSeq.gtf",
+      "snippet": "",
+      "metadata": {
+        "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_38/gencode.v38.annotation.gtf.gz"
+      }
+    },
+    {
+      "category": "vcf file",
+      "value": "mutations.vcf",
+      "snippet": "",
+      "metadata": {
+        "url": "https://ftp.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/AshkenazimTrio/HG002_NA24385_son/latest/GRCh38/HG002_GRCh38_1_22_v4.2.1_benchmark.vcf.gz"
+      }
+    },
+    {
+      "category": "fq file",
+      "value": "reads_1.fq",
+      "snippet": "",
+      "metadata": {
+        "url": "https://raw.githubusercontent.com/griffithlab/rnaseq_tutorial/master/data/reads_1.fq"
+      }
+    },
+    {
+      "category": "fq file",
+      "value": "reads_2.fq",
+      "snippet": "",
+      "metadata": {
+        "url": "https://raw.githubusercontent.com/griffithlab/rnaseq_tutorial/master/data/reads_2.fq"
+      }
+    },
+    {
+      "category": "fastq.gz file",
+      "value": "acc.cgi",
+      "snippet": "For paired end Hi-C data, each line lists a single read, and paired infomration can be obtained from the read names. The original fastq files ...",
+      "metadata": {
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1267196"
+      }
+    },
+    {
+      "category": "fastq.gz file",
+      "value": "SRR891269.html",
+      "snippet": "Read Files · Study Accession · Sample Accession · Experiment Accession · Run Accession · Tax Id · Scientific Name · Generated FASTQ files: FTP · Submitted files: FTP.",
+      "metadata": {
+        "url": "https://www.ebi.ac.uk/ena/browser/view/SRR891269"
+      }
+    },
+    {
+      "category": "fastq.gz file",
+      "value": "SRR25083113.html",
+      "snippet": "Illumina HiSeq 2000 paired end sequencing; NGS of Escherichia coli O157:H7 Strain. Organism: Escherichia coli (E. coli). Instrument Platform: ILLUMINA.",
+      "metadata": {
+        "url": "https://www.ebi.ac.uk/ena/browser/view/SRR25083113"
+      }
+    },
+    {
+      "category": "fasta file",
+      "value": "bigZips.html",
+      "snippet": "2013 assembly of the human genome (GRCh38 Genome Reference Consortium Human Reference 38), is called hg38 at UCSC. This directory contains the genome as ...",
+      "metadata": {
+        "url": "http://hgdownload.soe.ucsc.edu/goldenpath/hg38/bigZips/"
+      }
+    },
+    {
+      "category": "gtf file",
+      "value": "human.html",
+      "snippet": "GTF GFF3. Long non-coding RNA gene annotation, ALL. It contains the comprehensive gene annotation of lncRNA genes on the reference chromosomes, scaffolds ...",
+      "metadata": {
+        "url": "https://www.gencodegenes.org/human/"
+      }
+    },
+    {
+      "category": "gtf file",
+      "value": "hgTables.html",
+      "snippet": "The GENCODE Genes track (version 17, June 2013) shows high-quality manual annotations merged with evidence-based automated annotations across the entire human ...",
+      "metadata": {
+        "url": "https://genome.ucsc.edu/cgi-bin/hgTables?db=hg19&hgta_group=genes&hgta_track=wgEncodeGencodeV17&hgta_table=wgEncodeGencodeCompV17&hgta_doSchema=describe+table+schema"
+      }
+    },
+    {
+      "category": "bed file",
+      "value": "datasets.html",
+      "snippet": "bed narrowPeak · bigBed narrowPeak · bed idr_ranked_peak · bigBed bed3+ · bed bed9+ · txt · bigBed bed9+ · bed bed3 · bigWig bed3+ · bed broadPeak ... bed ...",
+      "metadata": {
+        "url": "https://www.encodeproject.org/datasets/"
+      }
+    },
+    {
+      "category": "fasta file",
+      "value": "release_38.html",
+      "snippet": "Fasta. Long non-coding RNA transcript sequences, CHR. Nucleotide sequences of long non-coding RNA transcripts on the reference chromosomes. Fasta. Genome ...",
+      "metadata": {
+        "url": "https://www.gencodegenes.org/human/release_38.html"
+      }
+    },
+    {
+      "category": "fasta file",
+      "value": "release_M10.html",
+      "snippet": "Fasta. Long non-coding RNA transcript sequences, CHR. Nucleotide sequences of long non-coding RNA transcripts on the reference chromosomes. Fasta. Genome ...",
+      "metadata": {
+        "url": "https://www.gencodegenes.org/mouse/release_M10.html"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "journal.pbio.3002007.s036.csv",
+      "snippet": "... tsv.gz,anti-conservative,2018,1 GSE100355,GSE100355_Diff_mcPC_VSMC.txt.gz ... gene expression from GSE100678_processed_data.xlsx,bimodal,2020,0 ...",
+      "metadata": {
+        "url": "http://journals.plos.org/plosbiology/article/asset?unique&id=info:doi/10.1371/journal.pbio.3002007.s036"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "journal.pbio.3002007.s040.csv",
+      "snippet": "... tsv.gz,1,edger GSE100355,GSE100355_Diff_mcPC_VSMC.txt.gz,1,deseq2 GSE100358,sheet-Sheet1 from GSE100358_Ern1-LKO_VS_WT_fpkm_gene_exp.xlsx,0,cuffdiff ...",
+      "metadata": {
+        "url": "http://journals.plos.org/plosbiology/article/asset?unique&id=info:doi/10.1371/journal.pbio.3002007.s040"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "journal.pbio.3002007.s035.csv",
+      "snippet": "... tsv.gz,anti-conservative,4.141543834220653,anti-conservative GSE100355 ... gene expression from GSE100678_processed_data.xlsx,bimodal,4.685902890156902 ...",
+      "metadata": {
+        "url": "http://journals.plos.org/plosbiology/article/asset?unique&id=info:doi/10.1371/journal.pbio.3002007.s035"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "journal.pbio.3002007.s054.csv",
+      "snippet": "... gene expression from GSE100678_processed_data.xlsx,0,illumina hiseq 4000 ... tsv.gz,0,illumina hiseq 2000 GSE102138,GSE102138_Long_non_coding_RNA.txt ...",
+      "metadata": {
+        "url": "http://journals.plos.org/plosbiology/article/asset?unique&id=info:doi/10.1371/journal.pbio.3002007.s054"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "dump.csv",
+      "snippet": "... format), and the metadata for the samples (IDs, dates, geolocation, site, culture, mtDNA haplogroup etc., available to download in a tab-delimited text file) ...",
+      "metadata": {
+        "url": "https://elixir-europe.org/services/dump.csv"
+      }
+    }
+  ]
+}

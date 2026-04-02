@@ -1,5 +1,5 @@
 {
-  "skill": "D:\\engineer\\SKILL TO INPUT\\SKILLS\\xsv\\SKILL.md",
+  "skill": "D:\\engineer\\SkillGym-develop\\Skill-pair\\xsv\\xsv\\SKILL.md",
   "records": [
     {
       "category": "csv_tsv file",
@@ -239,6 +239,126 @@
       "snippet": "... data Response data. */ $( function() { /** * Hides the authentication form ... Inconsistent Post Count in Category Taxonomy,,General,normal,defect (bug) ...",
       "metadata": {
         "url": "https://core.trac.wordpress.org/report/60?sort=modified&asc=0&format=csv"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "ebmj-99pg.csv",
+      "snippet": "... dataset shows the number of events each month.\",\"Beach, Monica\",\"a7mz-bafv\",\"published\",\"public\",\"approved\",\"official\",\"dataset\",\"City Administration ...",
+      "metadata": {
+        "url": "https://data.seattle.gov/resource/ebmj-99pg.csv"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "b4dx-n6cg.csv",
+      "snippet": "... dataset\",\"Government & Finance\",\"taxes\",\"2019-06-10T18:00:57.000\",\"2013-03 ... Column Chart: Beginning 2004-2005\",\"https://data.ny.gov/d/rv23-tjrw ...",
+      "metadata": {
+        "url": "https://data.ny.gov/resource/b4dx-n6cg.csv"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "guidance_ocspp.csv",
+      "snippet": "... large and growing number of funders and developers of construction projects require and/or incentivize manufacturers to provide EPDs for their projects ...",
+      "metadata": {
+        "url": "https://www.epa.gov/system/files/other-files/2025-08/guidance_ocspp.csv"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "csv.html",
+      "snippet": "... Dataset\",\"2013-09-05 21:26:33\",\"2018-01-30 20:08:33\",\"Statistics New Zealand\",\"The dataset will probably be produced shortly from the Census team at ...",
+      "metadata": {
+        "url": "https://data.govt.nz/requests/csv?sortby=Title&o=0&start=100"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "registry2024.csv",
+      "snippet": "... download information, sign up for a newsletter, event or service, or log in to a service or application we provide. Non-Personal Information may be ...",
+      "metadata": {
+        "url": "https://cppa.ca.gov/data_broker_registry/registry2024.csv"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "Enterprise_Dataset_Inventory_as_of_March_2018.csv",
+      "snippet": "... Download DCPS school progress towards FAFSA completion. Does not have ... Sample and Workflow Tracking and Results Reporting,Occasional Requests ...",
+      "metadata": {
+        "url": "https://hub.arcgis.com/api/download/v1/items/070b41a0dc474c54881734e95388e672/csv?redirect=true&layers=21"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "collab dataset.csv",
+      "snippet": "... sample files.\",LockBit 3.0,Criminal,Undetermined,https://www.databreaches ... download confidential consumer data provided to Sovos.\",Clop,Criminal ...",
+      "metadata": {
+        "url": "https://huggingface.co/datasets/vinitvek/cybersecurityattacks/resolve/92ed82a32fcd6d1bcfae16722e9ff5a7ab50d46b/collab%20dataset.csv?download=true"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "All-C-19-Challenge-applications-all-applications.csv",
+      "snippet": "... download) and to understand how they used it with their DCSs and what impact these analyses made - e.g. how many £m of preventative services protected/re ...",
+      "metadata": {
+        "url": "https://media.localdigital.gov.uk/uploads/2021/03/14144513/All-C-19-Challenge-applications-all-applications.csv"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "ukea.csv",
+      "snippet": "... Financial Services Balance:CP SA: £m\",\"LI:FLOW:Public corporations: CP NSA\",\"UK sector (S.1): Investment grants, payable (D.92p): Current price: £million ...",
+      "metadata": {
+        "url": "https://www.ons.gov.uk/file?uri=/economy/grossdomesticproductgdp/datasets/unitedkingdomeconomicaccounts/current/previous/v36/ukea.csv"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "atfaf-2025-v13.csv",
+      "snippet": "... Billion - $5 Billion,more than 100%,Baltimore,Maryland,,,,,, https ... Financial Advisors,up to $250 Million,more than 100%,Largo,Florida ...",
+      "metadata": {
+        "url": "https://assets.newsweek.com/wp-content/uploads/2025/02/atfaf-2025-v13.csv"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "j8eb-8um2.csv",
+      "snippet": "... data.oregon.gov/views/j8eb-8um2/files/d001fddd-d778-42a8-b111-43ee8dab509b ... values and a deep interest in forward-thinking public policy and the ...",
+      "metadata": {
+        "url": "https://data.oregon.gov/resource/j8eb-8um2.csv"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "publications_export.csv",
+      "snippet": "... data (n = 1426), we described alcohol use patterns-with and without other substances-and examined factors associated with alcohol use in pregnancy ...",
+      "metadata": {
+        "url": "https://hbcdstudy.org/publications?csv=true&search=&search_year="
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "osdg-community-data-v2022-07-01.csv",
+      "snippet": "... data by the OECD is without prejudice to the status of the Golan Heights, East Jerusalem and Israeli settlements in the West Bank under the terms of ...",
+      "metadata": {
+        "url": "https://zenodo.org/record/6831287/files/osdg-community-data-v2022-07-01.csv"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "DataSet.csv",
+      "snippet": "... values. Those values correspond to critical-layer Reynolds numbers δ−1 [Lt ] 1 suggesting that for most initial conditions the time evolution of the ...",
+      "metadata": {
+        "url": "https://raw.githubusercontent.com/sebas979/archicosCSV/main/DataSet.csv"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "clickhouse_hacker_news.csv",
+      "snippet": "... CSV, handle JSON in anything approaching a sensible way, there's claims that it integrates properly with Kafka as a consumer, but it most certainly does not ...",
+      "metadata": {
+        "url": "https://datasets-documentation.s3.eu-west-3.amazonaws.com/hackernews/clickhouse_hacker_news.csv"
       }
     }
   ]

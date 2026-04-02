@@ -1,5 +1,5 @@
 {
-  "skill": "D:\\engineer\\SKILL TO INPUT\\SKILLS\\xlsx\\SKILL.md",
+  "skill": "D:\\engineer\\SkillGym-develop\\Skill-pair\\xlsx\\xlsx\\SKILL.md",
   "records": [
     {
       "category": "xlsx file",
@@ -279,6 +279,374 @@
       "snippet": "A unique stock code needs to be created on the StockCodes sheet for all inventory items that you want to include in the template. The stock codes created on ...",
       "metadata": {
         "url": "https://www.excel-skills.com/templates2007/inventory_quantity_sample.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "gdp4q25-2nd.xlsx",
+      "snippet": "Relation of Gross Domestic Product, Gross National Product, and National Income ... Final sales of domestic product, 3.4, 2.8, 2.2, -1.3, 2.7, 3.8 ...",
+      "metadata": {
+        "url": "https://www.bea.gov/sites/default/files/2026-03/gdp4q25-2nd.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "PROTECTED-3Q25-Other-Financial-Disclosures.xlsx",
+      "snippet": "The restructuring expense of $40 million in the fiscal third quarter of 2025 ($145 million Q3 2025 YTD) and $28 million in the fiscal third quarter of 2024 ($ ...",
+      "metadata": {
+        "url": "https://s203.q4cdn.com/636242992/files/doc_financials/2025/q3/PROTECTED-3Q25-Other-Financial-Disclosures.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "Production and sales metrics for the nine months ended 31 March 2024_Excel data_0.xlsx",
+      "snippet": "Production in Q3 FY24 was however 3% lower than previous quarter mainly due to lower demand from our downstream operations. The gas production volumes for FY24 ...",
+      "metadata": {
+        "url": "https://www.sasol.com/sites/default/files/2025-06/Production%20and%20sales%20metrics%20for%20the%20nine%20months%20ended%2031%20March%202024_Excel%20data_0.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "gdp3q25-updated.xlsx",
+      "snippet": "Relation of Gross Domestic Product, Gross National Product, and National Income ... Final sales of domestic product, 1.9, 3.4, 2.8, 2.8, -1.3, 2.7 ...",
+      "metadata": {
+        "url": "https://www.bea.gov/sites/default/files/2026-01/gdp3q25-updated.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "Financial_Report.xlsx",
+      "snippet": "The following table shows the effect and location of our Commodity Derivatives recorded on our Consolidated Statements of Operations (in millions): Gain (Loss) ...",
+      "metadata": {
+        "url": "https://lngir.cheniere.com/_assets/_6b53ee4da889b68cde282bb6557e1c49/cheniere/sec/0000003570-22-000106/Financial_Report.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "bp-fourth-quarter-2025-results-group-databook.xlsx",
+      "snippet": "Realizations are the result of dividing revenue generated from hydrocarbon sales, excluding revenue generated from purchases made for resale and royalty ...",
+      "metadata": {
+        "url": "https://www.bp.com/content/dam/bp/business-sites/en/global/corporate/xlsx/investors/bp-fourth-quarter-2025-results-group-databook.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "RUNCLOUD-7G-WAF-BLOCKED.html",
+      "snippet": "This model is intended primarily for educational and illustrative purposes and should not be considered as financial or investment advice. 72.",
+      "metadata": {
+        "url": "https://kepsfield.com/wp-content/uploads/2024/03/DCF-model.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "business_valuation_sample.xlsx",
+      "snippet": "This template enables business owners and buyers or sellers of businesses to calculate an estimated valuation of a business or company based on the discounted ...",
+      "metadata": {
+        "url": "https://www.excel-skills.com/templates2007/business_valuation_sample.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "Activate-Ventures-Valuation-Models-2023.xlsx",
+      "snippet": "... financial model insert your run rate sales at the end of 3 years. 7, Step 3: Esimate a Discount ... EBITDA Multiple x, 8, x, Value of the Startup, 0. 13. 14. 15.",
+      "metadata": {
+        "url": "https://www.foundercatalyst.com/free-stuff?file=Activate-Ventures-Valuation-Models-2023.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "IC-Discounted-Cash-Flow-Valuation-10840.xlsx",
+      "snippet": "DISCOUNTED CASH FLOW VALUATION TEMPLATE. 3, EXAMPLE. 4, COMPANY NAME, DATE ... EBITDA, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0. 20, Depreciation & Amortization, 0, 0, 0 ...",
+      "metadata": {
+        "url": "https://www.smartsheet.com/sites/default/files/2020-07/IC-Discounted-Cash-Flow-Valuation-10840.xlsx?srsltid=AfmBOoq1cufa2xTwuvbRbSuzNGcjWxw5IGNmuVYH56DiIbfXTdIurOYy"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "ugcs3_v3_project_attachments_D56320DF-A606-4AC8-9CB9-AC8D837A424B_Kevin-Hosken-45343772-Assignment.xlsx",
+      "snippet": "The template is designed to help you model and present your valuation. ... DCF share price valuation equal to the triangulated multiples share price valuation.",
+      "metadata": {
+        "url": "https://cdn.portfolium.com.au/ugcs3%2Fv3%2Fproject_attachments%2FD56320DF-A606-4AC8-9CB9-AC8D837A424B_Kevin-Hosken-45343772-Assignment.xlsx?policy=eyJjYWxsIjpbInJlYWQiLCJjb252ZXJ0Iiwic3RvcmUiXSwicGF0aCI6Imh0dHBzOi8vY2RuLnBvcnRmb2xpdW0uY29tLmF1L3VnY3MzJTJGdjMlMkZwcm9qZWN0X2F0dGFjaG1lbnRzJTJGRDU2MzIwREYtQTYwNi00QUM4LTlDQjktQUM4RDgzN0E0MjRCX0tldmluLUhvc2tlbi00NTM0Mzc3Mi1Bc3NpZ25tZW50Lnhsc3giLCJleHBpcnkiOjE2NjQxMjg0OTZ9&signature=285c97b0567a14604d4eeb2c938b663007e262fcf268ef62df531c15694ca369"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "ancsa-funding-detailed-budget-template-2025.xlsx",
+      "snippet": "The detailed budget worksheet should identify categories of supplies to be procured (e.g., laboratory supplies or office supplies) and their cost. If ...",
+      "metadata": {
+        "url": "https://www.epa.gov/system/files/documents/2024-12/ancsa-funding-detailed-budget-template-2025.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "2025WatershedPlanBudgetForm.xlsx",
+      "snippet": "** For your assistance, Mileage and Time Calculators are located on the following worksheet. Click on the \"Calculator\" TAB below. ** Please note the Guidelines ...",
+      "metadata": {
+        "url": "https://des.sc.gov/sites/des/files/Documents/BOW/WaterQuality/2025WatershedPlanBudgetForm.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "CPIA-FY27_Budget-Template.xlsx",
+      "snippet": "Be sure to include an estimate for airfare, ground transportation, accommodation, and per diem. 7Indirect costs are allowable and capped at 8% of the total ...",
+      "metadata": {
+        "url": "https://www.rheumresearch.org/file/awards/2025-innovative-research/CPIA-FY27_Budget-Template.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "SAMPLE Detailed Budget Worksheet V3_Sample Supplement.xlsx",
+      "snippet": "Show budget calculation. For example, where an item is office supplies, enter $100 for cost per unit; \"month\" for define unit; 12 for # units, and ABC ...",
+      "metadata": {
+        "url": "https://opb.georgia.gov/document/document/budget-worksheet-example-infrastructure-or-capital-projects/download"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "WesternSARE-Budget-Worksheet_2025-1.xlsx",
+      "snippet": "Western SARE Budget Worksheet for Award Year 2025 - REQUIRED. 2, Please fill ... expenses for all travel in the budget justification. Enter Amount(s)*.",
+      "metadata": {
+        "url": "https://projects.sare.org/media/xlsx/W/e/s/WesternSARE-Budget-Worksheet_2025-1.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "FederalFunding-HumanServiceAgencies-NYCBudget-June2025Plan-FY2025.xlsx",
+      "snippet": "This spreadsheet includes data for the following agencies: NYC's Administration for Children's Services (ACS), Department for the Aging (DFTA), Department of ...",
+      "metadata": {
+        "url": "https://comptroller.nyc.gov/wp-content/uploads/2025/07/FederalFunding-HumanServiceAgencies-NYCBudget-June2025Plan-FY2025.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "2025-CII-Budget-Template-w-Contributions-BLANK.xlsx",
+      "snippet": "Administrative: Includes land costs, construction insurance, legal fees, surveys, project site utilities, project office expenses and moving / relocations costs.",
+      "metadata": {
+        "url": "https://cdn.iuhealth.org/resources/2025-CII-Budget-Template-w-Contributions-BLANK.xlsx"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "Card_Transactions___April_2024.csv",
+      "snippet": "... CUSTOMER & DIGITAL SERVICES,03/04/24,AMAZON 026-6191431-27,£63.32,£12.66,£75.98,HOT WATER DISPENSERS,MISCELLANEOUS GENERAL MERCHANDISE CUSTOMER & DIGITAL ...",
+      "metadata": {
+        "url": "https://www.warwickdc.gov.uk/download/downloads/id/8511/card_transactions_-_april_2024_csv.csv"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "2025-04-03_foi-disclosure-log_en.csv",
+      "snippet": "... salary, overtime and total - confined to Ushers. Records of the total Usher remuneration for 2024 and records of any comparison between 2024 ...",
+      "metadata": {
+        "url": "https://data.oireachtas.ie/ie/oireachtas/corporate/other/2025/2025-04-03_foi-disclosure-log_en.csv"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "663e305618965b66f6ab523d_Toolio - Retail Terms - Cheat Sheet.xlsx",
+      "snippet": "This is a report used for planning purposes to understand Sales, Inventory and Purchase Order over time, to understand stock levels and plan out Purchase Orders ...",
+      "metadata": {
+        "url": "https://cdn.prod.website-files.com/5d7ab80fa9740ce01c57ee9d/663e305618965b66f6ab523d_Toolio%20-%20Retail%20Terms%20-%20Cheat%20Sheet.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "3pl-rfp-template.xltx",
+      "snippet": "List your warehouse and fulfillment locations, available and total square footage, and what you consider the top benefit of each location. 26, Storage and ...",
+      "metadata": {
+        "url": "https://redstagfulfillment.com/wp-content/uploads/3pl-rfp-template.xltx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "eng-ahwb-data-tool-1sep2025.xlsx",
+      "snippet": "Data on both health services received and population are required for this indicator. Surveys ... data obtained from female respondents on ...",
+      "metadata": {
+        "url": "https://cdn.who.int/media/docs/default-source/mca-documents/adolescents/tools/eng-ahwb-data-tool-1sep2025.xlsx?sfvrsn=e43c683_3"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "YEF-Data-Archive-Log_v20241022.xlsx",
+      "snippet": "The variables included in the dataset are demographics, baseline and endline measures of the self-completed Strengths and Difficulties ...",
+      "metadata": {
+        "url": "https://youthendowmentfund.org.uk/wp-content/uploads/2024/10/YEF-Data-Archive-Log_v20241022.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "appd-et1.xlsx",
+      "snippet": "The scale used a Likert scale from 1 (usually done with no difficulty) to 5 (unable to do). A composite disability score was created by averaging scores on ...",
+      "metadata": {
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK556221/bin/appd-et1.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "LACHS2023_Adult_DiscOnceMonth.xlsx",
+      "snippet": "The frequency of each experience is assessed by Likert scale responses: never, less than once a year, a few times a year, a few times a month, and at least once ...",
+      "metadata": {
+        "url": "http://www.publichealth.lacounty.gov/ha/docs/2022LACHS/MDT/Adult/Module%205/Discrimination/LACHS2023_Adult_DiscOnceMonth.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "Cheboygan-County-2021-MIThrive-Data.xlsx",
+      "snippet": "Table: Cheboygan County CTSA-Aging Survey Comments by Associated Likert Scale Response ... Table: Age Demographics for Respondents to the CTSA-Community Survey ...",
+      "metadata": {
+        "url": "https://northernmichiganchir.org/wp-content/uploads/2022/04/Cheboygan-County-2021-MIThrive-Data.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "Supplemental_10-19-2020.xlsx",
+      "snippet": "Data - Table 6: Initial Survey Likert Scale Results (from Post-Extraction Survey). 2, Please use the scale below to describe your experience [Entering my study ...",
+      "metadata": {
+        "url": "https://pasteur.epa.gov/uploads/10.23719/1520136/Supplemental_10-19-2020.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "BTSCRP_wod_3Measures.xlsx",
+      "snippet": "Responses were measured on a 7-point Likert scale where 1 corresponds to a low evaluation and 7 to a high evaluation. 15 trainees stated that the driving ...",
+      "metadata": {
+        "url": "https://onlinepubs.trb.org/onlinepubs/btscrp/BTSCRP_wod_3Measures.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "GoldmanSachs Absolute Return Portfolio-MonthlyTop10Holdings-PV102455-102024.xlsx",
+      "snippet": "... portfolio's then current asset allocation, costs associated with implementation, and investment restrictions applicable to the portfolio. The Investment ...",
+      "metadata": {
+        "url": "https://am.gs.com/public-assets/documents/ad829612-bee1-11ef-b1c8-6181b9e760e0?view=true"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "blackrock-capital-market-assumptions.xlsx",
+      "snippet": "We compare our SAA to the asset allocation of a hypothetical representative multi-asset portfolio, described below. The SAA would deliver a higher return ...",
+      "metadata": {
+        "url": "https://www.blackrock.com/blk-inst-c-assets/images/tools/blackrock-investment-institute/cma/blackrock-capital-market-assumptions.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "BNY-Investments-2026-Capital-Market-Assumptions-USD.xlsx",
+      "snippet": "For example, investments made for a portfolio may differ significantly in terms of security holdings, industry weightings and asset allocation from those of the ...",
+      "metadata": {
+        "url": "https://www.bny.com/content/dam/imemea/documents/global-docs/en/BNY-Investments-2026-Capital-Market-Assumptions-USD.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "holdings-daily-us-en-xlv.xlsx",
+      "snippet": "Portfolio holdings, allocations and weightings are as of the date indicated, are subject to change and should not be considered a recommendation to buy ...",
+      "metadata": {
+        "url": "https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-xlv.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "KPI_List.xlsx",
+      "snippet": "Portfolio Performance KPI. 40, Schedule Variance (SV), Difference between the planned and actual progress of projects, Portfolio Performance KPI. 41, Cost ...",
+      "metadata": {
+        "url": "https://www.servicenow.com/community/s/cgfwn76974/attachments/cgfwn76974/strategic-portfolio-management-kb/1126/1/KPI_List.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "Process Safety Metrics Leading Indicator Survey Results-2013.xlsx",
+      "snippet": "Key Performance Indicators (see above) are reported monthly and then communicated via email to all employess and are available on the company ...",
+      "metadata": {
+        "url": "https://www.aiche.org/sites/default/files/docs/pages/Process%20Safety%20Metrics%20Leading%20Indicator%20Survey%20Results-2013.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "Financial-Management-PHAs-Template-02b-Appendix-B-Board-Reporting-Templates.xlsx",
+      "snippet": "A certain level of variance can be expected each month. Large changes ... targets for each of the line item by month. Some targets may remain a ...",
+      "metadata": {
+        "url": "https://files.hudexchange.info/resources/documents/Financial-Management-PHAs-Template-02b-Appendix-B-Board-Reporting-Templates.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "sample_20-year_amortization_schedule_01.xlsx",
+      "snippet": "20 Year Amortization. 5, Activity. 6. 8, Amount: 1000000, 0. 9, Beginning Month ... Principal, Rate, Interest, Service, Balance, Fiscal Year. 17. 18, 1, 0, 0, 0 ...",
+      "metadata": {
+        "url": "https://otm.finance.harvard.edu/links/sample-20-year-amortization-schedule"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "Fixed-Principal-Loan.xlsx",
+      "snippet": "Note: this spreadsheet is for educational purposes only. 5, A fixed principal loan results in declining payments over the loan period.",
+      "metadata": {
+        "url": "https://corporatefinanceinstitute.com/assets/Fixed-Principal-Loan.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "Loan-Amortization-Schedule-Template.xlsx",
+      "snippet": "Annual Interest Rate, 0.06. 7, Term of Loan in Years, 15. 8, Number of Payments, 12. 9 ... Pmt No. Payment Due Date, Payment, Additional Payment, Total Payment ...",
+      "metadata": {
+        "url": "https://www.smartsheet.com/sites/default/files/Loan-Amortization-Schedule-Template.xlsx?srsltid=AfmBOoqIeeXvnTaa8m89T7amrJOKXf2fqxifb-wSdcbspfd9WiQ2muyT"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "Amortization_Schedule_Template.xlsx",
+      "snippet": "Amortization Schedule. 2, Loan 1. 3, Name, Start Date of Loan, Payment Date, Loan Amount, Interest Rate, Payment, Beginning Balance, Principal, Interest, End ...",
+      "metadata": {
+        "url": "https://learn.monday.com/hubfs/SEO%20Blog%20Gated%20Content/Amortization_Schedule_Template.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "monthly-loan-amortization-schedule.xlsx",
+      "snippet": "MONTHLY LOAN AMORTIZATION SCHEDULE. 3, Inputs. 4. 5, Principal, 2000, Summary. 6, Annual interest rate, 0.16, Number of payments, 0. 7, Term (months), 12, Total ...",
+      "metadata": {
+        "url": "https://xlstuff.files.wordpress.com/2014/10/monthly-loan-amortization-schedule.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "Sample_Solar_Loan_Payment_Calculator_Direct.xlsx",
+      "snippet": "Choose loan term (12, 15, or 20 years), 12, years. 13, Choose interest Rate, 0, 0. 14, Estimated Monthly Payment, 0, per month. 15, Payment ...",
+      "metadata": {
+        "url": "https://www.cleanenergycu.org/files/Sample_Solar_Loan_Payment_Calculator_Direct.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "Amortization-Schedules.xlsx",
+      "snippet": "This workbook contains examples of amortization schedules that have interest only periods and prepayment. It also shows the difference between 30/360 and Actual ...",
+      "metadata": {
+        "url": "https://www.kahrrealestate.com/wp-content/uploads/2015/07/Amortization-Schedules.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "DebtBook Effective Interest to Maturity Template (Locked).xlsx",
+      "snippet": "This tab provides an example calculation. The \"Template\" Tab allows you to add your own maturity information to calculate an Effective Interest Amortization ...",
+      "metadata": {
+        "url": "https://debtbook.com/hubfs/DebtBook%20Effective%20Interest%20to%20Maturity%20Template%20(Locked).xlsx?hsCtaTracking=fa884416-0b02-42de-91c7-48d5af95ab4d%7C97f22114-e9cc-480d-998f-75f02f4e3333"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "IC-Auto-Loan-Amortization-Calculator-Schedule-Template.xlsx",
+      "snippet": "ANNUAL INTEREST RATE, 0.045, Monthly, SERVICE CONTRACT, 5. 21, LENGTH OF LOAN IN YEARS, 4, Semi-Monthly, SPECIAL PLATE FEE, 5. 22, PAYMENT FREQUENCY, Monthly ...",
+      "metadata": {
+        "url": "https://d2myx53yhj7u4b.cloudfront.net/sites/default/files/IC-Auto-Loan-Amortization-Calculator-Schedule-Template.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "IC-Balloon-Loan-Amortization-Calculator-Schedule-Template.xltx",
+      "snippet": "www. LOAN AMOUNT, 0. 9, CONTACT EMAIL, ANNUAL INTEREST RATE, 0.045. 10, LOAN TYPE ... CLICK HERE TO CREATE BALLOON LOAN AMORTIZATION SCHEDULE TEMPLATES IN ...",
+      "metadata": {
+        "url": "https://www.smartsheet.com/sites/default/files/IC-Balloon-Loan-Amortization-Calculator-Schedule-Template.xltx?srsltid=AfmBOorxRpgvIO9VkhEun22RR-bhm7uSjIzPVaB3-_XhBJk1nLh_1yRd"
       }
     }
   ]

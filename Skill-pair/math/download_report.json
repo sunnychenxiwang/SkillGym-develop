@@ -1,0 +1,165 @@
+{
+  "skill": "D:\\engineer\\SkillGym-develop\\Skill-pair\\math\\math\\SKILL.md",
+  "records": [
+    {
+      "category": "Vector",
+      "value": "[2, 3] + [1, 4]",
+      "snippet": "Add vectors [2, 3] + [1, 4].",
+      "metadata": {
+        "url": "https://huggingface.co/datasets/0xnu/maths_bench"
+      }
+    },
+    {
+      "category": "Vector",
+      "value": "2 × [2, 3]",
+      "snippet": "Calculate 2 × [2, 3].",
+      "metadata": {
+        "url": "https://huggingface.co/datasets/0xnu/maths_bench"
+      }
+    },
+    {
+      "category": "Equation",
+      "value": "sin(x) = 1/2, 0° ≤ x ≤ 360°",
+      "snippet": "Solve sin(x) = 1/2 for 0° ≤ x ≤ 360°.",
+      "metadata": {
+        "url": "https://huggingface.co/datasets/0xnu/maths_bench"
+      }
+    },
+    {
+      "category": "Expression",
+      "value": "sin(x)^2 + cos(x)^2",
+      "snippet": "Calculate sin²(x) + cos²(x).",
+      "metadata": {
+        "url": "https://huggingface.co/datasets/0xnu/maths_bench"
+      }
+    },
+    {
+      "category": "Polynomial",
+      "value": "Find the monic quadratic polynomial in x with real coefficients having root -2 - i*sqrt(5)",
+      "snippet": "Find the monic quadratic polynomial, in x, with real coefficients, which has -2 - i√5 as a root.",
+      "metadata": {
+        "url": "https://huggingface.co/datasets/ankner/math-500"
+      }
+    },
+    {
+      "category": "Coordinate",
+      "value": "Convert rectangular point (0,3) to polar coordinates with r > 0 and 0 ≤ θ < 2π",
+      "snippet": "Convert the point (0,3) in rectangular coordinates to polar coordinates, with r > 0 and 0 ≤ θ < 2π.",
+      "metadata": {
+        "url": "https://huggingface.co/datasets/HuggingFaceH4/MATH-500"
+      }
+    },
+    {
+      "category": "Vector",
+      "value": "Angle between vectors (2,5) and (-3,7), in degrees",
+      "snippet": "Find the angle, in degrees, between the vectors (2,5) and (-3,7).",
+      "metadata": {
+        "url": "https://huggingface.co/datasets/ankner/math-500"
+      }
+    },
+    {
+      "category": "Coordinate",
+      "value": "Area of quadrilateral with vertices (1,3), (1,1), (2,1), (2006,2007)",
+      "snippet": "A quadrilateral in the plane has vertices (1, 3), (1, 1), (2, 1), and (2006, 2007). Find its area.",
+      "metadata": {
+        "url": "https://huggingface.co/datasets/ankner/math-500"
+      }
+    },
+    {
+      "category": "Expression",
+      "value": "Convert 10101001110_2 to base 8",
+      "snippet": "The binary number 10101001110₂ is equal to what number in base eight?",
+      "metadata": {
+        "url": "https://huggingface.co/datasets/HuggingFaceH4/MATH-500"
+      }
+    },
+    {
+      "category": "Expression",
+      "value": "sqrt(2.5^2 - 0.7^2) / (2.7 - 2.5)",
+      "snippet": "Simplify sqrt(2.5^2 - 0.7^2) / (2.7 - 2.5).",
+      "metadata": {
+        "url": "https://huggingface.co/datasets/HuggingFaceH4/MATH-500"
+      }
+    },
+    {
+      "category": "Matrix",
+      "value": "Calculate the eigenvalues of matrix A = [[2, 1], [1, 2]]",
+      "snippet": "Calculate the eigenvalues of matrix A = [[2, 1], [1, 2]].",
+      "metadata": {
+        "url": "https://huggingface.co/datasets/haijian06/Advanced-Math"
+      }
+    },
+    {
+      "category": "Matrix",
+      "value": "Let A be a 3×3 real matrix with eigenvalues 1, 2, 3, and let B = A^2 - 4A + 3I. Determine the determinant of C = B^{-1} + 2B^{-2} + 3B^{-3} + ··· assuming the infinite series converges.",
+      "snippet": "Let A be a 3×3 real matrix with eigenvalues 1, 2, 3, and let B = A² - 4A + 3I. Determine det(C) where C = B⁻¹ + 2B⁻² + 3B⁻³ + ···, assuming the series converges.",
+      "metadata": {
+        "url": "https://huggingface.co/datasets/BlackSnowDot/DeepStep-Math-5K"
+      }
+    },
+    {
+      "category": "Polynomial",
+      "value": "There exists a degree-5 polynomial P such that if z^5 + 2004z = 1 then P(z^2)=0; compute P(1)/P(-1)",
+      "snippet": "There exists a polynomial P of degree 5 such that if z⁵ + 2004z = 1, then P(z²) = 0. Compute P(1) / P(-1).",
+      "metadata": {
+        "url": "https://huggingface.co/datasets/simplescaling/omni_math_500"
+      }
+    },
+    {
+      "category": "Expression",
+      "value": "Maximize Σ_{n=1}^∞ (n/2^n) * (a1*a2*...*an)^(1/n) over nonnegative sequences with Σ a_k = 1",
+      "snippet": "Determine the maximum value of Σₙ≥1 (n/2ⁿ)·(a₁a₂⋯aₙ)^(1/n) over all nonnegative sequences with Σ a_k = 1.",
+      "metadata": {
+        "url": "https://huggingface.co/datasets/simplescaling/omni_math_500"
+      }
+    },
+    {
+      "category": "Inequality",
+      "value": "(1 - x)(1 - y) ≥ 0  ⇒  x + y ≤ 1 + xy",
+      "snippet": "Prove that (1 - x)(1 - y) ≥ 0 implies x + y ≤ 1 + xy.",
+      "metadata": {
+        "url": "https://huggingface.co/datasets/Goedel-LM/Lean-workbook-proofs"
+      }
+    },
+    {
+      "category": "ConstraintSystem",
+      "value": "(¬x(3, 2, 0) ∨ x(3, 0, 0)) ∧ (x(0, 0, 1)) ∧ (¬x(0, 0, 1) ∨ x(3, 2, 0)) ∧ (¬x(3, 0, 0) ∨ ¬x(0, 0, 1))",
+      "snippet": "Boolean satisfiability instance in CNF form for a SAT / constraint-solving task.",
+      "metadata": {
+        "url": "https://huggingface.co/datasets/LLM4Code/SATBench"
+      }
+    },
+    {
+      "category": "UnitConversion",
+      "value": "kilometers to meters",
+      "snippet": "Unit conversion example: convert kilometers to meters.",
+      "metadata": {
+        "url": "https://huggingface.co/datasets/We-Math/We-Math"
+      }
+    },
+    {
+      "category": "Concept",
+      "value": "Orlicz space",
+      "snippet": "Explain the concept of an Orlicz space.",
+      "metadata": {
+        "url": "https://huggingface.co/datasets/learn3r/SDG_math"
+      }
+    },
+    {
+      "category": "Concept",
+      "value": "Closed Graph Theorem",
+      "snippet": "Explain the Closed Graph Theorem.",
+      "metadata": {
+        "url": "https://huggingface.co/datasets/kota-kawa/difficult_math_en_questions_only"
+      }
+    },
+    {
+      "category": "UnitConversion",
+      "value": "length, currency, and temperature units",
+      "snippet": "Examples of converting length, currency, and temperature units.",
+      "metadata": {
+        "url": "https://www.kaggle.com/code/berkcangd/python-for-unit-conversion"
+      }
+    }
+  ]
+}

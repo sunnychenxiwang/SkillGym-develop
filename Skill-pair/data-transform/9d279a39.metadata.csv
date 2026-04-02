@@ -1,0 +1,17 @@
+title,"Single-cell atlas of the Entorhinal Cortex in Human Alzheimer's Disease (Grubman, et. al, Nature Neuroscience 2019; all cell types)"
+organism,Human
+pubmed_id,31768052
+geo_id,GSE13885
+description,"This study applied single-nucleus RNA sequencing to entorhinal cortex samples from 6 control and 6 Alzheimer<e2><80><99>s disease brains, yielding a total of 13,214 high-quality nuclei, including microglia, astrocytes, neurons, oligodendrocyte progenitor cells, oligodendrocytes, and endothelial cells.They detailed the cell-type-specific gene expression patterns, unveiling how transcriptional changes in specific cell subpopulations are associated with Alzheimer<e2><80><99>s disease. The QCed count matrix can be from NCBI GEO under the accession number GSE13885. The metadata can be found in adsn.ddnetbio.com : [Grubman_NatureNeusci_2019_AD] This dataset contains 13214 columns/cells/samples, and 10850 rows/genes/features. "
+datatype,single-cell-rnaseq
+permalink,https://nemoanalytics.org/p?s=9d279a39
+platform_id,NextSeq 500
+instrument_model,N/A
+library_selection,N/A
+library_source,N/A
+library_strategy,N/A
+contact_email,jose.polo@monash.edu
+contact_institute,"Department of Anatomy and Developmental Biology, Monash University"
+contact_name, Jose M. Polo
+annotation_source,Ensembl
+annotation_release,103

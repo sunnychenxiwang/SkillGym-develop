@@ -1,0 +1,109 @@
+{
+  "skill": "D:\\engineer\\SkillGym-develop\\Skill-pair\\audiobook\\audiobook\\SKILL.md",
+  "records": [
+    {
+      "category": "txt file",
+      "value": "11-0.txt",
+      "snippet": "",
+      "metadata": {
+        "url": "https://www.gutenberg.org/files/11/11-0.txt"
+      }
+    },
+    {
+      "category": "txt file",
+      "value": "84-0.txt",
+      "snippet": "",
+      "metadata": {
+        "url": "https://www.gutenberg.org/files/84/84-0.txt"
+      }
+    },
+    {
+      "category": "txt file",
+      "value": "1342-0.txt",
+      "snippet": "",
+      "metadata": {
+        "url": "https://www.gutenberg.org/files/1342/1342-0.txt"
+      }
+    },
+    {
+      "category": "txt file",
+      "value": "pg1661.txt",
+      "snippet": "",
+      "metadata": {
+        "url": "https://www.gutenberg.org/cache/epub/1661/pg1661.txt"
+      }
+    },
+    {
+      "category": "txt file",
+      "value": "pg2701.txt",
+      "snippet": "",
+      "metadata": {
+        "url": "https://www.gutenberg.org/cache/epub/2701/pg2701.txt"
+      }
+    },
+    {
+      "category": "pdf file",
+      "value": "2512.24601v2.pdf",
+      "snippet": "URL https:// · arxiv.org/pdf/2310.00785.pdf. Chen, H., Pasunuru, R., Weston, J ... To use this annotation tool, we need to download the Florence model, which is ...",
+      "metadata": {
+        "url": "https://arxiv.org/pdf/2512.24601"
+      }
+    },
+    {
+      "category": "pdf file",
+      "value": "1710.08836v1.pdf",
+      "snippet": "R is an open-sourced language available to download for free and many online tutorials are available on how to use R most effectively to ...",
+      "metadata": {
+        "url": "https://arxiv.org/pdf/1710.08836"
+      }
+    },
+    {
+      "category": "pdf file",
+      "value": "2507.03409v1.pdf",
+      "snippet": "For example, when asked to solve a coding problem, AI agents may autonomously decide to download a relevant software library, and execute this ...",
+      "metadata": {
+        "url": "https://arxiv.org/pdf/2507.03409"
+      }
+    },
+    {
+      "category": "pdf file",
+      "value": "2207.04029v1.pdf",
+      "snippet": "from PDF, plain text, and JSONL. Subsequent entity ... For dataset usage, we were able to download 701 papers from 764 papers with such annotations.",
+      "metadata": {
+        "url": "https://arxiv.org/pdf/2207.04029"
+      }
+    },
+    {
+      "category": "mixed file",
+      "value": "the-silmarillion-illustrated-ebook.html",
+      "snippet": "EPUB download · download 1 file · FULL TEXT download · download 1 file ... PDF download · download 1 file · SINGLE PAGE PROCESSED JP2 ZIP ...",
+      "metadata": {
+        "url": "https://archive.org/details/the-silmarillion-illustrated-ebook"
+      }
+    },
+    {
+      "category": "mixed file",
+      "value": "open_access_ebooks.epub",
+      "snippet": "E-Book formats are much like HTML web sites in that they can embed links; even javascript functionality is becoming available in ebook content. Publishers can ...",
+      "metadata": {
+        "url": "http://archive.org/download/OpenAccessEbooks/open_access_ebooks.epub"
+      }
+    },
+    {
+      "category": "mixed file",
+      "value": "bhagavadgitaasitisoriginal1972edition.html",
+      "snippet": "... (eBook) (ePub). Usage: CC0 ... EPUB download · download 1 file · FULL TEXT download · download 1 file · ITEM TILE download · download 1 file · PDF ...",
+      "metadata": {
+        "url": "https://archive.org/details/bhagavadgitaasitisoriginal1972edition"
+      }
+    },
+    {
+      "category": "mixed file",
+      "value": "borrow.html",
+      "snippet": "Plain Text UTF-8, https://www.gutenberg.org/ebooks/47271.txt.utf-8 ; Download HTML (zip), https://www.gutenberg.org/cache/epub/47271/pg47271-h.",
+      "metadata": {
+        "url": "https://openlibrary.org/books/OL7118950M/The_second_Dandy_Chater/borrow"
+      }
+    }
+  ]
+}

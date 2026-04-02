@@ -1,110 +1,117 @@
 {
-  "output_dir": "D:\\engineer\\SkillGym-develop\\Skill-pair\\markdown 转 html",
-  "threshold": 0.7,
-  "total": 10,
-  "succeeded_count": 10,
-  "failed_count": 0,
-  "succeeded": [
+  "skill": "D:\\engineer\\SkillGym-develop\\Skill-pair\\markdown-to-html\\markdown-to-html\\SKILL.md",
+  "records": [
     {
-      "url": "https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md",
-      "title": "markdown-cheatsheet/README.md at main - GitHub",
-      "saved_as": "D:\\engineer\\SkillGym-develop\\Skill-pair\\markdown 转 html\\README.md",
-      "size_kb": 313,
-      "q": "README.md documentation file with headers lists and code blocks",
-      "file_type": "txt_md",
-      "judge_confidence": 0.95,
-      "judge_reason": "README.md 文件本身就是用户会提交给 markdown-to-html skill 的输入文件，包含 headers、lists、code blocks 等 Markdown 内容"
+      "category": "txt_md file",
+      "value": "invoices.md",
+      "snippet": "- [POST /v1/invoices/bulk-post](https://developer.zuora.com/v1-api-reference/api/invoices/post_postinvoices.md): Posts multiple invoices. You can post a ...",
+      "metadata": {
+        "url": "https://developer.zuora.com/v1-api-reference/api/invoices.md"
+      }
     },
     {
-      "url": "https://github.com/ory/docs/blob/master/README.md",
-      "title": "docs/README.md at master · ory/docs - GitHub",
-      "saved_as": "D:\\engineer\\SkillGym-develop\\Skill-pair\\markdown 转 html\\README_1.md",
-      "size_kb": 411,
-      "q": "README.md documentation file with headers lists and code blocks",
-      "file_type": "txt_md",
-      "judge_confidence": 0.95,
-      "judge_reason": "README.md 文档文件，明确包含 headers、lists、code blocks 等 Markdown 元素，是直接的 skill 输入"
+      "category": "txt_md file",
+      "value": "mongodb-relational-migrator-rest-api.md",
+      "snippet": "... API documentation. Last update on Feb 26, 2026 ... md) - [Get pre-migration analysis task by ... file](https://www.mongodb.com/docs/api/doc ...",
+      "metadata": {
+        "url": "https://www.mongodb.com/docs/api/doc/mongodb-relational-migrator-rest-api.md"
+      }
     },
     {
-      "url": "https://github.com/neondatabase/website/blob/main/content/docs/README.md",
-      "title": "website/content/docs/README.md at main - GitHub",
-      "saved_as": "D:\\engineer\\SkillGym-develop\\Skill-pair\\markdown 转 html\\README_2.md",
-      "size_kb": 497,
-      "q": "README.md documentation file with headers lists and code blocks",
-      "file_type": "txt_md",
-      "judge_confidence": 0.95,
-      "judge_reason": "README.md 文件，snippet 明确提到 code blocks 使用，是用户会提交转换的典型 Markdown 输入文件"
+      "category": "txt_md file",
+      "value": "moving-to-github-pages-with-nikola.md",
+      "snippet": "With GitHub pages, I can write my posts in Markdown, and I have full control over everything. And there is no lock in. If I decide I don't like the software ...",
+      "metadata": {
+        "url": "https://github.com/asmeurer/blog/blob/master/posts/moving-to-github-pages-with-nikola.md"
+      }
     },
     {
-      "url": "https://gitlab.com/gitlab-com/runbooks/-/blob/v4.199.1/docs/README.md",
-      "title": "docs/README.md · v4.199.1 - Runbooks - GitLab",
-      "saved_as": "D:\\engineer\\SkillGym-develop\\Skill-pair\\markdown 转 html\\README_3.md",
-      "size_kb": 37,
-      "q": "README.md documentation file with headers lists and code blocks",
-      "file_type": "txt_md",
-      "judge_confidence": 0.9,
-      "judge_reason": "README.md 文件，属于文档目录中的 Markdown 文件，可作为 skill 的输入进行 HTML 转换"
+      "category": "txt_md file",
+      "value": "exploring-jekyll-s-default-content.md",
+      "snippet": "In this tutorial, we will use the automatically-generated content from the previous guide to explore how Jekyll turns source files into static content, making ...",
+      "metadata": {
+        "url": "https://github.com/opendocs-md/do-tutorials/blob/master/md/en/exploring-jekyll-s-default-content.md"
+      }
     },
     {
-      "url": "https://raw.githubusercontent.com/miklevin/MikeLev.in/main/_posts/2025-04-24-jekyll-front-matter-seo-social-metadata-guide.md",
-      "title": "https://raw.githubusercontent.com/miklevin/MikeLev...",
-      "saved_as": "D:\\engineer\\SkillGym-develop\\Skill-pair\\markdown 转 html\\2025-04-24-jekyll-front-matter-seo-social-metadata-guide.md",
-      "size_kb": 21,
-      "q": "blog post markdown file with front matter YAML metadata",
-      "file_type": "txt_md",
-      "judge_confidence": 0.85,
-      "judge_reason": "这是实际的Jekyll博客文章markdown文件，包含YAML front matter，是用户会提交给skill的真实输入文件"
+      "category": "txt_md file",
+      "value": "jekyllhowto-sidebar-navigation.md",
+      "snippet": "This repository contains an open-source Jekyll theme for authoring and publishing technical documentation.",
+      "metadata": {
+        "url": "https://github.com/amzn/jekyll-doc-project/blob/master/_docs/Jekyll%20Doc%20Project/Theme%20Instructions/jekyllhowto-sidebar-navigation.md"
+      }
     },
     {
-      "url": "https://huggingface.co/prithivMLmods/Segue-Qwen3_DeepScaleR-Preview/raw/main/README.md",
-      "title": "raw - Hugging Face",
-      "saved_as": "D:\\engineer\\SkillGym-develop\\Skill-pair\\markdown 转 html\\README_4.md",
-      "size_kb": 3,
-      "q": "technical documentation markdown with tables and math equations LaTeX",
-      "file_type": "txt_md",
-      "judge_confidence": 0.85,
-      "judge_reason": "这是Hugging Face模型仓库的README.md原始文件，content_type为text/plain，是实际的markdown文档内容，可作为skill转换的输入样本"
+      "category": "txt_md file",
+      "value": "3-to-4.md",
+      "snippet": "Collections other than posts can contain static assets along with Markdown files. But if the collection has not been configured with metadata output: true , ...",
+      "metadata": {
+        "url": "https://github.com/jekyll/jekyll/blob/master/docs/_docs/upgrading/3-to-4.md"
+      }
     },
     {
-      "url": "https://github.com/apiaryio/api-elements/blob/master/docs/examples.md",
-      "title": "api-elements/docs/examples.md at master - GitHub",
-      "saved_as": "D:\\engineer\\SkillGym-develop\\Skill-pair\\markdown 转 html\\examples.md",
-      "size_kb": 275,
-      "q": "API documentation markdown file with code examples and nested lists",
-      "file_type": "txt_md",
-      "judge_confidence": 0.85,
-      "judge_reason": "这是API文档的Markdown示例文件，包含代码示例和嵌套列表，可直接作为markdown-to-html skill的输入进行转换"
+      "category": "txt_md file",
+      "value": "2019-01-18-customer-service.md",
+      "snippet": "Jekyll is a simple, blog-aware, static site generator. You create your content as text files (Markdown), and organize them into folders.",
+      "metadata": {
+        "url": "https://0xacab.org/51lieal/alxeka/-/blob/1.0.0/_posts/2019-01-18-customer-service.md"
+      }
     },
     {
-      "url": "https://waher.se/Markdown.md",
-      "title": "Markdown",
-      "saved_as": "D:\\engineer\\SkillGym-develop\\Skill-pair\\markdown 转 html\\Markdown.md",
-      "size_kb": 455,
-      "q": "API documentation markdown file with code examples and nested lists",
-      "file_type": "txt_md",
-      "judge_confidence": 0.8,
-      "judge_reason": "这是Markdown语法规范的示例文件，包含嵌套任务列表等实际内容，可作为转换输入"
+      "category": "txt_md file",
+      "value": "about.md",
+      "snippet": "For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages.",
+      "metadata": {
+        "url": "https://git.tu-berlin.de/hashemi/AliHashemi-github-io/-/blob/master/_pages/about.md"
+      }
     },
     {
-      "url": "https://developers.smartsheet.com/api/smartsheet/openapi/home/list-home-contents.md",
-      "title": "View as Markdown Open this page as Markdown",
-      "saved_as": "D:\\engineer\\SkillGym-develop\\Skill-pair\\markdown 转 html\\list-home-contents.md",
-      "size_kb": 194,
-      "q": "API documentation markdown file with code examples and nested lists",
-      "file_type": "txt_md",
-      "judge_confidence": 0.9,
-      "judge_reason": "这是Smartsheet API的Markdown格式文档，content-type为text/markdown，包含API文档内容和嵌套列表，是理想的转换输入"
+      "category": "txt_md file",
+      "value": "markdown-syntax.md",
+      "snippet": "This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS ...",
+      "metadata": {
+        "url": "https://github.com/nanxiaobei/hugo-paper/blob/main/exampleSite/content/post/markdown-syntax.md"
+      }
     },
     {
-      "url": "https://github.com/md2docx/react-markdown/blob/main/sample.md",
-      "title": "react-markdown/sample.md at main - GitHub",
-      "saved_as": "D:\\engineer\\SkillGym-develop\\Skill-pair\\markdown 转 html\\sample.md",
-      "size_kb": 466,
-      "q": "project wiki markdown with collapsible sections and embedded HTML",
-      "file_type": "txt_md",
-      "judge_confidence": 0.85,
-      "judge_reason": "这是sample.md示例文件，包含markdown内容，可直接作为skill的输入样本进行转换"
+      "category": "txt_md file",
+      "value": "icons.en.md",
+      "snippet": "Once on the Font Awesome page for a specific icon, for example the page for the heart, copy the HTML reference and paste into the markdown content. The HTML to ...",
+      "metadata": {
+        "url": "https://github.com/matcornic/hugo-theme-learn/blob/master/exampleSite/content/cont/icons.en.md"
+      }
+    },
+    {
+      "category": "txt_md file",
+      "value": "markdown-cheatsheet.en.md",
+      "snippet": "Markdown Here supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write ...",
+      "metadata": {
+        "url": "https://github.com/rayjolt/hugo-multilingual-example/blob/master/content/post/markdown-cheatsheet.en.md"
+      }
+    },
+    {
+      "category": "txt_md file",
+      "value": "index.md",
+      "snippet": "# Adding llms.txt & markdown output to your Hugo site If you've been online at all for the past year, you will have been hearing about LLMs (Large Language ...",
+      "metadata": {
+        "url": "https://www.duncanmackenzie.net/blog/llms-txt-support/index.md"
+      }
+    },
+    {
+      "category": "txt_md file",
+      "value": "REF_VALIDATOR_BUG_REPORT_SPECIAL_CHARS.md",
+      "snippet": "Use a proper YAML library to serialize the frontmatter instead of manual string concatenation. The current code manually constructs YAML with f-strings, which ...",
+      "metadata": {
+        "url": "https://github.com/monarch-initiative/dismech/blob/main/REF_VALIDATOR_BUG_REPORT_SPECIAL_CHARS.md"
+      }
+    },
+    {
+      "category": "txt_md file",
+      "value": "CHANGELOG.md",
+      "snippet": "This major release fully focuses on getting in sync with the wider ESLint ecosystem and doesn't in itself introduce any new rules or features.",
+      "metadata": {
+        "url": "https://github.com/standard/standard/blob/master/CHANGELOG.md"
+      }
     }
-  ],
-  "failed": []
+  ]
 }

@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Global Earthquake and Aftershock Data (January 23) | Kaggle</title>
+  <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+  <meta name="description" content="Detailed Records of Earthquake Magnitudes, Locations, and Times with Aftershock " />
+    <meta name="keywords" content="data analytics,english,global,geology,natural disasters" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC" />
+  <script nonce="GPM1o0JfHHnfBsd12VgqDA==" type="text/javascript">
+    window["pageRequestStartTime"] = 1775117126133;
+    window["pageRequestEndTime"] = 1775117126235;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <script nonce="GPM1o0JfHHnfBsd12VgqDA==" id="gsi-client" src="https://accounts.google.com/gsi/client" async defer></script>
+  <script nonce="GPM1o0JfHHnfBsd12VgqDA==">window.KAGGLE_JUPYTERLAB_PATH = "/static/assets/jupyterlab-v4/jupyterlab-index-395ada52cdf7a4ee.html";</script>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+    <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" id="dynamic-favicon" />
+  <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css2?family=Google+Symbols:FILL@0..1&display=block"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="stylesheet" media="print" id="async-google-font-1" />
+  <link href="https://fonts.googleapis.com/css2?family=Google+Symbols:FILL@0..1&display=block"
+    rel="stylesheet" media="print" id="async-google-font-2" />
+  <script nonce="GPM1o0JfHHnfBsd12VgqDA==" type="text/javascript">
+    const styleSheetIds = ["async-google-font-1", "async-google-font-2"];
+    styleSheetIds.forEach(function (id) {
+      document.getElementById(id).addEventListener("load", function() {
+        this.media = "all";
+      });
+    });
+  </script>
+
+
+    <link rel="canonical" href="https://www.kaggle.com/datasets/syedahnafraza/global-earthquake-and-aftershock-data-january-23" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=a53f951c511cf82e" />
+
+  
+    
+ 
+      <script nonce="GPM1o0JfHHnfBsd12VgqDA==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="GPM1o0JfHHnfBsd12VgqDA==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-T7QHS60L4Q', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets',
+            'user_properties': {
+                'logged_in': false,
+            }
+        });
+    </script>
+    <script nonce="GPM1o0JfHHnfBsd12VgqDA==" async src="https://www.googletagmanager.com/gtag/js?id=G-T7QHS60L4Q"></script>
+
+
+  
+    
+    <meta property="og:url" content="https://www.kaggle.com/datasets/syedahnafraza/global-earthquake-and-aftershock-data-january-23" />
+    <meta property="og:title" content="Global Earthquake and Aftershock Data (January 23)" />
+    <meta property="og:description" content="Detailed Records of Earthquake Magnitudes, Locations, and Times with Aftershock " />
+    <meta property="og:type" content="website" />
+    <meta property="fb:app_id" content="2665027677054710" />
+
+        <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/5561611/9199122/0987499f0a4340006bce38e22d15413f/dataset-card.png?t=2024-08-18-20-51-42" />
+        <meta property="twitter:image" content="https://storage.googleapis.com/kaggle-datasets-images/5561611/9199122/0987499f0a4340006bce38e22d15413f/dataset-card.png?t=2024-08-18-20-51-42" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@kaggledatasets" />
+
+
+
+
+  <meta name="twitter:site" content="@Kaggle" /> 
+  
+    
+    <script nonce="GPM1o0JfHHnfBsd12VgqDA==" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"Global Earthquake and Aftershock Data (January 23)","description":"***Dataset Description***\n\n**Title:** Global Earthquake and Aftershock Data (January 2023)\n\n**Subtitle: **Detailed Records of Magnitude, Location, and Timing of Earthquakes and Their Aftershocks\n\n**Description:**\n\nThis dataset provides comprehensive information on earthquake events and their subsequent aftershocks that occurred globally in January 2023. It includes detailed records on earthquake magnitudes, locations, times, and related metadata. This dataset is designed to assist researchers, seismologists, and data analysts in studying seismic activities and understanding the patterns and impacts of earthquakes and aftershocks.\n\n**Context:**\n\nEarthquakes are significant natural phenomena that can cause substantial damage and have widespread effects on communities and infrastructure. Understanding both the primary seismic events and their aftershocks is crucial for assessing the potential impact and improving disaster preparedness and response strategies. This dataset offers valuable insights into seismic activity over a specific period, aiding in research and analysis.\n\n**Sources:**\n\nThe data is sourced from the United States Geological Survey (USGS), a reputable authority on seismic activity. The USGS provides real-time earthquake data and maintains a comprehensive database of global seismic events. Data was fetched from the USGS Earthquake Event API, which provides information in GeoJSON format, ensuring accurate and up-to-date earthquake information.\n\n****Inspiration:****\n\nThe dataset was created to facilitate the analysis of recent seismic events and their aftershocks, providing a resource for studies related to earthquake prediction, impact assessment, and geophysical research. By focusing on a specific timeframe and including detailed event information, this dataset aims to support various analytical approaches, from statistical analysis to machine learning applications in seismology.\n\n**Features:**\n\nMagnitude: The strength of each earthquake event, measured on the Richter scale or moment magnitude scale.\nLocation: The geographical coordinates and place names of the earthquake epicenters.\nTime: The date and time of each earthquake event, including timestamps in milliseconds since the Unix epoch.\nURLs: Links to detailed reports and further information about each earthquake event from the USGS.\nMetadata: Additional details such as the status of the event, type of seismic activity, and associated codes.\n\n***This dataset is ideal for those interested in earthquake research, disaster management, and geophysical analysis. It provides a structured format for examining global seismic activity and understanding the dynamics of aftershocks.***\n\n\n\n","url":"https://www.kaggle.com/syedahnafraza/global-earthquake-and-aftershock-data-january-23","version":1,"keywords":["technique, data analytics","language, english","geography and places, global","subject, earth and nature, earth science, geology","subject, earth and nature, environment, natural disasters"],"license":{"@type":"CreativeWork","name":"Apache 2.0","url":"https://www.apache.org/licenses/LICENSE-2.0"},"identifier":["5561611"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Person","name":"Syed Ahnaf Raza","url":"https://www.kaggle.com/syedahnafraza","image":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/datasets/syedahnafraza/global-earthquake-and-aftershock-data-january-23/download?datasetVersionNumber=1","contentSize":"81387 bytes"}],"commentCount":0,"dateModified":"2024-08-18T20:37:37.283Z","discussionUrl":"https://www.kaggle.com/syedahnafraza/global-earthquake-and-aftershock-data-january-23/discussion","alternateName":"Detailed Records of Earthquake Magnitudes, Locations, and Times with Aftershock ","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/5561611/9199122/0987499f0a4340006bce38e22d15413f/dataset-card.png?t=2024-08-18-20-51-42","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":0},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":83},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":749},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":2}]}</script>
+
+
+  
+    
+
+  
+    
+
+
+
+    <script nonce="GPM1o0JfHHnfBsd12VgqDA==">window['useKaggleAnalytics'] = true;</script>
+
+  <script id="gapi-target" nonce="GPM1o0JfHHnfBsd12VgqDA==" src="https://apis.google.com/js/api.js" defer
+    async></script>
+  <script nonce="GPM1o0JfHHnfBsd12VgqDA==" src="/static/assets/runtime.js?v=44db21ee23333954"></script>
+  <script nonce="GPM1o0JfHHnfBsd12VgqDA==" src="/static/assets/vendor.js?v=b58ece3666e973c5"></script>
+  <script nonce="GPM1o0JfHHnfBsd12VgqDA==" src="/static/assets/app.js?v=306ad9b546906c0f"></script>
+    <script nonce="GPM1o0JfHHnfBsd12VgqDA==" type="text/javascript">
+      window.kaggleStackdriverConfig = {
+        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+        projectId: 'kaggle-161607',
+        service: 'web-fe',
+        version: 'ci',
+        userId: '0'
+      }
+    </script>
+</head>
+<body>
+  <div id="root">
+    
+
+
+
+
+
+
+
+
+<script nonce="GPM1o0JfHHnfBsd12VgqDA==" type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    jax: ['input/TeX', 'output/SVG'],
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    extensions: ["Safe.js"],
+    });
+</script>
+<script type="text/javascript" nonce="GPM1o0JfHHnfBsd12VgqDA==">
+  window.addEventListener("DOMContentLoaded", () => {
+    const head = document.getElementsByTagName("head")[0];
+    const lib = document.createElement("script");
+    lib.type = "text/javascript";
+    // Always use the production asset in local dev, which is served from GCS. We tried to proxy and / or serve this
+    // in a better way in localhost, but it didn't work out. See b/328073416#comment8 for details.
+    const forceProdHost = window.location.hostname === "localhost";
+    lib.src = `${forceProdHost ? "https://www.kaggle.com" : ""}/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS_SVG`;
+    head.appendChild(lib);
+  });
+</script>
+
+
+
+
+
+
+
+
+  </div>
+</body>
+</html>

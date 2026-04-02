@@ -1,0 +1,540 @@
+{
+  "skill": "D:\\engineer\\SkillGym-develop\\Skill-pair\\audiobook\\audiobook\\SKILL.md",
+  "threshold": 0.7,
+  "filtered_results": [
+    {
+      "q": "site:medium.com essay OR article OR story filetype:html OR inurl:",
+      "file_type": "txt_md",
+      "preferred_sites": [
+        "medium.com",
+        "substack.com",
+        "longreads.com",
+        "aeon.co",
+        "nautil.us"
+      ],
+      "results_annotated": [],
+      "results_kept": [],
+      "kept_count": 0,
+      "total_count": 0
+    },
+    {
+      "q": "site:github.com \"README.md\" OR \"essay.md\" OR \"article.md\" OR \"book.md\"",
+      "file_type": "txt_md",
+      "preferred_sites": [
+        "github.com",
+        "gitlab.com"
+      ],
+      "results_annotated": [
+        {
+          "title": "book/README.md at master · rustwasm/book - GitHub",
+          "url": "https://github.com/rustwasm/book/blob/master/README.md",
+          "snippet": "README.md. Copy path. Blame More file actions. Blame More file actions ... README.md. Top. File metadata and controls. Preview. Code. Blame. 74 ...",
+          "judge_keep": false,
+          "judge_confidence": 0.85,
+          "judge_reason": "This is the README.md for the rustwasm/book repository, which is documentation about the Rust and WebAssembly book project itself. It's a project documentation file, not content that a user would submit to convert into an audiobook. The snippet shows file metadata controls and git blame information, not actual readable content."
+        },
+        {
+          "title": "mdBook/guide/src/format/theme/README.md at master - GitHub",
+          "url": "https://github.com/rust-lang/mdBook/blob/master/guide/src/format/theme/README.md",
+          "snippet": "Create book from markdown files. Like Gitbook but implemented in Rust - mdBook/guide/src/format/theme/README.md at master · rust-lang/mdBook.",
+          "judge_keep": false,
+          "judge_confidence": 0.9,
+          "judge_reason": "This is documentation for the mdBook tool itself (a guide about formatting themes). It's technical documentation about how to use mdBook, not actual book content that a user would want to convert to audio. This is part of the tool's own documentation, not user-submitted input."
+        },
+        {
+          "title": "README.md - artic-network/website - GitHub",
+          "url": "https://github.com/artic-network/website/blob/master/README.md",
+          "snippet": "Search code, repositories, users, issues, pull requests... · Provide feedback · Saved searches · README.md · README.md · ARTIC Website ...",
+          "judge_keep": false,
+          "judge_confidence": 0.85,
+          "judge_reason": "This is a README.md for a website project (ARTIC Website). It's project documentation describing the repository/website setup, not readable content like an essay or article that a user would submit for audiobook conversion. The snippet shows GitHub UI elements and project metadata."
+        },
+        {
+          "title": "README.md - anthropics/claude-code - GitHub",
+          "url": "https://github.com/anthropics/claude-code/blob/main/README.md",
+          "snippet": "Search code, repositories, users, issues, pull requests... · Provide feedback · Saved searches · README.md · README.md · Claude Code.",
+          "judge_keep": false,
+          "judge_confidence": 0.85,
+          "judge_reason": "This is the README.md for the Claude Code repository - it's project documentation describing what Claude Code is and how to use it. While it may contain some descriptive text, it's fundamentally tool documentation, not content that users would typically submit for audiobook creation. The snippet shows only GitHub UI elements with no actual content preview."
+        },
+        {
+          "title": "README.md - openid/publication - GitHub",
+          "url": "https://github.com/openid/publication/blob/main/README.md",
+          "snippet": "Search code, repositories, users, issues, pull requests... · Provide feedback · Saved searches · README.md · README.md · OpenID Foundation proposed publications ...",
+          "judge_keep": false,
+          "judge_confidence": 0.8,
+          "judge_reason": "This is a README.md for the OpenID Foundation's publication repository. It's organizational/project documentation describing the repository structure for OpenID specifications. This is metadata about where publications are stored, not the actual publication content itself that would be suitable for audiobook conversion."
+        },
+        {
+          "title": "mdBook/guide/src/cli/README.md at master · rust-lang ... - GitHub",
+          "url": "https://github.com/rust-lang/mdBook/blob/master/guide/src/cli/README.md",
+          "snippet": "Create book from markdown files. Like Gitbook but implemented in Rust - mdBook/guide/src/cli/README.md at master · rust-lang/mdBook.",
+          "judge_keep": false,
+          "judge_confidence": 0.9,
+          "judge_reason": "This is CLI documentation for the mdBook tool itself. It's technical documentation explaining how to use mdBook's command-line interface. This is tool documentation, not readable content like an essay, article, or book that a user would submit for TTS conversion. It's part of the skill's potential dependency/tool documentation, not user input."
+        }
+      ],
+      "results_kept": [],
+      "kept_count": 0,
+      "total_count": 6
+    },
+    {
+      "q": "\"Project Gutenberg\" \"Plain Text UTF-8\" OR \"txt\" download",
+      "file_type": "txt_md",
+      "preferred_sites": [
+        "gutenberg.org",
+        "archive.org"
+      ],
+      "results_annotated": [
+        {
+          "title": "tidytuesday/data/2025/2025-06-03/readme.md at main - GitHub",
+          "url": "https://github.com/rfordatascience/tidytuesday/blob/main/data/2025/2025-06-03/readme.md",
+          "snippet": "Whether there is a file containing digits followed by .txt in Project Gutenberg for this record (as opposed to, for example, audiobooks).",
+          "judge_keep": false,
+          "judge_confidence": 0.85,
+          "judge_reason": "This is a GitHub readme about TidyTuesday data, describing metadata about Project Gutenberg records. It's documentation about data availability, not actual book text that would be converted to audiobook."
+        },
+        {
+          "title": "Pretraining GPT on the Project Gutenberg Dataset - GitHub",
+          "url": "https://github.com/rasbt/LLMs-from-scratch/blob/main/ch05/03_bonus_pretraining_on_gutenberg/README.md",
+          "snippet": "In this section, we download books from Project Gutenberg ... Install the required packages defined in requirements.txt from the gutenberg repository's folder:.",
+          "judge_keep": false,
+          "judge_confidence": 0.9,
+          "judge_reason": "This is a GitHub README explaining how to pretrain GPT models on Project Gutenberg data. It's a tutorial/instruction document, not actual book content for TTS conversion."
+        },
+        {
+          "title": "gutenbergr/README.md at main - GitHub",
+          "url": "https://github.com/ropensci/gutenbergr/blob/main/README.md",
+          "snippet": "txt files are only retrieved if there is no . ... Still, this package is not the right way to download the entire Project Gutenberg corpus (or all from a ...",
+          "judge_keep": false,
+          "judge_confidence": 0.9,
+          "judge_reason": "This is the README for the gutenbergr R package, explaining package functionality. It's API documentation, not actual book text that would be input to the audiobook skill."
+        },
+        {
+          "title": "README.md - p2-markov-classifier - GitLab - Duke University",
+          "url": "https://coursework.cs.duke.edu/cmn58/p2-markov-classifier/-/blob/main/README.md",
+          "snippet": "Download. Forked from 201spring26 / p2-markov-classifier ... Download a work by one such author in the format: Plain Text UTF-8 from Project Gutenberg ... txt files ...",
+          "judge_keep": false,
+          "judge_confidence": 0.85,
+          "judge_reason": "This is a course assignment README instructing students to download books from Project Gutenberg. It's an instruction document, not the actual book text itself."
+        },
+        {
+          "title": "H_Spark/H1_Shakespeare.md · main · fapr2511 ... - BHT-GitLab",
+          "url": "https://gitlab.bht-berlin.de/fapr2511/ds_cs4bd_2324/-/blob/main/H_Spark/H1_Shakespeare.md",
+          "snippet": "Project Gutenberg is one project that has compiled Shakespeare's plays into a single text file Shakespeare.txt. Processing Shakespeare is a project that ...",
+          "judge_keep": false,
+          "judge_confidence": 0.8,
+          "judge_reason": "This mentions Shakespeare.txt as an existing file, but the result itself is a course markdown file describing the project. It's not the actual book text file."
+        },
+        {
+          "title": "gender_novels/deployment/static/markdowns/web_scraping.md ...",
+          "url": "https://git.uibk.ac.at/c60730/gender_novels/-/blob/e7bf97dde064aca45d59e5bbf496b2fe02ea20a1/gender_novels/deployment/static/markdowns/web_scraping.md",
+          "snippet": "This is a screen shot of a part of the project Gutenberg robots.txt file. The line that says 'user-agent: *' means the following rules apply to all robots ...",
+          "judge_keep": false,
+          "judge_confidence": 0.95,
+          "judge_reason": "This is about robots.txt for web scraping rules. It's technical documentation about crawling policy, not book content for audiobook creation."
+        },
+        {
+          "title": "https://huggingface.co/datasets/sapienzanlp/Litera...",
+          "url": "https://huggingface.co/datasets/sapienzanlp/LiteraryQA/resolve/main/README.md?download=true",
+          "snippet": "... Project Gutenberg License Disclaimer LiteraryQA ... For manual data download, model evaluation ... txt.utf-8\", \"summary_urls\": \"http://en.wikipedia ...",
+          "judge_keep": false,
+          "judge_confidence": 0.85,
+          "judge_reason": "This is a HuggingFace dataset README describing LiteraryQA. It's dataset documentation mentioning Project Gutenberg sources, not actual book text for TTS input."
+        },
+        {
+          "title": "README.md · master · cs451 CS Course Account / Bespin · GitLab",
+          "url": "https://git.uwaterloo.ca/cs451/bespin/-/blob/master/README.md",
+          "snippet": "The file Shakespeare.txt contains the The Complete Works of William Shakespeare from Project Gutenberg. The file p2p-Gnutella08-adj.txt contains ...",
+          "judge_keep": false,
+          "judge_confidence": 0.8,
+          "judge_reason": "This mentions Shakespeare.txt exists in the repository, but the result itself is a README.md file describing course materials. It's not the actual book text."
+        },
+        {
+          "title": "README.md · master · Markus Hoffmann / brabbel · GitLab",
+          "url": "https://gitlab.desy.de/markus.hoffmann/brabbel/-/blob/master/README.md?ref_type=heads",
+          "snippet": "Get it from project gutenberg: wget https://www.gutenberg.org/cache/epub/100/pg100.txt. Important Note: BRABBEL is free software and comes with NO WARRANTY ...",
+          "judge_keep": false,
+          "judge_confidence": 0.75,
+          "judge_reason": "This shows a wget command to download a book, but the result itself is a README.md documentation file. The snippet shows how to obtain input, but isn't the input itself."
+        },
+        {
+          "title": "README.md · main · Remus, Dr. Steffen / Zipf Exercise · GitLab",
+          "url": "https://gitlab.rrz.uni-hamburg.de/BAT2642/zipf-exercise/-/blob/main/README.md?ref_type=heads",
+          "snippet": "Many books are available to download in plain text format from sites such as Project Gutenberg ... countwords dracula.txt > dracula.csv countwords moby_dick.txt > ...",
+          "judge_keep": false,
+          "judge_confidence": 0.85,
+          "judge_reason": "This is a course exercise README describing how to use Project Gutenberg books for word counting exercises. It's instructional documentation, not actual book text for audiobook conversion."
+        }
+      ],
+      "results_kept": [],
+      "kept_count": 0,
+      "total_count": 10
+    },
+    {
+      "q": "site:arxiv.org \"PDF\" \"download\" paper OR thesis OR dissertation",
+      "file_type": "pdf",
+      "preferred_sites": [
+        "arxiv.org",
+        "semanticscholar.org",
+        "jstor.org"
+      ],
+      "results_annotated": [
+        {
+          "title": "[PDF] arXiv:2002.10021v1 [cs.LG] 24 Feb 2020",
+          "url": "https://download.arxiv.org/pdf/2002.10021v1.pdf",
+          "snippet": "This paper presents an empirical evaluation of 111 transfer learning experiments on agents trained on the Atari 2600 games Berzerk, Krull, and ...",
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "This is a direct PDF link to an arXiv research paper. The skill explicitly handles 'web articles, essays, or text files' and includes functionality to fetch content from URLs. A PDF paper is exactly the type of content a user would submit to convert into an audiobook. The URL points to the actual PDF file that can be downloaded and processed."
+        },
+        {
+          "title": "[PDF] Recursive Language Models - arXiv",
+          "url": "https://arxiv.org/pdf/2512.24601",
+          "snippet": "URL https:// · arxiv.org/pdf/2310.00785.pdf. Chen, H., Pasunuru, R., Weston, J ... To use this annotation tool, we need to download the Florence model, which is ...",
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Direct arXiv PDF link to a research paper. This is genuine content that users would want to convert to audiobook format. The skill's fetch_article_content function using curl can retrieve this PDF, and the text extraction pipeline would process it. This is exactly the type of input the skill is designed for."
+        },
+        {
+          "title": "[PDF] A Quantitative Study of the Impact of Social Media Reviews ... - arXiv",
+          "url": "https://arxiv.org/pdf/1710.08836",
+          "snippet": "R is an open-sourced language available to download for free and many online tutorials are available on how to use R most effectively to ...",
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Direct PDF link to an arXiv research paper about social media reviews. This is substantive content that a user would submit to create an audiobook. The skill's pipeline is designed to fetch such content, extract text, and convert to audio. This is valid input material."
+        },
+        {
+          "title": "[PDF] arXiv:2303.17760v2 [cs.AI] 2 Nov 2023",
+          "url": "https://arxiv.org/pdf/2303.17760",
+          "snippet": "Install Python on your computer by following these steps: • Go to the official Python website at https://www.python.org/downloads/. • Click on the \"Download\" ...",
+          "judge_keep": false,
+          "judge_confidence": 0.7,
+          "judge_reason": "While this is a PDF link, the snippet shows it contains installation instructions for Python ('Go to the official Python website...Click on Download'). This appears to be a tutorial/instructional document rather than substantive content like an article or essay. The skill is designed for audiobooks from 'web articles, essays, or text files' - instructional documentation is not the intended input type."
+        },
+        {
+          "title": "[PDF] New Quantitative Study for Dissertations Repository System - arXiv",
+          "url": "https://arxiv.org/pdf/1006.4547",
+          "snippet": "Valid users will be able to download the whole dissertation after finding it. • Upload dissertations which related to the administrator. • Registration process ...",
+          "judge_keep": false,
+          "judge_confidence": 0.6,
+          "judge_reason": "The snippet describes a system for dissertation repositories with features like 'download the whole dissertation' and 'upload dissertations.' This appears to be a paper about a dissertation management system, not an actual dissertation itself. The content is about the system architecture, not substantive narrative content suitable for an audiobook."
+        },
+        {
+          "title": "[PDF] Lessons from a Chimp: AI \"Scheming\" and the Quest for Ape ... - arXiv",
+          "url": "https://arxiv.org/pdf/2507.03409",
+          "snippet": "For example, when asked to solve a coding problem, AI agents may autonomously decide to download a relevant software library, and execute this ...",
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Direct PDF link to an arXiv research paper about AI 'scheming' and ape cognition. This is substantive academic content that a user would reasonably want to convert to an audiobook. The skill's content fetching and TTS pipeline is designed for exactly this type of input."
+        },
+        {
+          "title": "[PDF] 1. Introduction - Carolina Digital Repository",
+          "url": "https://arxiv.org/pdf/1304.7653",
+          "snippet": "In one of the studies that we conducted, we examined at what time people. Page 3. download paper from Springer. ... article views that includes HTML views and PDF.",
+          "judge_keep": false,
+          "judge_confidence": 0.5,
+          "judge_reason": "The snippet indicates this is a study about download patterns ('examined at what time people download paper from Springer'). This is a meta-research paper about scholarly communication patterns, not substantive content for audiobook conversion. The title mentions 'Carolina Digital Repository' which suggests this may be about repository systems rather than narrative content."
+        },
+        {
+          "title": "[PDF] Lessons from Deep Learning applied to Scholarly Information ...",
+          "url": "https://arxiv.org/pdf/2207.04029",
+          "snippet": "from PDF, plain text, and JSONL. Subsequent entity ... For dataset usage, we were able to download 701 papers from 764 papers with such annotations.",
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "Direct PDF link to a research paper about deep learning applied to scholarly information. While the snippet mentions technical details about PDF processing, this is still a substantive research paper with narrative content that could be converted to audiobook format. The skill can process this as input."
+        }
+      ],
+      "results_kept": [
+        {
+          "title": "[PDF] arXiv:2002.10021v1 [cs.LG] 24 Feb 2020",
+          "url": "https://download.arxiv.org/pdf/2002.10021v1.pdf",
+          "snippet": "This paper presents an empirical evaluation of 111 transfer learning experiments on agents trained on the Atari 2600 games Berzerk, Krull, and ...",
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "This is a direct PDF link to an arXiv research paper. The skill explicitly handles 'web articles, essays, or text files' and includes functionality to fetch content from URLs. A PDF paper is exactly the type of content a user would submit to convert into an audiobook. The URL points to the actual PDF file that can be downloaded and processed."
+        },
+        {
+          "title": "[PDF] Recursive Language Models - arXiv",
+          "url": "https://arxiv.org/pdf/2512.24601",
+          "snippet": "URL https:// · arxiv.org/pdf/2310.00785.pdf. Chen, H., Pasunuru, R., Weston, J ... To use this annotation tool, we need to download the Florence model, which is ...",
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Direct arXiv PDF link to a research paper. This is genuine content that users would want to convert to audiobook format. The skill's fetch_article_content function using curl can retrieve this PDF, and the text extraction pipeline would process it. This is exactly the type of input the skill is designed for."
+        },
+        {
+          "title": "[PDF] A Quantitative Study of the Impact of Social Media Reviews ... - arXiv",
+          "url": "https://arxiv.org/pdf/1710.08836",
+          "snippet": "R is an open-sourced language available to download for free and many online tutorials are available on how to use R most effectively to ...",
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Direct PDF link to an arXiv research paper about social media reviews. This is substantive content that a user would submit to create an audiobook. The skill's pipeline is designed to fetch such content, extract text, and convert to audio. This is valid input material."
+        },
+        {
+          "title": "[PDF] Lessons from a Chimp: AI \"Scheming\" and the Quest for Ape ... - arXiv",
+          "url": "https://arxiv.org/pdf/2507.03409",
+          "snippet": "For example, when asked to solve a coding problem, AI agents may autonomously decide to download a relevant software library, and execute this ...",
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Direct PDF link to an arXiv research paper about AI 'scheming' and ape cognition. This is substantive academic content that a user would reasonably want to convert to an audiobook. The skill's content fetching and TTS pipeline is designed for exactly this type of input."
+        },
+        {
+          "title": "[PDF] Lessons from Deep Learning applied to Scholarly Information ...",
+          "url": "https://arxiv.org/pdf/2207.04029",
+          "snippet": "from PDF, plain text, and JSONL. Subsequent entity ... For dataset usage, we were able to download 701 papers from 764 papers with such annotations.",
+          "judge_keep": true,
+          "judge_confidence": 0.85,
+          "judge_reason": "Direct PDF link to a research paper about deep learning applied to scholarly information. While the snippet mentions technical details about PDF processing, this is still a substantive research paper with narrative content that could be converted to audiobook format. The skill can process this as input."
+        }
+      ],
+      "kept_count": 5,
+      "total_count": 8
+    },
+    {
+      "q": "\"ebook\" OR \"e-book\" \"download\" \"txt\" OR \"epub\" OR \"mobi\" OR \"pdf\"",
+      "file_type": "mixed",
+      "preferred_sites": [
+        "archive.org",
+        "openlibrary.org",
+        "standard-ebooks.org"
+      ],
+      "results_annotated": [
+        {
+          "title": "The Silmarillion Illustrated Ebook : Free Download, Borrow, and ...",
+          "url": "https://archive.org/details/the-silmarillion-illustrated-ebook",
+          "snippet": "EPUB download · download 1 file · FULL TEXT download · download 1 file ... PDF download · download 1 file · SINGLE PAGE PROCESSED JP2 ZIP ...",
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "This is an actual ebook download page from Internet Archive offering EPUB, PDF, and FULL TEXT formats. These are direct input files that the audiobook skill can process - the FULL TEXT download is particularly suitable as it provides clean text for TTS conversion without HTML parsing."
+        },
+        {
+          "title": "[EPUB] Open Access eBooks - Internet Archive",
+          "url": "http://archive.org/download/OpenAccessEbooks/open_access_ebooks.epub",
+          "snippet": "E-Book formats are much like HTML web sites in that they can embed links; even javascript functionality is becoming available in ebook content. Publishers can ...",
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Direct EPUB file download URL from Internet Archive. While the snippet discusses technical aspects of ebooks, the URL itself is a downloadable EPUB file that can be extracted and converted to text for the audiobook skill."
+        },
+        {
+          "title": "Bhagavad-Gita As It Is (Original 1972 Edition) (eBook) (ePub)",
+          "url": "https://archive.org/details/bhagavadgitaasitisoriginal1972edition",
+          "snippet": "... (eBook) (ePub). Usage: CC0 ... EPUB download · download 1 file · FULL TEXT download · download 1 file · ITEM TILE download · download 1 file · PDF ...",
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Actual ebook download page with EPUB, FULL TEXT, and PDF download options. The FULL TEXT format is ideal direct input for the audiobook skill, and EPUB/PDF can be extracted to text."
+        },
+        {
+          "title": "About Open Library",
+          "url": "https://openlibrary.org/help/faq/about",
+          "snippet": "... ebook that we have available as full text in a variety of formats. Currently we offer over 1.7 million public domain books in PDF, ePub ...",
+          "judge_keep": false,
+          "judge_confidence": 0.85,
+          "judge_reason": "This is an informational FAQ page about Open Library, not an actual ebook download. It describes what formats are available but doesn't provide downloadable content itself. This is documentation/help content, not user input."
+        },
+        {
+          "title": "The Second Dandy Chater by Tom Gallon - Project Gutenberg",
+          "url": "https://openlibrary.org/books/OL7118950M/The_second_Dandy_Chater/borrow",
+          "snippet": "Plain Text UTF-8, https://www.gutenberg.org/ebooks/47271.txt.utf-8 ; Download HTML (zip), https://www.gutenberg.org/cache/epub/47271/pg47271-h.",
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Direct links to downloadable text files - specifically 'Plain Text UTF-8' (.txt.utf-8) which is perfect direct input for the audiobook skill. This is exactly the type of content the skill processes."
+        },
+        {
+          "title": "New Lending on Open Library",
+          "url": "https://openlibrary.org/help/faq/newlend",
+          "snippet": "You must install Adobe Digital Editions or an equivalent ebook ... From here you can download a PDF or EPUB to read offline, or return the book.",
+          "judge_keep": false,
+          "judge_confidence": 0.8,
+          "judge_reason": "FAQ/help page about lending procedures on Open Library. It explains how to download ebooks but is not itself a downloadable ebook or text file. This is instructional documentation, not input content."
+        },
+        {
+          "title": "Project Gutenberg: Free eBooks",
+          "url": "https://www.gutenberg.org/",
+          "snippet": "Choose among free epub and Kindle eBooks, download them or read them online. ... What does free eBook (No Cost or Freedom?) mean? Audio Books. Audio books ...",
+          "judge_keep": false,
+          "judge_confidence": 0.75,
+          "judge_reason": "Project Gutenberg homepage - a portal/catalog site, not a specific downloadable file. While it links to ebooks, this page itself is not input content. The skill needs specific book files, not library homepages."
+        },
+        {
+          "title": "Free Ebook website - Reddit",
+          "url": "https://www.reddit.com/r/ebooks/comments/1fghp73/free_ebook_website/",
+          "snippet": "www.oceanofpdf.com can download pdf or epub literally every book I have searched is there. ... E Book download sites. 57 upvotes · 78 ...",
+          "judge_keep": false,
+          "judge_confidence": 0.7,
+          "judge_reason": "Reddit discussion thread about ebook download sites. This is user-generated forum content discussing where to find ebooks, not an actual ebook file or direct download link. Not suitable as skill input."
+        },
+        {
+          "title": "epubBooks - Download Free EPUB and Kindle eBooks",
+          "url": "https://www.epubbooks.com/",
+          "snippet": "a community of free eBook lovers! Choose from our hand picked collection ... Project: Faded Page | 2026-03-29 | Formats: HTML, EPUB, MOBI, PDF, TEXT. A ...",
+          "judge_keep": false,
+          "judge_confidence": 0.65,
+          "judge_reason": "epubBooks homepage/catalog site. While it mentions downloadable formats, this is a browsing portal, not a specific downloadable file. The snippet shows it's a community site with book listings, not direct input files."
+        },
+        {
+          "title": "The Best Websites to Download Free PDF Books - BookBub",
+          "url": "https://www.bookbub.com/blog/where-to-download-free-pdf-books",
+          "snippet": "... ePub then easily convert it over to PDF on your computer. Download formats: ePub, Mobi, Lrf, Pdb, read directly online. Other features ...",
+          "judge_keep": false,
+          "judge_confidence": 0.7,
+          "judge_reason": "Blog article from BookBub listing websites for free PDF books. This is a curated list/guide article, not an actual ebook or downloadable text file. It's informational content about where to find inputs, not an input itself."
+        }
+      ],
+      "results_kept": [
+        {
+          "title": "The Silmarillion Illustrated Ebook : Free Download, Borrow, and ...",
+          "url": "https://archive.org/details/the-silmarillion-illustrated-ebook",
+          "snippet": "EPUB download · download 1 file · FULL TEXT download · download 1 file ... PDF download · download 1 file · SINGLE PAGE PROCESSED JP2 ZIP ...",
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "This is an actual ebook download page from Internet Archive offering EPUB, PDF, and FULL TEXT formats. These are direct input files that the audiobook skill can process - the FULL TEXT download is particularly suitable as it provides clean text for TTS conversion without HTML parsing."
+        },
+        {
+          "title": "[EPUB] Open Access eBooks - Internet Archive",
+          "url": "http://archive.org/download/OpenAccessEbooks/open_access_ebooks.epub",
+          "snippet": "E-Book formats are much like HTML web sites in that they can embed links; even javascript functionality is becoming available in ebook content. Publishers can ...",
+          "judge_keep": true,
+          "judge_confidence": 0.9,
+          "judge_reason": "Direct EPUB file download URL from Internet Archive. While the snippet discusses technical aspects of ebooks, the URL itself is a downloadable EPUB file that can be extracted and converted to text for the audiobook skill."
+        },
+        {
+          "title": "Bhagavad-Gita As It Is (Original 1972 Edition) (eBook) (ePub)",
+          "url": "https://archive.org/details/bhagavadgitaasitisoriginal1972edition",
+          "snippet": "... (eBook) (ePub). Usage: CC0 ... EPUB download · download 1 file · FULL TEXT download · download 1 file · ITEM TILE download · download 1 file · PDF ...",
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Actual ebook download page with EPUB, FULL TEXT, and PDF download options. The FULL TEXT format is ideal direct input for the audiobook skill, and EPUB/PDF can be extracted to text."
+        },
+        {
+          "title": "The Second Dandy Chater by Tom Gallon - Project Gutenberg",
+          "url": "https://openlibrary.org/books/OL7118950M/The_second_Dandy_Chater/borrow",
+          "snippet": "Plain Text UTF-8, https://www.gutenberg.org/ebooks/47271.txt.utf-8 ; Download HTML (zip), https://www.gutenberg.org/cache/epub/47271/pg47271-h.",
+          "judge_keep": true,
+          "judge_confidence": 0.95,
+          "judge_reason": "Direct links to downloadable text files - specifically 'Plain Text UTF-8' (.txt.utf-8) which is perfect direct input for the audiobook skill. This is exactly the type of content the skill processes."
+        }
+      ],
+      "kept_count": 4,
+      "total_count": 10
+    },
+    {
+      "q": "site:docs.google.com \"document\" \"export?format=txt\" OR \"download\"",
+      "file_type": "txt_md",
+      "preferred_sites": [
+        "docs.google.com"
+      ],
+      "results_annotated": [],
+      "results_kept": [],
+      "kept_count": 0,
+      "total_count": 0
+    },
+    {
+      "q": "\"blog post\" OR \"longform\" OR \"feature article\" \"text version\" OR \"print view\"",
+      "file_type": "txt_md",
+      "preferred_sites": [
+        "theatlantic.com",
+        "newyorker.com",
+        "wired.com",
+        "theguardian.com"
+      ],
+      "results_annotated": [
+        {
+          "title": "blog/content/post/2020-05-08-pkg-news/index.md at main - GitHub",
+          "url": "https://github.com/r-hub/blog/blob/master/content/post/2020-05-08-pkg-news/index.md",
+          "snippet": "This post is about documenting changes. Even with a very clear version control history, having a text version of changes can be useful: to you ...",
+          "judge_keep": false,
+          "judge_confidence": 0.85,
+          "judge_reason": "This is a GitHub source file for a blog post about R package documentation. It's the raw markdown source of a technical blog article, not a user-submitted input for audiobook creation. It's a meta-document about blogging practices, not content a user would want converted to audio."
+        },
+        {
+          "title": "Sybil/docs/command-reference.md at master · Silberengel/Sybil ...",
+          "url": "https://github.com/Silberengel/Sybil/blob/master/docs/command-reference.md",
+          "snippet": "sybil longform-feed [options] Options: --relay ... TEXT Version or edition --open-timestamp TEXT ... TEXT Version or edition --published-by TEXT Who ...",
+          "judge_keep": false,
+          "judge_confidence": 0.9,
+          "judge_reason": "This is API documentation for a command-line tool called 'Sybil'. It describes command options and parameters. This is reference documentation, not narrative content suitable for audiobook conversion. Users would not submit CLI documentation as input for TTS."
+        },
+        {
+          "title": "CHANGELOG.md - prometheus - GitLab",
+          "url": "https://gitlab.com/gitlab-org/build/omnibus-mirror/prometheus/-/blob/v2.43.0-rc.1/CHANGELOG.md",
+          "snippet": "[ENHANCEMENT] Scrape: Accept application/openmetrics-text;version=1.0.0 in ... For more information, read the announcement blog post and migration guide.",
+          "judge_keep": false,
+          "judge_confidence": 0.9,
+          "judge_reason": "This is a CHANGELOG.md file for Prometheus software. It contains version history and technical release notes. While it mentions a blog post, the file itself is a software changelog - not the blog post content. This is not suitable audiobook material."
+        },
+        {
+          "title": "hermetic_cc_toolchain/README.md at ... - Motiejus Jakštys",
+          "url": "https://git.jakstys.lt/motiejus/hermetic_cc_toolchain/src/commit/4db3c242c1c43ed28f6a883833ab2e8cfd1b12f8/README.md?display=rendered",
+          "snippet": "2022-05-23 How Uber uses Zig: text version of the above. 2022-03-30 Google ... If you'd like your blog post, company or a project added here, do not ...",
+          "judge_keep": false,
+          "judge_confidence": 0.8,
+          "judge_reason": "This is a README.md file that references a blog post about Uber using Zig. The snippet mentions 'text version of the above' but this is still documentation/README content, not the actual longform article itself. It's a project readme with links, not narrative content for TTS."
+        },
+        {
+          "title": "https://raw.githubusercontent.com/squidfunk/mkdocs...",
+          "url": "https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/docs/changelog/index.md",
+          "snippet": "... print view - Fixed #8153: Improve style of ... Blog post metadata layout overflows on small ... Blog post metadata overlaps with footer on small ...",
+          "judge_keep": false,
+          "judge_confidence": 0.85,
+          "judge_reason": "This is a raw changelog/index.md from the MkDocs Material documentation project. It contains bug fixes and feature notes about 'print view' functionality. This is software documentation, not a blog post or article suitable for audiobook creation."
+        },
+        {
+          "title": "RELEASE_NOTES.md · release-4.1.0 · Forks / Darktable · GitLab",
+          "url": "https://git.cth451.me/forks/darktable/-/blob/release-4.1.0/RELEASE_NOTES.md",
+          "snippet": "These features are described more fully in the user manual and accompanying blog post. ... The overlay layout in the print view has been enhanced. The \"retouch ...",
+          "judge_keep": false,
+          "judge_confidence": 0.85,
+          "judge_reason": "This is RELEASE_NOTES.md for Darktable photo editing software. It mentions a blog post and print view features, but the file itself is software release notes. This is technical documentation, not narrative content for TTS conversion."
+        },
+        {
+          "title": "FullCalendar: CHANGELOG.md - Fossies",
+          "url": "https://fossies.org/linux/fullcalendar/CHANGELOG.md",
+          "snippet": "fix: print view cut off for wide liquid-width calendar (#5707); fix: event ... Read the blog post. 4.4.0 (2020-02-11). configurable googleCalendarApiBase ...",
+          "judge_keep": false,
+          "judge_confidence": 0.85,
+          "judge_reason": "This is CHANGELOG.md for FullCalendar JavaScript library. It contains version history and bug fixes about print view. This is software documentation/release notes, not a blog post or article that would be converted to an audiobook."
+        },
+        {
+          "title": "SwiftTips/README.md at master - GitHub",
+          "url": "https://github.com/JohnSundell/SwiftTips/blob/master/README.md",
+          "snippet": "More about this topic in my blog post \"First class functions in Swift\". ... print(view.frame) // (-50.0, -50.0, 200.0, 200.0) print(view.bounds) // (0.0 ...",
+          "judge_keep": false,
+          "judge_confidence": 0.8,
+          "judge_reason": "This is a README.md collecting Swift programming tips. While it references blog posts, the file itself is a curated list of code snippets and tips. It's technical reference material, not longform narrative content suitable for audiobook conversion."
+        },
+        {
+          "title": "https://raw.githubusercontent.com/toanS2/fullcalen...",
+          "url": "https://raw.githubusercontent.com/toanS2/fullcalendar/423ebac373c0ef47390f3effd3be68a05596a7b0/CHANGELOG.md",
+          "snippet": "... print view cut off for wide liquid-width calendar (#5707) - fix: event start ... [blog post](https://fullcalendar.io/blog/2020/04/v5-beta-released) v4 ...",
+          "judge_keep": false,
+          "judge_confidence": 0.85,
+          "judge_reason": "This is another CHANGELOG.md for FullCalendar (forked version). Same as index 6 - it's software version history mentioning blog posts and print view fixes, not actual blog content for TTS."
+        },
+        {
+          "title": "CHANGELOG.md - argilla - GitHub",
+          "url": "https://github.com/argilla-io/argilla/blob/develop/argilla/CHANGELOG.md",
+          "snippet": "For an overview, see this blog post; Added ... Updated active learning for text classification notebooks to use the most recent small-text version (#3831).",
+          "judge_keep": false,
+          "judge_confidence": 0.85,
+          "judge_reason": "This is CHANGELOG.md for Argilla (data labeling tool). It mentions a blog post and text classification, but the file itself is software release notes. This is technical documentation, not narrative content suitable for audiobook creation."
+        }
+      ],
+      "results_kept": [],
+      "kept_count": 0,
+      "total_count": 10
+    },
+    {
+      "q": "\"fanfiction\" \"download\" \"txt\" OR \"html\" OR \"epub\" site:fanfiction.net OR site:archiveofourown.org",
+      "file_type": "txt_md",
+      "preferred_sites": [
+        "archiveofourown.org",
+        "fanfiction.net",
+        "royalroad.com"
+      ],
+      "results_annotated": [],
+      "results_kept": [],
+      "kept_count": 0,
+      "total_count": 0
+    }
+  ]
+}

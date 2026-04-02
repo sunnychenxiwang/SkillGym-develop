@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Global Earthquake Data | Kaggle</title>
+  <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+  <meta name="description" content="Comprehensive dataset of global earthquakes with key attributes for analysis." />
+    <meta name="keywords" content="classification,exploratory data analysis,regression,geology,geospatial analysis,clustering" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC" />
+  <script nonce="&#x2B;79Pc0/bgtqCflSRMaz59Q==" type="text/javascript">
+    window["pageRequestStartTime"] = 1775117119951;
+    window["pageRequestEndTime"] = 1775117119957;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <script nonce="&#x2B;79Pc0/bgtqCflSRMaz59Q==" id="gsi-client" src="https://accounts.google.com/gsi/client" async defer></script>
+  <script nonce="&#x2B;79Pc0/bgtqCflSRMaz59Q==">window.KAGGLE_JUPYTERLAB_PATH = "/static/assets/jupyterlab-v4/jupyterlab-index-395ada52cdf7a4ee.html";</script>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+    <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" id="dynamic-favicon" />
+  <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css2?family=Google+Symbols:FILL@0..1&display=block"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="stylesheet" media="print" id="async-google-font-1" />
+  <link href="https://fonts.googleapis.com/css2?family=Google+Symbols:FILL@0..1&display=block"
+    rel="stylesheet" media="print" id="async-google-font-2" />
+  <script nonce="&#x2B;79Pc0/bgtqCflSRMaz59Q==" type="text/javascript">
+    const styleSheetIds = ["async-google-font-1", "async-google-font-2"];
+    styleSheetIds.forEach(function (id) {
+      document.getElementById(id).addEventListener("load", function() {
+        this.media = "all";
+      });
+    });
+  </script>
+
+
+    <link rel="canonical" href="https://www.kaggle.com/datasets/shreyasur965/recent-earthquakes" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=a53f951c511cf82e" />
+
+  
+    
+ 
+      <script nonce="&#x2B;79Pc0/bgtqCflSRMaz59Q==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="&#x2B;79Pc0/bgtqCflSRMaz59Q==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-T7QHS60L4Q', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets',
+            'user_properties': {
+                'logged_in': false,
+            }
+        });
+    </script>
+    <script nonce="&#x2B;79Pc0/bgtqCflSRMaz59Q==" async src="https://www.googletagmanager.com/gtag/js?id=G-T7QHS60L4Q"></script>
+
+
+  
+    
+    <meta property="og:url" content="https://www.kaggle.com/datasets/shreyasur965/recent-earthquakes" />
+    <meta property="og:title" content="Global Earthquake Data" />
+    <meta property="og:description" content="Comprehensive dataset of global earthquakes with key attributes for analysis." />
+    <meta property="og:type" content="website" />
+    <meta property="fb:app_id" content="2665027677054710" />
+
+        <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/5728017/9428833/53b31eed90eec419fd928908c6d56924/dataset-card.jpg?t=2024-09-18-16-11-59" />
+        <meta property="twitter:image" content="https://storage.googleapis.com/kaggle-datasets-images/5728017/9428833/53b31eed90eec419fd928908c6d56924/dataset-card.jpg?t=2024-09-18-16-11-59" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@kaggledatasets" />
+
+
+
+
+  <meta name="twitter:site" content="@Kaggle" /> 
+  
+    
+    <script nonce="+79Pc0/bgtqCflSRMaz59Q==" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"Global Earthquake Data","description":"This dataset provides detailed information on 1,137 earthquakes from around the world. It includes a wide range of attributes such as magnitude, location details, time, and various seismological measurements. The data was collected using the EveryEarthquake API from RapidAPI, offering researchers, seismologists, and data enthusiasts a rich resource for analysis, machine learning projects, and geological studies.\nKey features of this dataset include:\n\nComprehensive coverage of 1,137 earthquake events\n43 attributes for each earthquake, including geological, geographical, and temporal data\nDetailed location information, from continent down to locality level\nSeismological measurements such as magnitude, depth, and intensity scales\nMetadata on the reporting and status of each earthquake event\n\nThis dataset is ideal for:\n\nAnalyzing patterns in global seismic activity\nDeveloping machine learning models for earthquake prediction or classification\nStudying the relationship between earthquake characteristics and geographical features\nCreating visualizations and maps of seismic events\nInvestigating the impact of earthquakes on different regions and localities\n\nSome of the most valuable attributes in this dataset are:\n\nmagnitude: The size or strength of the earthquake\ndepth: The depth of the earthquake's hypocenter below the Earth's surface\nlatitude and longitude: Precise coordinates of the earthquake's epicenter\nplace: A description of the earthquake's location\ntime and date: When the earthquake occurred\nfelt, cdi, and mmi: Different measures of the earthquake's intensity and impact\ntsunami: Whether the earthquake triggered a tsunami warning\nalert: The alert level issued for the earthquake\n\nWhether you're a seismologist, data scientist, geologist, or disaster preparedness expert, this dataset offers a wealth of information to explore and analyze seismic activity across the globe. It can be used for various applications, from academic research to practical risk assessment and emergency planning.","url":"https://www.kaggle.com/shreyasur965/recent-earthquakes","version":3,"keywords":["task, classification","technique, exploratory data analysis","task, regression","subject, earth and nature, earth science, geology","analysis, geospatial analysis","task, clustering"],"license":{"@type":"CreativeWork","name":"CC BY-SA 4.0","url":"https://creativecommons.org/licenses/by-sa/4.0/"},"identifier":["5728017"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Person","name":"Shreya Sur965","url":"https://www.kaggle.com/shreyasur965","image":"https://storage.googleapis.com/kaggle-avatars/thumbnails/14283074-kg.jpg?t=2024-07-29-17-45-32"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/datasets/shreyasur965/recent-earthquakes/download?datasetVersionNumber=3","contentSize":"219182 bytes"}],"commentCount":0,"dateModified":"2024-09-19T16:18:55.843Z","discussionUrl":"https://www.kaggle.com/shreyasur965/recent-earthquakes/discussion","alternateName":"Comprehensive dataset of global earthquakes with key attributes for analysis.","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/5728017/9428833/53b31eed90eec419fd928908c6d56924/dataset-card.jpg?t=2024-09-18-16-11-59","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":0},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":5895},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":27282},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":45}]}</script>
+
+
+  
+    
+
+  
+    
+
+
+
+    <script nonce="&#x2B;79Pc0/bgtqCflSRMaz59Q==">window['useKaggleAnalytics'] = true;</script>
+
+  <script id="gapi-target" nonce="&#x2B;79Pc0/bgtqCflSRMaz59Q==" src="https://apis.google.com/js/api.js" defer
+    async></script>
+  <script nonce="+79Pc0/bgtqCflSRMaz59Q==" src="/static/assets/runtime.js?v=44db21ee23333954"></script>
+  <script nonce="+79Pc0/bgtqCflSRMaz59Q==" src="/static/assets/vendor.js?v=b58ece3666e973c5"></script>
+  <script nonce="+79Pc0/bgtqCflSRMaz59Q==" src="/static/assets/app.js?v=306ad9b546906c0f"></script>
+    <script nonce="&#x2B;79Pc0/bgtqCflSRMaz59Q==" type="text/javascript">
+      window.kaggleStackdriverConfig = {
+        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+        projectId: 'kaggle-161607',
+        service: 'web-fe',
+        version: 'ci',
+        userId: '0'
+      }
+    </script>
+</head>
+<body>
+  <div id="root">
+    
+
+
+
+
+
+
+
+
+<script nonce="&#x2B;79Pc0/bgtqCflSRMaz59Q==" type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    jax: ['input/TeX', 'output/SVG'],
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    extensions: ["Safe.js"],
+    });
+</script>
+<script type="text/javascript" nonce="&#x2B;79Pc0/bgtqCflSRMaz59Q==">
+  window.addEventListener("DOMContentLoaded", () => {
+    const head = document.getElementsByTagName("head")[0];
+    const lib = document.createElement("script");
+    lib.type = "text/javascript";
+    // Always use the production asset in local dev, which is served from GCS. We tried to proxy and / or serve this
+    // in a better way in localhost, but it didn't work out. See b/328073416#comment8 for details.
+    const forceProdHost = window.location.hostname === "localhost";
+    lib.src = `${forceProdHost ? "https://www.kaggle.com" : ""}/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS_SVG`;
+    head.appendChild(lib);
+  });
+</script>
+
+
+
+
+
+
+
+
+  </div>
+</body>
+</html>

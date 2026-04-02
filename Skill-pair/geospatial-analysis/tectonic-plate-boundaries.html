@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Tectonic Plate Boundaries | Kaggle</title>
+  <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+  <meta name="description" content="Plate boundaries for 56 different tectonic plates." />
+    <meta name="keywords" content="earth and nature,geology,geography" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC" />
+  <script nonce="d4npS7giYbkOzedXvuSgDg==" type="text/javascript">
+    window["pageRequestStartTime"] = 1775117062910;
+    window["pageRequestEndTime"] = 1775117063012;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <script nonce="d4npS7giYbkOzedXvuSgDg==" id="gsi-client" src="https://accounts.google.com/gsi/client" async defer></script>
+  <script nonce="d4npS7giYbkOzedXvuSgDg==">window.KAGGLE_JUPYTERLAB_PATH = "/static/assets/jupyterlab-v4/jupyterlab-index-395ada52cdf7a4ee.html";</script>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+    <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" id="dynamic-favicon" />
+  <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css2?family=Google+Symbols:FILL@0..1&display=block"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="stylesheet" media="print" id="async-google-font-1" />
+  <link href="https://fonts.googleapis.com/css2?family=Google+Symbols:FILL@0..1&display=block"
+    rel="stylesheet" media="print" id="async-google-font-2" />
+  <script nonce="d4npS7giYbkOzedXvuSgDg==" type="text/javascript">
+    const styleSheetIds = ["async-google-font-1", "async-google-font-2"];
+    styleSheetIds.forEach(function (id) {
+      document.getElementById(id).addEventListener("load", function() {
+        this.media = "all";
+      });
+    });
+  </script>
+
+
+    <link rel="canonical" href="https://www.kaggle.com/datasets/cwthompson/tectonic-plate-boundaries" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=a53f951c511cf82e" />
+
+  
+    
+ 
+      <script nonce="d4npS7giYbkOzedXvuSgDg==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="d4npS7giYbkOzedXvuSgDg==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-T7QHS60L4Q', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets',
+            'user_properties': {
+                'logged_in': false,
+            }
+        });
+    </script>
+    <script nonce="d4npS7giYbkOzedXvuSgDg==" async src="https://www.googletagmanager.com/gtag/js?id=G-T7QHS60L4Q"></script>
+
+
+  
+    
+    <meta property="og:url" content="https://www.kaggle.com/datasets/cwthompson/tectonic-plate-boundaries" />
+    <meta property="og:title" content="Tectonic Plate Boundaries" />
+    <meta property="og:description" content="Plate boundaries for 56 different tectonic plates." />
+    <meta property="og:type" content="website" />
+    <meta property="fb:app_id" content="2665027677054710" />
+
+        <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/652326/1154075/5d7440186658c7952d3ba1050d0d34b1/dataset-card.png?t=2020-05-13-18-15-05" />
+        <meta property="twitter:image" content="https://storage.googleapis.com/kaggle-datasets-images/652326/1154075/5d7440186658c7952d3ba1050d0d34b1/dataset-card.png?t=2020-05-13-18-15-05" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@kaggledatasets" />
+
+
+
+
+  <meta name="twitter:site" content="@Kaggle" /> 
+  
+    
+    <script nonce="d4npS7giYbkOzedXvuSgDg==" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"Tectonic Plate Boundaries","description":"This data contains latitude and longitude data that completely encloses 56 tectonic plates. Further information on these plates can be found in the [linked Wikipedia article](https://en.wikipedia.org/wiki/Plate_tectonics).\n\nThe following added description can be found in the [original data source](http://geoscience.wisc.edu/~chuck/MORVEL/PltBoundaries.html):\n*\"Forty-nine of the 56 plate geometries in this file are identical to those in Bird (2003). The other seven plate geometry files enclose plates that are unique to MORVEL or whose geometries were modified from Bird (2003). Our plate boundaries differ from Bird's only for the Somalia-Lwandle, Australia-Capricorn, Australia-Macquarie, and South America-Sur plate boundaries. Interested users should refer to Bird (2003) for a detailed explanation of how he defined the plate boundaries from seafloor spreading magnetic anomalies, topography, earthquake epicenters, and volcano locations. Please cite Bird (2003) and Argus et al. (2011) as the source of these plate boundaries.\"*\n\n\nThis data was made possible thanks to Bird (2003) and Argus et al. (2011).","url":"https://www.kaggle.com/cwthompson/tectonic-plate-boundaries","version":1,"keywords":["subject, earth and nature","subject, earth and nature, earth science, geology","subject, earth and nature, earth science, geography"],"license":{"@type":"CreativeWork","name":"Data files © Original Authors","url":""},"identifier":["652326"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Person","name":"Curtis Thompson","url":"https://www.kaggle.com/cwthompson","image":"https://storage.googleapis.com/kaggle-avatars/thumbnails/3658270-kg.png"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/datasets/cwthompson/tectonic-plate-boundaries/download?datasetVersionNumber=1","contentSize":"77675 bytes"}],"commentCount":0,"dateModified":"2020-05-13T18:09:24.63Z","discussionUrl":"https://www.kaggle.com/cwthompson/tectonic-plate-boundaries/discussion","alternateName":"Plate boundaries for 56 different tectonic plates.","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/652326/1154075/5d7440186658c7952d3ba1050d0d34b1/dataset-card.png?t=2020-05-13-18-15-05","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":0},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":1345},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":12564},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":18}]}</script>
+
+
+  
+    
+
+  
+    
+
+
+
+    <script nonce="d4npS7giYbkOzedXvuSgDg==">window['useKaggleAnalytics'] = true;</script>
+
+  <script id="gapi-target" nonce="d4npS7giYbkOzedXvuSgDg==" src="https://apis.google.com/js/api.js" defer
+    async></script>
+  <script nonce="d4npS7giYbkOzedXvuSgDg==" src="/static/assets/runtime.js?v=44db21ee23333954"></script>
+  <script nonce="d4npS7giYbkOzedXvuSgDg==" src="/static/assets/vendor.js?v=b58ece3666e973c5"></script>
+  <script nonce="d4npS7giYbkOzedXvuSgDg==" src="/static/assets/app.js?v=306ad9b546906c0f"></script>
+    <script nonce="d4npS7giYbkOzedXvuSgDg==" type="text/javascript">
+      window.kaggleStackdriverConfig = {
+        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+        projectId: 'kaggle-161607',
+        service: 'web-fe',
+        version: 'ci',
+        userId: '0'
+      }
+    </script>
+</head>
+<body>
+  <div id="root">
+    
+
+
+
+
+
+
+
+
+<script nonce="d4npS7giYbkOzedXvuSgDg==" type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    jax: ['input/TeX', 'output/SVG'],
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    extensions: ["Safe.js"],
+    });
+</script>
+<script type="text/javascript" nonce="d4npS7giYbkOzedXvuSgDg==">
+  window.addEventListener("DOMContentLoaded", () => {
+    const head = document.getElementsByTagName("head")[0];
+    const lib = document.createElement("script");
+    lib.type = "text/javascript";
+    // Always use the production asset in local dev, which is served from GCS. We tried to proxy and / or serve this
+    // in a better way in localhost, but it didn't work out. See b/328073416#comment8 for details.
+    const forceProdHost = window.location.hostname === "localhost";
+    lib.src = `${forceProdHost ? "https://www.kaggle.com" : ""}/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS_SVG`;
+    head.appendChild(lib);
+  });
+</script>
+
+
+
+
+
+
+
+
+  </div>
+</body>
+</html>

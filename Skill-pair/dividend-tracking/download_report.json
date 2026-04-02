@@ -1,0 +1,29 @@
+{
+  "skill": "D:\\engineer\\SkillGym-develop\\Skill-pair\\dividend-tracking\\dividend-tracking\\SKILL.md",
+  "records": [
+    {
+      "category": "csv file",
+      "value": "constituents.csv",
+      "snippet": "",
+      "metadata": {
+        "url": "https://raw.githubusercontent.com/datasets/s-and-p-500-companies/master/data/constituents.csv"
+      }
+    },
+    {
+      "category": "csv file",
+      "value": "finance-charts-apple.csv",
+      "snippet": "",
+      "metadata": {
+        "url": "https://raw.githubusercontent.com/plotly/datasets/master/finance-charts-apple.csv"
+      }
+    },
+    {
+      "category": "csv file",
+      "value": "vix-daily.csv",
+      "snippet": "",
+      "metadata": {
+        "url": "https://raw.githubusercontent.com/datasets/finance-vix/master/data/vix-daily.csv"
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "skill": "D:\\engineer\\SkillGym-develop\\Skill-pair\\geospatial-analysis\\geospatial-analysis\\SKILL.md",
+  "records": [
+    {
+      "category": "geojson file",
+      "value": "all_month.geojson",
+      "snippet": "",
+      "metadata": {
+        "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson"
+      }
+    },
+    {
+      "category": "json file",
+      "value": "countries.geo.json",
+      "snippet": "",
+      "metadata": {
+        "url": "https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json"
+      }
+    },
+    {
+      "category": "json file",
+      "value": "PB2002_boundaries.json",
+      "snippet": "",
+      "metadata": {
+        "url": "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json"
+      }
+    },
+    {
+      "category": "json file",
+      "value": "PB2002_plates.json",
+      "snippet": "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_plates.json",
+      "metadata": {
+        "url": ""
+      }
+    },
+    {
+      "category": "geojson file",
+      "value": "significant_month.geojson",
+      "snippet": "",
+      "metadata": {
+        "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.geojson"
+      }
+    },
+    {
+      "category": "csv file",
+      "value": "world-cities.csv",
+      "snippet": "",
+      "metadata": {
+        "url": "https://raw.githubusercontent.com/datasets/world-cities/master/data/world-cities.csv"
+      }
+    },
+    {
+      "category": "geojson file",
+      "value": "tectonicplates.html",
+      "snippet": "The dataset presents tectonic plates and their boundaries, and in addition orogens and information about the boundaries. The data is useful for geological ...",
+      "metadata": {
+        "url": "https://github.com/fraxen/tectonicplates"
+      }
+    },
+    {
+      "category": "geojson file",
+      "value": "tectonic-plate-boundaries.html",
+      "snippet": "This data contains latitude and longitude data that completely encloses 56 tectonic plates. Further information on these plates can be found in the linked ...",
+      "metadata": {
+        "url": "https://www.kaggle.com/datasets/cwthompson/tectonic-plate-boundaries"
+      }
+    },
+    {
+      "category": "geojson file",
+      "value": "philippine-earthquakes-1900-2025-from-usgs.html",
+      "snippet": "The Philippines lies within the zone of complex interaction between several tectonic plates, involving multiple subduction zones and one large zone of strike- ...",
+      "metadata": {
+        "url": "https://www.kaggle.com/datasets/bwandowando/philippine-earthquakes-1900-2025-from-usgs"
+      }
+    },
+    {
+      "category": "shp file",
+      "value": "global_tectonics.html",
+      "snippet": "Formats are provided as shapefiles (shp) ... plates.shp - polygons of tectonic plates and crust types. boundaries.shp - lines of plate boundary types.",
+      "metadata": {
+        "url": "https://github.com/dhasterok/global_tectonics"
+      }
+    },
+    {
+      "category": "shp file",
+      "value": "about.html",
+      "snippet": "Tectonic plate boundaries determined by earthquakes and verified by other boundaries. 117 original plate boundaries from Esri Data and Maps (2007)",
+      "metadata": {
+        "url": "https://hub.arcgis.com/datasets/5f01bc7f78d74498aa942455fcd0dc10_0/about"
+      }
+    },
+    {
+      "category": "shp file",
+      "value": "tectonic-plate.html",
+      "snippet": "The PLATES Project has compiled digital data representing the Present-Day plate boundaries. The data were digitized from a number of sources.",
+      "metadata": {
+        "url": "https://data.humdata.org/dataset/tectonic-plate"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "2.5_week.csv",
+      "snippet": "time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated ... earthquake,0.32,0.829999983,0.080787417852602,8,automatic,hv,hv 2026-04 ...",
+      "metadata": {
+        "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.csv"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "2.5_day.csv",
+      "snippet": "time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated ... earthquake,53.8,9.7617,0.1,4,automatic,ak,ak 2026-03-25T00:23:10.542Z ...",
+      "metadata": {
+        "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.csv"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "2.5_month.csv",
+      "snippet": "time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated ... earthquake,0.32,0.829999983,0.080787417852602,8,automatic,hv,hv 2026-04 ...",
+      "metadata": {
+        "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_month.csv"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "all_hour.csv",
+      "snippet": "time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource ...",
+      "metadata": {
+        "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.csv"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "Significant_Earthquakes__1965-2016_1622_1.csv",
+      "snippet": "\"\",\"Date\",\"Time\",\"Latitude\",\"Longitude\",\"Type\",\"Depth\",\"Depth.Error\",\"Depth.Seismic.Stations\",\"Magnitude ... Earthquake\",6,31.61,20,5.55,\"ML\",0.055,4,312 ...",
+      "metadata": {
+        "url": "https://www.key2stats.com/Significant_Earthquakes__1965-2016_1622_1.csv"
+      }
+    },
+    {
+      "category": "geojson file",
+      "value": "recent-earthquakes.html",
+      "snippet": "This dataset provides detailed information on 1,137 earthquakes from around the world. It includes a wide range of attributes such as ...",
+      "metadata": {
+        "url": "https://www.kaggle.com/datasets/shreyasur965/recent-earthquakes"
+      }
+    },
+    {
+      "category": "geojson file",
+      "value": "global-earthquake-and-aftershock-data-january-23.html",
+      "snippet": "Data was fetched from the USGS Earthquake Event API, which provides information in GeoJSON format, ensuring accurate and up-to-date earthquake information.",
+      "metadata": {
+        "url": "https://www.kaggle.com/datasets/syedahnafraza/global-earthquake-and-aftershock-data-january-23"
+      }
+    },
+    {
+      "category": "gpkg file",
+      "value": "22788464.html",
+      "snippet": "The datasets are stored using the geopackage data format and all use the reference system WGS84, SRID 4326. The zip includes two files ( ...",
+      "metadata": {
+        "url": "https://uvaauas.figshare.com/articles/dataset/island_reference_dataset_tiled/22788464"
+      }
+    },
+    {
+      "category": "geojson file",
+      "value": "pb2002_boundaries.gmt",
+      "snippet": "# PLEASE CITE the following paper as the original source of the data: # Bird, P. (2003) An updated digital model of plate boundaries,.",
+      "metadata": {
+        "url": "https://code.usgs.gov/ghsc/neic/algorithms/neic-finitefault/-/blob/main/pb2002_boundaries.gmt?ref_type=heads"
+      }
+    }
+  ]
+}

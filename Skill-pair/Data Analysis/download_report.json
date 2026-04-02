@@ -1,5 +1,5 @@
 {
-  "skill": "D:\\engineer\\SKILL TO INPUT\\SKILLS\\Data Analysis\\SKILL.md",
+  "skill": "D:\\engineer\\SkillGym-develop\\Skill-pair\\Data Analysis\\Data Analysis\\SKILL.md",
   "records": [
     {
       "category": "xlsx file",
@@ -55,6 +55,102 @@
       "snippet": "Is there a national open data policy in your country and, if your country is an EU Member State, does this include a national legislation for the transposition ...",
       "metadata": {
         "url": "https://data.europa.eu/sites/default/files/2025-12/2025_odm_questionnaire_data.xlsx"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "All_Public_Datasets.csv",
+      "snippet": "... Monthly,https://citydata.mesaaz.gov/resource/24df-s3cy.json,n/a,n/a,n/a,2026 ... Revenue by Consumer Activity Period (Excludes Utility and Construction) ...",
+      "metadata": {
+        "url": "https://data.mesaaz.gov/api/views/5fa9-v2tc/rows.csv?accessType=DOWNLOAD&api_foundry=true"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "260225-4q-2025-data-pack-excel.xlsx",
+      "snippet": "The quarterly comparatives are translated at average 4Q25 exchange rates for the income statement or at the prevailing rates of exchange on ...",
+      "metadata": {
+        "url": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2025/annual/pdfs/hsbc-holdings-plc/260225-4q-2025-data-pack-excel.xlsx?sc_lang=en"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "4q25-earnings-supplement.xlsx",
+      "snippet": "the Firm's Quarterly Report on Form 10-Q for the quarterly period ended ... These metrics, which exclude Markets, are non-GAAP financial measures.",
+      "metadata": {
+        "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2025/4th-quarter/4q25-earnings-supplement.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "Financial-Projections-Template.xlsx",
+      "snippet": "Income Statement. A, B, C, D, E, F, G, H. 2. 3, [Company Name], Income Statement. 4 ... BALANCE SHEET. 4, Assets, Year 1, Year 2, Year 3, Liabilities and Owner's ...",
+      "metadata": {
+        "url": "https://www.smartsheet.com/sites/default/files/Financial-Projections-Template.xlsx?srsltid=AfmBOorrWRDaZp4TME8InfFhazWAqzHm8nuVe_erUAs1EEHSIZgmHmQq"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "2025-reporting-templates.xlsx",
+      "snippet": "Please report on- and off-balance sheet data for the largest entity types in economic functions with a size that is greater than 1% of total national financial ...",
+      "metadata": {
+        "url": "https://www.fsb.org/uploads/2025-reporting-templates.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "q32025_financial_supplement.xlsx",
+      "snippet": "... quarterly and annual statements for these properties including the related debt service. When an annual statement is the latest statement ...",
+      "metadata": {
+        "url": "https://www.fanniemae.com/media/document/xlsx/q32025_financial_supplement.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "Data-Through-06-30-2024-Databook.xlsx",
+      "snippet": "Emerson Health System, Lawrence General Hospital and Affiliates, and Tufts Medicine filed their quarterly data using a different template. Due to this ...",
+      "metadata": {
+        "url": "https://www.chiamass.gov/assets/Uploads/mass-hospital-financials/data-through-6-30-2024/Data-Through-06-30-2024-Databook.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "NLC-Quarterly-Reporting-Section-B-Metrics.xlsx",
+      "snippet": "Utilize this sheet to input the address level information for any new passings completed during the quarter. The sheet allows for street address, city, zip code ...",
+      "metadata": {
+        "url": "https://www.in.gov/ocra/nlc/files/NLC-Quarterly-Reporting-Section-B-Metrics.xlsx"
+      }
+    },
+    {
+      "category": "code_repo file",
+      "value": "Data cleaning and visualization with pandas.ipynb",
+      "snippet": "Data cleaning and visualization with pandas¶. This notebook will introduce you to intermediate tasks using the pandas data analysis library and demonstrate ...",
+      "metadata": {
+        "url": "https://github.com/mikejcorey/teaching-guide-data-cleaning-and-viz-with-python/blob/master/Data%20cleaning%20and%20visualization%20with%20pandas.ipynb"
+      }
+    },
+    {
+      "category": "code_repo file",
+      "value": "01-Data-Analysis-With-Pandas.ipynb",
+      "snippet": "Pandas makes it easy to create simple plots and data visualizations. We can make a simple plot by adding .plot() to any DataFrame or Series object that has ...",
+      "metadata": {
+        "url": "https://github.com/melaniewalsh/Data-Analysis-with-Pandas/blob/main/01-Data-Analysis-With-Pandas.ipynb"
+      }
+    },
+    {
+      "category": "code_repo file",
+      "value": "Effective interactive data visualization with pandas and pygal.ipynb",
+      "snippet": "The core idea is to let pandas create the data in a format that pygal's visualizations can consume easily. So let's have a look at what pygal expects as input ...",
+      "metadata": {
+        "url": "https://github.com/feststelltaste/software-analytics/blob/master/notebooks/Effective%20interactive%20data%20visualization%20with%20pandas%20and%20pygal.ipynb"
+      }
+    },
+    {
+      "category": "code_repo file",
+      "value": "dat158-1-1-simple-examples-ipynb.html",
+      "snippet": "Throughout the course, we'll use NumPy for numerical calculations, pandas for working with tabular data (and more!), and matplotlib to create plots. Familiarize ...",
+      "metadata": {
+        "url": "https://www.kaggle.com/code/alexanderlundervold/dat158-1-1-simple-examples-ipynb"
       }
     }
   ]

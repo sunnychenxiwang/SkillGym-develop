@@ -1,5 +1,5 @@
 {
-  "skill": "D:\\engineer\\SKILL TO INPUT\\SKILLS\\Excel Analysis\\SKILL.md",
+  "skill": "D:\\engineer\\SkillGym-develop\\Skill-pair\\Excel Analysis\\Excel Analysis\\SKILL.md",
   "records": [
     {
       "category": "xlsx file",
@@ -39,14 +39,6 @@
       "snippet": "Sales revenue, 744.6, 666.9. 5, Cost of sales, -388.3, -358.2. 6, Gross profit on sales, 356.3, 308.7. 7, Selling and distribution costs, -126.8, -120.9. 8 ...",
       "metadata": {
         "url": "https://www.sartorius.com/download/1682228/q1-2025-download-excel-financial-data-ssb-data.xlsx"
-      }
-    },
-    {
-      "category": "xlsx file",
-      "value": "Download.aspx",
-      "snippet": "→Fill out the Reporting Data (e.g., Full Vendor Name, Reporting Period, etc. on the spreadsheet.) 13, →All State Agency spend including all University of ...",
-      "metadata": {
-        "url": "https://vendornet.wi.gov/Download.aspx?type=bid&Id=d20bf6e9-c2b0-e611-80f8-0050568c7f0f&filename=Appendix+B-+Monthly+Sales+Report+Template.xlsx"
       }
     },
     {
@@ -247,6 +239,310 @@
       "snippet": "... Timesheet Hourly paid Workers & Employees. 4. 5, Step 02. 6 ... In order for payroll to be able to identify the correct approvers against the timesheets ...",
       "metadata": {
         "url": "https://www.gla.ac.uk/media/Media_1019789_smxx.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "bp-fourth-quarter-2025-results-group-databook.xlsx",
+      "snippet": "These restatements apply to the quarterly and annual periods relating to 2020. Previously disclosed information relating to these periods and earlier periods ...",
+      "metadata": {
+        "url": "https://www.bp.com/content/dam/bp/business-sites/en/global/corporate/xlsx/investors/bp-fourth-quarter-2025-results-group-databook.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "entire-basf-qs3-22.xlsx",
+      "snippet": "Sales by location of company ... Sales revenue, 21946, 19669, 0.116, 68003, 58822, 0.156. 8, Cost of sales, -17062, -14762, -0.156, -51278, -43736, -0.172. 9 ...",
+      "metadata": {
+        "url": "https://www.basf.com/dam/jcr:4e8807e2-c926-39c0-9808-e915536ce2dd/basf/www/global/documents/en/investor-relations/basf-at-a-glance/key-financial-data/entire-basf-qs3-22.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "4q24-earnings-supplement.xlsx",
+      "snippet": "Note: This Excel file is intended to be identical in content to, and not to amend or supplement, the JPMorgan Chase & Co. Earnings Release Financial Supplement ...",
+      "metadata": {
+        "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2024/4th-quarter/4q24-earnings-supplement.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "20250429-q1-2025-key-figures-en-rs.xlsx",
+      "snippet": "1) 2016 Quarterly figures for revenues and orders received shows best estimated numbers, as the effects of the split of Epiroc and ...",
+      "metadata": {
+        "url": "https://www.atlascopcogroup.com/content/dam/atlas-copco/group/documents/investors/key-figures/key-financials/20250429-q1-2025-key-figures-en-rs.xlsx.coredownload.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "Spreadsheet-quarterly-figures-Q4_2025-WEB.xlsx",
+      "snippet": "EBIT margin (Operating profit margin), 0.1469100088, 0.14253099, 0.0886502474 ... Quarterly figures are estimated and unaudited. 32. 33. Profit & Loss ...",
+      "metadata": {
+        "url": "https://s21.q4cdn.com/815767348/files/doc_financials/2025/q4/Spreadsheet-quarterly-figures-Q4_2025-WEB.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "20170503_Downloadable financial data.xlsx",
+      "snippet": "Q1 2017 sales split per region. 5. 6, DKK million, Total, North America Operations, USA, Inter-national Operations, Region Europe, Region AAMEO, Region China ...",
+      "metadata": {
+        "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/downloadable_financial_data/2017/20170503_Downloadable%20financial%20data.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "qr2025_q2_ex_en.xlsx",
+      "snippet": "Revenue by Region (Year To Date), R-1-1. 6, Revenue by Region (Quarterly), R-1-2. 7, Product Sales Analysis (vs PY Reported Actual) (Year To Date), R-2-1. 8 ...",
+      "metadata": {
+        "url": "https://assets-dam.takeda.com/raw/upload/v1768284308/Global/Investor/Financial-Results/FY2025/Q2/qr2025_q2_ex_en.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "55124125.html",
+      "snippet": "Client satisfaction on community based health insurance scheme and associated factors at Boru Meda Hospital, Northeast, Ethiopia: Institutional based cross ...",
+      "metadata": {
+        "url": "https://figshare.com/ndownloader/files/55124125"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "48433348.html",
+      "snippet": "Our study demonstrates the critical role of salt marsh vegetation in resistance to erosion, and how the effect of vegetation is mediated by sediment and ...",
+      "metadata": {
+        "url": "https://springernature.figshare.com/ndownloader/files/48433348"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "icv7-reports.xlsx",
+      "snippet": "Transaction Receive Report, User Security Option Report. 23, Overstocked Items Report, Transaction Remove By Customer Report. 24, Inventory Reports, Transaction ...",
+      "metadata": {
+        "url": "https://dl.waspbarcode.com/wasp/supportfiles/kbimages/ic7/icv7-reports.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "IC-Personal-Financial-Statement-Template-9036.xlsx",
+      "snippet": "Personal Financial Statement. A, B, C, D, E, F, G, H, I, J, K, L, M, N, O. 1, PERSONAL FINANCIAL STATEMENT TEMPLATE. 2, BALANCE SHEET RATIOS, START OF FY, Q2 ...",
+      "metadata": {
+        "url": "https://www.smartsheet.com/sites/default/files/IC-Personal-Financial-Statement-Template-9036.xlsx?srsltid=AfmBOoq1xI3iEwu6RcmGJcUapgG9S9bTVll-tBPOsF8jdIOZr02uILa6"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "Financial-Analysis-Template.xlsx",
+      "snippet": "TIP: Use the 'Fill' function to mark which cells in the Raw Data Tables have been accounted for in the Balance Sheet, Income Statement, and ...",
+      "metadata": {
+        "url": "https://www.milbank.org/wp-content/uploads/2024/03/Financial-Analysis-Template.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "Program-Budget-and-Allocation-Template-unlocked.xlsx",
+      "snippet": "... time work week and whether the employee is full-time or part-time. The formula is the number of hours the employee works per week times 52 weeks. (Employee ...",
+      "metadata": {
+        "url": "https://propelnonprofits.org/wp-content/uploads/2024/02/Program-Budget-and-Allocation-Template-unlocked.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "CP Budget Template.xlsx",
+      "snippet": "Total Full-Time Equivalent Staff Positions, 0, 0, 0, 0, 0, 0, 0, 0. 26, FTE without ... Program / Department Budget Template, Budget Start Date : Budget End Date ...",
+      "metadata": {
+        "url": "https://www.compasspoint.org/sites/default/files/documents/CP%20Budget%20Template.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "BL-25-23-Attachment-Item-9800-Employee-Compensation-Workbook.xlsx",
+      "snippet": "Budget Request Title: Allocation for Employee Compensation, Budget Request Title: Allocation for Staff Benefits, Budget Request Title: Allocation for Other ...",
+      "metadata": {
+        "url": "https://dof.ca.gov/media/docs/budget/resources-for-departments/budget-letters/BL-25-23-Attachment-Item-9800-Employee-Compensation-Workbook.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "20xx-FY_OPS-budget-tracking-template.xlsx",
+      "snippet": "This formula calculates the adjusted cost to the department for FWS hours. ... employee working more than 20 hours in a F-TH period. 38, →, Enrolled students ...",
+      "metadata": {
+        "url": "https://hr.uflib.ufl.edu/wordpress/files/2022/08/20xx-FY_OPS-budget-tracking-template.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "LEA Payroll Detail File Specifications.xlsx",
+      "snippet": "HOURS IN PAY PERIOD, N, 5, 14000, Numeric value with 2 decimal places. The decimal is implied. Specifies the budgeted hours to be worked by an hourly employee.",
+      "metadata": {
+        "url": "https://www.dpi.nc.gov/documents/fbs/resources/lea-payroll-detail-file-specificationsxlsx/download?attachment"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "RFP_230_App_B_Proposed_Budget.xlsx",
+      "snippet": "Deliverable pricing should include all costs for completing the deliverable, including all staff time, office supplies, printing costs, distribution costs, rent ...",
+      "metadata": {
+        "url": "https://media.api.sf.gov/documents/RFP_230_App_B_Proposed_Budget.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "GFMD SAMPLE BUDGET 2024.xlsx",
+      "snippet": "Show the annual salary rate and the percentage of time devoted to the project. Compensation paid for employees engaged in grant activities must be consistent ...",
+      "metadata": {
+        "url": "https://www.justice.gov/ovw/media/1357581/dl"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "2024 - Gap_Analysis-EMPLOYMENT - Final.xlsx",
+      "snippet": "Exception time is tracked for anyone who is not required to report their time in a central time-keeping system and any necessary pay adjustments are reported on ...",
+      "metadata": {
+        "url": "https://finance.umich.edu/sites/default/files/2024-02/2024%20-%20Gap_Analysis-EMPLOYMENT%20-%20Final.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "spp_Dec2022_OA.xlsx",
+      "snippet": "In January and February, 96 percent of schools answered the question and in March and April all schools answered this question. 15, See the complete survey ...",
+      "metadata": {
+        "url": "https://nces.ed.gov/surveys/spp/docs/release/spp_Dec2022_OA.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "820-348.xlsx",
+      "snippet": "The data compendium is a Microsoft Excel workbook that contains overall and detailed results to each question of the survey. 6.",
+      "metadata": {
+        "url": "https://doh.wa.gov/sites/default/files/2026-01/820-348.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "TUSurveyInfo20251009.xlsx",
+      "snippet": "To generate basic statistics on the activities undertaken by the population 12 years and older and on the time they spent on them. Module, Questionnaire with ...",
+      "metadata": {
+        "url": "https://unstats.un.org/UNSDWebsite/time-use-statistics/docs/TUSurveyInfo20251009.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "stakeholderfollowupsurveyresponsesforpublication.xlsx",
+      "snippet": "In Tower Hamlets, we have used proxy data, using country of birth data from the 2011 Census, to profile the first generation Somali population. This analysis ...",
+      "metadata": {
+        "url": "https://www.ons.gov.uk/file?uri=/census/planningforcensus2021/questiondevelopment/ethnicgroupnationalidentityreligionandlanguage/stakeholderfollowupsurveyresponsesforpublication.xlsx"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "all-pages-realtime.csv",
+      "snippet": "... Website\" 2762,Forest Service Research Data Archive 2739,NWS Radar 2601,\"Find ... User ID | BENEFEDS\" 83,\"Home | AmeriCorps\" 82,\"ESS Questionnaire (en) ...",
+      "metadata": {
+        "url": "https://analytics.usa.gov/data/live/all-pages-realtime.csv"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "RevenueLeaseMiscellaneousPaymentsTemplate.xlsm",
+      "snippet": "1. Prepare the data for each interface table using the corresponding worksheet in this template. See the section Excel Template Format for details about this ...",
+      "metadata": {
+        "url": "https://www.oracle.com/webfolder/technetwork/docs/fbdi-25b/fbdi/xlsm/RevenueLeaseMiscellaneousPaymentsTemplate.xlsm"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "WIDA-Language-Charts.xlsx",
+      "snippet": "Create personalized Language Charts, integrate with learning platforms (local learning management systems and Google Classroom), and share/ ...",
+      "metadata": {
+        "url": "https://wida.wisc.edu/sites/default/files/Website/Misc%20Pages/revised-access/WIDA-Language-Charts.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "chemical-manufacturing-section-114-component-i-response_company_facility.xlsx",
+      "snippet": "The template has been carefully designed so EPA can collect and combine data from all facilities that have received the CAA section 114 survey using predefined ...",
+      "metadata": {
+        "url": "https://www.epa.gov/system/files/documents/2022-01/chemical-manufacturing-section-114-component-i-response_company_facility.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "mp-16-3_E-7.xlsx",
+      "snippet": "The worksheets in this workbook are literally \"work\" sheets that were used in the multi-step process of constructing the BEM earthquake catalog. The worksheets ...",
+      "metadata": {
+        "url": "https://ugspub.nr.utah.gov/publications/misc_pubs/mp-16-3/mp-16-3_E-7.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "sp800-53r4-to-r5-comparison-workbook.xlsx",
+      "snippet": "Requires establishment of an organization wide information security program plan Text changed to combine two elements New parameter requires update to ...",
+      "metadata": {
+        "url": "https://csrc.nist.gov/files/pubs/sp/800/53/r5/upd1/final/docs/sp800-53r4-to-r5-comparison-workbook.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "CSSO-SCUBA-eVRF Spreadsheet-M365.xlsx",
+      "snippet": "The extensible Visibility Reference Framework (eVRF) proposes a framework that describes how telemetry data can be created and evaluated in new domains so that ...",
+      "metadata": {
+        "url": "https://www.cisa.gov/sites/default/files/2023-06/CSSO-SCUBA-eVRF%20Spreadsheet-M365.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "nasa_esds_ej-data-catalog_v2_01-25-2023.xlsx",
+      "snippet": "This monthly climatology data set contains a series of land surface ... data are daily, 8-day, and monthly at 1 degree. These data may aid in urban ...",
+      "metadata": {
+        "url": "https://www.earthdata.nasa.gov/s3fs-public/2023-01/nasa_esds_ej-data-catalog_v2_01-25-2023.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "CMO-Historical-Data-Monthly.xlsx",
+      "snippet": "... CK. 1, World Bank Commodity Price Data (The Pink Sheet). 2, monthly prices in nominal US dollars, 1960 to present. 3, (monthly series are ...",
+      "metadata": {
+        "url": "https://thedocs.worldbank.org/en/doc/5d903e848db1d1b83e0ec8f744e55570-0350012021/related/CMO-Historical-Data-Monthly.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "Open Data Human Readable20191112.xlsx",
+      "snippet": "View data by country, by world region, or by OPEC and non-OPEC status. Data in monthly or annual time series. Users of the EIA API are required to obtain an ...",
+      "metadata": {
+        "url": "https://www.energy.gov/sites/prod/files/2019/11/f68/Open%20Data%20Human%20Readable20191112.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "rpadatacatalog_20220515.xlsx",
+      "snippet": "This monthly historical dataset was developed using the daily MACA observational data (METDATA), also called MACA Training Data (https://www ...",
+      "metadata": {
+        "url": "https://research.fs.usda.gov/sites/default/files/2023-05/rpadatacatalog_20220515.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "Target+measures+by+priority+group+-+long+time+series.xlsx",
+      "snippet": "Estimates provided here are averages of three years of data. Three-year averages show trends better than single-year estimates. 7, COVID-19 ...",
+      "metadata": {
+        "url": "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2023/04/additional-child-poverty-analysis-2023/documents/2--target-measures-by-priority-group---longer-time-series/2--target-measures-by-priority-group---longer-time-series/govscot%3Adocument/Target%2Bmeasures%2Bby%2Bpriority%2Bgroup%2B-%2Blong%2Btime%2Bseries.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "IEDR-Use-Cases-Compiled-Excel.xlsx",
+      "snippet": "Peak electricity, gas, and steam demand in various time frames (hourly, daily, weekly, monthly, seasonal, annual) by property type and granular spatial level ( ...",
+      "metadata": {
+        "url": "https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Programs/Clean-Energy-Standard/IEDR-Use-Cases/IEDR-Use-Cases-Compiled-Excel.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "monitoring_networks_-_09-21-17.xlsx",
+      "snippet": "1984-present; historical data for some parameters also available Monthly data; some parameters collected 20 times per year, 19 physical, chemical, and ...",
+      "metadata": {
+        "url": "https://www.chesapeakebay.net/files/monitoring_networks_-_09-21-17.xlsx"
       }
     }
   ]

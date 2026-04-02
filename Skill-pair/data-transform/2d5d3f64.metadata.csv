@@ -1,0 +1,18 @@
+title,"Single cell transcriptome analysis identified a unique neutrophil type associated with Alzheimer's disease (Zhang, et. al, Immune 2024; all cell types)"
+organism,Mouse
+pubmed_id,38918830
+geo_id,GSE255662
+description,"This study used scRNAseq to profil the neutrophil population isolated from 7-month-old APP/PS1 transgenic mouse PBMCs by flow cytometery; compared different clusters of neutrophil transcriptomic features and identified Neu-5 cluster 5 as the cluster that has close correlation with high migratory capacity and pathological AD manifestations; data can be accessed from NCBI GEO: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE255662
+processed code is availble at https://github.com/Zhangxiaolin0/AD-neutrophil-scRNA-seq/; the integrated seurat object used in the nemoize function is provided by the auther : [Zhang_immune_2024_AD_neutrophil] This dataset contains 16708 columns/cells/samples, and 17527 rows/genes/features. "
+datatype,single-cell-rnaseq
+permalink,https://nemoanalytics.org/p?s=2d5d3f64
+platform_id,GPL24247
+instrument_model,Illumina NovaSeq 6000
+library_selection,cDNA
+library_source,transcriptomic single cell
+library_strategy,RNA-Seq
+contact_email,lijin_2021@163.com
+contact_institute,Shanghai Jiaotong University School of Medicine
+contact_name,Jin Li
+annotation_source,ncbi
+annotation_release,GRCm38

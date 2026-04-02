@@ -1,5 +1,5 @@
 {
-  "skill": "D:\\engineer\\SKILL TO INPUT\\SKILLS\\data-transform\\SKILL.md",
+  "skill": "D:\\engineer\\SkillGym-develop\\Skill-pair\\data-transform\\data-transform\\SKILL.md",
   "records": [
     {
       "category": "csv_tsv file",
@@ -15,6 +15,206 @@
       "snippet": "... Clinical, or a prodromal participant confirmed eligible to proceed to PPMI ... Patient Number\",\"CHAR\",\"8\",\"\",\"\",\"\",\"\",\"\",\"\",\"\" \"Biospecimen_Analysis ...",
       "metadata": {
         "url": "https://www.ppmi-info.org/sites/default/files/tables-data/Data_Dictionary_-__Annotated__23May2025.csv"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "Davis lab 200 YFP trap expression.csv",
+      "snippet": "... gene screened?,Compartments with RNA expression,Compartments with no RNA expression,Compartments with protein expression,Compartments with no protein expression ...",
+      "metadata": {
+        "url": "https://zenodo.org/record/7308444/files/Davis%20lab%20200%20YFP%20trap%20expression.csv?download=1"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "biodataome_data.csv",
+      "snippet": "... cell cycle-sc\",,https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=DRP002435 ... rna-seq\",,https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP000599 ...",
+      "metadata": {
+        "url": "http://dataome.mensxmachina.org/biodataome_data.csv"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "patient_all.csv",
+      "snippet": "... participant in a Merck clinical trial and received 3/4 planned doses of a HIV-1 DNA vaccine containing clade B CAM-1 isolate <i>gag</i>. He was seronegative ...",
+      "metadata": {
+        "url": "https://www.hiv.lanl.gov/content/immunology/tables/patient_all.csv"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "On-Board-Passenger-Survey-Data-Sheet-Example.xlsx",
+      "snippet": "Record the data from a survey by starting at the first column and entering the survey ID number. Each survey should have a distinct ID so you can go back and ...",
+      "metadata": {
+        "url": "https://www.oregon.gov/ODOT/RPTD/RPTD%20Document%20Library/On-Board-Passenger-Survey-Data-Sheet-Example.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "chemical-manufacturing-section-114-component-i-response_company_facility.xlsx",
+      "snippet": "The template has been carefully designed so EPA can collect and combine data from all facilities that have received the CAA section 114 survey using predefined ...",
+      "metadata": {
+        "url": "https://www.epa.gov/system/files/documents/2022-01/chemical-manufacturing-section-114-component-i-response_company_facility.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "Title VI Survey Response Spreadsheet_508v3 8 2020.xlsx",
+      "snippet": "SURVEY RESPONSE SPREADSHEET. 2. 3, PART A/B SURVEY RESPONSES. 4, DATE SURVEY CONDUCTED, Date: 5. 6. 7, Survey Number **Be sure to enter the survey number. This ...",
+      "metadata": {
+        "url": "https://acl.gov/sites/default/files/programs/2020-08/Title%20VI%20Survey%20Response%20Spreadsheet_508v3%208%202020.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "Date Entry Spreadsheet.xlsx",
+      "snippet": "Responses to the online survey and paper questionnaire should be entered into columns U-DP. The online survey paradata should be entered in columns DQ-DY.",
+      "metadata": {
+        "url": "https://nhssurveys.org/wp-content/surveys/05-community-mental-health/03-instructions-guidance/2025/Date%20Entry%20Spreadsheet.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "PDS_Outcomes_Survey_Data.xlsx",
+      "snippet": "For each survey administered to a participant, you will fill in one row of the following spreadsheets. Please note there are 4 total spreadsheets, one each for ...",
+      "metadata": {
+        "url": "https://www.michigan.gov/-/media/Project/Websites/mdhhs/Folder3/Folder78/Folder2/Folder178/Folder1/Folder278/PDS_Outcomes_Survey_Data.xlsx?rev=08d8af5fc9144b8890a0f57fd4b4b266"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "Y3_Member_Family_Exp_Survey_locked.xlsx",
+      "snippet": "As shown in the example below, enter the number of responses for each survey response in the yellow cells. ... Upload the completed Excel spreadsheet through the ...",
+      "metadata": {
+        "url": "https://www.azahcccs.gov/PlansProviders/Downloads/TI/Y3_Member_Family_Exp_Survey_locked.xlsx"
+      }
+    },
+    {
+      "category": "xlsx file",
+      "value": "Pareto Charts - Student Spreadsheet.xlsx",
+      "snippet": "Step 1: Categorize your data based on your responses into no more than 7 different categories. 6, Step 2: Create a Pareto Chart with enough rows in column A for ...",
+      "metadata": {
+        "url": "https://www.waketech.edu/sites/default/files/page-file-uploads/Pareto%20Charts%20-%20Student%20Spreadsheet.xlsx"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "rows.csv",
+      "snippet": "... Time,START_TIME_AFTER,,Time of day at which the deflection measurements after undersealing started.,Timestamp,4,,,hhmm,,HRDI,LTPP,Long-Term Pavement ...",
+      "metadata": {
+        "url": "https://data.transportation.gov/api/views/nhvr-exvq/rows.csv?accessType=DOWNLOAD"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "daaa.csv",
+      "snippet": "... Data & Analytics\",Limited,\"Financial transaction data: Sale payments (PoS) and ATM cash withdrawal data from more than 100,000 of its clients in Mexico.\",Data ...",
+      "metadata": {
+        "url": "https://download2.data.world/file_download/joannasleigh/data-sharing-activities/daaa.csv?auth=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwcm9kLXVzZXItY2xpZW50OmpvYW5uYXNsZWlnaCIsImlzcyI6ImFnZW50OmpvYW5uYXNsZWlnaDo6ZjQ1NTUyZWEtZDc1Yi00ZWEyLWFiZGEtMzkyN2NiZTllOTY4IiwiaWF0IjoxNTA0NjQ5MzI0LCJyb2xlIjpbInVzZXJfYXBpX3dyaXRlIiwidXNlcl9hcGlfcmVhZCIsInVzZXJfYXBpX2FkbWluIiwidXNlciJdLCJnZW5lcmFsLXB1cnBvc2UiOmZhbHNlLCJ1cmwiOiJjZjlmNWNlMDFiZThkZjBmYzRmMjg0Y2QxMDIxN2MyZjA3NzZkYjViIn0.DuQLGS_TVO_vQCIp87RRZAgDyLqmwD4AS20Be1gFvCGpe0YM_cbGbUtVRD3IPCvMYwvcf9H8jtqHjl_lk9CLvg"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "registry.csv",
+      "snippet": "... data, including: - Contact Data, such as name, email address, phone number; - Commercial Transaction Data including purchase history, purchasing tendencies ...",
+      "metadata": {
+        "url": "https://cppa.ca.gov/data_broker_registry/registry.csv"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "Download_file_-_Figshare.csv",
+      "snippet": "... variant, study\",333,0.005103756,0,0,1,1.53E-05,0,0,0,0,0,0,\"36,892\",0.565428778,\"dbVAR (Database of Genomic Structural Variation) contains information about ...",
+      "metadata": {
+        "url": "https://ndownloader.figshare.com/files/44335925"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "all_results_mod.csv",
+      "snippet": "... mass extinction,https://www.cambridge.org/core/journals/paleobiology/article ... protein–RNA binding sites by a random forest method with combined ...",
+      "metadata": {
+        "url": "https://zenodo.org/records/17089842/files/all_results_mod.csv?download=1"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "other-listed.csv",
+      "snippet": "... Stock\",\"Agilent Technologies, Inc. Common Stock\",N,A,N,100.0,N,A AA,Alcoa ... price of $11.50\",\"Archer Aviation Inc. Redeemable Warrants, each whole ...",
+      "metadata": {
+        "url": "https://datahub.io/core/nyse-other-listings/_r/-/data/other-listed.csv"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "stocks_nasdaq.csv",
+      "snippet": "... Financial Inc.\",AMFI, \"Amgen Inc.\",AMGN, \"AMIS Holdings Inc.\",AMIS, \"Amkor ... Stock Market, Inc.\",NDAQ, \"Nordson Corp.\",NDSN, \"Neogen Corp.\",NEOG ...",
+      "metadata": {
+        "url": "https://db.cs.cmu.edu/files/data/stocks/stocks_nasdaq.csv"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "syd-prices.csv",
+      "snippet": "\"Historical stock prices provided by CSI, Inc. Historical mutual fund and industry prices provided by Media General Financial Services.\",,,, Sybron ...",
+      "metadata": {
+        "url": "https://www.bivio.com/trez_talk/file/Public/stocks/syd-prices.csv"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "Supplemental Table 1.csv",
+      "snippet": "... gene;Acc:613720],-0.0926,0.7866,0.0000,0.0990,0.5577,0.0042,0.0222,0.9161 ... matrix associated, actin dependent regulator of chromatin, subfamily d ...",
+      "metadata": {
+        "url": "https://ndownloader.figshare.com/files/44531144"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "9d279a39.metadata.csv",
+      "snippet": "... single-nucleus RNA sequencing to entorhinal cortex samples from 6 control and 6 Alzheimer<e2><80><99>s disease brains, yielding a total of 13,214 high ...",
+      "metadata": {
+        "url": "https://nemoanalytics.org/cgi/download_source_file.cgi?type=metadata&share_id=9d279a39"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "0b5c8b19.metadata.csv",
+      "snippet": "title,Single-cell analysis of shared signatures and transcriptional ... dataset contains 4542 columns/cells/samples, and 36250 rows/genes/features ...",
+      "metadata": {
+        "url": "https://umgear.org/cgi/download_source_file.cgi?type=metadata&share_id=0b5c8b19"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "2d5d3f64.metadata.csv",
+      "snippet": "title,\"Single cell transcriptome analysis identified a unique neutrophil type associated with Alzheimer's disease (Zhang, et. al, Immune 2024; all cell ...",
+      "metadata": {
+        "url": "https://nemoanalytics.org/cgi/download_source_file.cgi?type=metadata&share_id=2d5d3f64"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "b66ba0e3.metadata.csv",
+      "snippet": "title,Single-cell transcriptome analysis reveals three sequential phases of gene expression during zebrafish sensory hair cell regeneration: only 4 cell ...",
+      "metadata": {
+        "url": "https://umgear.org/cgi/download_source_file.cgi?type=metadata&share_id=b66ba0e3"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "journal.pbio.3002007.s020.csv",
+      "snippet": "... Table.txt.gz,0.753341282369743,\"(0.7,0.8]\" GSE100547,GSE100547_Expression ... results.csv.gz,0.546371826125812,\"(0.5,0.6]\" GSE102237 ...",
+      "metadata": {
+        "url": "http://journals.plos.org/plosbiology/article/asset?unique&id=info:doi/10.1371/journal.pbio.3002007.s020"
+      }
+    },
+    {
+      "category": "csv_tsv file",
+      "value": "listing_status.csv",
+      "snippet": "... Stock,2023-08-30,null,Active A,Agilent Technologies Inc,NYSE,Stock,1999-11-18,null,Active AA,Alcoa Corp,NYSE,Stock,2016-10-18,null,Active AAA,ALTERNATIVE ...",
+      "metadata": {
+        "url": "https://www.alphavantage.co/query?function=LISTING_STATUS&apikey=demo"
       }
     }
   ]

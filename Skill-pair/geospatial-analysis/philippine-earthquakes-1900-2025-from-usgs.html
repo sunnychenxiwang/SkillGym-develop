@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>&#x1F1F5;&#x1F1ED; Philippine Earthquakes 1900-2026 (from USGS) | Kaggle</title>
+  <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+  <meta name="description" content="&#x1F1F5;&#x1F1ED; Philippine Earthquakes 1900-2026 from United States Geological Survey" />
+    <meta name="keywords" content="earth and nature,tabular,earth science,research,natural disasters" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC" />
+  <script nonce="59wlCvP/ivNmNotlvgDFvA==" type="text/javascript">
+    window["pageRequestStartTime"] = 1775117069210;
+    window["pageRequestEndTime"] = 1775117069305;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <script nonce="59wlCvP/ivNmNotlvgDFvA==" id="gsi-client" src="https://accounts.google.com/gsi/client" async defer></script>
+  <script nonce="59wlCvP/ivNmNotlvgDFvA==">window.KAGGLE_JUPYTERLAB_PATH = "/static/assets/jupyterlab-v4/jupyterlab-index-395ada52cdf7a4ee.html";</script>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+    <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" id="dynamic-favicon" />
+  <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css2?family=Google+Symbols:FILL@0..1&display=block"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="stylesheet" media="print" id="async-google-font-1" />
+  <link href="https://fonts.googleapis.com/css2?family=Google+Symbols:FILL@0..1&display=block"
+    rel="stylesheet" media="print" id="async-google-font-2" />
+  <script nonce="59wlCvP/ivNmNotlvgDFvA==" type="text/javascript">
+    const styleSheetIds = ["async-google-font-1", "async-google-font-2"];
+    styleSheetIds.forEach(function (id) {
+      document.getElementById(id).addEventListener("load", function() {
+        this.media = "all";
+      });
+    });
+  </script>
+
+
+    <link rel="canonical" href="https://www.kaggle.com/datasets/bwandowando/philippine-earthquakes-1900-2025-from-usgs" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=a53f951c511cf82e" />
+
+  
+    
+ 
+      <script nonce="59wlCvP/ivNmNotlvgDFvA==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="59wlCvP/ivNmNotlvgDFvA==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-T7QHS60L4Q', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets',
+            'user_properties': {
+                'logged_in': false,
+            }
+        });
+    </script>
+    <script nonce="59wlCvP/ivNmNotlvgDFvA==" async src="https://www.googletagmanager.com/gtag/js?id=G-T7QHS60L4Q"></script>
+
+
+  
+    
+    <meta property="og:url" content="https://www.kaggle.com/datasets/bwandowando/philippine-earthquakes-1900-2025-from-usgs" />
+    <meta property="og:title" content="&#x1F1F5;&#x1F1ED; Philippine Earthquakes 1900-2026 (from USGS)" />
+    <meta property="og:description" content="&#x1F1F5;&#x1F1ED; Philippine Earthquakes 1900-2026 from United States Geological Survey" />
+    <meta property="og:type" content="website" />
+    <meta property="fb:app_id" content="2665027677054710" />
+
+        <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/8473727/13359470/003bd020c9c6cd4545b7c981292143a7/dataset-card.jpeg?t=2025-10-13-01-36-07" />
+        <meta property="twitter:image" content="https://storage.googleapis.com/kaggle-datasets-images/8473727/13359470/003bd020c9c6cd4545b7c981292143a7/dataset-card.jpeg?t=2025-10-13-01-36-07" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@kaggledatasets" />
+
+
+
+
+  <meta name="twitter:site" content="@Kaggle" /> 
+  
+    
+    <script nonce="59wlCvP/ivNmNotlvgDFvA==" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"🇵🇭 Philippine Earthquakes 1900-2026 (from USGS)","description":"## Banner\n![](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1842206%2Fd3081fbb6ec3c04548fa1a141c9c5bb1%2F_c3019c49-6433-4401-9bb1-a5df2e10afa3.jpeg?generation=1760319593856581&amp;alt=media)\n\n## What is USGS?\n&gt; The United States Geological Survey (USGS), founded as the Geological Survey, is an agency of the United States Department of the Interior whose work spans the disciplines of biology, geography, geology, and hydrology. The agency was founded on March 3, 1879, to study the landscape of the United States, its natural resources, and the natural hazards that threaten it. The agency also makes maps of planets and moons, based on data from U.S. space probes.\n\nFrom http://en.wikipedia.org/wiki/United_States_Geological_Survey\n\n## (The) Philippines is prone to earthquakes\n&gt; **The Philippines** lies within the zone of complex interaction between several tectonic plates, involving multiple subduction zones and one large zone of strike-slip, all of which are associated with major earthquakes. Many intraplate earthquakes of smaller magnitude also occur very regularly due to the interaction between the major tectonic plates in the region. \n\nFrom https://en.wikipedia.org/wiki/List_of_earthquakes_in_the_Philippines#Seismicity\n\n&gt; Given the presence of major fault zones throughout the archipelago, any part of the Philippines may be affected by earthquakes, apart from parts of Palawan, where the seismic hazard risk is comparatively low. \n\nFrom https://en.wikipedia.org/wiki/List_of_earthquakes_in_the_Philippines#Seismic_hazard\n\n## Data Source\nlook at **\"query\"** in https://earthquake.usgs.gov/fdsnws/event/1/\n\n## Data Dictionary\n- https://earthquake.usgs.gov/data/comcat/index.php\n- https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php\n- https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson_detail.php\n\n## Navigate to geojson event detail(s)\n-  https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=XXXXX&amp;format=geojson\n\nwhere **XXXXX** is Id of the event\n\n## Missing Data\n&gt; **We may not rapidly locate earthquakes smaller than 5.0 outside the U.S. unless they have caused significant damage or are widely felt**. Earthquakes this small rarely cause significant damage. At times, some other agency may report an earthquake with a larger magnitude than what we compute from our data, especially for non-U.S. events near magnitude 5.0. If our magnitude for the event is less than magnitude 5.0, we may not issue a rapid report for it.\n\n[About Missing Data](https://earthquake.usgs.gov/earthquakes/map/?extent=19.43551,-137.19727&amp;extent=53.43572,-52.82227&amp;list=false&amp;map=false&amp;about=true&amp;help=missing)\n\n## Related Dataset\n[🇵🇭 Philippine Earthquakes (from PHIVOLCS)](https://www.kaggle.com/datasets/bwandowando/philippine-earthquakes-from-phivolcs)\n\n## Image\nGenerated with Bing Image Generator","url":"https://www.kaggle.com/bwandowando/philippine-earthquakes-1900-2025-from-usgs","version":39,"keywords":["subject, earth and nature","data type, tabular","subject, earth and nature, earth science","subject, science and technology, research","subject, earth and nature, environment, natural disasters"],"license":{"@type":"CreativeWork","name":"Apache 2.0","url":"https://www.apache.org/licenses/LICENSE-2.0"},"identifier":["8473727"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Person","name":"BwandoWando","url":"https://www.kaggle.com/bwandowando","image":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1842206-kg.jpg?t=2026-02-19-06-04-41"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/datasets/bwandowando/philippine-earthquakes-1900-2025-from-usgs/download?datasetVersionNumber=39","contentSize":"1691207 bytes"}],"commentCount":0,"dateModified":"2026-04-01T05:15:32.25Z","discussionUrl":"https://www.kaggle.com/bwandowando/philippine-earthquakes-1900-2025-from-usgs/discussion","alternateName":"🇵🇭 Philippine Earthquakes 1900-2026 from United States Geological Survey","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/8473727/13359470/003bd020c9c6cd4545b7c981292143a7/dataset-card.jpeg?t=2025-10-13-01-36-07","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":0},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":154},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":1140},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":4}]}</script>
+
+
+  
+    
+
+  
+    
+
+
+
+    <script nonce="59wlCvP/ivNmNotlvgDFvA==">window['useKaggleAnalytics'] = true;</script>
+
+  <script id="gapi-target" nonce="59wlCvP/ivNmNotlvgDFvA==" src="https://apis.google.com/js/api.js" defer
+    async></script>
+  <script nonce="59wlCvP/ivNmNotlvgDFvA==" src="/static/assets/runtime.js?v=44db21ee23333954"></script>
+  <script nonce="59wlCvP/ivNmNotlvgDFvA==" src="/static/assets/vendor.js?v=b58ece3666e973c5"></script>
+  <script nonce="59wlCvP/ivNmNotlvgDFvA==" src="/static/assets/app.js?v=306ad9b546906c0f"></script>
+    <script nonce="59wlCvP/ivNmNotlvgDFvA==" type="text/javascript">
+      window.kaggleStackdriverConfig = {
+        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+        projectId: 'kaggle-161607',
+        service: 'web-fe',
+        version: 'ci',
+        userId: '0'
+      }
+    </script>
+</head>
+<body>
+  <div id="root">
+    
+
+
+
+
+
+
+
+
+<script nonce="59wlCvP/ivNmNotlvgDFvA==" type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    jax: ['input/TeX', 'output/SVG'],
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    extensions: ["Safe.js"],
+    });
+</script>
+<script type="text/javascript" nonce="59wlCvP/ivNmNotlvgDFvA==">
+  window.addEventListener("DOMContentLoaded", () => {
+    const head = document.getElementsByTagName("head")[0];
+    const lib = document.createElement("script");
+    lib.type = "text/javascript";
+    // Always use the production asset in local dev, which is served from GCS. We tried to proxy and / or serve this
+    // in a better way in localhost, but it didn't work out. See b/328073416#comment8 for details.
+    const forceProdHost = window.location.hostname === "localhost";
+    lib.src = `${forceProdHost ? "https://www.kaggle.com" : ""}/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS_SVG`;
+    head.appendChild(lib);
+  });
+</script>
+
+
+
+
+
+
+
+
+  </div>
+</body>
+</html>

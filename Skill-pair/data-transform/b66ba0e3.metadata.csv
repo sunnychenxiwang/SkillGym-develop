@@ -1,0 +1,17 @@
+title,Single-cell transcriptome analysis reveals three sequential phases of gene expression during zebrafish sensory hair cell regeneration: only 4 cell types in hair cell trajectory (Baek et al. 2022)
+organism,Zebrafish
+pubmed_id,35316618
+geo_id,N/A
+description,"Single-cell transcriptome analysis reveals three sequential phases of gene expression during zebrafish sensory hair cell regeneration only 4 cell types in hair cell trajectory: HC_progenitors, Young_HCs, Mature_HCs, & Central_support_cells ONLY (both homeostatic and injury) (Baek et al. 2022) : [DrLateralLineRegenTP_4cellTypes_Int.newDimRed.splitNinteg] This dataset contains 38121 columns/cells/samples, and 28285 rows/genes/features. "
+datatype,single-cell-rnaseq
+permalink,https://umgear.org/p?s=b66ba0e3
+platform_id,N/A
+instrument_model,N/A
+library_selection,N/A
+library_source,N/A
+library_strategy,N/A
+contact_email,ccolantu@jhmi.edu
+contact_institute,Johns Hopkins University
+contact_name,Carlo Colantuoni
+annotation_source,Ensembl
+annotation_release,95

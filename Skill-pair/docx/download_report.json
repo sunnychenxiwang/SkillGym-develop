@@ -1,5 +1,5 @@
 {
-  "skill": "C:\\Users\\yt\\Desktop\\SKILLS\\docx\\SKILL.md",
+  "skill": "D:\\engineer\\SkillGym-develop\\Skill-pair\\docx\\docx\\SKILL.md",
   "records": [
     {
       "category": "docx file",
@@ -39,14 +39,6 @@
       "snippet": "[Report Title]. [Name]. [Business info]. Executive ... Content. Heading 1 x. Heading 2 x. Heading 3 x. Heading 1 x. Heading 2 x. Heading 3 x. Table Column Header.",
       "metadata": {
         "url": "https://nova-live-content.s3.eu-west-2.amazonaws.com/public/content-downloadable/Business_Report_Template.docx"
-      }
-    },
-    {
-      "category": "docx file",
-      "value": "Report_Template_-_CalRecycle_-_CA.gov",
-      "snippet": "The table of contents can be automatically generated if you have used appropriate paragraph styles (i.e., Heading 1, Heading 2) throughout the document. In Word ...",
-      "metadata": {
-        "url": "https://www2.calrecycle.ca.gov/Docs/Web/130821"
       }
     },
     {
@@ -327,6 +319,718 @@
       "snippet": "(ii) If the author wants to insert three multi-part images, they must draw a one-row and three-column table and insert the images one by one in all three cells.",
       "metadata": {
         "url": "https://pdc2022.org/wp-content/uploads/2021/08/acm_submission_template.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "enaletterheadtemplate-(1).docx",
+      "snippet": "Step 1: Go to View (in menu bar), click “header and footer”. Step 2: Highlight “Address” line and type in your address on this line. The font should be ...",
+      "metadata": {
+        "url": "https://www.ena.org/sites/default/files/2024-11/enaletterheadtemplate-%281%29.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "HolmesCC-Letterhead.docx",
+      "snippet": "[Company] [Address 1] [Address 2] [Address 3]. Dear [Recipient]: TYPE MESSAGE HERE. Sincerely,. Your Name Here [Your Title]",
+      "metadata": {
+        "url": "https://holmescc.edu/pdf/marketing/HolmesCC-Letterhead.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Brookdale-ASBDC-NJ-Letterhead-Template-2014-1.docx",
+      "snippet": "To add your own logo just right-click the placeholder logo, and then click Change Picture. If you love the look (and who wouldn't?), see other templates ...",
+      "metadata": {
+        "url": "https://www.njsbdc.com/wp-content/uploads/2018/05/Brookdale-ASBDC-NJ-Letterhead-Template-2014-1.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "SCCAHS-Letterhead-2.docx",
+      "snippet": "That heading usually consists of a name and an address, and a logo or corporate design, and sometimes a background pattern. Sincerely,. Name.",
+      "metadata": {
+        "url": "https://www.sccahs.org/wp-content/uploads/2022/04/SCCAHS-Letterhead-2.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "JaxState-Digital-Letterhead.docx",
+      "snippet": "This electronic letterhead template is available for creating official university communications and is intended for digital distribution only. • After you've ...",
+      "metadata": {
+        "url": "https://www.jsu.edu/designlicensing/templates/JaxState-Digital-Letterhead.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "letterhead-template.docx",
+      "snippet": "JA Company Logo Here. Your Address Line 1. Your Address Line2. Your Town. Isle of Man. Your Postcode. Your Tel Number. Your E-mail/ Web Address.",
+      "metadata": {
+        "url": "https://www.jaiom.im/media/gemmzgze/letterhead-template.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "ilr-letterhead-template_v2.docx",
+      "snippet": "Company Name. Address. City, State ZIP. Salutation: This template represents the personalized version of Cornell University's letterhead on ...",
+      "metadata": {
+        "url": "https://www.ilr.cornell.edu/sites/default/files-d8/2026-01/ilr-letterhead-template_v2.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "E-letterhead_template.docx",
+      "snippet": "",
+      "metadata": {
+        "url": "https://www.wpi.edu/sites/default/files/docs/Offices/Marketing-Communications/E-letterhead_template.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Deluxe-Startup-Business-Plan-Template.docx",
+      "snippet": "The Executive Summary is the most important part of your business plan. Often, it's the only part that a prospective investor or lender reads before deciding ...",
+      "metadata": {
+        "url": "https://www.hccs.edu/media/Deluxe-Startup-Business-Plan-Template.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "business-proposal-template.docx",
+      "snippet": "Executive Summary. 1-5 sentences. Follow the BLUF principle (Bottom Line Up Front). The executive summary, or proposal summary, should be brief. Concretely ...",
+      "metadata": {
+        "url": "https://laerdal.com/cdn-4911c4/globalassets/documents/business-proposal-template.docx?srsltid=AfmBOopLCFTMvXmmi4-PTwVhqINR17tzxgfvebRAbSe_Ik68PuOPYOuZ"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Business-Plan-Template.docx",
+      "snippet": "The Executive Summary should be a maximum of one page! Include everything ... What are the pricing, fee, or leasing structures of your products or services?",
+      "metadata": {
+        "url": "https://gjincubator.org/wp-content/uploads/2024/04/Business-Plan-Template.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "ATT-2-Full-Proposal-Format-1.docx",
+      "snippet": "The Executive Summary shall contain the following information: • Summary Statement: Provide a succinct statement of the aim of the project ...",
+      "metadata": {
+        "url": "https://www.americasdatahub.org/wp-content/uploads/2023/07/ATT-2-Full-Proposal-Format-1.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "business_plan_outline_tbcc_sbdc.docx",
+      "snippet": "Describe how you are developing the pricing of your products and/or services. Discuss any pricing research and/or benchmarking you are using. TEXT. Budget.",
+      "metadata": {
+        "url": "https://smallfarms.oregonstate.edu/sites/agscid7/files/smallfarms/business_plan_outline_tbcc_sbdc.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "FY24-Phase-II-Template.docx",
+      "snippet": "This executive summary should address the following: the company's overall objectives, a description of the company and technology developments to date, a ...",
+      "metadata": {
+        "url": "https://venturelab.gatech.edu/sites/default/files/docs/FY24-Phase-II-Template.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Business Case Template.docx",
+      "snippet": "Table of Tables. Table 1: Goals and Objectives 5. Table 2: Alternative Analysis 7. Table 3: Milestones 9. Table 4: Document Acronyms 10. Executive Summary. This ...",
+      "metadata": {
+        "url": "https://watech.wa.gov/sites/default/files/2026-01/Business%20Case%20Template.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "[DOC]_business-plan-template-3_-_-_Iowa_SBDC.docx",
+      "snippet": "Attach any necessary financial documents and supporting information. Executive Summary. Business Description. Products and/or Services.",
+      "metadata": {
+        "url": "https://iowasbdc.org/business-plan-template-3/"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Contract routing sheet template 1.docx",
+      "snippet": "1. Does the contract reflect the Board of Regents as the contracting party, especially in the signature block?",
+      "metadata": {
+        "url": "https://wnc.edu/controller/Contract%20routing%20sheet%20template%201.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "[DOC]_Attachment_2_–_Standard_Terms_and_Conditions_-_Califor.docx",
+      "snippet": "SIGNATURE BLOCK WILL BE INCLUDED ON THE FINAL CONTRACT. APPENDIX A. Services. 1. Background, Purpose, and Ordering. 1.1 This Agreement sets forth the terms and ...",
+      "metadata": {
+        "url": "https://courts.ca.gov/system/files?file=solicitation-request-document/tcas-2018-05-ms-attachment-2-standard-terms-and-conditions.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Acquisition_Agreement_Form_JAN2023.docx",
+      "snippet": "This Basic Ordering Agreement (Agreement) is entered into as of [DATE Executed] between the General Services Administration, represented by the Contracting ...",
+      "metadata": {
+        "url": "https://www.gsa.gov/cdnstatic/Acquisition_Agreement_Form_JAN2023.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "GrantAgreement 2025_05 Accessible (BIT Remediated)_clean.docx",
+      "snippet": "Each person signing this Agreement represents and warrants that the signer is duly authorized to execute this Agreement and to bind the Party authorizing such ...",
+      "metadata": {
+        "url": "https://osc.colorado.gov/sites/osc/files/documents/GrantAgreement%202025_05%20Accessible%20%28BIT%20Remediated%29_clean.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "IT-contract-clauses.docx",
+      "snippet": "It is information that is specifically protected by either state or federal law, and is exempt from public disclosure. Encryption of data in transit and at rest.",
+      "metadata": {
+        "url": "https://des.wa.gov/sites/default/files/2025-09/IT-contract-clauses.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "rfp0005-exhibit-1.docx",
+      "snippet": "Billing for services not separately delineated (commonly known as “block billing”) is not acceptable. 2. The Agreement #ICM XXXX and Counsel's taxpayer ...",
+      "metadata": {
+        "url": "https://www.osc.ny.gov/files/procurement/docs/rfp0005-exhibit-1.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Solicitation0900000196SampleAgreement.docx",
+      "snippet": "Signature Block 19. A. Contract. A.1. Entire Agreement. The documents comprising this Contract (hereinafter defined) provide the governing terms and conditions ...",
+      "metadata": {
+        "url": "https://oklahoma.gov/content/dam/ok/en/omes/documents/Solicitation0900000196SampleAgreement.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "OM-RFP-template-PV-systems.docx",
+      "snippet": "“Contract,” also referred to as “Agreement” means the mutual binding legal relationship, resulting from this solicitation, including Sections A-K of the Request ...",
+      "metadata": {
+        "url": "https://www.energy.gov/sites/default/files/2021-06/OM-RFP-template-PV-systems.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "5-5324_contract_estimated_volume_final_5.26.23_508.docx",
+      "snippet": "The contract is not in effect until signed by the Approving Officer and the Approving Officer signature date is considered the Approval date of the Contract.",
+      "metadata": {
+        "url": "https://www.bia.gov/sites/default/files/dup/assets/public/raca/online_forms/pdf/5-5324_contract_estimated_volume_final_5.26.23_508.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "template-scholarly-works.docx",
+      "snippet": "If you include an abstract, different sections within the chapter, and references within this manuscript chapter, they should all begin as first level headings.",
+      "metadata": {
+        "url": "https://www.montana.edu/etd/documents/template-scholarly-works.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Template_hem_research-paper.docx",
+      "snippet": "All figures and tables should be cited in the main text as Figure 1, Table 1, etc. ... The title of the table should be short, informative, and reveal its content ...",
+      "metadata": {
+        "url": "https://armgpublishing.com/wp-content/uploads/2025/10/Template_hem_research-paper.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "research-paper-format.docx",
+      "snippet": "Set alignment “Justify” for all normal paragraphs. (Headings, captions, figures, tables are center aligned; and References are left aligned.) • Except paper's ...",
+      "metadata": {
+        "url": "https://www.ijirmps.org/downloads/research-paper-format.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Donnelly College Capstone Template.docx",
+      "snippet": "Table of Contents. [REQUIRED – Insert your Table of Contents (TOC) here. The text for the table of contents must be single-spaced (double-spaced from the ...",
+      "metadata": {
+        "url": "https://www.donnelly.edu/students/library/files/images/Donnelly%20College%20Capstone%20Template.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "[DOC]_Download_the_Thesis_Document_Template_-_Clark_Honors_C.docx",
+      "snippet": "Some styles are also used in this template to populate the entries in the Table of Contents, List of Figures and List of Tables. How to apply a style: 1. On ...",
+      "metadata": {
+        "url": "https://honors.uoregon.edu/thesistemplate"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "APA-Style-Template-in-Word-7th-Ed..docx",
+      "snippet": "... Table citations are noted above the table. Note that tables in APA only use horizontal lines, not vertical lines. Where possible, Graphs, Figures and Tables ...",
+      "metadata": {
+        "url": "https://thelearningsciences.com/wp-content/uploads/2020/02/APA-Style-Template-in-Word-7th-Ed..docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "ajrsa_template.docx",
+      "snippet": "For citations in the text, use the name, date system. For the references section at the end of the paper, use APA 6th style ...",
+      "metadata": {
+        "url": "https://docs.lib.purdue.edu/ajrsa/ajrsa_template.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "resume-template-graduate.docx",
+      "snippet": "• You may also use this section to list your skill set and/or highlight your overall strengths and experience. • Tailor this section as appropriate for the ...",
+      "metadata": {
+        "url": "https://business.purdue.edu/careers/resources/resume-template-graduate.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "HCU-Chronological-Resume-Template.docx",
+      "snippet": "Skills Section: Every résumé should possess a skills section. This is a section where you add bullets regarding any software you are familiar with such as ...",
+      "metadata": {
+        "url": "https://hc.edu/publications/student-success/career-calling/HCU-Chronological-Resume-Template.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Resume-Template-Pro-Practice_-23.docx",
+      "snippet": "○ Follow the same bullet format as experience section. ○ Showcase relevant skills, experiences and results of the project. ○ Projects should be relevant to ...",
+      "metadata": {
+        "url": "https://coop.utk.edu/wp-content/uploads/2024/09/Resume-Template-Pro-Practice_-23.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "project-meeting-minutes-template.docx",
+      "snippet": "PROJECT MEETING MINUTES. MEETING / PROJECT NAME: Meeting Title. MINUTES PREPARED BY: Sara Hudson. 1. MEETING OBJECTIVE. Remarks. 2. ATTENDEES PRESENT. NAME.",
+      "metadata": {
+        "url": "https://www.smartsheet.com/file/project-meeting-minutes-template.docx?srsltid=AfmBOop_psoEBSgUEqYVe3HtwbjMUsgQhjjUq4WauKRg4cuCAjm8W6Wm"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "IC-Project-Team-Meeting-Minutes-11856_WORD.docx",
+      "snippet": "PROJECT TEAM MEETING MINUTES TEMPLATE. 1. MEETING DETAILS. DATE. LOCATION. START TIME. END TIME. MM/DD/YY. ATTENDEES.",
+      "metadata": {
+        "url": "https://www.smartsheet.com/sites/default/files/2023-10/IC-Project-Team-Meeting-Minutes-11856_WORD.docx?srsltid=AfmBOooj3PKoSvZ0t-GZuKpzTY8GwZw68USGjsOfW33c0y4KWL1oRAb4"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Staff Meeting Minutes Template.docx",
+      "snippet": "STAFF MEETING MINUTES. FACILITATOR: Sara Hudson. MINUTE TAKER: Anna James. TIME ... Action Item Reports. TIME ALLOCATED: 5 min. ACTION TO BE TAKEN BY: Anna ...",
+      "metadata": {
+        "url": "https://www.smartsheet.com/sites/default/files/Staff%20Meeting%20Minutes%20Template.docx?srsltid=AfmBOoqmK3mX4JUtZHqdiudDJXqSKm8CzGhjuQm8TluNWzZAgrLLiED1"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "MT-Meeting-Notes-Template.docx",
+      "snippet": "Refine the template to suit your needs. 2. Record the meeting participants and document who attended. 3. Start the meeting with a review of the action items ...",
+      "metadata": {
+        "url": "https://phii.org/wp-content/uploads/2021/07/MT-Meeting-Notes-Template.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Meeting-Minutes-Template.docx",
+      "snippet": "Action requested: Motion to approve, accept or ratify items listed on consent agenda as submitted. Motion: Support: Ayes: Nays: XI.",
+      "metadata": {
+        "url": "https://www.lssu.edu/wp-content/uploads/2017/07/Meeting-Minutes-Template.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "[DOC]_Meeting_Minutes_Template_(DOCX)_-_Fairbanks_North_Star.docx",
+      "snippet": "***SAMPLE MEETING MINUTES TEMPLATE***. NOTE: Agenda items not needed for a specific meeting can be deleted and the agenda renumbered ... Minutes from [DATE OF ...",
+      "metadata": {
+        "url": "https://www.fnsb.gov/DocumentCenter/View/1308/Meeting-Minutes-Template-DOCX"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Meeting Agenda and Minutes.docx",
+      "snippet": "[The Project Meeting Agenda provides advance notice to meeting participants and other Stakeholders about the meeting's overall objectives, agenda/action items, ...",
+      "metadata": {
+        "url": "https://doit.maryland.gov/MITDP-Oversight/Documents/Meeting%20Agenda%20and%20Minutes.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Meeting_Minutes_Template.docx",
+      "snippet": "You can jot down feedback, comments, and ideas from the attendees below each agenda item. ... Action Items: Minutes will be word-processed and sent out to all ...",
+      "metadata": {
+        "url": "https://californiadeca.org/wp-content/uploads/2019/07/Meeting_Minutes_Template.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "meeting-agenda-and-minutes-template.docx",
+      "snippet": "Attendees: (list names) ... General discussion items, decisions made, etc… •. •. •. #. Action Item/s. Owner.",
+      "metadata": {
+        "url": "https://foa.ucdavis.edu/sites/g/files/dgvnsk3426/files/inline-files/meeting-agenda-and-minutes-template.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "meeting-minutes-template---formatted.docx",
+      "snippet": "Future Agenda Items for Meetings. Topic/Item. Category. Key Points: Provide 50 words or less ... action items (along with due dates and person(s) responsible)",
+      "metadata": {
+        "url": "https://www.clackamas.edu/docs/default-source/shared-governance-templates/meeting-minutes-template---formatted.docx?sfvrsn=f692606b_1"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Itemized Pay Statement Notice Template.docx",
+      "snippet": "The itemized statement must include the date of the payment, the pay period dates, the name of the employee and the employer, and the employer's business ...",
+      "metadata": {
+        "url": "https://www.oregon.gov/boli/employers/Documents/Itemized%20Pay%20Statement%20Notice%20Template.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "PSC Blank Invoice Form.dotx",
+      "snippet": "Invoices shall be submitted every ninety (90) days, unless the personal service contract specifies a different submission time period. Separate invoices shall ...",
+      "metadata": {
+        "url": "https://transportation.ky.gov/ProfessionalServices/Forms/PSC%20Blank%20Invoice%20Form.dotx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "SHRM-Sample-Employee-Handbook-2023.docx",
+      "snippet": "Any employee handbooks should be reviewed by your legal counsel for compliance with federal and state laws and regulations and should be modified to suit your ...",
+      "metadata": {
+        "url": "https://www.shrm.org/content/dam/en/shrm/business-solutions/SHRM-Sample-Employee-Handbook-2023.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "1-Employee-Handbook.docx",
+      "snippet": "This handbook will serve as your point of reference for standards, policies and procedures that Power Personnel, Inc. employees are expected to follow. It is ...",
+      "metadata": {
+        "url": "https://www.powerpersonnel.com/wp-content/uploads/2021/06/1-Employee-Handbook.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "FARM_WD_HR-Employee-Handbook-Sample.docx",
+      "snippet": "The information and policies listed in this handbook will help you understand what is expected of you in your job and be successful in your employment with us.",
+      "metadata": {
+        "url": "https://nationaldairyfarm.com/wp-content/uploads/2019/03/FARM_WD_HR-Employee-Handbook-Sample.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Template - Company Employee Handbook - June 2024.docx",
+      "snippet": "The Workplace Guidelines and Policies section sets clear expectations and standards for employee conduct and performance within the organization. It includes ...",
+      "metadata": {
+        "url": "https://2930928.fs1.hubspotusercontent-na1.net/hubfs/2930928/Content%20Downloads/Template%20-%20Company%20Employee%20Handbook%20-%20June%202024.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "List-of-Policies-and-sample-language-for-employee-handbooks-Jewelie-Grape-9.25.docx",
+      "snippet": "Therefore, ORGANZATION requires that you follow all policies and procedures related to timekeeping. ATTENDANCE AND PUNCTUALITY. All employees are expected to ...",
+      "metadata": {
+        "url": "https://mpls-synod.org/wp-content/uploads/List-of-Policies-and-sample-language-for-employee-handbooks-Jewelie-Grape-9.25.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Employee-handbook-DCHS.docx",
+      "snippet": "I understand that this Handbook's policies are intended only as guidelines, not as a contract of employment. I understand that my employment is on \"at-will\" ...",
+      "metadata": {
+        "url": "https://www.delcarehealth.com/storage/app/media/Employee-handbook-DCHS.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "employee-handbook-template-01.docx",
+      "snippet": "This handbook replaces previous employee handbooks, memos, and manuals. We reserve the right to interpret, cancel, change, suspend, or dispute, with or without ...",
+      "metadata": {
+        "url": "https://aact.org/sites/default/files/2025-02/employee-handbook-template-01.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "TWX_JARVIS_Example_Project_Milestones_Template.docx",
+      "snippet": "Milestone: Completion of the initial cost-benefit analysis. Expected Duration: Month 3. Cost-benefit analysis report summarized in a quarterly technical report.",
+      "metadata": {
+        "url": "https://www.techwerx.org/files/opportunities/TWX_JARVIS_Example_Project_Milestones_Template.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "monthly_status_report_msr.docx",
+      "snippet": "PROJECT STATUS REPORT. Project. Reporting period. Project Sponsor. Project ... Project Milestones. Status. Baseline Completion Date. Expected Completion Date.",
+      "metadata": {
+        "url": "https://it.stonybrook.edu/sites/default/files/landing-pages/34528/monthly_status_report_msr.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Project-Delivery-Lifecyle-Project-Status-Report-.docx",
+      "snippet": "1. Will any upcoming critical path milestones or deliverables miss their planned completion date(s)?. 2. Do any key milestones or ...",
+      "metadata": {
+        "url": "https://cdt.ca.gov/wp-content/uploads/2025/05/Project-Delivery-Lifecyle-Project-Status-Report-.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Final-Technical-Report-Template-Part-I-1223.docx",
+      "snippet": "List the milestones attained and the deliverables available in this reporting segment resulting from progress in the project during previous segments and during ...",
+      "metadata": {
+        "url": "https://www.birdf.com/wp-content/uploads/2025/02/Final-Technical-Report-Template-Part-I-1223.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Monitoring Report Template.docx",
+      "snippet": "List the project's major milestones, and the planned and actual start and finish dates (mm/dd/yy). Specifically include deliverables/sprint completion in ...",
+      "metadata": {
+        "url": "https://dir.texas.gov/sites/default/files/2021-11/Monitoring%20Report%20Template.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "SOWTemplate.docx",
+      "snippet": "Include milestones that are to be accomplished as applicable and as identified on the milestone schedule. Milestones can include such things as preliminary ...",
+      "metadata": {
+        "url": "https://vpresearch.louisiana.edu/sites/research/files/SOWTemplate.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "project-management-plan.docx",
+      "snippet": "7.2 Project Schedule & Milestones. FDOT Recommended for R&C Categories 1-4 ... reporting variances in schedule, cost, or scope and emerging risks or issues.",
+      "metadata": {
+        "url": "https://fdotwww.blob.core.windows.net/sitefinity/docs/default-source/it/pdm/pdm3.0/project-management-plan.docx?sfvrsn=89fb88b9_2"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "[DOC]_Press_Release_Template_(DOCX).docx",
+      "snippet": "BOILERPLATE. ###. CONTACT INFORMATION: FULL NAME. TITLE. COMPANY. PHONE EMAIL ... {COMPANY WEBSITE}. ###. PRESS CONTACT INFORMATION: FULL NAME. TITLE. COMPANY.",
+      "metadata": {
+        "url": "https://www.discoverfrederickmd.com/DocumentCenter/View/166/Press-Release-Template-DOCX"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "tech-press-release-template-top100.docx",
+      "snippet": "SUGGESTED PRESS RELEASE. [Your company name] Named a 2018 Thomson Reuters Top 100 ... Media Contact: Jennifer Figueroa. Thomson Reuters. jenn.figueroa ...",
+      "metadata": {
+        "url": "https://www.thomsonreuters.com/content/dam/ewp-m/documents/thomsonreuters/en/doc/tech-press-release-template-top100.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "PRESS-RELEASE-TEMPLATE.docx",
+      "snippet": "PRESS RELEASE TEMPLATE: MEDIA CONTACT. NAME. TITLE. ORGANIZATION. CONTACT PHONE NUMBER. CONTACT EMAIL. FOR IMMEDIATE RELEASE. TITLE. SUB-HEADING. CITY, STATE -- ...",
+      "metadata": {
+        "url": "https://wvcan.org/wp-content/uploads/2021/09/PRESS-RELEASE-TEMPLATE.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "02b_Press-Release-template.docx",
+      "snippet": "These templates are designed to give you a plug-and-play format for a press release. Simply customize the information highlighted in yellow. You can reach out ...",
+      "metadata": {
+        "url": "https://growamerica.org/wp-content/uploads/2026/01/02b_Press-Release-template.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "PRESS-ALERT-OR-RELEASE-TEMPLATE.docx",
+      "snippet": "–PRESS RELEASE TEMPLATE–. (YOUR LOGO HERE). FOR IMMEDIATE RELEASE. Contact: (email and cell for press to reach you). HEADLINE. Subheadline here. Your ...",
+      "metadata": {
+        "url": "https://assets.glaad.org/m/62dbbfdc501bf07e/original/PRESS-ALERT-OR-RELEASE-TEMPLATE.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "marcom-press-release.dotx",
+      "snippet": "STANDARD PRESS RELEASE. CONTACT INFORMATION: [UNM Unit Name]. [Contact Name]. [Phone Number]. [Email Address]. RELEASE DATE: [Date]. [MAIN PRESS RELEASE ...",
+      "metadata": {
+        "url": "https://iss.unm.edu/iss-shared-services/iss-marketing-and-communications/links/marcom-press-release.dotx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "All-Grant-Programs-Press-Release-Template.docx",
+      "snippet": "Place Organization's boilerplate here: 2-5 sentence summary of the organization's mission, including website and/or phone number.",
+      "metadata": {
+        "url": "https://vermontcf.org/wp-content/uploads/2024/06/All-Grant-Programs-Press-Release-Template.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Technical-Memo-Template-Word-2010-Format-Free-Download.docx",
+      "snippet": "Subject Line: The subject line concisely (in a phrase with a maximum of seven words) previews the memo's subject. It contains sufficient information so the ...",
+      "metadata": {
+        "url": "https://images.template.net/wp-content/uploads/2016/04/28133734/Technical-Memo-Template-Word-2010-Format-Free-Download.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "nssp-request-memo-a11y.docx",
+      "snippet": "Memorandum Making Conservation. a California Way of Life. To: STATE PAVEMENT ENGINEER Date: Month date, year. Pavement Program. Division of Maintenance Project ...",
+      "metadata": {
+        "url": "https://dot.ca.gov/-/media/dot-media/programs/maintenance/documents/office-of-concrete-pavement/nssp/nssp-request-memo-a11y.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Memorandum_TemplateSCS_EC48CC2F6A706.docx",
+      "snippet": "Type the \"SUBJECT' caption in all caps two lines below the last line of the \"FROM\" caption. 5. Begin typing the text flush with the left margin, two lines below ...",
+      "metadata": {
+        "url": "https://seacoast.cap.gov/moduledocuments/embed/514/Memorandum_TemplateSCS_EC48CC2F6A706.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Memo THRU Template 1.docx",
+      "snippet": "1. A MEMORANDUM THRU is used to keep the THRU addressee informed or give the opportunity to comment or approve. A single-address MEMORANDUM THRU is prepared ...",
+      "metadata": {
+        "url": "https://cacadets.org/sites/default/files/Forms/Memo%20THRU%20Template%201.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "newsletter-template-divisions.docx",
+      "snippet": "If you are submitting images, please include them in the Word template, or submit separately along with the Word document submission. If ...",
+      "metadata": {
+        "url": "https://www.apadivisions.org/websites/newsletter-template-divisions.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "template_docx.docx",
+      "snippet": "Even though this template is designed with two-column text, figures or tables that span two columns are acceptable and may be imbedded by using section ...",
+      "metadata": {
+        "url": "https://www.hou.usra.edu/meetings/templates/template_docx.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Communications Templates.docx",
+      "snippet": "ADVERTISEMENT AND NEWSLETTER TEMPLATE: 2023 NSW ... PHOTO AND CAPTION: [Newspapers will be much more likely to publish your item if you include a photo].",
+      "metadata": {
+        "url": "https://www.nsw.gov.au/sites/default/files/2022-09/Communications%20Templates.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "UGC2025_Word_Template.dotx",
+      "snippet": "The article should be prepared in Microsoft Word format using this document as a template. The maximum length of the article should not be more than 20 pages, ...",
+      "metadata": {
+        "url": "https://sestech.com/docs/UserGroup/UGC2025_Word_Template.dotx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "2025_Proposal_Submission_Instructions.docx",
+      "snippet": "The budget narrative must support the activities described in the proposal and provide additional information that might not be readily apparent in the ...",
+      "metadata": {
+        "url": "https://files.simpler.grants.gov/opportunities/6cdb4de9-1ab4-49be-878b-31043ea8f637/attachments/652ba8af-f362-4b65-b6f5-ff8b9f7e82c4/2025_Proposal_Submission_Instructions.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "2026_ACN_CTR_NOFO_QA_final_-_posted_260302.docx",
+      "snippet": "A: Each proposal should include a single budget narrative for each LOE you are responding to with that includes a standalone section for each project proposed.",
+      "metadata": {
+        "url": "https://files.simpler.grants.gov/opportunities/a97c191f-3f73-45fb-8f4d-a91fa7bdef1f/attachments/17f52b8e-6fac-4845-b011-12ca56a3ea68/2026_ACN_CTR_NOFO_QA_final_-_posted_260302.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "MPNGrantFormat.docx",
+      "snippet": "When applying for a grant, a complete proposal includes a cover letter, proposal narrative, budget and budget narrative, and attachments. Proposals should be ...",
+      "metadata": {
+        "url": "https://www.marylandphilanthropy.org/sites/default/files/MPNGrantFormat.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Budget Narrative Template, FY 2026 RFA - FINAL.docx",
+      "snippet": "The CHRC will closely examine grant applications for potential duplicate funding, including an assessment of the applicant's request for indirect costs.",
+      "metadata": {
+        "url": "https://health.maryland.gov/mchrc/Documents/2026%20CHRC%20RFA/Budget%20Narrative%20Template,%20FY%202026%20RFA%20-%20FINAL.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "NoticeFundingAvailabilityTemplate.docx",
+      "snippet": "All costs described in the project narrative should appear in the budget narrative and must have a corresponding entry in the itemized budget for that year.",
+      "metadata": {
+        "url": "https://marylandpublicschools.org/about/Documents/Grants/Resources/NoticeFundingAvailabilityTemplate.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "ACL_PA_Template_FINAL.docx",
+      "snippet": "... multi-year Budget Narrative/Justification, as well as a detailed Budget Narrative/Justification for each year of potential grant funding. A separate Budget ...",
+      "metadata": {
+        "url": "https://acl.gov/sites/default/files/common/ACL_PA_Template_FINAL.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "IC-QMS-ISO-9001-Document-Control-Plan-Template-Example-12215_WORD.docx",
+      "snippet": "The revision history should clearly state the reason for the revision, date of the change, and the approving authority. All superseded versions must be archived ...",
+      "metadata": {
+        "url": "https://www.smartsheet.com/sites/default/files/2024-10/IC-QMS-ISO-9001-Document-Control-Plan-Template-Example-12215_WORD.docx?srsltid=AfmBOorgsQ8y8VNTqApyZIyz2FJT8YlZClUVuRKOw3CijSKsn6mzWWZe"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Document-Control-Program-Template_FV1-1.docx",
+      "snippet": "Describe how the document number, version number, title, document changes, and approvals will be indexed and accessible to workforce (master list, cover sheet, ...",
+      "metadata": {
+        "url": "https://www.sandia.gov/app/uploads/sites/97/2024/07/Document-Control-Program-Template_FV1-1.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "wcag-ksu-policy-template.docx",
+      "snippet": "The signatures below indicate this institutional policy has been reviewed and approved by the President and Provost. Dr. Kathy S. Schwaig,. President. Kennesaw ...",
+      "metadata": {
+        "url": "https://campus.kennesaw.edu/policies-governance/institutional-policies/resources/docs/wcag-ksu-policy-template.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "Procedure-Control-of-Documents-3.2.docx",
+      "snippet": "Drafting, reviewing, approval and retirement of versioned document templates with effective dates and requiring Changes in Version history in the metadata.",
+      "metadata": {
+        "url": "https://www.simplerqms.com/wp-content/uploads/2024/05/Procedure-Control-of-Documents-3.2.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "CM_POL_V1.0_20210406.docx",
+      "snippet": "Compliance with these policies is mandatory. It is Organization Name policy that production systems meet or exceed the requirements outlined in this document.",
+      "metadata": {
+        "url": "https://s33104.pcdn.co/wp-content/uploads/2021/05/CM_POL_V1.0_20210406.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "ISO 8.2-8.3 management documentation.docx",
+      "snippet": "Each policy and procedure and ISO/IEC section has the printed revision history of the document. Previous versions are saved in archive. Only the current version ...",
+      "metadata": {
+        "url": "https://www.thename.org/assets/docs/ISO%208.2-8.3%20management%20documentation.docx"
+      }
+    },
+    {
+      "category": "docx file",
+      "value": "FedRAMP-High-Moderate-Low-LI-SaaS-Baseline-System-Security-Plan-(SSP).docx",
+      "snippet": "By signing this System Security Plan (SSP), we agree that it is complete and is the current version to be used for the security assessment. The ...",
+      "metadata": {
+        "url": "https://www.fedramp.gov/resources/templates/FedRAMP-High-Moderate-Low-LI-SaaS-Baseline-System-Security-Plan-(SSP).docx"
       }
     }
   ]

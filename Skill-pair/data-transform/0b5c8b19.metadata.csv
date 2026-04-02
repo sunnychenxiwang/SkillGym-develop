@@ -1,0 +1,17 @@
+title,Single-cell analysis of shared signatures and transcriptional diversity during zebrafish development - Otic subset V2 (Sur et al. Developmental Cell 2023)
+organism,Zebrafish
+pubmed_id,37995681
+geo_id,
+description,"Single-cell analysis of shared signatures and transcriptional diversity during zebrafish development - Otic subset (Sur et al. Developmental Cell 2023) : [DaniocellOticDevoV2.newDimRed.SeuratLogNorm] This dataset contains 4542 columns/cells/samples, and 36250 rows/genes/features. "
+datatype,single-cell-rnaseq
+permalink,https://umgear.org/p?s=0b5c8b19
+platform_id,N/A
+instrument_model,N/A
+library_selection,N/A
+library_source,N/A
+library_strategy,N/A
+contact_email,jeffrey.farrell@nih.gov
+contact_institute,NIH
+contact_name,Jeffrey A Farrell
+annotation_source,Ensembl
+annotation_release,95

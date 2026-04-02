@@ -1,0 +1,53 @@
+{
+  "skill": "D:\\engineer\\SkillGym-develop\\Skill-pair\\code-review\\code-review\\SKILL.md",
+  "records": [
+    {
+      "category": "tsx file",
+      "value": "App.tsx",
+      "snippet": "https://raw.githubusercontent.com/Commando-X/vuln-bank-mobile/main/App.tsx",
+      "metadata": {
+        "url": ""
+      }
+    },
+    {
+      "category": "py file",
+      "value": "io.py",
+      "snippet": "",
+      "metadata": {
+        "url": "https://raw.githubusercontent.com/andela/buggy-python/master/snippets/io.py"
+      }
+    },
+    {
+      "category": "json file",
+      "value": "package.json",
+      "snippet": "",
+      "metadata": {
+        "url": "https://raw.githubusercontent.com/Commando-X/vuln-bank-mobile/main/package.json"
+      }
+    },
+    {
+      "category": "py file",
+      "value": "Broken-Vulnerable-Code-Snippets.html",
+      "snippet": "A collection of vulnerable code snippets taken form around the internet. Snippets taken from various blog posts, books, resources etc.",
+      "metadata": {
+        "url": "https://github.com/snoopysecurity/Broken-Vulnerable-Code-Snippets"
+      }
+    },
+    {
+      "category": "py file",
+      "value": "vulnerable-code-snippets.html",
+      "snippet": "YesWeHack present code snippets containing several different vulnerabilities to practice your code analysis in a safe dockerized envoriment.",
+      "metadata": {
+        "url": "https://github.com/yeswehack/vulnerable-code-snippets"
+      }
+    },
+    {
+      "category": "js file",
+      "value": "codereview101.html",
+      "snippet": "Want to test your ability to identify security issues during code review? Welcome to Security Code Review 101! Take a look at the examples below and choose ...",
+      "metadata": {
+        "url": "https://owasp.org/SecureCodingDojo/codereview101/"
+      }
+    }
+  ]
+}

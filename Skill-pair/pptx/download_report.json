@@ -1,0 +1,37 @@
+{
+  "skill": "D:\\engineer\\SkillGym-develop\\Skill-pair\\pptx\\pptx\\SKILL.md",
+  "records": [
+    {
+      "category": "pptx file",
+      "value": "Blazor.pptx",
+      "snippet": "",
+      "metadata": {
+        "url": "https://raw.githubusercontent.com/bjablonsky/blazor-presentation/master/Blazor.pptx"
+      }
+    },
+    {
+      "category": "pptx file",
+      "value": "Evolve 2016 Template (PowerPoint).pptx",
+      "snippet": "",
+      "metadata": {
+        "url": "https://github.com/xamarin/evolve-presentation-template/raw/master/Evolve%202016%20Template%20%28PowerPoint%29.pptx"
+      }
+    },
+    {
+      "category": "pptx file",
+      "value": "Openshift  Presentation.pptx",
+      "snippet": "",
+      "metadata": {
+        "url": "https://raw.githubusercontent.com/kiranpampana/kiran-app/master/Openshift%20%20Presentation.pptx"
+      }
+    },
+    {
+      "category": "pptx file",
+      "value": "S6843-Deep-Learning-in-Microsoft-with-CNTK.pptx",
+      "snippet": "",
+      "metadata": {
+        "url": "https://raw.githubusercontent.com/wiki/Microsoft/CNTK/ppt/S6843-Deep-Learning-in-Microsoft-with-CNTK.pptx"
+      }
+    }
+  ]
+}
