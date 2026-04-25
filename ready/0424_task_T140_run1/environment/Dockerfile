@@ -1,0 +1,36 @@
+FROM ubuntu:24.04
+ENV DEBIAN_FRONTEND=noninteractive
+
+# System dependencies
+RUN apt-get update && apt-get install -y python3 python3-pip 
+
+WORKDIR /root
+
+# Python dependencies
+RUN pip3 install --break-system-packages \
+    anndata \
+    scanpy \
+    numpy \
+    pandas \
+    scikit-learn
+
+# Input files
+COPY pbmc3k.h5ad /root/
+COPY pbmc3k_2.h5ad /root/
+COPY pbmc_10k_protein_v3.h5ad /root/
+
+# Copy skills to agent-specific locations
+# Claude Code
+COPY skills /root/.claude/skills
+# Codex
+COPY skills /root/.codex/skills
+# OpenCode - singular "skill"
+COPY skills /root/.opencode/skill
+# Goose
+COPY skills /root/.goose/skills
+# Factory
+COPY skills /root/.factory/skills
+# Portable agents format (Goose, Amp)
+COPY skills /root/.agents/skills
+# Gemini
+COPY skills /root/.gemini/skills
