@@ -4,7 +4,7 @@ version = "1.0"
 author_name = "Auto-Synthesis Pipeline"
 difficulty = "medium"
 category = "general"
-tags = ["shell", "statistical-analysis", "pcap-analysis", "scikit-learn", "xlsx"]
+tags = []
 
 [verifier]
 timeout_sec = 300.0

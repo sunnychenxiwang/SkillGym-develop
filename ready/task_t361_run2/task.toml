@@ -4,7 +4,7 @@ version = "1.0"
 author_name = "Auto-Synthesis Pipeline"
 difficulty = "medium"
 category = "general"
-tags = ["shell", "code-generation", "data-processing"]
+tags = []
 
 [verifier]
 timeout_sec = 300.0

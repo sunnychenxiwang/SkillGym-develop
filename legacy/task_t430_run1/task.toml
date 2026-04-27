@@ -4,7 +4,7 @@ version = "1.0"
 author_name = "Auto-Synthesis Pipeline"
 difficulty = "medium"
 category = "general"
-tags = ["dc-power-flow", "Data Analysis", "data-transform", "shell", "statsmodels"]
+tags = []
 
 [verifier]
 timeout_sec = 300.0

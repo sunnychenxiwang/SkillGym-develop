@@ -4,7 +4,7 @@ version = "1.0"
 author_name = "Auto-Synthesis Pipeline"
 difficulty = "medium"
 category = "general"
-tags = ["pptx", "scikit-learn", "shell", "pydicom", "data-transform"]
+tags = []
 
 [verifier]
 timeout_sec = 300.0
